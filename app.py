@@ -190,46 +190,58 @@ def flash_card_ui(word_data, is_learned):
                 st.write(f"**Antonyms:** {', '.join(word_data['antonyms'])}")
 
 
+from st_keyup import st_keyup
+import time
+
 def writing_ui(word_data, total_len):
     target_word = word_data['word'].strip()
     st.info(f"Anlamı: **{', '.join(word_data['means'])}** ({word_data['type']})")
     
-    # --- 1. HARF HAVUZU BUTONU ---
-    if st.button("🔍 Harf Havuzunu Göster (Karışık Harfler)", use_container_width=True):
+    # 1. Harf Havuzu Butonu
+    if st.button("🔍 Harf Havuzunu Göster", use_container_width=True):
         chars = list(target_word.upper())
         random.shuffle(chars)
-        # Toast yerine daha kalıcı ve net görünen bir kutu (isteğe bağlı toast da kalabilir)
         st.info(f"💡 Harf Havuzu: `{' '.join(chars)}`")
 
-    # --- 2. ANLIK YAZMA ALANI (st_keyup) ---
-    # debounce=0 sayesinde sen klavyeye dokunduğun an çizgiler güncellenir
+    # 2. Anlık Yazma Alanı
     user_input = st_keyup(
         "Kelimeyi Yazın:", 
         key=f"ku_{target_word}", 
         debounce=0
     ).strip()
 
-    # --- 3. MAVİ ÇİZGİLER ---
-    display_chars = []
+    # 3. GÖRSELLEŞTİRME (Yanlış harfi de gösteren mantık)
+    display_html = '<div style="text-align:center; font-family: monospace; font-size: 30px; letter-spacing: 5px;">'
+    
+    correct_count = 0
     for i in range(len(target_word)):
-        # Kullanıcının yazdığı harf doğruysa göster, değilse alt çizgi bırak
-        if i < len(user_input) and user_input[i].lower() == target_word[i].lower():
-            display_chars.append(target_word[i].upper())
+        if i < len(user_input):
+            u_char = user_input[i].upper()
+            t_char = target_word[i].upper()
+            
+            if u_char == t_char:
+                # Doğru harf: Mavi ve Temiz
+                display_html += f'<span style="color: #4F8BF9;">{u_char}</span>'
+                correct_count += 1
+            else:
+                # Yanlış harf: Kırmızı ve Altı Çizili (Nerede hata yaptığını gör)
+                display_html += f'<span style="color: #FF4B4B; text-decoration: underline;">{u_char}</span>'
         else:
-            display_chars.append("_")
+            # Henüz yazılmamış harf: Alt çizgi
+            display_html += '<span style="color: #555;">_</span>'
+            
+    display_html += '</div>'
+    st.markdown(display_html, unsafe_allow_html=True)
 
-    display_hint = " ".join(display_chars)
-    st.markdown(f"<h2 style='letter-spacing: 5px; text-align:center; font-family: monospace; color: #4F8BF9;'>{display_hint}</h2>", unsafe_allow_html=True)
-
-    # --- 4. OTOMATİK GEÇİŞ ---
-    # Tüm doğru harfler girildiğinde ve uzunluk tam olduğunda
-    if "".join(display_chars) == target_word.upper():
-        st.success(f"🎯 Doğru! **{target_word}**")
-        time.sleep(1) # Başarı mesajını görmen için kısa bir es
-        
-        # word_index'i bir artırıp yeni kelimeye geçiyoruz
+    # 4. OTOMATİK GEÇİŞ
+    # Sadece her şey doğruysa ve uzunluk tam ise geç
+    if correct_count == len(target_word) and len(user_input) == len(target_word):
+        st.success(f"🎯 Harika! Doğru: **{target_word}**")
+        time.sleep(1)
         st.session_state.word_index = (st.session_state.word_index + 1) % total_len
         st.rerun()
+    elif len(user_input) >= len(target_word) and correct_count < len(target_word):
+        st.error("Bazı harfler hatalı, lütfen kırmızı harfleri düzeltin.")
 
 def multiple_choice_ui(word_data, current_set):
     st.subheader(f"**{word_data['word']}**")
