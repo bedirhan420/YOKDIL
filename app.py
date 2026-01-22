@@ -203,26 +203,26 @@ def writing_ui(word_data, total_len):
         random.shuffle(chars)
         st.info(f"💡 Harf Havuzu: `{' '.join(chars)}`")
 
-    # --- ÖNERİLERİ KESİN KAPATMA TAKTİĞİ ---
-    # Label kısmını boş bırakıyoruz (Tarayıcı ne yazacağını anlamasın diye)
-    # Key kısmını her kelime için tamamen benzersiz yapıyoruz
-    st.write("Kelimeyi Yazın:") 
+    # --- TARAYICIYI KESİN KANDIRMA MANTIĞI ---
+    # Tarayıcılar etikete (label) bakarak geçmişi hatırlar. 
+    # Görünmez boşluklar ekleyerek etiketi her kelime için eşsiz yapıyoruz.
+    # Bu sayede tarayıcı her kelime kutusunu "yeni bir şey" sanacak.
+    invisible_spaces = "\u200b" * (st.session_state.word_index % 10) 
+    dynamic_label = f"Kelimeyi Yazın{invisible_spaces}"
+
     user_input = st_keyup(
-        label="", # Label'ı boş bıraktık
-        key=f"input_box_{target_word}_{st.session_state.word_index}", 
-        debounce=0,
-        label_visibility="collapsed" # Etiketi tamamen HTML'den kaldırır
+        label=dynamic_label, 
+        key=f"ku_final_{target_word}_{st.session_state.word_index}", 
+        debounce=0
     ).strip()
 
-    # 3. GÖRSELLEŞTİRME (Mavi/Kırmızı Mantığı)
+    # 3. GÖRSELLEŞTİRME (Mavi/Kırmızı)
     display_html = '<div style="text-align:center; font-family: monospace; font-size: 30px; letter-spacing: 5px;">'
-    
     correct_count = 0
     for i in range(len(target_word)):
         if i < len(user_input):
             u_char = user_input[i].upper()
             t_char = target_word[i].upper()
-            
             if u_char == t_char:
                 display_html += f'<span style="color: #4F8BF9;">{u_char}</span>'
                 correct_count += 1
@@ -230,7 +230,6 @@ def writing_ui(word_data, total_len):
                 display_html += f'<span style="color: #FF4B4B; text-decoration: underline;">{u_char}</span>'
         else:
             display_html += '<span style="color: #555;">_</span>'
-            
     display_html += '</div>'
     st.markdown(display_html, unsafe_allow_html=True)
 
