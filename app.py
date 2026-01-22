@@ -192,7 +192,7 @@ def writing_ui(word_data):
     target_word = word_data['word'].strip()
     st.info(f"Anlamı: **{', '.join(word_data['means'])}** ({word_data['type']})")
     
-    # --- SESSION STATE KONTROLLERİ ---
+    # --- SESSION STATE ---
     hint_count_key = f"hint_count_{target_word}"
     show_pool_key = f"show_pool_{target_word}"
     
@@ -213,39 +213,54 @@ def writing_ui(word_data):
                 st.session_state[hint_count_key] += 1
                 st.rerun()
 
-    # 1. İpucu: Harf Havuzu
+    # Harf Havuzu Gösterimi
     if st.session_state[show_pool_key]:
         chars = list(target_word.upper())
-        random.seed(42) 
+        random.seed(42)
         random.shuffle(chars)
         st.markdown(f"<div style='text-align:center; background-color:#262730; padding:10px; border-radius:10px; border:1px solid #4F8BF9;'>Harf Havuzu: <code style='font-size:20px;'>{' '.join(chars)}</code></div>", unsafe_allow_html=True)
 
     # --- YAZMA ALANI ---
-    initial_val = target_word[:st.session_state[hint_count_key]]
-    user_input = st.text_input("Kelimeyi Yazın:", value=initial_val, key=f"write_{target_word}").strip()
+    # İpucu harflerini rehber olarak gösteriyoruz
+    if st.session_state[hint_count_key] > 0:
+        st.caption(f"İpucu: Kelime '{target_word[:st.session_state[hint_count_key]]}' ile başlıyor.")
 
-    # Mavi Alt Çizgiler (_ _ _)
-    display_hint = " ".join([char if i < len(user_input) and user_input[i].lower() == char.lower() else "_" for i, char in enumerate(target_word)])
+    # Yazdıkça dolması için text_input'u sade bırakıyoruz
+    # Eğer anlık etkileşim istiyorsan Enter'a basmak Streamlit'in doğasında var,
+    # ancak çizgilerin dolması için text_input'un değerini 'user_input' değişkenine eşitliyoruz.
+    user_input = st.text_input("Kelimeyi Yazın:", key=f"write_{target_word}").strip()
+
+    # --- MAVİ ÇİZGİLER (ASIL EFEKT BURADA) ---
+    # Burada hem ipucu harflerini hem de kullanıcının yazdıklarını birleştiriyoruz
+    display_chars = []
+    for i in range(len(target_word)):
+        # 1. Eğer o harf için 'İpucu' alınmışsa onu koy
+        if i < st.session_state[hint_count_key]:
+            display_chars.append(target_word[i].upper())
+        # 2. Eğer kullanıcı o harfi yazmışsa onu koy
+        elif i < len(user_input):
+            display_chars.append(user_input[i].upper())
+        # 3. Hiçbiri yoksa alt çizgi koy
+        else:
+            display_chars.append("_")
+
+    display_hint = " ".join(display_chars)
     st.markdown(f"<h2 style='letter-spacing: 5px; text-align:center; font-family: monospace; color: #4F8BF9;'>{display_hint}</h2>", unsafe_allow_html=True)
 
-    # --- OTOMATİK KONTROL VE GEÇİŞ ---
-    if user_input:
-        if user_input.lower() == target_word.lower():
-            st.success(f"🎯 Doğru! **{target_word}**")
-            
-            # 1 Saniye Bekle ve Otomatik Geç
-            time.sleep(1) 
-            
-            # State temizliği
-            for k in [hint_count_key, show_pool_key]:
-                if k in st.session_state: del st.session_state[k]
-            
-            # Bir sonraki kelimeye atla
-            st.session_state.word_index = (st.session_state.word_index + 1) % st.session_state.current_set_len
-            st.rerun()
-            
-        elif len(user_input) >= len(target_word):
-            st.error("Henüz doğru değil, harfleri kontrol edin...")
+    # --- OTOMATİK KONTROL ---
+    # Kullanıcı ipucuyla veya yazarak tamamladığında:
+    current_full_text = "".join([c for c in display_chars if c != "_"])
+    
+    if current_full_text.lower() == target_word.lower() and len(current_full_text) == len(target_word):
+        st.success(f"🎯 Doğru! **{target_word}**")
+        time.sleep(1)
+        
+        # Temizlik ve Geçiş
+        for k in [hint_count_key, show_pool_key]:
+            if k in st.session_state: del st.session_state[k]
+        
+        st.session_state.word_index = (st.session_state.word_index + 1) % st.session_state.current_set_len
+        st.rerun()
 
 def multiple_choice_ui(word_data, current_set):
     st.subheader(f"**{word_data['word']}**")
