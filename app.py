@@ -189,64 +189,66 @@ def flash_card_ui(word_data, is_learned):
             if word_data.get('antonyms'):
                 st.write(f"**Antonyms:** {', '.join(word_data['antonyms'])}")
 
-def writing_ui(word_data):
+
+def writing_ui(word_data, total_len):
     target_word = word_data['word'].strip()
     st.info(f"Anlamı: **{', '.join(word_data['means'])}** ({word_data['type']})")
     
-    # --- SESSION STATE ---
-    hint_key = f"hint_count_{target_word}"
+    # --- 1. SESSION STATE KONTROLLERİ ---
+    # Kelime değiştiğinde ipucunu sıfırlamak için kelimeye özel anahtar kullanıyoruz
+    hint_key = f"h_cnt_{target_word.replace(' ', '_')}"
     if hint_key not in st.session_state:
         st.session_state[hint_key] = 0
 
-    # --- İPUCU BUTONLARI ---
+    # --- 2. İPUCU BUTONLARI ---
     col1, col2 = st.columns(2)
     with col1:
         if st.button("🔍 Harf Havuzu", use_container_width=True):
             chars = list(target_word.upper())
             random.shuffle(chars)
-            st.toast(f"Harfler: {' '.join(chars)}") # Sağ altta geçici mesaj
+            st.toast(f"Harfler: {' '.join(chars)}", icon="💡")
             
     with col2:
+        # İpucu butonuna basıldığında state'i artırıp rerun yapıyoruz
         if st.button("💡 Sıradaki Harfi Ver", use_container_width=True):
             if st.session_state[hint_key] < len(target_word):
                 st.session_state[hint_key] += 1
                 st.rerun()
 
-    # --- ANLIK YAZMA ALANI (st_keyup) ---
-    # debounce=0 yaparak her tuşa basıldığında anlık tepki alıyoruz
+    # --- 3. ANLIK YAZMA ALANI (st_keyup) ---
+    # value kısmına ipucu harflerini önceden dolduruyoruz
+    hint_text = target_word[:st.session_state[hint_key]]
+    
     user_input = st_keyup(
         "Kelimeyi Yazın:", 
-        key=f"keyup_{target_word}", 
-        debounce=0 
+        key=f"ku_{target_word}", # Key'i kısa ve öz tutalım
+        value=hint_text,
+        debounce=0
     ).strip()
 
-    # --- MAVİ ÇİZGİLER VE İPUCU MANTIĞI ---
+    # --- 4. MAVİ ÇİZGİLER ---
     display_chars = []
     for i in range(len(target_word)):
-        # 1. Eğer ipucu alınmışsa o harfi göster
-        if i < st.session_state[hint_key]:
+        # Kullanıcının yazdığı veya ipucu olarak gelen harfi göster
+        if i < len(user_input) and user_input[i].lower() == target_word[i].lower():
             display_chars.append(target_word[i].upper())
-        # 2. Eğer kullanıcı o harfi doğru yazmışsa onu göster
-        elif i < len(user_input) and user_input[i].lower() == target_word[i].lower():
-            display_chars.append(target_word[i].upper())
-        # 3. Yoksa alt çizgi
         else:
             display_chars.append("_")
 
     display_hint = " ".join(display_chars)
     st.markdown(f"<h2 style='letter-spacing: 5px; text-align:center; font-family: monospace; color: #4F8BF9;'>{display_hint}</h2>", unsafe_allow_html=True)
 
-    # --- OTOMATİK GEÇİŞ ---
-    # Eğer tüm harfler dolmuşsa ve kelime doğruysa
+    # --- 5. OTOMATİK GEÇİŞ VE HATA ÖNLEME ---
     if "".join(display_chars) == target_word.upper():
         st.success(f"🎯 Doğru! **{target_word}**")
-        time.sleep(1) # Başarıyı gör diye 1 sn bekleme
+        time.sleep(1)
         
-        # State temizle ve sonraki kelimeye geç
+        # Temizlik: Mevcut kelimenin ipucu sayacını sil
         if hint_key in st.session_state:
             del st.session_state[hint_key]
         
-        st.session_state.word_index = (st.session_state.word_index + 1) % st.session_state.current_set_len
+        # Hata aldığın satırı bu şekilde güvenli hale getirdik:
+        st.session_state.word_index = (st.session_state.word_index + 1) % total_len
         st.rerun()
 
 def multiple_choice_ui(word_data, current_set):
@@ -399,7 +401,7 @@ def words_app():
     if activity == "Flash Card":
         flash_card_ui(word_data, is_learned)
     elif activity == "Yazma Alıştırması":
-        writing_ui(word_data)
+        writing_ui(word_data,len(current_set))
     elif activity == "Çoktan Seçmeli":
         multiple_choice_ui(word_data, current_set)
     elif activity == "Kelime Eşleştirme":
