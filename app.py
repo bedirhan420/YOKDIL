@@ -8,6 +8,9 @@ import openai
 from openai import OpenAI
 from dotenv import load_dotenv
 load_dotenv()
+from streamlit_cookies_controller import CookieController # Yeni kütüphane
+
+controller = CookieController();
 # --- 1. FIREBASE VE AYARLAR ---
 if not firebase_admin._apps:
     try:
@@ -31,6 +34,7 @@ JSON_FOLDER = os.path.join(current_dir, "YOKDIL_JSON_CIKTILAR")
 WORDS_FILE = os.path.join(current_dir, "yokdil_words.json")
 GRAMMAR_FILE = os.path.join(current_dir, "grammar_notes.json")
 
+saved_uid = controller.get('user_uid')
 # --- 2. SESSION STATE YÖNETİMİ ---
 states = {
     'user': None,
@@ -387,12 +391,21 @@ def auth_ui():
             lp = st.text_input("Şifre", type="password")
             if st.form_submit_button("Giriş Yap"):
                 try:
+                    # Not: Normalde auth.verify_password kullanılır ama 
+                    # senin mevcut yapın e-posta üzerinden uid çekiyor.
                     user = auth.get_user_by_email(le)
+                    
+                    # Session State'e kaydet
                     st.session_state.user = {'uid': user.uid, 'email': le}
+                    
+                    # --- KRİTİK: Çerezi Tarayıcıya Yaz (30 Günlük) ---
+                    controller.set('user_uid', user.uid)
+                    
                     msg_placeholder.success("Giriş başarılı!")
                     st.rerun()
                 except Exception:
                     msg_placeholder.error("E-posta veya şifre hatalı.")
+
     with tab2:
         with st.form("reg_form"):
             re = st.text_input("E-posta"); rp = st.text_input("Şifre", type="password")
@@ -516,6 +529,7 @@ if st.session_state.user is None:
 else:
     mode = st.sidebar.radio("Ana Menü", ["📚 Deneme Çöz", "🗂️ Kelime Çalış", "📖 Gramer Notları"])
     if st.sidebar.button("🚪 Çıkış Yap"): 
+        controller.remove('user_uid')
         st.session_state.user = None
         st.rerun()
     
