@@ -205,9 +205,10 @@ def writing_ui(word_data, total_len):
 
     # 2. Anlık Yazma Alanı
     user_input = st_keyup(
-        "Kelimeyi Yazın:", 
-        key=f"ku_{target_word}", 
-        debounce=0
+    "Kelimeyi Yazın:", 
+    key=f"ku_{target_word}", 
+    debounce=0,
+    autocomplete="off" # Bu satırı ekle
     ).strip()
 
     # 3. GÖRSELLEŞTİRME (Yanlış harfi de gösteren mantık)
