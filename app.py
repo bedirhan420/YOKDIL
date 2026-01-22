@@ -9,6 +9,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 load_dotenv()
 from streamlit_cookies_controller import CookieController # Yeni kütüphane
+import time
 
 controller = CookieController();
 # --- 1. FIREBASE VE AYARLAR ---
@@ -188,19 +189,63 @@ def flash_card_ui(word_data, is_learned):
                 st.write(f"**Antonyms:** {', '.join(word_data['antonyms'])}")
 
 def writing_ui(word_data):
-    target_word = word_data['word']
+    target_word = word_data['word'].strip()
     st.info(f"Anlamı: **{', '.join(word_data['means'])}** ({word_data['type']})")
-    user_input = st.text_input("Kelimeyi Yazın:", key=f"write_{target_word}").strip()
     
+    # --- SESSION STATE KONTROLLERİ ---
+    hint_count_key = f"hint_count_{target_word}"
+    show_pool_key = f"show_pool_{target_word}"
+    
+    if hint_count_key not in st.session_state:
+        st.session_state[hint_count_key] = 0
+    if show_pool_key not in st.session_state:
+        st.session_state[show_pool_key] = False
+
+    # --- İPUCU BUTONLARI ---
+    b1, b2 = st.columns(2)
+    with b1:
+        if st.button("🔍 Harf Havuzunu Göster", use_container_width=True):
+            st.session_state[show_pool_key] = True
+            st.rerun()
+    with b2:
+        if st.button("💡 Sıradaki Harfi Ver", use_container_width=True):
+            if st.session_state[hint_count_key] < len(target_word):
+                st.session_state[hint_count_key] += 1
+                st.rerun()
+
+    # 1. İpucu: Harf Havuzu
+    if st.session_state[show_pool_key]:
+        chars = list(target_word.upper())
+        random.seed(42) 
+        random.shuffle(chars)
+        st.markdown(f"<div style='text-align:center; background-color:#262730; padding:10px; border-radius:10px; border:1px solid #4F8BF9;'>Harf Havuzu: <code style='font-size:20px;'>{' '.join(chars)}</code></div>", unsafe_allow_html=True)
+
+    # --- YAZMA ALANI ---
+    initial_val = target_word[:st.session_state[hint_count_key]]
+    user_input = st.text_input("Kelimeyi Yazın:", value=initial_val, key=f"write_{target_word}").strip()
+
+    # Mavi Alt Çizgiler (_ _ _)
     display_hint = " ".join([char if i < len(user_input) and user_input[i].lower() == char.lower() else "_" for i, char in enumerate(target_word)])
-    st.markdown(f"<h2 style='letter-spacing: 5px; text-align:center; font-family: monospace;'>{display_hint}</h2>", unsafe_allow_html=True)
-    
+    st.markdown(f"<h2 style='letter-spacing: 5px; text-align:center; font-family: monospace; color: #4F8BF9;'>{display_hint}</h2>", unsafe_allow_html=True)
+
+    # --- OTOMATİK KONTROL VE GEÇİŞ ---
     if user_input:
         if user_input.lower() == target_word.lower():
-            st.success("Tebrikler! Doğru yazdınız. 🎯")
-            st.balloons()
-        else:
-            st.error("Henüz doğru değil, devam edin...")
+            st.success(f"🎯 Doğru! **{target_word}**")
+            
+            # 1 Saniye Bekle ve Otomatik Geç
+            time.sleep(1) 
+            
+            # State temizliği
+            for k in [hint_count_key, show_pool_key]:
+                if k in st.session_state: del st.session_state[k]
+            
+            # Bir sonraki kelimeye atla
+            st.session_state.word_index = (st.session_state.word_index + 1) % st.session_state.current_set_len
+            st.rerun()
+            
+        elif len(user_input) >= len(target_word):
+            st.error("Henüz doğru değil, harfleri kontrol edin...")
 
 def multiple_choice_ui(word_data, current_set):
     st.subheader(f"**{word_data['word']}**")
