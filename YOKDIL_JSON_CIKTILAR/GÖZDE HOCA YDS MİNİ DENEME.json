@@ -1,0 +1,447 @@
+{
+    "1": {
+        "question": "In the rapidly evolving world of international diplomacy, sustained success often hinges not on fleeting agreements but on a profound ----- to mutual understanding and cooperation, requiring patience, trust, and unwavering dedication over extended periods.",
+        "options": [
+            "A) aggravation",
+            "B) compulsion",
+            "C) commitment",
+            "D) alteration",
+            "E) aversion"
+        ],
+        "answer": "C"
+    },
+    "2": {
+        "question": "The physician expressed concern over the diagnostic manual’s definition of the disorder, noting that its criteria were so ----- that they could lead to inconsistent diagnoses across practitioners, potentially resulting in both overdiagnosis and underdiagnosis in clinical settings.",
+        "options": [
+            "A) ambiguous",
+            "B) overt",
+            "C) intuitive",
+            "D) prompt",
+            "E) vigorous"
+        ],
+        "answer": "A"
+    },
+    "3": {
+        "question": "For reliable results in the clinical trial, both the drug and placebo had to be given under the same conditions, and participants distributed ----- across groups like age, gender, and medical history to avoid bias.",
+        "options": [
+            "A) adversely",
+            "B) evenly",
+            "C) incidentally",
+            "D) severely",
+            "E) devastatingly"
+        ],
+        "answer": "B"
+    },
+    "4": {
+        "question": "In order to effectively reduce the incidence of infectious diseases, public health campaigns must not only educate the population but also implement stringent measures designed to ----- risky behaviors that contribute to the spread of illness.",
+        "options": [
+            "A) elucidate",
+            "B) allocate",
+            "C) confront",
+            "D) compile",
+            "E) deter"
+        ],
+        "answer": "E"
+    },
+    "5": {
+        "question": "Despite widespread consensus on the benefits of inclusive teaching methods, some educators continue to ----- these innovative approaches, citing concerns about increased classroom management challenges and deviations from traditional curricula.",
+        "options": [
+            "A) set off",
+            "B) draw on",
+            "C) embark upon",
+            "D) go against",
+            "E) pass down"
+        ],
+        "answer": "D"
+    },
+    "6": {
+        "question": "Chronic inflammation is challenging to eliminate entirely, but it ----- by making consistent dietary changes and engaging in regular exercise, which help reduce factors ----- its development and severity.",
+        "options": [
+            "A) has to be diminished / being encouraged",
+            "B) may be diminished / to be encouraged",
+            "C) can be diminished / encouraging",
+            "D) should be diminished / encouraged",
+            "E) would be diminished / having encouraged"
+        ],
+        "answer": "C"
+    },
+    "7": {
+        "question": "Governments often have control ----- environmental policies, but ----- some extent, their ability to enforce these regulations is limited by economic interests and the influence of powerful industries.",
+        "options": [
+            "A) on / at",
+            "B) over / to",
+            "C) about / by",
+            "D) for / off",
+            "E) in / along"
+        ],
+        "answer": "B"
+    },
+    "8": {
+        "question": "Government agencies worldwide have updated their data protection policies in recent years ----- the guidelines set forth by international cybersecurity organizations to strengthen user privacy and prevent breaches.",
+        "options": [
+            "A) in accordance with",
+            "B) irrespective of",
+            "C) with the exception of",
+            "D) as opposed to",
+            "E) for the purpose of"
+        ],
+        "answer": "A"
+    },
+    "9": {
+        "question": "----- the sudden surge in cyberattacks wasn’t alarming enough, the government’s delayed response worsened the situation, causing widespread concern among citizens.",
+        "options": [
+            "A) Now that",
+            "B) Because",
+            "C) Only when",
+            "D) As long as",
+            "E) As if"
+        ],
+        "answer": "E"
+    },
+    "10": {
+        "question": "The researchers observed ----- rapid behavioral changes in animals ----- they concluded the environmental disturbance had an immediate and profound effect on local ecosystems.",
+        "options": [
+            "A) so / that",
+            "B) as / as",
+            "C) such / that",
+            "D) whether / or",
+            "E) either / or"
+        ],
+        "answer": "C"
+    },
+    "11": {
+    "passage": "The explosion of mobile phone use has revolutionised our lives. We can download movies, communicate with our family members, and broadcast to the world, all at the push of a button. (11) ----- , there are some questions about these valuable devices we have been unable to answer, such as the possibility of health conditions resulting from excessive ‘screen time’. Yet, many initial reactions have been more spontaneous than evidence-based. In the past decade, we (12) ----- that they will rewire our brains, strip us cognitive abilities and damage our mental health. In truth, there is no good evidence that such alarming conditions are caused by our tech habits. The World Health Organization, for example, recommends limiting screen time as a way of (13) ----- obesity, voicing no health concerns related to screens in particular. It says that our children under 3 should have no screen time and those aged 3 to 4 should be limited to an hour a day, but its focus is (14) ----- curbing childhood obesity. As the fears grow and the debate becomes more heated, it is time to separate the proven health advice from exaggerated facts. (15) ----- impose unreasonable limits, we should take a look at our use of screens and ask how they fit with the activities and lifestyles we want as individuals and families.",
+    "question": "",
+    "options": [
+        "A) Because",
+        "B) Now that",
+        "C) However",
+        "D) In other words",
+        "E) Therefore"
+    ],
+    "answer": "C"
+},
+"12": {
+    "passage": "The explosion of mobile phone use has revolutionised our lives. We can download movies, communicate with our family members, and broadcast to the world, all at the push of a button. (11) ----- , there are some questions about these valuable devices we have been unable to answer, such as the possibility of health conditions resulting from excessive ‘screen time’. Yet, many initial reactions have been more spontaneous than evidence-based. In the past decade, we (12) ----- that they will rewire our brains, strip us cognitive abilities and damage our mental health. In truth, there is no good evidence that such alarming conditions are caused by our tech habits. The World Health Organization, for example, recommends limiting screen time as a way of (13) ----- obesity, voicing no health concerns related to screens in particular. It says that our children under 3 should have no screen time and those aged 3 to 4 should be limited to an hour a day, but its focus is (14) ----- curbing childhood obesity. As the fears grow and the debate becomes more heated, it is time to separate the proven health advice from exaggerated facts. (15) ----- impose unreasonable limits, we should take a look at our use of screens and ask how they fit with the activities and lifestyles we want as individuals and families.",
+    "question": "",
+    "options": [
+        "A) have been heard",
+        "B) had heard",
+        "C) may heard",
+        "D) have heard",
+        "E) heard"
+    ],
+    "answer": "D"
+},
+"13": {
+    "passage": "The explosion of mobile phone use has revolutionised our lives. We can download movies, communicate with our family members, and broadcast to the world, all at the push of a button. (11) ----- , there are some questions about these valuable devices we have been unable to answer, such as the possibility of health conditions resulting from excessive ‘screen time’. Yet, many initial reactions have been more spontaneous than evidence-based. In the past decade, we (12) ----- that they will rewire our brains, strip us cognitive abilities and damage our mental health. In truth, there is no good evidence that such alarming conditions are caused by our tech habits. The World Health Organization, for example, recommends limiting screen time as a way of (13) ----- obesity, voicing no health concerns related to screens in particular. It says that our children under 3 should have no screen time and those aged 3 to 4 should be limited to an hour a day, but its focus is (14) ----- curbing childhood obesity. As the fears grow and the debate becomes more heated, it is time to separate the proven health advice from exaggerated facts. (15) ----- impose unreasonable limits, we should take a look at our use of screens and ask how they fit with the activities and lifestyles we want as individuals and families.",
+    "question": "",
+    "options": [
+        "A) predicting",
+        "B) tackling",
+        "C) comprising",
+        "D) releasing",
+        "E) applying"
+    ],
+    "answer": "B"
+},
+"14": {
+    "passage": "The explosion of mobile phone use has revolutionised our lives. We can download movies, communicate with our family members, and broadcast to the world, all at the push of a button. (11) ----- , there are some questions about these valuable devices we have been unable to answer, such as the possibility of health conditions resulting from excessive ‘screen time’. Yet, many initial reactions have been more spontaneous than evidence-based. In the past decade, we (12) ----- that they will rewire our brains, strip us cognitive abilities and damage our mental health. In truth, there is no good evidence that such alarming conditions are caused by our tech habits. The World Health Organization, for example, recommends limiting screen time as a way of (13) ----- obesity, voicing no health concerns related to screens in particular. It says that our children under 3 should have no screen time and those aged 3 to 4 should be limited to an hour a day, but its focus is (14) ----- curbing childhood obesity. As the fears grow and the debate becomes more heated, it is time to separate the proven health advice from exaggerated facts. (15) ----- impose unreasonable limits, we should take a look at our use of screens and ask how they fit with the activities and lifestyles we want as individuals and families.",
+    "question": "",
+    "options": [
+        "A) by",
+        "B) into",
+        "C) of",
+        "D) in",
+        "E) on"
+    ],
+    "answer": "E"
+},
+"15": {
+    "passage": "The explosion of mobile phone use has revolutionised our lives. We can download movies, communicate with our family members, and broadcast to the world, all at the push of a button. (11) ----- , there are some questions about these valuable devices we have been unable to answer, such as the possibility of health conditions resulting from excessive ‘screen time’. Yet, many initial reactions have been more spontaneous than evidence-based. In the past decade, we (12) ----- that they will rewire our brains, strip us cognitive abilities and damage our mental health. In truth, there is no good evidence that such alarming conditions are caused by our tech habits. The World Health Organization, for example, recommends limiting screen time as a way of (13) ----- obesity, voicing no health concerns related to screens in particular. It says that our children under 3 should have no screen time and those aged 3 to 4 should be limited to an hour a day, but its focus is (14) ----- curbing childhood obesity. As the fears grow and the debate becomes more heated, it is time to separate the proven health advice from exaggerated facts. (15) ----- impose unreasonable limits, we should take a look at our use of screens and ask how they fit with the activities and lifestyles we want as individuals and families.",
+    "question": "",
+    "options": [
+        "A) Rather than",
+        "B) Along with",
+        "C) Due to",
+        "D) As a result of",
+        "E) On behalf of"
+    ],
+    "answer": "A"
+},
+    "16": {
+        "question": "Given that some individuals attain high proficiency in a foreign language despite a late start, ----.",
+        "options": [
+            "A) scholars generally make a clear distinction between young and adult learners when it comes to foreign language acquisition",
+            "B) constraints created by increased age could work against the desired outcome of interacting with other people competently in a foreign language",
+            "C) it could be hypothesized that they possess inherent cognitive abilities that compensate for age-related degradation in the capacity for learning a foreign language",
+            "D) their communicative abilities may not always keep pace with the workplace demands of international business and government positions",
+            "E) motivation, personality facets, and the sufficiency of language learning opportunities are among the most important factors that contribute to high-level language aptitude"
+        ],
+        "answer": "C"
+    },
+    "17": {
+        "question": "Although Chinese has more mother-tongue speakers, ----.",
+        "options": [
+            "A) it was in Wessex, an ancient Anglo-Saxon kingdom, that written language first flourished",
+            "B) all available evidence tells us that the number will skyrocket in the future",
+            "C) Spanish is the third most popular language in terms of the number of native speakers",
+            "D) no language rivals English in the extent to which it is used globally",
+            "E) it has exerted enormous cultural influence on Japanese throughout its known history"
+        ],
+        "answer": "D"
+    },
+    "18": {
+        "question": "As modern diets, especially seed-based plant foods which are the basis of most contemporary diets, are calcium poor, ----.",
+        "options": [
+            "A) the principal purpose of calcium intake during growth is to support the accumulation of the skeletal mass",
+            "B) calcium leaves the body through sweat, shed skin, hair, nails, and through urine",
+            "C) achieving adequate calcium intake may be difficult without the help of supplements or calcium-fortified foods",
+            "D) calcium acts as a second messenger within cells, linking external stimuli to the internal responses of a cell",
+            "E) calcium supplements may bind with tetracycline antibiotics and reduce their absorbability"
+        ],
+        "answer": "C"
+    },
+    "19": {
+        "question": "----, but other climatic factors such as high temperatures and high winds can also increase the severity of the event.",
+        "options": [
+            "A) Drought is basically the consequence of a natural reduction in the amount of precipitation received over an extended period of time",
+            "B) Many disciplinary perspectives of drought exist, often causing considerable confusion about what constitutes a drought",
+            "C) The lack of an accurate definition has been an obstacle to understanding drought, which has led to inaction on the part of managers, policy-makers, and others",
+            "D) The core area or epicenter of a drought shifts and its spatial extent expands and contracts throughout the duration of the condition",
+            "E) Agricultural drought links various characteristics of meteorological drought to agricultural impacts, focusing on precipitation shortages"
+        ],
+        "answer": "A"
+    },
+    "20": {
+        "question": "Thailand is divided into four regions and each of them is characterised by its own foods, -----.",
+        "options": [
+            "A) just as the use of a fork predominates in urban areas, where it is used to push food onto the spoon rather than to bring food to the mouth",
+            "B) because rice is so central in the Thai diet that the most common term for 'to eat' is 'kin khâo', which means 'to eat rice'",
+            "C) although food has been shown to play a highly significant role in the personal, social, and religious aspects of Thai life",
+            "D) so some ingredients selected for cooking have medicinal properties and are mixed together based on specific cooking methods",
+            "E) but extensive internal migration has been accompanied by the movement of regional dishes into different areas within the country"
+        ],
+        "answer": "E"
+    },
+    "21": {
+        "question": "When our lives are chronically stressful, our bodies match that experience and we can all at once feel exhausted and extremely unmotivated for self-care.",
+        "options": [
+            "A) Yaşamımızda kronik stres ortaya çıkarsa bedenimizin bu deneyime uyum sağlamasıyla birdenbire yorgun hissederiz ve öz bakım konusunda son derece isteksiz oluruz.",
+            "B) Yaşamımızda kronik stres ortaya çıkıp öz bakım konusunda son derece yorgun ve isteksiz hissettiğimizde bedenimiz bu deneyime hemen uyum sağlar.",
+            "C) Yaşamımız kronik olarak stresli olduğunda bedenimiz bu deneyime uyum sağlar ve birdenbire yorgun ve öz bakım konusunda son derece isteksiz hissedebiliriz.",
+            "D) Yaşamımızda kronik stres ortaya çıktığında öz bakım konusunda son derece yorgun ve isteksiz hissettiğimizden bedenimiz de bu deneyime uyum sağlar.",
+            "E) Yaşamımızda kronik stresin ortaya çıkması durumunda bedenimizin bu deneyime uyum sağlaması ile öz bakım konusunda birdenbire yorgun ve son derece isteksiz hissedebiliriz."
+        ],
+        "answer": "C"
+    },
+    "22": {
+        "question": "Antik dünyada okuma ve yazma becerisinin ne kadar yaygın olduğunu bilmek zordur çünkü ne Yunanlar ne de Romalılar günümüz ülkelerinin yaptığı gibi okuryazarlık oranına dair istatistik tutmuşlardır.",
+        "options": [
+            "A) Neither the Greeks nor the Romans kept statistics on literacy rates as today’s countries do; therefore, it is difficult to know how widespread the ability to read and write was in the ancient world.",
+            "B) What makes it difficult to know how widespread the ability to read and write was in the ancient world is that neither the Greeks nor the Romans kept statistics on literacy rates as today’s countries do.",
+            "C) It is difficult to know how widespread the ability to read and write was in the ancient world because neither the Greeks nor the Romans kept statistics on literacy rates as today’s countries do.",
+            "D) It is difficult to know how widespread the ability to read and write was in the ancient world compared to today’s countries since neither the Greeks nor the Romans kept statistics on literacy rates.",
+            "E) That neither the Greeks nor the Romans kept statistics on literacy rates contrary to what today’s countries do makes it difficult to know how widespread the ability to read and write was in the ancient world."
+        ],
+        "answer": "C"
+    },
+    "23": {
+        "question": "Zorbalık ve alayın akran grubu etkileşimlerinin bir parçası olduğu göz önünde bulundurulduğunda bu olumsuz davranışların şiddeti körüklememesi için ebeveynler ve eğiticimler tarafından titiz bir şekilde gözlemlenmesi ve değerlendirilmesi gerekmektedir.",
+        "options": [
+            "A) Bullying and teasing, which are negative behaviours that are part of peer group interactions, must be meticulously observed and analysed by parents and educators so that they do not fuel violence.",
+            "B) Given that bullying and teasing are part of peer group interactions, these negative behaviours must be meticulously observed and analysed by parents and educators so that they do not fuel violence.",
+            "C) Seeing that bullying and teasing are part of peer group interactions, parents and educators must meticulously observe and analyse them in order for these negative behaviours not to fuel violence.",
+            "D) Bullying and teasing are part of peer group interactions; therefore, parents and educators must meticulously observe and analyse these negative behaviours so that they do not fuel violence.",
+            "E) Now that bullying and teasing are negative behaviours that are part of peer group interactions, they must be meticulously observed and analysed by parents and educators in order that they do not fuel violence."
+        ],
+        "answer": "B"
+    },
+    "24": {
+        "question": "Because its symptoms can result from other conditions and differ between individuals, dyslexia can be viewed as a developmental condition rather than as a disease.",
+        "options": [
+            "A) Belirtileri başka rahatsızlıklardan da kaynaklandığı ve insandan insana değişkenlik gösterebildiği için disleksi, bir hastalık değil gelişimsel bir durum olarak görülebilir.",
+            "B) Disleksi belirtileri başka rahatsızlıklardan kaynaklanabilir ve insanlar arasında farklılık gösterebilir; bu yüzden disleksi, bir hastalıktan ziyade gelişimsel bir durum olarak görülmelidir.",
+            "C) Belirtileri başka rahatsızlıklardan kaynaklanabildiği ve insanlar arasında farklılık gösterebildiği için disleksi, bir hastalıktan ziyade gelişimsel bir durum olarak görülebilir.",
+            "D) Başka rahatsızlıklardan kaynaklanan belirtilere sahip olduğu ve insandan insana değişkenlik gösterdiği için disleksi, bir hastalıktan çok gelişimsel bir durum olarak görülebilir.",
+            "E) Disleksinin bir hastalıktan ziyade gelişimsel bir durum olarak görülebilmesinin nedeni, belirtilerinin başka rahatsızlıklardan kaynaklanabilmesi ve insanlar arasında farklılık gösterebilmesidir."
+        ],
+        "answer": "C"
+    },
+    "25": {
+        "question": "--- PASSAGE --- As refractive errors are very common in eyes, throughout history, practitioners of the eye health have tried various and sometimes hazardous methods for improving or restoring vision. The earliest documentation of corrective lenses for this purpose dates to the 16th-century China. European traders who travelled to China noted the elderly holding quartz crystal lenses to see objects close to them. Eyeglasses set in frames and worn on the face began to appear in Europe in the 17th and 18th centuries. By the late 19th century, inventors were experimenting with glass lenses placed directly on the eye. These attempts produced large, heavy, and ultimately unfeasible lenses that covered the entire surface of the eye. The contact lens finally became a reality in the 1950s with the advent of high-tech plastics that were lightweight, optically clear, and did not react with body fluids. Subsequent advances over the next 30 years brought about lenses made of surgical plastics that allow oxygen to reach the cornea, much improving comfort and safety. By the 1990s, daily wear disposable contact lenses became the standard of contact lens correction. --- QUESTION --- It is understood from the passage that corrective lenses -----.",
+        "options": [
+            "A) were brought to China in the 16th century by European traders",
+            "B) were all made out of quartz crystal until the 1950s",
+            "C) were not in wearable form in 16th century China",
+            "D) were invented by the practitioners of the eye health who had problems with vision",
+            "E) were particularly used to see the objects far away in the 16th century"
+        ],
+        "answer": "C"
+    },
+    "26": {
+        "question": "--- PASSAGE --- As refractive errors are very common in eyes, throughout history, practitioners of the eye health have tried various and sometimes hazardous methods for improving or restoring vision. The earliest documentation of corrective lenses for this purpose dates to the 16th-century China. European traders who travelled to China noted the elderly holding quartz crystal lenses to see objects close to them. Eyeglasses set in frames and worn on the face began to appear in Europe in the 17th and 18th centuries. By the late 19th century, inventors were experimenting with glass lenses placed directly on the eye. These attempts produced large, heavy, and ultimately unfeasible lenses that covered the entire surface of the eye. The contact lens finally became a reality in the 1950s with the advent of high-tech plastics that were lightweight, optically clear, and did not react with body fluids. Subsequent advances over the next 30 years brought about lenses made of surgical plastics that allow oxygen to reach the cornea, much improving comfort and safety. By the 1990s, daily wear disposable contact lenses became the standard of contact lens correction. --- QUESTION --- Which could be inferred from the passage?",
+        "options": [
+            "A) Eyeglasses in frames were initially produced for aesthetic purposes in Europe.",
+            "B) Quartz crystal lenses were used both in China and Europe in the 16th century.",
+            "C) The concerns over the safety and comfort of contact lenses arose dramatically in the 1990s.",
+            "D) The utilization of high-tech plastics has increased the use of contact lenses by the elderly.",
+            "E) The change in the material of lenses has opened a new era for them in their practicality."
+        ],
+        "answer": "E"
+    },
+    "27": {
+        "question": "--- PASSAGE --- As refractive errors are very common in eyes, throughout history, practitioners of the eye health have tried various and sometimes hazardous methods for improving or restoring vision. The earliest documentation of corrective lenses for this purpose dates to the 16th-century China. European traders who travelled to China noted the elderly holding quartz crystal lenses to see objects close to them. Eyeglasses set in frames and worn on the face began to appear in Europe in the 17th and 18th centuries. By the late 19th century, inventors were experimenting with glass lenses placed directly on the eye. These attempts produced large, heavy, and ultimately unfeasible lenses that covered the entire surface of the eye. The contact lens finally became a reality in the 1950s with the advent of high-tech plastics that were lightweight, optically clear, and did not react with body fluids. Subsequent advances over the next 30 years brought about lenses made of surgical plastics that allow oxygen to reach the cornea, much improving comfort and safety. By the 1990s, daily wear disposable contact lenses became the standard of contact lens correction. --- QUESTION --- What is the passage mainly about?",
+        "options": [
+            "A) The way in which corrective lenses evolved over time",
+            "B) How and when corrective lenses began to appear",
+            "C) The properties of healthy and comfortable contact lenses",
+            "D) The negative effects of using corrective lenses",
+            "E) How the surgical plastics changed the future of corrective lenses"
+        ],
+        "answer": "A"
+    },
+    "28": {
+        "question": "--- PASSAGE --- As refractive errors are very common in eyes, throughout history, practitioners of the eye health have tried various and sometimes hazardous methods for improving or restoring vision. The earliest documentation of corrective lenses for this purpose dates to the 16th-century China. European traders who travelled to China noted the elderly holding quartz crystal lenses to see objects close to them. Eyeglasses set in frames and worn on the face began to appear in Europe in the 17th and 18th centuries. By the late 19th century, inventors were experimenting with glass lenses placed directly on the eye. These attempts produced large, heavy, and ultimately unfeasible lenses that covered the entire surface of the eye. The contact lens finally became a reality in the 1950s with the advent of high-tech plastics that were lightweight, optically clear, and did not react with body fluids. Subsequent advances over the next 30 years brought about lenses made of surgical plastics that allow oxygen to reach the cornea, much improving comfort and safety. By the 1990s, daily wear disposable contact lenses became the standard of contact lens correction. --- QUESTION --- Which of the following best describes the author’s attitude in the passage?",
+        "options": [
+            "A) objective",
+            "B) annoyed",
+            "C) critical",
+            "D) sarcastic",
+            "E) gloomy"
+        ],
+        "answer": "A"
+    },
+    "29": {
+        "question": "--- PASSAGE --- Archaeology is commonly defined as the study of the human past through the analysis of the material remains left behind. These include plant and animal remains as well as our ancestors' bones, all of which can reveal much, for example, about our ancestors' physical appearance, food choices, and the environment within which they lived. The other main kind of material remains studied by archaeologists are artefacts. The simplest definition of an artefact is anything that has been modified, made or used by our ancestors. Thus, an artefact can be string made from fibrous bark, a basket woven from the string, or simply a piece of unmodified bark that has been used, for example, to carry water. In combination with other archaeological evidence, the study of artefacts can provide information about many things including our ancestors' technology (why things were made in the way that they were), their cognitive abilities, the kinds of activities they undertook, how they organised themselves socially, whether they traded with other groups, how they moved around their landscape, and some aspects of their ideology. The problem for archaeologists is how to get such information from objects that cannot speak for themselves. --- QUESTION --- According to the passage, artefacts ----.",
+        "options": [
+            "A) are analysed by archaeologists primarily to learn about water storage systems of past societies",
+            "B) are found in abundance in parts of the world where our ancestors established the earliest settlements",
+            "C) can shed light on our ancestors' lifestyle from different aspects",
+            "D) prove to be more useful than other kinds of remains in predicting our ancestors' physical appearance",
+            "E) provide archaeologists with more reliable data than animal and plant remains offer"
+        ],
+        "answer": "C"
+    },
+    "30": {
+        "question": "--- PASSAGE --- Archaeology is commonly defined as the study of the human past through the analysis of the material remains left behind. These include plant and animal remains as well as our ancestors' bones, all of which can reveal much, for example, about our ancestors' physical appearance, food choices, and the environment within which they lived. The other main kind of material remains studied by archaeologists are artefacts. The simplest definition of an artefact is anything that has been modified, made or used by our ancestors. Thus, an artefact can be string made from fibrous bark, a basket woven from the string, or simply a piece of unmodified bark that has been used, for example, to carry water. In combination with other archaeological evidence, the study of artefacts can provide information about many things including our ancestors' technology (why things were made in the way that they were), their cognitive abilities, the kinds of activities they undertook, how they organised themselves socially, whether they traded with other groups, how they moved around their landscape, and some aspects of their ideology. The problem for archaeologists is how to get such information from objects that cannot speak for themselves. --- QUESTION --- It is implied in the passage that archaeologists ------.",
+        "options": [
+            "A) have to rely on their interpretation when trying to make sense of an artefact",
+            "B) may sometimes get too ideological when studying the remains of past societies",
+            "C) discuss the information they collect from artefacts with other archaeologists",
+            "D) have not yet reached an agreement on what can be regarded as an artefact",
+            "E) often refuse to make use of several sources of archaeological evidence at the same time"
+        ],
+        "answer": "A"
+    },
+    "31": {
+        "question": "--- PASSAGE --- Archaeology is commonly defined as the study of the human past through the analysis of the material remains left behind. These include plant and animal remains as well as our ancestors' bones, all of which can reveal much, for example, about our ancestors' physical appearance, food choices, and the environment within which they lived. The other main kind of material remains studied by archaeologists are artefacts. The simplest definition of an artefact is anything that has been modified, made or used by our ancestors. Thus, an artefact can be string made from fibrous bark, a basket woven from the string, or simply a piece of unmodified bark that has been used, for example, to carry water. In combination with other archaeological evidence, the study of artefacts can provide information about many things including our ancestors' technology (why things were made in the way that they were), their cognitive abilities, the kinds of activities they undertook, how they organised themselves socially, whether they traded with other groups, how they moved around their landscape, and some aspects of their ideology. The problem for archaeologists is how to get such information from objects that cannot speak for themselves. --- QUESTION --- The passage is mainly about ------.",
+        "options": [
+            "A) comparing plant-based remains with animal-based ones",
+            "B) the analysis methods archaeologists use for material remains",
+            "C) the importance of material remains to the study of archaeology",
+            "D) how archaeology provides insights to other academic disciplines",
+            "E) a brief history of the study of artefacts in archaeology"
+        ],
+        "answer": "C"
+    },
+    "32": {
+        "question": "--- PASSAGE --- Archaeology is commonly defined as the study of the human past through the analysis of the material remains left behind. These include plant and animal remains as well as our ancestors' bones, all of which can reveal much, for example, about our ancestors' physical appearance, food choices, and the environment within which they lived. The other main kind of material remains studied by archaeologists are artefacts. The simplest definition of an artefact is anything that has been modified, made or used by our ancestors. Thus, an artefact can be string made from fibrous bark, a basket woven from the string, or simply a piece of unmodified bark that has been used, for example, to carry water. In combination with other archaeological evidence, the study of artefacts can provide information about many things including our ancestors' technology (why things were made in the way that they were), their cognitive abilities, the kinds of activities they undertook, how they organised themselves socially, whether they traded with other groups, how they moved around their landscape, and some aspects of their ideology. The problem for archaeologists is how to get such information from objects that cannot speak for themselves. --- QUESTION --- The underlined word in the passage ‘modified’ is closest in meaning to ----",
+        "options": [
+            "A) altered",
+            "B) harnessed",
+            "C) compiled",
+            "D) relieved",
+            "E) received"
+        ],
+        "answer": "A"
+    },
+    "33": {
+        "question": "Thomas: – It’s been surprising to find out that excessive lighting of cities can pose harm to even wild animals around. Arthur: – ---- Thomas: – Well, it’s their hunting cycle that gets affected. When every night is as lit up as though there were a full moon, predators can constantly prey on the various other animals, which risks diversity and balance of the biosphere. Arthur: – Oh, I see. A widely-lit sky isn’t helping anyone down on the ground, then.",
+        "options": [
+            "A) I have heard that in the last 25 years alone, the world has lost 80 percent of its western chimpanzee population. Do you think it has anything to do with how light pollution threatens these animals?",
+            "B) We sometimes forget that we share this planet with other living creatures. It may be hard to understand the consequences of our actions for our health, let alone animals. Don’t you think so?",
+            "C) I didn’t know that. It makes sense, though. After all, some animals don’t necessarily live that far from human populations. Are our pets affected by light pollution, too?",
+            "D) I know that when we introduce too much light into our night skies, this leads to insomnia and other issues for us, such as tiredness, fatigue and poor mental health. What about animals?",
+            "E) I’ve recently read that this night-sky pollution is only going to get worse with the increase in the number of satellites in the sky. I can’t imagine what it's going to be like then, for us and animals, right?"
+        ],
+        "answer": "D"
+    },
+    "34": {
+        "question": "Margaret: -George, isn't cartoon the same as animation? Why are they used as different concepts in my coursebook? George: -Well, technically speaking, animation is defined as a production technique that uses cartoon-like figures to create the illusion of movement via the use of sequences of cartoons, drawings, graphics, and models to simulate real-life characters in apparent motion. Margaret: -I see. Do you happen to know anything about the origin of animation? George: -It began with thumbing a series of pages or the corners of cards, and then artists developed the first animated movies using drawings on transparent celluloid sheets. Margaret: ----- George: -That's due to the application of another technique which involves the creation of 3-D figures that posed and photographed for hundreds of thousands of times to finally make them look like a film.",
+        "options": [
+            "A) So, why do some of them seem to be actual things rather than cartoon figures?",
+            "B) Do you think they can move or talk and adaptively interact with the audience?",
+            "C) What about computer-made animations? Do they also use the same technique?",
+            "D) What are the techniques of creating an active background while producing animations?",
+            "E) Could you also explain about the reason why children like animations having dolls more than painted ones?"
+        ],
+        "answer": "A"
+    },
+    "35": {
+        "question": "While there are excellent sandy beaches in Türkiye’s North Aegean, low sea temperature and harsh winds hamper the region’s touristic development, leading farming and fishing to provide the main livelihoods.",
+        "options": [
+            "A) If low sea temperature and fierce winds did not spoil the appeal of the sandy beaches in Türkiye’s North Aegean, tourism would be one of the most important means of maintaining life in the region, ranking after farming and fishing.",
+            "B) While the tourism potential of the stunning sandy beaches in Türkiye’s North Aegean is restricted by low sea temperature and stiff winds, farming and fishing have promoted the region’s development, serving as common ways of earning money as well.",
+            "C) The growth of tourism in Türkiye’s North Aegean is not only supported by farming and fishing, which are the major sources of income across the region, but also by outstanding sandy beaches although they have low sea temperature and blustery winds.",
+            "D) The reason why farming and fishing are the primary means of subsistence in Türkiye’s North Aegean is that the region’s touristic development is hindered by low sea temperature and strong winds despite the existence of marvellous sandy beaches.",
+            "E) The touristic development of Türkiye’s North Aegean is fostered by its magnificent sandy beaches in spite of low sea temperature and severe winds; however, tourism has not surpassed farming and fishing, which are the principal ways of sustaining life in the region."
+        ],
+        "answer": "D"
+    },
+    "36": {
+        "question": "Children of large families have a greater opportunity to learn cooperation at an early age than children of smaller families as the former must learn to get along with siblings.",
+        "options": [
+            "A) Larger families need to offer children more exposure to early cooperation skills as living harmoniously with multiple siblings is necessary unlike the experiences of children from smaller families.",
+            "B) Growing up in a large family provides children with numerous occasions to learn cooperation from an early age, while those in smaller families may not experience the same level of agreement with siblings.",
+            "C) In contrast to those from smaller households, children in large families have more of a chance to develop skills to work together at a young age since it is necessary for them to be on good terms with siblings.",
+            "D) In contrast to those from larger families, children brought up in smaller households miss the chance to develop skills for joint work at an early age, as they do not need to engage with siblings.",
+            "E) In large families, children get more possibilities for developing their skills to work together at a young age whereas in smaller ones having less siblings requires less work for harmony."
+        ],
+        "answer": "C"
+    },
+    "37": {
+        "question": "Scientists are highly aware that the process of conducting research is full of uncertainty. A new study can lead to unexpected data that can completely revise standard theory in a field. Indeed, some scientists are positively happy about the prospect of cutting-edge data proving them wrong. They think that is the most fun part of science because it means that they have found something unpredictable. ---- When the data come to support a different approach, it is less clear to the general public why they should be willing to accept that these new findings are valid if they could soon change again.",
+        "options": [
+            "A) However, people who are not scientists are not as prepared to accept fast-moving research changes.",
+            "B) Therefore, a framework is needed for examining how the timing of messages can change opinions.",
+            "C) In fact, this uncertainty can be attributed to differences in understanding other social concepts.",
+            "D) There has been a lot of research on this phenomenon to see how data are collected by scientists.",
+            "E) For over a decade, scientists have been questioning what it really means for a person to trust science."
+        ],
+        "answer": "A"
+    },
+    "38": {
+        "question": "Before Vincent van Gogh died at age 37, he often considered himself a failure as an artist. Both the general public and other artists greeted his work with hostility. He sold only one painting during his lifetime. ---- In fact, he adopted a new approach to painting featuring bold brush strokes and the expressive use of colour. Today, however, van Gogh is one of the most admired figures in the history of art, and most of his paintings, such as Night Café, have taken on an iconic status.",
+        "options": [
+            "A) The reason van Gogh won so little favour in his day was that he was a bold pioneer who rejected the classical style that the official painting academies of the 19th century promoted.",
+            "B) The dark, deep blue, and turbulent brush strokes that fill the canvas together suggest the artist’s state of mind.",
+            "C) Colour in painting, he argued, is not locally true from the point of view of the delusive realist, but colour suggesting some emotion of an ardent temperament.",
+            "D) Painted in the year before his tragic death, van Gogh’s Starry Night depicts an ominous star-filled sky over the town of Saint-Rémy-de-Provence in southern France.",
+            "E) This kind of intensely personal approach to painting characterises the art of the modern era in general, but it is not typical of many periods of the history of art."
+        ],
+        "answer": "A"
+    },
+    "39": {
+        "question": "(I) People have always been fascinated by the weather, and predicting it has always been important. (II) The invention of reliable instruments made it possible to measure temperature, air pressure, humidity, and wind speed and direction on a local scale. (III) Farmers planning to sow a crop needed to know whether their seedlings would survive, fishermen needed to know whether a storm was developing, and ordinary people needed to know whether they should take a coat when they left home. (IV) It is not surprising, therefore, that meteorology – the study of the weather – originated a very long time ago. (V) The first book on the subject was written by Aristotle in about 340 BCE called Meteorologica, and it gave us the name of the science.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "B"
+    },
+    "40": {
+        "question": "(I) The ancient city of Troy was mythologised by one of the greatest writers in Ancient Greece: Homer. (II) His epic poem The Iliad depicts the events of the Trojan War between the wider Greek people led by the warrior-like Agamemnon and the people of the city of Troy. (III) Until the 19th century, every aspect of Homer’s tale was seen entirely as a work of fiction and the city of Troy was largely thought to be an invention. (IV) Troy was settled for around 3,000 years before being abandoned during the late Roman era and today it is located in western Türkiye and the city stands four miles away from the sea. (V) However, that changed with the discovery of the ruins of a city in western Türkiye in 1870 that fitted its descriptors, then discovery of further settlements dating back to the Bronze age, which seemed to confirm that Troy, or to give its modern name Hisarlık, was once a real city.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "D"
+    }
+}

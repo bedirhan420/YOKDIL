@@ -1,0 +1,447 @@
+{
+    "1": {
+        "question": "The primary goal of the new educational program is not merely to transmit a vast amount of data to students but to enhance the long-term ----- of complex information so that they can apply it in various contexts.",
+        "options": [
+            "A) implication",
+            "B) distortion",
+            "C) assertion",
+            "D) deviation",
+            "E) retention"
+        ],
+        "answer": "E"
+    },
+    "2": {
+        "question": "Despite their relatively recent introduction, smart devices have become so ----- that they are now seamlessly integrated into the daily routines and professional lives of people across all socioeconomic strata.",
+        "options": [
+            "A) imperative",
+            "B) ubiquitous",
+            "C) meticulous",
+            "D) resilient",
+            "E) haphazard"
+        ],
+        "answer": "B"
+    },
+    "3": {
+        "question": "Following the new treatment protocol, the patient's recovery progressed ----- fast, allowing them to be discharged from the hospital far sooner than initially projected by the medical team.",
+        "options": [
+            "A) remarkably",
+            "B) temporarily",
+            "C) implicitly",
+            "D) severely",
+            "E) notoriously"
+        ],
+        "answer": "A"
+    },
+    "4": {
+        "question": "Following the devastating earthquake, the Public Health Directorate’s immediate objective was to rapidly ----- critical health and safety guidelines through all available communication channels to prevent the outbreak of diseases.",
+        "options": [
+            "A) endorse",
+            "B) induce",
+            "C) exacerbate",
+            "D) allocate",
+            "E) disseminate"
+        ],
+        "answer": "E"
+    },
+    "5": {
+        "question": "After weeks of struggling with writer's block, the novelist finally managed to ----- a compelling new character that instantly revitalized the entire manuscript.",
+        "options": [
+            "A) embark upon",
+            "B) set aside",
+            "C) abide by",
+            "D) conjure up",
+            "E) scale down"
+        ],
+        "answer": "D"
+    },
+    "6": {
+        "question": "Without the emergence of instant messaging platforms during the information age, modern businesses ----- a severe lag in cross-continental communication ----- the demands of highly integrated global supply chains.",
+        "options": [
+            "A) could have precipitated / to be coping with",
+            "B) would have precipitated / to cope with",
+            "C) should have precipitated / coping with",
+            "D) can precipitate / to cope with",
+            "E) must have precipitated / having coped with"
+        ],
+        "answer": "B"
+    },
+    "7": {
+        "question": "The history of glassmaking, ----- back to ancient Mesopotamia where the earliest known artefacts were discovered, ----- a continuous narrative of technological innovation and aesthetic refinement across various civilizations.",
+        "options": [
+            "A) to be stretched / was presenting",
+            "B) stretching / has presented",
+            "C) stretched / had presented",
+            "D) being stretched / will present",
+            "E) to have stretched / presented"
+        ],
+        "answer": "B"
+    },
+    "8": {
+        "question": "The institutional review board mandated that the revised clinical trial protocol, aiming to enhance patient safety, must be implemented ----- next month onwards ----- the express consent of all participating individuals.",
+        "options": [
+            "A) for / at",
+            "B) during / in",
+            "C) after / by",
+            "D) from / with",
+            "E) over / through"
+        ],
+        "answer": "D"
+    },
+    "9": {
+        "question": "The introduction of modern gene-editing tools provided researchers with a monumental therapeutic capability, granting cellular resistance ----- invasion by common pathogens, and allowing them to insert new traits deep ----- the host organism's existing DNA.",
+        "options": [
+            "A) against / into",
+            "B) from / by",
+            "C) to / at",
+            "D) for / along",
+            "E) on / towards"
+        ],
+        "answer": "A"
+    },
+    "10": {
+        "question": "Modern social media platforms have implemented numerous technical measures to ensure user data privacy and increase transparency regarding data usage; -----, a significant portion of the public remains deeply skeptical of these companies' true intentions and data security practices.",
+        "options": [
+            "A) moreover",
+            "B) nevertheless",
+            "C) that is",
+            "D) as a result",
+            "E) similarly"
+        ],
+        "answer": "B"
+    },
+    "11": {
+        "question": "Following the recent revelations, all clinical experimentation procedures were immediately modified ----- new international ethical guidelines, thereby ensuring participant welfare and maintaining the integrity of the research.",
+        "options": [
+            "A) besides",
+            "B) contrary to",
+            "C) in pursuit of",
+            "D) in line with",
+            "E) in terms of"
+        ],
+        "answer": "D"
+    },
+    "12": {
+        "question": "The quantum computing experiment required highly controlled environmental conditions, making the behavior of subatomic particles ----- predictable ----- observable, but instead revealing entirely new phenomena related to entanglement.",
+        "options": [
+            "A) either / or",
+            "B) whether / or",
+            "C) not only / but also",
+            "D) neither / nor",
+            "E) the more / the more"
+        ],
+        "answer": "D"
+    },
+    "13": {
+        "passage":"In accordance with many cultural historians, the Renaissance movement is said (13) ----- in 1450 with the widespread use of the printing press. This assertion is, perhaps, not entirely (14) ----- the increased dissemination of classical texts alone. It is also because of the philosophical change, marking the separation between medieval scholasticism and humanism (15) ----- the movement represents the start of modern secular thought. Between 1450 and 1550, Italian city-states (16) ----- three fundamental civic frameworks. These included a merchant oligarchy, a military principality based on regional dominance, and a banking republic. All three provided intellectual models for humanist scholars, political theorists, and architects far (17) ----- the borders of Florence. Indeed, the influence of Florentine republicanism eventually forced most ruling 16th century nobles to accept certain civic charters limiting their absolute rule. And of the 35 major treatises on governance published during 1450 – 1550 alone, 30 were the result of direct Italian influence.",
+        "question":"",
+        "options": [
+            "A) having commenced",
+            "B) to have commenced",
+            "C) commencing",
+            "D) to commence",
+            "E) to be commencing"
+        ],
+        "answer": "B"
+    },
+    "14": {
+        "passage":"In accordance with many cultural historians, the Renaissance movement is said (13) ----- in 1450 with the widespread use of the printing press. This assertion is, perhaps, not entirely (14) ----- the increased dissemination of classical texts alone. It is also because of the philosophical change, marking the separation between medieval scholasticism and humanism (15) ----- the movement represents the start of modern secular thought. Between 1450 and 1550, Italian city-states (16) ----- three fundamental civic frameworks. These included a merchant oligarchy, a military principality based on regional dominance, and a banking republic. All three provided intellectual models for humanist scholars, political theorists, and architects far (17) ----- the borders of Florence. Indeed, the influence of Florentine republicanism eventually forced most ruling 16th century nobles to accept certain civic charters limiting their absolute rule. And of the 35 major treatises on governance published during 1450 – 1550 alone, 30 were the result of direct Italian influence.",
+        "question":"",
+        "options": [
+            "A) unlike",
+            "B) despite",
+            "C) due to",
+            "D) instead of",
+            "E) except for"
+        ],
+        "answer": "C"
+    },
+    "15": {
+        "passage":"In accordance with many cultural historians, the Renaissance movement is said (13) ----- in 1450 with the widespread use of the printing press. This assertion is, perhaps, not entirely (14) ----- the increased dissemination of classical texts alone. It is also because of the philosophical change, marking the separation between medieval scholasticism and humanism (15) ----- the movement represents the start of modern secular thought. Between 1450 and 1550, Italian city-states (16) ----- three fundamental civic frameworks. These included a merchant oligarchy, a military principality based on regional dominance, and a banking republic. All three provided intellectual models for humanist scholars, political theorists, and architects far (17) ----- the borders of Florence. Indeed, the influence of Florentine republicanism eventually forced most ruling 16th century nobles to accept certain civic charters limiting their absolute rule. And of the 35 major treatises on governance published during 1450 – 1550 alone, 30 were the result of direct Italian influence.",
+        "question":"",
+        "options": [
+            "A) as if",
+            "B) because",
+            "C) although",
+            "D) once",
+            "E) unless"
+        ],
+        "answer": "B"
+    },
+    "16": {
+        "passage":"In accordance with many cultural historians, the Renaissance movement is said (13) ----- in 1450 with the widespread use of the printing press. This assertion is, perhaps, not entirely (14) ----- the increased dissemination of classical texts alone. It is also because of the philosophical change, marking the separation between medieval scholasticism and humanism (15) ----- the movement represents the start of modern secular thought. Between 1450 and 1550, Italian city-states (16) ----- three fundamental civic frameworks. These included a merchant oligarchy, a military principality based on regional dominance, and a banking republic. All three provided intellectual models for humanist scholars, political theorists, and architects far (17) ----- the borders of Florence. Indeed, the influence of Florentine republicanism eventually forced most ruling 16th century nobles to accept certain civic charters limiting their absolute rule. And of the 35 major treatises on governance published during 1450 – 1550 alone, 30 were the result of direct Italian influence.",
+        "question":"",
+        "options": [
+            "A) withdrew",
+            "B) neglected",
+            "C) jeopardised",
+            "D) dispelled",
+            "E) adopted"
+        ],
+        "answer": "E"
+    },
+    "17": {
+        "passage":"In accordance with many cultural historians, the Renaissance movement is said (13) ----- in 1450 with the widespread use of the printing press. This assertion is, perhaps, not entirely (14) ----- the increased dissemination of classical texts alone. It is also because of the philosophical change, marking the separation between medieval scholasticism and humanism (15) ----- the movement represents the start of modern secular thought. Between 1450 and 1550, Italian city-states (16) ----- three fundamental civic frameworks. These included a merchant oligarchy, a military principality based on regional dominance, and a banking republic. All three provided intellectual models for humanist scholars, political theorists, and architects far (17) ----- the borders of Florence. Indeed, the influence of Florentine republicanism eventually forced most ruling 16th century nobles to accept certain civic charters limiting their absolute rule. And of the 35 major treatises on governance published during 1450 – 1550 alone, 30 were the result of direct Italian influence.",
+        "question":"",
+        "options": [
+            "A) beyond",
+            "B) under",
+            "C) between",
+            "D) by",
+            "E) into"
+        ],
+        "answer": "A"
+    },
+    "18": {
+        "question": "While the exact long-term climatological factors driving the increasing severity of this regional drought are still subject to significant scientific debate, ----- .",
+        "options": [
+            "A) the prevailing atmospheric pressure systems over the ocean have been remarkably stable for decades",
+            "B) mitigation strategies primarily focus on reducing industrial carbon emissions rather than localized water management",
+            "C) research into paleoclimatology suggests that extreme dry periods were relatively uncommon in the pre-industrial era",
+            "D) immediate hydrological effects and the corresponding challenges for agricultural output are clearly documented and projected",
+            "E) a new agreement was reached between neighboring nations to share water resources equitably throughout the dry season"
+        ],
+        "answer": "D"
+    },
+    "19": {
+        "question": "The observation of light spectra is the principal source of data regarding the chemical composition of distant stars in the galaxy; ----- .",
+        "options": [
+            "A) for example, no single telescope design is suited to observe the different electromagnetic wavelengths emitted by stars",
+            "B) nonetheless, the rapid expansion of the universe is quite impressive from the perspective of cosmic acceleration and the dark energy processes it entails",
+            "C) therefore, it is often the only means by which an astronomer can determine a star's age, because direct physical sampling of stellar material is currently impossible",
+            "D) instead, the aim of spectral analysis is to understand the relation of the units and organisation of stellar masses to the properties of their gravitational fields",
+            "E) however, large amounts of observational data have been collected and analysed in attempts to discover the structures of stellar evolution"
+        ],
+        "answer": "C"
+    },
+    "20": {
+        "question": "-----, as it is during this phase that institutions accumulate the necessary capital reserves that will mitigate the effects of any subsequent economic downturn.",
+        "options": [
+            "A) Central banks must establish clear interest rate targets to manage inflation expectations effectively",
+            "B) Diversification of investment portfolios is considered a prudent strategy for long-term growth and risk management",
+            "C) The initial period of rapid economic expansion in developing markets is critically important for financial stability",
+            "D) Government subsidies often distort market mechanisms and lead to inefficient allocation of resources in key sectors",
+            "E) Global trade liberalization agreements typically lead to increased competition and efficiency among international firms"
+        ],
+        "answer": "C"
+    },
+    "21": {
+        "question": "Ancient civilizations often developed complex astronomical calendars to manage essential societal functions; ----- .",
+        "options": [
+            "A) nonetheless, the precise dating of certain Mesoamerican ruins remains a difficult task for modern archaeologists",
+            "B) therefore, astronomical observation was considered an esoteric practice restricted to the priestly class in many early cultures",
+            "C) on the contrary, the creation of accurate clocks became the primary driver for scientific innovation during the Enlightenment",
+            "D) as a result, these societies were able to achieve remarkable feats of engineering despite their lack of advanced computational tools",
+            "E) for instance, the Mayans, who were heavily reliant on agriculture, used their sophisticated calendar systems to accurately predict seasonal changes and coordinate planting cycles"
+        ],
+        "answer": "E"
+    },
+    "22": {
+        "question": "-----, but it was after the widespread adoption of the Internet that the pace of technological development accelerated exponentially.",
+        "options": [
+            "A) If academic institutions manage to standardize online curricula, access to higher education will improve significantly",
+            "B) There is a direct correlation between a nation's investment in R&D and its overall economic competitiveness",
+            "C) Public awareness and media coverage surrounding digital literacy have decreased sharply in recent years",
+            "D) Since the invention of the printing press, humanity has utilized various methods to disseminate knowledge across continents",
+            "E) Software developers have recently created sophisticated algorithms that automate the majority of the coding process"
+        ],
+        "answer": "D"
+    },
+    "23": {
+        "question": "While children are able to acquire the basic grammatical rules of their native language through simple exposure, syntactical complexities like passive constructions are proposed to be mastered only after the development of advanced working memory that occurs around the age of 5.",
+        "options": [
+            "A) Çocuklar, ana dillerinin temel gramer kurallarını basit maruziyet yoluyla edinebilirler ancak pasif yapılar gibi sözdizimsel karmaşıklıklar, 5 yaş civarında gerçekleşen gelişmiş çalışma belleği gelişiminden sonra ancak ustalaşılabilir olarak öne sürülmektedir.",
+            "B) Çocuklar, basit maruziyet yoluyla ana dillerinin temel gramer kurallarını edinebilseler de pasif yapılar gibi sözdizimsel karmaşıklıkların 5 yaş civarında gelişen ileri düzey çalışma belleği gelişiminden sonra ustalaşılabildiği öne sürülebilir.",
+            "C) Çocuklar, ana dillerinin temel gramer kurallarını basit maruziyet yoluyla edinebilseler de pasif yapılar gibi sözdizimsel karmaşıklıkların 5 yaş civarında gerçekleşen gelişmiş çalışma belleği gelişiminden sonra ustalaşıldığı öne sürülmektedir.",
+            "D) Çocukların temel gramer kurallarını basit maruziyet yoluyla edinebildiği öne sürülse de gelişmiş çalışma belleği gelişimi 5 yaş civarında gerçekleşir ve bundan sonra pasif yapılar gibi sözdizimsel karmaşıklıklar ustalaşılabilir.",
+            "E) Çocuklar, ana dillerinin temel gramer kurallarını basit maruziyet yoluyla edinebilse de pasif yapılar gibi sözdizimsel karmaşıklıkları 5 yaş civarında ustalaşabildiği ve bu ustalaşmanın gelişmiş çalışma belleği gelişiminden sonra ortaya çıktığı öne sürülmektedir."
+        ],
+        "answer": "C"
+    },
+    "24": {
+        "question": "While the exact long-term effects of deep-sea mining are still subject to significant scientific debate, the immediate and widespread disruption of benthic habitats is clearly documented and requires prompt action.",
+        "options": [
+            "A) Derin deniz madenciliğinin kesin uzun vadeli etkileri hâlâ önemli bilimsel tartışma konusu olsa da, bentik yaşam alanlarının anlık ve yaygın bozulması açıkça belgelenmiştir ve acil eylem gerektirir.",
+            "B) Derin deniz madenciliğinin kesin uzun vadeli etkileri hâlâ önemli bilimsel tartışma konusu olsa da bentik yaşam alanlarının anlık ve yaygın bozulması açıkça belgelidir ve acil eylem gerekebilir.",
+            "C) Derin deniz madenciliğinin kesin uzun vadeli etkileri hâlâ önemli bilimsel tartışma konusu olmasına rağmen bentik yaşam alanlarının anlık ve yaygın bozulması açıkça belgelenmiştir ve acil eylem gerektirir.",
+            "D) Derin deniz madenciliğinin kesin uzun vadeli etkileri bilimsel tartışmaya konu olabilir ancak bentik yaşam alanlarının anlık ve yaygın bozulması açıkça belgelenmiştir ve acil eylem gerektirir.",
+            "E) Derin deniz madenciliğinin kesin uzun vadeli etkileri hâlâ önemli bilimsel tartışma konusu olduğundan, bentik yaşam alanlarının anlık ve yaygın bozulması açıkça belgelenmiştir ve acil eylem gerektirir."
+        ],
+        "answer": "A"
+    },
+    "25": {
+        "question": "--- PASSAGE --- The Great Barrier Reef, a global treasure, is currently experiencing unprecedented rates of coral bleaching, which is the primary driver of its ecological decline, replacing the complex native coral communities. Driven by rising global ocean temperatures due to greenhouse gas emissions, warm waters stress the corals, causing them to expel the symbiotic algae they rely on for food. This unsustainable process has decimated the habitat of numerous endemic species, including the dugong and several species of threatened sea turtles. Furthermore, the rising acidity of the ocean, a result of absorbing massive amounts of carbon dioxide, primarily hinders the ability of corals to form and maintain their calcium carbonate skeletons. These combined stresses are poorly managed, frequently leading to localized collapses in reef structure and causing widespread ecosystem disruption. The resulting environmental damage is compounded by the lack of robust funding and decisive policy from international bodies, who often prioritize short-term economic stability over long-term marine conservation. --- QUESTION --- According to the passage, the primary cause of the ecological decline of the Great Barrier Reef is ----.",
+        "options": [
+            "A) illegal overfishing operations driven by global seafood markets.",
+            "B) the government's inability to control pollution from coastal run-off.",
+            "C) coral bleaching driven by rising global ocean temperatures.",
+            "D) a shift in tourism policy favoring large, unsustainable cruise ship operations.",
+            "E) the natural spread of algae due to unusually calm oceanic conditions."
+        ],
+        "answer": "C"
+    },
+    "26": {
+        "question": "--- PASSAGE --- The Great Barrier Reef, a global treasure, is currently experiencing unprecedented rates of coral bleaching, which is the primary driver of its ecological decline, replacing the complex native coral communities. Driven by rising global ocean temperatures due to greenhouse gas emissions, warm waters stress the corals, causing them to expel the symbiotic algae they rely on for food. This unsustainable process has decimated the habitat of numerous endemic species, including the dugong and several species of threatened sea turtles. Furthermore, the rising acidity of the ocean, a result of absorbing massive amounts of carbon dioxide, primarily hinders the ability of corals to form and maintain their calcium carbonate skeletons. These combined stresses are poorly managed, frequently leading to localized collapses in reef structure and causing widespread ecosystem disruption. The resulting environmental damage is compounded by the lack of robust funding and decisive policy from international bodies, who often prioritize short-term economic stability over long-term marine conservation. --- QUESTION --- It can be understood from the passage that the rising acidity of the ocean, a result of absorbing massive amounts of carbon dioxide, ----.",
+        "options": [
+            "A) primarily affects only the endangered dugong population.",
+            "B) is a manageable consequence that poses no long-term threat to the ecosystem.",
+            "C) hinders the ability of corals to form and maintain their calcium carbonate skeletons.",
+            "D) is strictly monitored and rarely leads to localized collapses in reef structure.",
+            "E) is mainly caused by local industrial waste discharged into the water."
+        ],
+        "answer": "C"
+    },
+    "27": {
+        "question": "--- PASSAGE --- The Great Barrier Reef, a global treasure, is currently experiencing unprecedented rates of coral bleaching, which is the primary driver of its ecological decline, replacing the complex native coral communities. Driven by rising global ocean temperatures due to greenhouse gas emissions, warm waters stress the corals, causing them to expel the symbiotic algae they rely on for food. This unsustainable process has decimated the habitat of numerous endemic species, including the dugong and several species of threatened sea turtles. Furthermore, the rising acidity of the ocean, a result of absorbing massive amounts of carbon dioxide, primarily hinders the ability of corals to form and maintain their calcium carbonate skeletons. These combined stresses are poorly managed, frequently leading to localized collapses in reef structure and causing widespread ecosystem disruption. The resulting environmental damage is compounded by the lack of robust funding and decisive policy from international bodies, who often prioritize short-term economic stability over long-term marine conservation. --- QUESTION --- The passage is mainly about the ----.",
+        "options": [
+            "A) positive developments in sustainable fishing practices around the reef.",
+            "B) efforts by local communities to protect endemic species like the sea turtle.",
+            "C) history of calcium carbonate formation among early marine organisms.",
+            "D) negative environmental consequences and drivers of coral bleaching in the Great Barrier Reef.",
+            "E) solutions proposed to mitigate the effects of ocean acidification."
+        ],
+        "answer": "D"
+    },
+    "28": {
+        "question": "--- PASSAGE --- The Great Barrier Reef, a global treasure, is currently experiencing unprecedented rates of coral bleaching, which is the primary driver of its ecological decline, replacing the complex native coral communities. Driven by rising global ocean temperatures due to greenhouse gas emissions, warm waters stress the corals, causing them to expel the symbiotic algae they rely on for food. This unsustainable process has decimated the habitat of numerous endemic species, including the dugong and several species of threatened sea turtles. Furthermore, the rising acidity of the ocean, a result of absorbing massive amounts of carbon dioxide, primarily hinders the ability of corals to form and maintain their calcium carbonate skeletons. These combined stresses are poorly managed, frequently leading to localized collapses in reef structure and causing widespread ecosystem disruption. The resulting environmental damage is compounded by the lack of robust funding and decisive policy from international bodies, who often prioritize short-term economic stability over long-term marine conservation. --- QUESTION --- The author's attitude towards the actions of the international bodies regarding marine conservation is best described as ----.",
+        "options": [
+            "A) approving.",
+            "B) indifferent",
+            "C) critical",
+            "D) supportive",
+            "E) hopeful"
+        ],
+        "answer": "C"
+    },
+    "29": {
+        "question": "--- PASSAGE --- Organisational psychology, or Industrial-Organizational (I-O) psychology, applies psychological principles and research methods to the workplace to improve productivity and the quality of work life. I-O psychologists work with diverse employee groups, from CEOs to factory workers, focusing on selection and placement, training and development, performance appraisal, and quality of work life. Their work benefits employees by ensuring fair hiring practices and promoting a positive work environment, and it benefits businesses by maximizing efficiency and reducing turnover. Because they are involved in systemic changes like designing new employee review processes or restructuring teams, they often require extensive access to sensitive company data and frequent collaboration across multiple departments. In the domain of selection and placement, I-O psychologists focus on identifying the best candidates through rigorous testing and structured interviews. Conversely, when focusing on the quality of work life, they might conduct surveys to assess employee satisfaction or design interventions to mitigate workplace stress. A persistent challenge facing this field is the debate over balancing profit-driven corporate goals with the ethical responsibility of promoting genuine employee well-being, as these two objectives are often in conflict. --- QUESTION --- It is understood from the passage that I-O psychologists -----.",
+        "options": [
+            "A) solely work with senior management and administrators to redesign the company's organizational chart",
+            "B) are predominantly involved in resolving high-stakes disputes between management and labour unions",
+            "C) apply psychological principles to various aspects of the workplace to enhance both organizational outcomes and employee experience",
+            "D) usually dedicate more time to performance appraisal than to staff training and development",
+            "E) need to obtain certification from the government to practice their profession in diverse industries"
+        ],
+        "answer": "C"
+    },
+    "30": {
+        "question": "--- PASSAGE --- Organisational psychology, or Industrial-Organizational (I-O) psychology, applies psychological principles and research methods to the workplace to improve productivity and the quality of work life. I-O psychologists work with diverse employee groups, from CEOs to factory workers, focusing on selection and placement, training and development, performance appraisal, and quality of work life. Their work benefits employees by ensuring fair hiring practices and promoting a positive work environment, and it benefits businesses by maximizing efficiency and reducing turnover. Because they are involved in systemic changes like designing new employee review processes or restructuring teams, they often require extensive access to sensitive company data and frequent collaboration across multiple departments. In the domain of selection and placement, I-O psychologists focus on identifying the best candidates through rigorous testing and structured interviews. Conversely, when focusing on the quality of work life, they might conduct surveys to assess employee satisfaction or design interventions to mitigate workplace stress. A persistent challenge facing this field is the debate over balancing profit-driven corporate goals with the ethical responsibility of promoting genuine employee well-being, as these two objectives are often in conflict. --- QUESTION --- According to the passage, I-O psychologists working in selection and placement -----.",
+        "options": [
+            "A) prioritize the implementation of workplace wellness programs over hiring the right people",
+            "B) mainly use objective tools such as structured interviews and rigorous testing to identify suitable workers",
+            "C) must first design the training modules before conducting performance appraisals",
+            "D) have fewer challenges than those focusing on enhancing the quality of work life",
+            "E) are typically responsible for reducing employee turnover by offering competitive salary packages"
+        ],
+        "answer": "B"
+    },
+    "31": {
+        "question": "--- PASSAGE --- Organisational psychology, or Industrial-Organizational (I-O) psychology, applies psychological principles and research methods to the workplace to improve productivity and the quality of work life. I-O psychologists work with diverse employee groups, from CEOs to factory workers, focusing on selection and placement, training and development, performance appraisal, and quality of work life. Their work benefits employees by ensuring fair hiring practices and promoting a positive work environment, and it benefits businesses by maximizing efficiency and reducing turnover. Because they are involved in systemic changes like designing new employee review processes or restructuring teams, they often require extensive access to sensitive company data and frequent collaboration across multiple departments. In the domain of selection and placement, I-O psychologists focus on identifying the best candidates through rigorous testing and structured interviews. Conversely, when focusing on the quality of work life, they might conduct surveys to assess employee satisfaction or design interventions to mitigate workplace stress. A persistent challenge facing this field is the debate over balancing profit-driven corporate goals with the ethical responsibility of promoting genuine employee well-being, as these two objectives are often in conflict. --- QUESTION --- Which could be inferred from the passage?",
+        "options": [
+            "A) Organizational psychology research methods are deemed less effective than those used in clinical psychology.",
+            "B) The primary objective of I-O psychology is to ensure the legal compliance of the company's human resources department.",
+            "C) I-O psychologists frequently face an ethical dilemma regarding the prioritization of corporate profits versus employee welfare.",
+            "D) The success of an I-O psychologist’s intervention is largely dependent on the size of the workforce they are consulting.",
+            "E) I-O psychologists who focus on training and development are less likely to require access to confidential company records."
+        ],
+        "answer": "C"
+    },
+    "32": {
+        "question": "--- PASSAGE --- Organisational psychology, or Industrial-Organizational (I-O) psychology, applies psychological principles and research methods to the workplace to improve productivity and the quality of work life. I-O psychologists work with diverse employee groups, from CEOs to factory workers, focusing on selection and placement, training and development, performance appraisal, and quality of work life. Their work benefits employees by ensuring fair hiring practices and promoting a positive work environment, and it benefits businesses by maximizing efficiency and reducing turnover. Because they are involved in systemic changes like designing new employee review processes or restructuring teams, they often require extensive access to sensitive company data and frequent collaboration across multiple departments. In the domain of selection and placement, I-O psychologists focus on identifying the best candidates through rigorous testing and structured interviews. Conversely, when focusing on the quality of work life, they might conduct surveys to assess employee satisfaction or design interventions to mitigate workplace stress. A persistent challenge facing this field is the debate over balancing profit-driven corporate goals with the ethical responsibility of promoting genuine employee well-being, as these two objectives are often in conflict. --- QUESTION --- What is the passage mainly about?",
+        "options": [
+            "A) The methodological challenges in conducting large-scale employee satisfaction surveys",
+            "B) The importance of ethical guidelines in industrial and organizational psychology",
+            "C) The various strategies used by I-O psychologists to reduce workplace stress",
+            "D) The core functions and inherent challenges of Organizational (I-O) Psychology",
+            "E) The history and evolution of Industrial-Organizational Psychology as a discipline"
+        ],
+        "answer": "D"
+    },
+    "33": {
+        "question": "Matt: -I think many people are misled to assume that generative AI has a direct bearing mainly on digital art forms, not on traditional crafts like sculpting. Sam: ------ Matt: -Exactly yes. Research has found that as AI-driven tools become more accessible, many traditional artisans find it much harder to maintain competitive pricing. Cost reduction is a common challenge, particularly in markets with high labor competition. Sam: - That makes sense given the fact that the cost of developing a prototype has already dropped by 40% since the introduction of large-scale generative models.",
+        "options": [
+            "A) Do you imply that algorithms contribute to the ethical issues associated with digital art?",
+            "B) Do you mean that the profitability of traditional crafts is also affected by generative AI?",
+            "C) Do you suggest that it is difficult to estimate the impacts of generative AI on creative output?",
+            "D) Do you claim that researchers are trying to cancel out the efficiency deficits of traditional crafts?",
+            "E) Do you believe that artists are the agents and craftspeople are the victims of technological change?"
+        ],
+        "answer": "B"
+    },
+    "34": {
+        "question": "Mike: -I think many people are misled to assume that Charles Darwin's theory of natural selection was celebrated and universally accepted upon its publication, given the vast evidence he collected. Tiffany: ------ Mike: -It's horrible to hear that they were judged unfairly.",
+        "options": [
+            "A) In fact, for decades, it was met with intense religious and scientific criticism from contemporaries, who viewed proponents as radical thinkers, considering the subjective evidence nothing more than a speculative concept.",
+            "B) Definitely! He was asked to share his experiences with others. Not only ordinary people but also philosophers were in close contact with him to learn more about the concept.",
+            "C) Well, the theory had been thought to have supernatural powers until genetics clearly defined the characteristics of inheritance and detected its prevalence.",
+            "D) As far as I know, the idea of evolution was not regarded as a serious subject for decades. A major factor for such late attention was that naturalists were thought to be highly emotional and poetic rather than having a solid physical mechanism.",
+            "E) After all, his theory explained many formations others were deprived of in their models. I'm not certain but it must have been the same for other rejected ideas in the past."
+        ],
+        "answer": "A"
+    },
+    "35": {
+        "question": "The preservation of ancient monuments is essential for understanding human history, but few educational institutions organize trips to these sites because of the high liability costs associated with student travel.",
+        "options": [
+            "A) Despite the high liability costs associated with student travel, many educational institutions still organize trips to ancient monuments, which are essential for understanding human history.",
+            "B) The high liability costs associated with student travel may prevent institutions from organizing trips to ancient monuments; however, the number of institutions that ignore these costs is quite high.",
+            "C) Although the preservation of ancient monuments is essential for understanding human history, only a small number of educational institutions organize trips to these sites due to the substantial liability expenses involved in student travel.",
+            "D) Preserving ancient monuments is essential for history, but this fact does not seem to encourage most educational institutions to organize trips because of the high liability costs.",
+            "E) There is a limited number of institutions that agree on the importance of preserving ancient monuments, even though the high liability costs associated with student travel may not significantly affect them."
+        ],
+        "answer": "C"
+    },
+    "36": {
+        "question": "The challenging conditions in the academic labor market prompt highly qualified researchers to seek employment abroad, which ultimately delays innovation and restricts the long-term economic growth of their home country.",
+        "options": [
+            "A) Innovation and long-term economic growth are significantly delayed because highly qualified researchers are already working abroad, having left the academic labor market.",
+            "B) The scarcity of opportunities in the academic labor market often results in highly skilled researchers pursuing jobs overseas, consequently impeding local innovation and limiting the long-term economic expansion of their nation.",
+            "C) Highly qualified researchers delay innovation and restrict economic growth primarily because the academic labor market conditions abroad are better than those in their home country.",
+            "D) The restriction of long-term economic growth is the primary driver compelling highly qualified researchers to seek employment in a challenging academic labor market.",
+            "E) Only a few highly qualified researchers remain in the academic labor market, which, in turn, helps to delay innovation and restrict the economic growth of their home country."
+        ],
+        "answer": "B"
+    },
+    "37": {
+        "question": "The rise of antibiotic-resistant bacteria poses one of the most significant public health challenges of the 21st century. To combat this growing threat, medical guidelines now strictly recommend that doctors utilize rapid diagnostic tests before prescribing antibiotics, ensuring the treatment is targeted only when a bacterial infection is confirmed. This protocol, known as Antibiotic Stewardship, is widely promoted as the most effective strategy for preserving the efficacy of existing drugs. ----- Furthermore, many hospital systems lack the necessary infrastructure to track antibiotic usage data effectively, making it nearly impossible to identify where resistance hotspots are emerging.",
+        "options": [
+            "A) Unfortunately, the increasing demand for specialized doctors often leads to lengthy delays in receiving these rapid diagnostic test results.",
+            "B) This strategic approach to prescribing also significantly reduces the chance of side effects and secondary infections caused by unnecessary medication.",
+            "C) While this evidence-based stewardship is the best defense against resistance, successful implementation across diverse healthcare settings remains patchy and inconsistent.",
+            "D) The development of new classes of antibiotics has largely stalled, making the careful use of current medications even more critical for global health security.",
+            "E) Patients often pressure their primary care physicians for antibiotics, even when their symptoms indicate a viral rather than a bacterial infection."
+        ],
+        "answer": "C"
+    },
+    "38": {
+        "question": "Modern solar panels efficiently convert sunlight into electricity, offering a clean alternative to fossil fuels while emitting very little carbon dioxide during operation. In 2018, environmental engineer Dr. Lena Kros claimed that the photovoltaic cells, a widely used solar technology, contributed significantly to water pollution. Her argument was based on data showing that since the mass production of panels began, heavy metal concentrations in local landfills have increased. ----- However, many scientists agree that the long-term environmental costs of panel disposal have not yet been sufficiently clarified.",
+        "options": [
+            "A) Photovoltaic technology is one of the most commercially successful renewable energy sources and its efficiency is rapidly improving.",
+            "B) A group of environmentalists have studied the manufacturing history of solar cells, such as cadmium telluride and thin-film, and analyzed their adoption rates.",
+            "C) Furthermore, solar panels can also be used in remote sensor arrays, space stations, and portable charging devices.",
+            "D) This caused heated debate, but since then, most life-cycle assessments have found that panel usage significantly reduces overall emissions, and regulatory bodies allow large-scale solar projects today.",
+            "E) It is evident that governments and the energy sector express uncertainty regarding the viability of solar technology due to its changing efficiency status."
+        ],
+        "answer": "D"
+    },
+    "39": {
+        "question": " (I) Despite the legal protections offered, whistleblowers should ethically report internal misconduct directly to management before resorting to public disclosure. (II) Whistleblowers are employees who expose illegal, unethical, or otherwise damaging activities occurring within an organization to the public or to regulatory bodies. (III) Their actions are often crucial to enforcing corporate accountability, particularly in sectors where internal controls have failed to prevent malfeasance. (IV) Consequently, the information they provide frequently serves as the starting point for large-scale government investigations and major regulatory overhauls. (V) The existence of legal frameworks designed to protect these individuals has encouraged greater organizational transparency and facilitated the detection of widespread fraud.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "A"
+    },
+    "40": {
+        "question": "(I) Before the widespread availability of broadband, Internet access was severely limited by slow dial-up speeds and high connection costs. (II) This initial obstacle meant that early web content was largely text-based, focusing primarily on information exchange rather than media consumption. (III) The rise of social media platforms in the mid-2000s fundamentally altered online behavior by shifting the focus from passive consumption to active content generation. (IV) Today, over half of the global population is connected to the Internet, demonstrating its unparalleled reach across diverse geographical and socioeconomic groups. (V) This shift led to entirely new business models, created the concept of the 'influencer', and necessitated new regulations regarding data privacy and online conduct.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "D"
+    }
+}

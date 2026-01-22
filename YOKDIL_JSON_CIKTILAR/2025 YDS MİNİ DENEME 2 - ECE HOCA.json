@@ -1,0 +1,447 @@
+{
+    "1": {
+        "question": "In modern education systems, many schools prioritize student mental health by implementing wellness programs and creating supportive environments for academic and emotional growth.",
+        "options": [
+            "A) simulate",
+            "B) compensate",
+            "C) distribute",
+            "D) prioritise",
+            "E) hamper"
+        ],
+        "answer": "D"
+    },
+    "2": {
+        "question": "Marie Curie was a pioneering scientist who made groundbreaking contributions to the field of radioactivity, earning two Nobel Prizes in different scientific fields — Physics in 1903 and Chemistry in 1911.",
+        "options": [
+            "A) classifications",
+            "B) restrictions",
+            "C) contributions",
+            "D) retentions",
+            "E) stagnations"
+        ],
+        "answer": "C"
+    },
+    "3": {
+        "question": "Just as poor nutrition and lack of exercise can increase the risk of chronic diseases such as heart disease and diabetes, so excessive stress from work and personal life can lead to a weakened immune system.",
+        "options": [
+            "A) intuitive",
+            "B) excessive",
+            "C) comprehensive",
+            "D) unreasonable",
+            "E) preliminary"
+        ],
+        "answer": "B"
+    },
+    "4": {
+        "question": "A navigation system based on radar technology, the air traffic control system, was originally designed for aviation purposes to precisely track aircraft positions in all kinds of weather conditions.",
+        "options": [
+            "A) inextricably",
+            "B) precisely",
+            "C) superficially",
+            "D) dismissively",
+            "E) ardently"
+        ],
+        "answer": "B"
+    },
+    "5": {
+        "question": "During the process of mitosis, the cell dismantles its components, breaking down smaller cellular classes, each of which eventually forms a distinct part of the new daughter cells.",
+        "options": [
+            "A) coming along",
+            "B) giving off",
+            "C) taking over",
+            "D) breaking down",
+            "E) calling for"
+        ],
+        "answer": "D"
+    },
+    "6": {
+        "question": "English physicist Isaac Newton sought to develop a mathematical framework in which the laws of motion would describe the fundamental forces of nature and their effects on celestial bodies.",
+        "options": [
+            "A) to be developed / can describe",
+            "B) to have developed / had to describe",
+            "C) to develop / would describe",
+            "D) developing / must have described",
+            "E) having been developed / should have described"
+        ],
+        "answer": "C"
+    },
+    "7": {
+        "question": "If a laboratory modifies an individual's genetic material by editing their DNA to correct mutations, this process could be considered a groundbreaking treatment, necessitating rigorous testing and regulatory approval as a new form of gene therapy.",
+        "options": [
+            "A) While",
+            "B) Until",
+            "C) Just as",
+            "D) If",
+            "E) Before"
+        ],
+        "answer": "D"
+    },
+    "8": {
+        "question": "The long-term effects of a healthy diet have frequently been evaluated in terms of weight management, possibly because this is straightforward to track.",
+        "options": [
+            "A) thanks to",
+            "B) in terms of",
+            "C) in fear of",
+            "D) in spite of",
+            "E) rather than"
+        ],
+        "answer": "B"
+    },
+    "9": {
+        "question": "The Pythagorean theorem was initially developed for practical needs but it provided an intellectual pursuit to early scholars who searched for multi-digit numbers.",
+        "options": [
+            "A) in / for",
+            "B) through / of",
+            "C) for / to",
+            "D) under / at",
+            "E) behind / above"
+        ],
+        "answer": "C"
+    },
+    "10": {
+        "question": "The terrain of Brazil, spanning from the vast Amazon rainforest to the arid northeastern regions, varies dramatically across the country's different regions, since both the annual rainfall patterns and varying temperatures play a significant role in shaping Brazil's diverse geography.",
+        "options": [
+            "A) as / as",
+            "B) neither / nor",
+            "C) both / and",
+            "D) such / that",
+            "E) the more / the more"
+        ],
+        "answer": "C"
+    },
+    "11": {
+        "passage":"In the 6th century there was no significant understanding of bacteria and their role in the spread of diseases, and nothing was yet known anywhere about genes and their critical influence in determining who survived and who did not. These are the reasons for the perplexity experienced by the physicians when they tried their best (11) ---- the sick and the results were disappointing. It was the same centuries later when the same Black Death that (12) ---- Constantinople in 542 swept over London in 1665. Many people in London, (13) ---- gravediggers, who were constantly exposed to infected bodies, stayed quite healthy (14) ---- those who had just a single exposure to the infection died (15) ---- two days. In 1990s, researchers solved the problem. Those who had a particular gene, commonly known as Delta 32, did not catch the disease if they inherited this gene from both parents. If they received the gene from only one parent, they got sick but they recovered.",
+        "question":"",
+        "options": [
+            "A) to be saved",
+            "B) to have been saved",
+            "C) to save",
+            "D) save",
+            "E) being saved"
+        ],
+        "answer": "C"
+    },
+    "12": {
+        "passage":"In the 6th century there was no significant understanding of bacteria and their role in the spread of diseases, and nothing was yet known anywhere about genes and their critical influence in determining who survived and who did not. These are the reasons for the perplexity experienced by the physicians when they tried their best (11) ---- the sick and the results were disappointing. It was the same centuries later when the same Black Death that (12) ---- Constantinople in 542 swept over London in 1665. Many people in London, (13) ---- gravediggers, who were constantly exposed to infected bodies, stayed quite healthy (14) ---- those who had just a single exposure to the infection died (15) ---- two days. In 1990s, researchers solved the problem. Those who had a particular gene, commonly known as Delta 32, did not catch the disease if they inherited this gene from both parents. If they received the gene from only one parent, they got sick but they recovered.",
+        "question":"",
+        "options": [
+            "A) enhanced",
+            "B) overtook",
+            "C) evaluated",
+            "D) wandered",
+            "E) dissolved"
+        ],
+        "answer": "B"
+    },
+    "13": {
+        "passage":"In the 6th century there was no significant understanding of bacteria and their role in the spread of diseases, and nothing was yet known anywhere about genes and their critical influence in determining who survived and who did not. These are the reasons for the perplexity experienced by the physicians when they tried their best (11) ---- the sick and the results were disappointing. It was the same centuries later when the same Black Death that (12) ---- Constantinople in 542 swept over London in 1665. Many people in London, (13) ---- gravediggers, who were constantly exposed to infected bodies, stayed quite healthy (14) ---- those who had just a single exposure to the infection died (15) ---- two days. In 1990s, researchers solved the problem. Those who had a particular gene, commonly known as Delta 32, did not catch the disease if they inherited this gene from both parents. If they received the gene from only one parent, they got sick but they recovered.",
+        "question":"",
+        "options": [
+            "A) similar to",
+            "B) in the hope of",
+            "C) in accordance with",
+            "D) such as",
+            "E) other than"
+        ],
+        "answer": "D"
+    },
+    "14": {
+        "passage":"In the 6th century there was no significant understanding of bacteria and their role in the spread of diseases, and nothing was yet known anywhere about genes and their critical influence in determining who survived and who did not. These are the reasons for the perplexity experienced by the physicians when they tried their best (11) ---- the sick and the results were disappointing. It was the same centuries later when the same Black Death that (12) ---- Constantinople in 542 swept over London in 1665. Many people in London, (13) ---- gravediggers, who were constantly exposed to infected bodies, stayed quite healthy (14) ---- those who had just a single exposure to the infection died (15) ---- two days. In 1990s, researchers solved the problem. Those who had a particular gene, commonly known as Delta 32, did not catch the disease if they inherited this gene from both parents. If they received the gene from only one parent, they got sick but they recovered.",
+        "question":"",
+        "options": [
+            "A) while",
+            "B) as though",
+            "C) in that",
+            "D) once",
+            "E) whether"
+        ],
+        "answer": "A"
+    },
+    "15": {
+        "passage":"In the 6th century there was no significant understanding of bacteria and their role in the spread of diseases, and nothing was yet known anywhere about genes and their critical influence in determining who survived and who did not. These are the reasons for the perplexity experienced by the physicians when they tried their best (11) ---- the sick and the results were disappointing. It was the same centuries later when the same Black Death that (12) ---- Constantinople in 542 swept over London in 1665. Many people in London, (13) ---- gravediggers, who were constantly exposed to infected bodies, stayed quite healthy (14) ---- those who had just a single exposure to the infection died (15) ---- two days. In 1990s, researchers solved the problem. Those who had a particular gene, commonly known as Delta 32, did not catch the disease if they inherited this gene from both parents. If they received the gene from only one parent, they got sick but they recovered.",
+        "question":"",
+        "options": [
+            "A) during",
+            "B) for",
+            "C) at",
+            "D) along",
+            "E) within"
+        ],
+        "answer": "E"
+    },
+    "16": {
+        "question": "Albinism is an inherited problem caused by a flaw in one or more of the genes that are responsible for directing the eyes and skin to make the pigment melanin; as a result, little or no pigment is made, and the child's skin, eyes and hair may be colourless.",
+        "options": [
+            "A) for example, one of the greatest health hazards for people with albinism is excessive exposure to sun",
+            "B) as a result, little or no pigment is made, and the child's skin, eyes and hair may be colourless",
+            "C) on the contrary, there are many different types of albinism, involving a number of different genes",
+            "D) otherwise, genetic counselling is very important to prevent further occurrences of the condition",
+            "E) in other words, it is not always easy to diagnose the exact type of albinism a person has"
+        ],
+        "answer": "B"
+    },
+    "17": {
+        "question": "Unlike modern nations, Rome did not have professional diplomats, nor were there permanent offices or institutions to deal with foreign powers; however, the Romans carried out many formal diplomatic exchanges, creating almost all the elements of modern diplomacy.",
+        "options": [
+            "A) otherwise, Rome's main contribution to diplomacy was the establishment of a set of rules for declaring war and negotiating peace",
+            "B) however, the Romans carried out many formal diplomatic exchanges, creating almost all the elements of modern diplomacy",
+            "C) likewise, Roman foreign relations focused on making nations feel they owed loyalty to Rome, without taking away their independence",
+            "D) so, envoys, temporary officials, were protected and almost always given safe passage even in times of war",
+            "E) for example, one of the most important tasks of diplomacy was that of negotiating treaties that established territorial boundaries."
+        ],
+        "answer": "B"
+    },
+    "18": {
+        "question": "The distinction between hills and mountains is decided entirely by the people that live near them; thus, distinguishing mountains from smaller topographic features is partly a matter of perception.",
+        "options": [
+            "A) however, individual mountains rarely last very long in the powerfully erosive atmosphere of the Earth",
+            "B) thus, distinguishing mountains from smaller topographic features is partly a matter of perception",
+            "C) on the other hand, mountains, like every other thing in the natural world, go through a life cycle",
+            "D) for example, most of the mountain ranges in the planet's history rose and wore away at different times",
+            "E) still, throughout their almost four-billion-year history, the continents have been criss-crossed by many immense ranges of mountains"
+        ],
+        "answer": "B"
+    },
+    "19": {
+        "question": "Although there is still some way to go before mental health conditions are viewed in the same way as physical ones, these days, more people are open about their mental health issues, and this may encourage others to seek help when they need it.",
+        "options": [
+            "A) these days, more people are open about their mental health issues, and this may encourage others to seek help when they need it",
+            "B) controversy has surrounded the most popular class of antidepressants ever since their development in the 1990s",
+            "C) the once widely accepted explanation for how some antidepressants work is no longer thought to be correct",
+            "D) it is clear that mental health conditions are complicated, and that developing better treatments is going to be more complicated, too",
+            "E) researchers are developing tests that would tell people what kind of depression they have and what treatment is most likely to benefit them"
+        ],
+        "answer": "A"
+    },
+    "20": {
+        "question": "It is difficult to know how people adorned their bodies in prehistoric times since most of the remains are only bones, which do not yield enough information.",
+        "options": [
+            "A) since most of the remains are only bones, which do not yield enough information",
+            "B) just as jewellery and cosmetics were used for magical purposes",
+            "C) supposing that people have always used cosmetics of some kind",
+            "D) as prehistoric peoples used paints and dyes of various kinds to enhance their appearances",
+            "E) as long as some ancient tribes painted themselves and used tattoos as part of a war ritual"
+        ],
+        "answer": "A"
+    },
+    "21": {
+        "question": "Her ne kadar Leonardo da Vinci'nin mühendisliğe olan ilgisi, matematik kuramındaki ve Klasik mimarideki canlanmanın bir parçası olsa da, anatomik çalışmaları tam da tıp alanı Rönesans ruhunu yakalamaya başladığı sırada ortaya çıkmıstır.",
+        "options": [
+            "A) Despite the fact that his anatomical studies in the field of medicine were catching up with the spirit of the Renaissance, Leonardo da Vinci's interest in engineering started to develop when there was a renewal of mathematical theory and Classical architecture.",
+            "B) Whereas Leonardo da Vinci's interest in engineering was part of a revival of mathematical theory and Classical architecture, his anatomical studies came just as the field of medicine began to catch the Renaissance spirit.",
+            "C) Notwithstanding his interest in engineering as a renewal in mathematical theory and Classical architecture, Leonardo da Vinci's studies in anatomy were just in time with the field of medicine having caught the Renaissance spirit.",
+            "D) However much Leonardo da Vinci's engineering interests were within the reawakening of mathematical theory and Classical architecture, his studies in anatomy were produced at a time when the Renaissance spirit was catching up with the field of medicine.",
+            "E) Although Leonardo da Vinci's anatomical studies caught the spirit of the Renaissance in the field of medicine, his interest in engineering constituted a revival of mathematical theory and Classical architecture."
+        ],
+        "answer": "B"
+    },
+    "22": {
+        "question": "Dünya'nın dış kabuğundaki cıva miktarı diğer elementlere kıyasla nispeten daha azdır ancak büyük ve yüksek yoğunluklu yataklarda bulunduğu için cıva nadir bir element olarak değerlendirilmez.",
+        "options": [
+            "A) Despite existing in proportionately lower amounts in the Earth's crust compared to other elements, mercury is not regarded as a rare element since it is found in large and highly concentrated deposits.",
+            "B) The amount of mercury in the Earth's crust is relatively lower compared to other elements; however, mercury is not considered a rare element because it is found in large and highly concentrated deposits.",
+            "C) As it can be found in large and highly concentrated deposits, mercury is not among the rare elements, but the amount of mercury found in the Earth's crust is considered proportionately lower when compared to other elements.",
+            "D) The amount of mercury in the Earth's crust is relatively lower in relation to other elements, but it is not a rare element because it is found in deposits that are regarded as large and highly concentrated.",
+            "E) The amount of mercury in the Earth's crust is relatively lower, yet it cannot be considered a rare element since it is found in large and highly concentrated deposits in relation to other elements."
+        ],
+        "answer": "B"
+    },
+    "23": {
+        "question": "John Locke was a leading intellectual in the 17th-century England whose work in the fields of political science and education played a major role in shaping the 18th-century philosophy.",
+        "options": [
+            "A) Siyaset bilimi ve eğitim alanlarında çalışmalar yapan John Locke, 17. yüzyıl İngilteresi'nde önde gelen bir aydındı ve 18. yüzyıl felsefesinin şekillenmesinde büyük rol oynamıştı.",
+            "B) 17. yüzyıl İngilteresi'nin önde gelen aydınlarından biri olan John Locke, siyaset bilimi ve eğitim alanlarındaki çalışmalarıyla 18. yüzyıl felsefesinin şekillenmesinde büyük rol oynamıştır.",
+            "C) Siyaset bilimi ve eğitim alanlarındaki çalışmaları 18. yüzyıl felsefesini şekillendirmede büyük rol oynayan John Locke, 17. yüzyıl İngilteresi'nde önde gelen bir aydındı.",
+            "D) 18. yüzyıl felsefesinin şekillenmesinde büyük rol oynayan John Locke, siyaset bilimi ve eğitim alanlarındaki çalışmalarıyla 17. yüzyıl İngilteresi'nde önde gelen bir aydındı.",
+            "E) Siyaset bilimi ve eğitim alanlarındaki çalışmalarıyla 17. yüzyıl İngilteresi'nde önde gelen bir aydın olan John Locke, 18. yüzyıl felsefesinin şekillenmesinde büyük rol oynamıştır."
+        ],
+        "answer": "C"
+    },
+    "24": {
+        "question": "With the abandonment of the traditional perception considering art as the imitation of nature in the late 19th century, prominent artists such as the Russian painter Vasily Kandinsky developed the concept of abstract art.",
+        "options": [
+            "A) Sanatı doğanın taklidi olarak gören geleneksel algıyı. Rus ressam Vasily Kandinsky gibi önde gelen sanatçılar soyut sanat anlayışını geliştirerek 19. yüzyılın sonlarında terk etmiştir.",
+            "B) 19. yüzyılın sonlarında sanatı doğanın taklidi olarak gören geleneksel algının terk edilmesiyle Rus ressam Vasily Kandinsky gibi önde gelen sanatçılar soyut sanat anlayışını geliştirmiştir.",
+            "C) Rus ressam Vasily Kandinsky gibi önde gelen sanatçılar, 19, yüzyılın sonlarında sanatı doğanın taklidi olarak gören geleneksel algıyı terk ederek soyut sanat anlayışını geliştirmiştir.",
+            "D) 19. yüzyılın sonlarında Rus ressam Vasily Kandinsky gibi önde gelen sanatçılar, sanatı doğanın taklidi olarak gören geleneksel algının terk edilmesiyle soyut sanat anlayışını geliştirmiştir.",
+            "E) Soyut sanat anlayışı, 19. yüzyılın sonlarında sanatı doğanın taklidi olarak gören geleneksel algının terk edilmesiyle Rus ressam Vasily Kandinsky gibi önde gelen sanatçılar tarafından geliştirilmiştir."
+        ],
+        "answer": "B"
+    },
+    "25": {
+        "question": "--- PASSAGE --- Fasting could boost your brainpower. A stomach hormone that stimulates appetite seems to promote the growth of new brain cells and protect them from the effects of ageing – and may explain why some people say that fasting makes them feel sharper. Ghrelin is known as the hunger hormone, as it is made by the stomach when it gets empty. If we go a few hours without food, its levels rise in our blood. But there is also evidence that ghrelin can enhance cognition. Animals fed reduced-calorie diets have better mental abilities. Injecting ghrelin into mice improves their performance in learning and memory tests, and seems to boost the number of connections in their brains. Now Jeffrey Davies at Swansea University, UK, and his team have found further evidence that ghrelin can stimulate brain cells to divide and multiply, a process called neurogenesis. When they added the hormone to mouse brain cells grown in a dish, it switched on a gene known to trigger neurogenesis. “If the same happens in animals, this could be how ghrelin affects memory,” says Davies, whose work was presented at the British Neuroscience Association conference in 2017. The work may have implications for treating neurodegenerative conditions. Davies's team have found that ghrelin, or chemicals that act the same way, could help treat some conditions like Parkinson’s disease.",
+        "options": [
+            "A) is called the hunger hormone because it prevents one from feeling hungry for long hours",
+            "B) is produced by the body in higher amounts when there are more brain cell connections in the brain",
+            "C) slows down the neurogenesis process when produced in considerably low amounts",
+            "D) plays a role in a number of functions from the production of new brain cells to enhanced mental abilities",
+            "E) affects our appetite in a negative way and causes us to consume more food than we actually need"
+        ],
+        "answer": "D"
+    },
+    "26": {
+        "question": "--- PASSAGE --- Fasting could boost your brainpower. A stomach hormone that stimulates appetite seems to promote the growth of new brain cells and protect them from the effects of ageing – and may explain why some people say that fasting makes them feel sharper. Ghrelin is known as the hunger hormone, as it is made by the stomach when it gets empty. If we go a few hours without food, its levels rise in our blood. But there is also evidence that ghrelin can enhance cognition. Animals fed reduced-calorie diets have better mental abilities. Injecting ghrelin into mice improves their performance in learning and memory tests, and seems to boost the number of connections in their brains. Now Jeffrey Davies at Swansea University, UK, and his team have found further evidence that ghrelin can stimulate brain cells to divide and multiply, a process called neurogenesis. When they added the hormone to mouse brain cells grown in a dish, it switched on a gene known to trigger neurogenesis. “If the same happens in animals, this could be how ghrelin affects memory,” says Davies, whose work was presented at the British Neuroscience Association conference in 2017. The work may have implications for treating neurodegenerative conditions. Davies's team have found that ghrelin, or chemicals that act the same way, could help treat some conditions like Parkinson’s disease.",
+        "options": [
+            "A) ended up working on the neurogenesis process by chance when he was working on Parkinson’s disease.",
+            "B) discovered that ghrelin contributes to neurogenesis, which might be the reason why it improves memory",
+            "C) presented his study at the British Neuroscience Association conference in order to increase awareness of Parkinson's disease",
+            "D) thinks that more research on ghrelin is needed in order to understand its effects on Parkinson's disease",
+            "E) believes that ghrelin affects memory in mice differently from humans"
+        ],
+        "answer": "B"
+    },
+    "27": {
+        "question": "--- PASSAGE --- Fasting could boost your brainpower. A stomach hormone that stimulates appetite seems to promote the growth of new brain cells and protect them from the effects of ageing – and may explain why some people say that fasting makes them feel sharper. Ghrelin is known as the hunger hormone, as it is made by the stomach when it gets empty. If we go a few hours without food, its levels rise in our blood. But there is also evidence that ghrelin can enhance cognition. Animals fed reduced-calorie diets have better mental abilities. Injecting ghrelin into mice improves their performance in learning and memory tests, and seems to boost the number of connections in their brains. Now Jeffrey Davies at Swansea University, UK, and his team have found further evidence that ghrelin can stimulate brain cells to divide and multiply, a process called neurogenesis. When they added the hormone to mouse brain cells grown in a dish, it switched on a gene known to trigger neurogenesis. “If the same happens in animals, this could be how ghrelin affects memory,” says Davies, whose work was presented at the British Neuroscience Association conference in 2017. The work may have implications for treating neurodegenerative conditions. Davies's team have found that ghrelin, or chemicals that act the same way, could help treat some conditions like Parkinson’s disease.",
+        "options": [
+            "A) protected",
+            "B) covered",
+            "C) maintained",
+            "D) transferred",
+            "E) activated"
+        ],
+        "answer": "E"
+    },
+    "28": {
+        "question": "--- PASSAGE --- Fasting could boost your brainpower. A stomach hormone that stimulates appetite seems to promote the growth of new brain cells and protect them from the effects of ageing – and may explain why some people say that fasting makes them feel sharper. Ghrelin is known as the hunger hormone, as it is made by the stomach when it gets empty. If we go a few hours without food, its levels rise in our blood. But there is also evidence that ghrelin can enhance cognition. Animals fed reduced-calorie diets have better mental abilities. Injecting ghrelin into mice improves their performance in learning and memory tests, and seems to boost the number of connections in their brains. Now Jeffrey Davies at Swansea University, UK, and his team have found further evidence that ghrelin can stimulate brain cells to divide and multiply, a process called neurogenesis. When they added the hormone to mouse brain cells grown in a dish, it switched on a gene known to trigger neurogenesis. “If the same happens in animals, this could be how ghrelin affects memory,” says Davies, whose work was presented at the British Neuroscience Association conference in 2017. The work may have implications for treating neurodegenerative conditions. Davies's team have found that ghrelin, or chemicals that act the same way, could help treat some conditions like Parkinson’s disease.",
+        "options": [
+            "A) To describe how the neurogenesis process takes place in human brain",
+            "B) To highlight that the brain can gain substantial benefits from increased levels of ghrelin",
+            "C) To discuss whether ghrelin could be used as a treatment for Parkinson's disease",
+            "D) To emphasise the importance of Davies 's study on mice and their mental abilities",
+            "E) To draw particular attention to the 2017 conference held by the British Neuroscience Association"
+        ],
+        "answer": "B"
+    },
+    "29": {
+        "question": "--- PASSAGE --- Genetic testing of a 90,000-year-old sliver of bone from a 13-year-old girl has provided clear evidence of interbreeding between two distinct groups of early humans, something researchers had long suspected. Earlier analysis of the girl's mitochondrial DNA had shown that her mother was of Neanderthal ancestry. In addition to the studies carried out before, the new research, this time led by paleogeneticists at the Max Planck Institute, examined her entire genome. They then compared it to previously sequenced paleogenomes, including those of other ancient humans. The results were unambiguous - the girl's DNA matched Neanderthal and Denisovan genomes to an equal degree. She had a Neanderthal mother and a Denisovan father. \"When I first saw this combined ancestry, I got worried that I had made a mistake in the lab, and that this was somehow a mix-up of two different bones,\" says Max Planck's Viviane Slon. “It was only after repeating the experiments several times and consistently seeing the same result, that I convinced myself - and my colleagues- that the girl’s mixed ancestry was real.” The team’s finding of a direct offspring of a Neanderthal and a Denisovan implies that individuals from the two groups mixed when they had the opportunity to meet. \"Taken together with evidence that Neanderthals and Denisovans also mixed with ancient modern humans,\" says Slon, \"this suggests that different groups of humans have always mixed when encountering each other.",
+        "options": [
+            "A) This is the first time DNA testing was performed on an old bone to identify interbreeding.",
+            "B) This is the oldest bone on which mitochondrial testing has been done.",
+            "C) Previous genetic testing on it contradicted the one done at the Max Planck Institute.",
+            "D) The findings of the recent research on it have confirmed a long-standing theory.",
+            "E) The research done at the Max Planck Institute was the first one to involve paleogeneticists in a study to prove interbreeding."
+        ],
+        "answer": "D"
+    },
+    "30": {
+        "question": "--- PASSAGE --- Genetic testing of a 90,000-year-old sliver of bone from a 13-year-old girl has provided clear evidence of interbreeding between two distinct groups of early humans, something researchers had long suspected. Earlier analysis of the girl's mitochondrial DNA had shown that her mother was of Neanderthal ancestry. In addition to the studies carried out before, the new research, this time led by paleogeneticists at the Max Planck Institute, examined her entire genome. They then compared it to previously sequenced paleogenomes, including those of other ancient humans. The results were unambiguous - the girl's DNA matched Neanderthal and Denisovan genomes to an equal degree. She had a Neanderthal mother and a Denisovan father. \"When I first saw this combined ancestry, I got worried that I had made a mistake in the lab, and that this was somehow a mix-up of two different bones,\" says Max Planck's Viviane Slon. “It was only after repeating the experiments several times and consistently seeing the same result, that I convinced myself - and my colleagues- that the girl’s mixed ancestry was real.” The team’s finding of a direct offspring of a Neanderthal and a Denisovan implies that individuals from the two groups mixed when they had the opportunity to meet. \"Taken together with evidence that Neanderthals and Denisovans also mixed with ancient modern humans,\" says Slon, \"this suggests that different groups of humans have always mixed when encountering each other.",
+        "options": [
+            "A) provides a valuable insight only if the findings are compared to other sequenced genomes",
+            "B) reveals a strong resemblance between the DNA of Neanderthals and Denisovans",
+            "C) often includes mistakes and mix-ups",
+            "D) had been done previously by other researchers",
+            "E) had never been attempted at the Max Planck Institute"
+        ],
+        "answer": "D"
+    },
+    "31": {
+        "question": "--- PASSAGE --- Genetic testing of a 90,000-year-old sliver of bone from a 13-year-old girl has provided clear evidence of interbreeding between two distinct groups of early humans, something researchers had long suspected. Earlier analysis of the girl's mitochondrial DNA had shown that her mother was of Neanderthal ancestry. In addition to the studies carried out before, the new research, this time led by paleogeneticists at the Max Planck Institute, examined her entire genome. They then compared it to previously sequenced paleogenomes, including those of other ancient humans. The results were unambiguous - the girl's DNA matched Neanderthal and Denisovan genomes to an equal degree. She had a Neanderthal mother and a Denisovan father. \"When I first saw this combined ancestry, I got worried that I had made a mistake in the lab, and that this was somehow a mix-up of two different bones,\" says Max Planck's Viviane Slon. “It was only after repeating the experiments several times and consistently seeing the same result, that I convinced myself - and my colleagues- that the girl’s mixed ancestry was real.” The team’s finding of a direct offspring of a Neanderthal and a Denisovan implies that individuals from the two groups mixed when they had the opportunity to meet. \"Taken together with evidence that Neanderthals and Denisovans also mixed with ancient modern humans,\" says Slon, \"this suggests that different groups of humans have always mixed when encountering each other.",
+        "options": [
+            "A) neutral",
+            "B) supportive",
+            "C) sceptical",
+            "D) envious",
+            "E) indifferent"
+        ],
+        "answer": "C"
+    },
+    "32": {
+        "question": "--- PASSAGE --- Genetic testing of a 90,000-year-old sliver of bone from a 13-year-old girl has provided clear evidence of interbreeding between two distinct groups of early humans, something researchers had long suspected. Earlier analysis of the girl's mitochondrial DNA had shown that her mother was of Neanderthal ancestry. In addition to the studies carried out before, the new research, this time led by paleogeneticists at the Max Planck Institute, examined her entire genome. They then compared it to previously sequenced paleogenomes, including those of other ancient humans. The results were unambiguous - the girl's DNA matched Neanderthal and Denisovan genomes to an equal degree. She had a Neanderthal mother and a Denisovan father. \"When I first saw this combined ancestry, I got worried that I had made a mistake in the lab, and that this was somehow a mix-up of two different bones,\" says Max Planck's Viviane Slon. “It was only after repeating the experiments several times and consistently seeing the same result, that I convinced myself - and my colleagues- that the girl’s mixed ancestry was real.” The team’s finding of a direct offspring of a Neanderthal and a Denisovan implies that individuals from the two groups mixed when they had the opportunity to meet. \"Taken together with evidence that Neanderthals and Denisovans also mixed with ancient modern humans,\" says Slon, \"this suggests that different groups of humans have always mixed when encountering each other.",
+        "options": [
+            "A) Interbreeding among different ethnic groups is not a modern concept.",
+            "B) It was previously inconceivable that early humans could interbreed.",
+            "C) More research is needed to conclusively identify the extent of early interbreeding.",
+            "D) Irregularities in genetic purity in different ethnic groups started in Neanderthal times.",
+            "E) Researchers do not need to compare the entire genome to identify the extent of interbreeding"
+        ],
+        "answer": "A"
+    },
+    "33": {
+        "question": "Journalist: You always highlight the importance of keeping a checklist during complex operations. You’ve also written a book on how to create such checklists. Why do we need them? Surgeon: Well, they're memory aids. They can help you perform well when you're working with many people on a complex procedure which eventually will save lives during surgery. Journalist: How did you come to the decision that checklists are really beneficial? Surgeon: A checklist was used during surgical procedures for 8,000 patients in eight hospitals around the world. In every hospital, major complications were reduced by 36 percent and the death rate was lowered by half.",
+        "options": [
+            "A) How did you come to the decision that checklists are really beneficial?",
+            "B) How did you manage to create a common checklist to be used in various complications?",
+            "C) How exactly can a checklist be used during a surgical procedure?",
+            "D) How could you spare enough time to write a book on checklists while working as a surgeon?",
+            "E) How did you convince your medical staff to start using a checklist?"
+        ],
+        "answer": "A"
+    },
+    "34": {
+        "question": "Journalist: So, your company has set up a system that offers online clinical-counselling, and you're the chief operating officer. Do you think e-therapy is more effective for certain people? Psychologist: Of course, for any therapy to be effective, it has to meet the individual needs of patients. E therapy may appeal to people looking for convenience, flexibility and privacy, in particular. College students and workers with not much time usually opt for our online services. Journalist: What is the biggest myth about e-therapy? Psychologist: People have a tendency to think that because you're using an online service, it must be impersonal and can't have the same effect. But it's not true. The difference in results between e-therapy and a face-to-face one is quite minimal.",
+        "options": [
+            "A) How do you talk tech-challenged people into e-therapy?",
+            "B) Why do you think e-therapy will overtake face-to-face therapy?",
+            "C) What is the biggest myth about e-therapy?",
+            "D) How does an e-therapy session work?",
+            "E) How does e-therapy help people with a serious mental illness?"
+        ],
+        "answer": "C"
+    },
+    "35": {
+        "question": "Although there are no known side effects associated with recommended dosages of saffron preparations in healthy individuals, people with chronic medical conditions should consult with their healthcare professional before taking the herb.",
+        "options": [
+            "A) If saffron preparations are consumed in sufficient amounts by healthy individuals and provide only benefits, then it goes without saying that patients with chronic medical conditions can safely take them after consulting their healthcare specialist.",
+            "B) It is advisable for individuals with chronic medical conditions to see their healthcare specialist prior to taking saffron treatments despite there being no side effects in healthy people when taking the herb in suggested amounts.",
+            "C) While little is known about the dangers for healthy individuals taking saffron preparations, it is certain that people with chronic medical conditions should approach their healthcare professional before consuming the herb.",
+            "D) Since healthy individuals can freely take saffron preparations, patients with chronic medical illnesses can, after seeing their healthcare professional, take the herb in recommended dosages.",
+            "E) Regardless of how much saffron an individual with a chronic medical condition can take after consulting their healthcare specialist, a healthy person has to take only the recommended amounts of the herb to avoid any side effects"
+        ],
+        "answer": "B"
+    },
+    "36": {
+        "question": "According to a study, 74% of photos we snap on our mobile phones are never looked at again, with selfies being the most easily forgotten shots.",
+        "options": [
+            "A) Research suggests that it is easy to forget that we have taken a selfie and 74% of such photos are taken with our mobile phones.",
+            "B) A study suggests that 74% of photos we take using our mobile phones consist of selfies that are not viewed again, which makes us forget them easily.",
+            "C) It was revealed by a research study that we easily forget to take a look again at 74% of photos we take with our mobile phones and selfies are some of them.",
+            "D) A study finding pointed out that selfies are among 74% of photos we take which we easily forget to look at again on our mobile phones.",
+            "E) A study revealed that 74% of photos taken with our mobile phones are not viewed again, including selfies, which are the shots that we forget the most easily."
+        ],
+        "answer": "E"
+    },
+    "37": {
+        "question": "Gerontechnology, a new area in the study of human aging, has focused on developing technology to promote independence and reduce disabilities associated with old age. Although the promise of new technologies is great for making life easier, this potential is highly dependent on the ability of older adults to learn to use such technologies. For this reason, it is important that effective training programmes be developed to teach older adults how to use new technology. The discipline known as human factors provides an effective means of accomplishing this goal. Human factor is a science focused on optimising interactions between humans and the machines they use, thereby resulting in improved safety and quality of life. When developing methods to teach older adults to use new technologies, a systems-approach is effective because the characteristics of the person, the environment, and the technology itself are considered through a series of steps.",
+        "options": [
+            "A) New technologies may cause some occupations to lose their importance as the service they provide is no longer needed such as home care for the elderly.",
+            "B) To evaluate a programme, measures of successful learning such as retention of information and ease of device usage should be examined.",
+            "C) Training techniques such as the provision of well-organised written instructions may assist in reconciling the differences between task requirements and personal limitations",
+            "D) Non-users of new technologies such as the Internet share common goals with older adults and express positive attitudes about learning to use new technology.",
+            "E) Although the promise of new technologies is great for making life easier, this potential is highly dependent on the ability of older adults to learn to use such technologies."
+        ],
+        "answer": "E"
+    },
+    "38": {
+        "question": "To an outsider it may seem that the term 'Aboriginal' serves as a name for a single population, a disparate but ultimately homogeneous people. Yet, in truth there are hundreds of different clans each equipped with their own tongues and belief systems and scattered across the continent. While the majority of Indigenous Australians lived in coastal areas, others occupied islands off the mainland, including the Tiwi Islands to the north and Tasmania in the south. Others remained closer to New Guinea, settling on the Torres Strait Islands above the northern tip of Queensland. Although they are classified as Aboriginals, the Torres Strait Islanders are of Melanesian descent and share many traits and customs with the people of what is today Papua New Guinea.",
+        "options": [
+            "A) In fact, people are confused by the term, many taking it to mean something along the lines of 'not the original ones', which is rather misleading.",
+            "B) However, historians and anthropologists are yet to agree exactly when these peoples originated.",
+            "C) Yet, in truth there are hundreds of different clans each equipped with their own tongues and belief systems and scattered across the continent.",
+            "D) Furthermore, one people of the Australian continent would have shared cultural similarities with that of another.",
+            "E) Hence, the Native Americans of the United States and the Aboriginals of Australia suffered a similar fate."
+        ],
+        "answer": "C"
+    },
+    "39": {
+        "question":"(I) The Ancient Greeks believed that writing played an important part in the development of civilisation. (II) The Greeks used an alphabet, a set of symbols or letters representing various sounds, in their system of writing. (III) They associated the use of written language with order and democracy. (IV) Sometime around 600 BСЕ, for example, the Athenian politician Solon had his new laws written on a large wooden tablet and placed on display so all could see them. (V) This permanent posting of the laws made it clear that they were fixed and that they applied to everyone.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "B"
+    },
+    "40": {
+        "qquestion":"(I)Game theory is a branch of mathematics concemed with the analysis of conflict situations. (II) It involves determining a strategy for a given situation and the costs or benefits realised by using the strategy. (III) First developed in the early 20th century, I was originally applied to parfour games snch as chess. (IV) Now, game theory is applied to a wide range of subjects such as economics, behavioural sciences, sociology, military science, and political science. (V) The theory received little attention until 1944 when John von Neumann and economist Oskar Morgenstern wrote the classic treatise Theory of Games and Economic Behavior",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "E"
+    }
+}

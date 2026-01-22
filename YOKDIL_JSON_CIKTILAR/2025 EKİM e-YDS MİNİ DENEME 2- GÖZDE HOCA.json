@@ -1,0 +1,447 @@
+{
+    "1": {
+        "question": "The recently published report is a comprehensive ----- of decades of climate data, expert interviews, and field research, aiming to provide policymakers with a thorough understanding of environmental trends.",
+        "options": [
+            "A) disposal",
+            "B) deduction",
+            "C) abolition",
+            "D) compilation",
+            "E) absence"
+        ],
+        "answer": "D"
+    },
+    "2": {
+        "question": "Although the initial results of the clinical trial appeared promising, the researchers emphasized that larger sample sizes and longer observation periods are required to reach ----- evidence regarding the drug’s long-term efficacy.",
+        "options": [
+            "A) dubious",
+            "B) arduous",
+            "C) intricate",
+            "D) revitalising",
+            "E) conclusive"
+        ],
+        "answer": "E"
+    },
+    "3": {
+        "question": "In order to ensure the validity and reliability of the archaeological findings, each artifact recovered from the site must be cleaned, catalogued, and analyzed ----- before any interpretations are made.",
+        "options": [
+            "A) compellingly",
+            "B) thoroughly",
+            "C) notoriously",
+            "D) covertly",
+            "E) inherently"
+        ],
+        "answer": "B"
+    },
+    "4": {
+        "question": "Despite decades of extensive research and increasingly sophisticated technologies, the unpredictable nature of seismic activity continues to ----- geologists, who are still unable to provide accurate, real-time forecasts that could prevent widespread destruction.",
+        "options": [
+            "A) perplex",
+            "B) assuage",
+            "C) underpin",
+            "D) plunder",
+            "E) envisage"
+        ],
+        "answer": "A"
+    },
+    "5": {
+        "question": "Global economic systems are deeply interconnected, and while emerging markets face substantial obstacles such as political instability and infrastructure deficits, some manage to ----- these challenges through strategic planning, foreign investment, and adaptive governance.",
+        "options": [
+            "A) thrust on",
+            "B) wind down",
+            "C) prevail over",
+            "D) set off",
+            "E) range against"
+        ],
+        "answer": "C"
+    },
+    "6": {
+        "question": "----- a personalized nutrition plan based on one’s genetic profile has gained popularity in recent years; however, many experts warn that such approaches may overlook crucial factors if the long-term effects of nutrient interactions ----- fully.",
+        "options": [
+            "A) To follow / are not to be understood",
+            "B) To have followed / are not understood",
+            "C) To be following / have not been understood",
+            "D) Having followed / have not understood",
+            "E) Following / are not understood"
+        ],
+        "answer": "E"
+    },
+    "7": {
+        "question": "Advances in medical technology make it possible to treat cardiovascular disease that ----- fatal even nearly 30 years ago, given that devices ----- the functions of the heart to overcome or compensate for disease and damage.",
+        "options": [
+            "A) might have been / had regulated",
+            "B) must have been / have regulated",
+            "C) had to be / regulated",
+            "D) would have been / regulate",
+            "E) should have been / will regulate"
+        ],
+        "answer": "D"
+    },
+    "8": {
+        "question": "Marie Curie, who dedicated her life ----- scientific discovery, is still admired for her unwavering commitment to the principle ----- radioactivity as a source of both danger and medical benefit.",
+        "options": [
+            "A) among / on",
+            "B) to / behind",
+            "C) under / during",
+            "D) along / over",
+            "E) from / for"
+        ],
+        "answer": "B"
+    },
+    "9": {
+        "question": "First introduced by Gregor Mendel in the 19th century, the principles of inheritance describe how traits are passed down ----- genes and how genetic mutations ----- adaptation play a crucial role in the evolutionary process.",
+        "options": [
+            "A) through / for",
+            "B) by / with",
+            "C) among / towards",
+            "D) into / of",
+            "E) at / about"
+        ],
+        "answer": "A"
+    },
+    "10": {
+        "question": "In order to gain more ----- how early humans processed metal, scientists placed high-resolution scanners ----- ancient furnaces to detect traces of chemical reactions.",
+        "options": [
+            "A) for / on",
+            "B) with / from",
+            "C) about / into",
+            "D) on / beneath",
+            "E) to / over"
+        ],
+        "answer": "C"
+    },
+    "11": {
+        "question": "Genetically modified crops are engineered to resist pests and tolerate harsh environmental conditions ----- farmers increase yields without relying heavily on chemical pesticides.",
+        "options": [
+            "A) because",
+            "B) although",
+            "C) as if",
+            "D) whereas",
+            "E) so that"
+        ],
+        "answer": "E"
+    },
+    "12": {
+        "question": "The environmental impact of different energy sources is increasingly assessed ----- their carbon emissions and long-term sustainability, especially in light of climate change goals.",
+        "options": [
+            "A) thanks to",
+            "B) in relation to",
+            "C) in contrast with",
+            "D) regardless of",
+            "E) aside from"
+        ],
+        "answer": "B"
+    },
+    "13": {
+        "question": "----- individuals are exposed to air pollution during their daily commute, ----- likely they are to suffer from long-term respiratory issues.",
+        "options": [
+            "A) Such / that",
+            "B) Whether / or",
+            "C) As / as",
+            "D) The more / the more",
+            "E) Neither / nor"
+        ],
+        "answer": "D"
+    },
+    "14": {
+        "passage":"The human skin is one of the most effective and complex barriers that the body has developed to protect itself (14)----- a wide range of external threats, including environmental hazards and infectious agents. Among all the organs, it is arguably the most resilient (15)-----, capable of withstanding physical trauma, UV radiation, and extreme weather conditions, while simultaneously resisting microbial invasions. Harmful agents (16)----- bacteria, viruses, and even certain fungi constantly attempt to (17)----- this protective layer in order to access the body’s internal systems. (18)-----, the skin is not merely a passive shield; it plays an active immunological role by producing antimicrobial peptides and maintaining an acidic pH level that inhibits pathogen survival.These multiple layers of defense work in concert to safeguard the body against both immediate and long- term biological threats, making the skin an essential component of the immune system.",
+        "question":"",
+        "options": [
+            "A) towards",
+            "B) about",
+            "C) in",
+            "D) behind",
+            "E) against"
+        ],
+        "answer": "E"
+    },
+    "15": {
+        "passage":"The human skin is one of the most effective and complex barriers that the body has developed to protect itself (14)----- a wide range of external threats, including environmental hazards and infectious agents. Among all the organs, it is arguably the most resilient (15)-----, capable of withstanding physical trauma, UV radiation, and extreme weather conditions, while simultaneously resisting microbial invasions. Harmful agents (16)----- bacteria, viruses, and even certain fungi constantly attempt to (17)----- this protective layer in order to access the body’s internal systems. (18)-----, the skin is not merely a passive shield; it plays an active immunological role by producing antimicrobial peptides and maintaining an acidic pH level that inhibits pathogen survival.These multiple layers of defense work in concert to safeguard the body against both immediate and long- term biological threats, making the skin an essential component of the immune system.",
+        "question":"",
+        "options": [
+            "A) evolving",
+            "B) to have evolved",
+            "C) to have been evolved",
+            "D) to be evolving",
+            "E) having evolved"
+        ],
+        "answer": "B"
+    },
+    "16": {
+        "passage":"The human skin is one of the most effective and complex barriers that the body has developed to protect itself (14)----- a wide range of external threats, including environmental hazards and infectious agents. Among all the organs, it is arguably the most resilient (15)-----, capable of withstanding physical trauma, UV radiation, and extreme weather conditions, while simultaneously resisting microbial invasions. Harmful agents (16)----- bacteria, viruses, and even certain fungi constantly attempt to (17)----- this protective layer in order to access the body’s internal systems. (18)-----, the skin is not merely a passive shield; it plays an active immunological role by producing antimicrobial peptides and maintaining an acidic pH level that inhibits pathogen survival.These multiple layers of defense work in concert to safeguard the body against both immediate and long- term biological threats, making the skin an essential component of the immune system.",
+        "question":"",
+        "options": [
+            "A) regardless of",
+            "B) in contrast with",
+            "C) such as",
+            "D) with the exception of",
+            "E) as well as"
+        ],
+        "answer": "C"
+    },
+    "17": {
+        "passage":"The human skin is one of the most effective and complex barriers that the body has developed to protect itself (14)----- a wide range of external threats, including environmental hazards and infectious agents. Among all the organs, it is arguably the most resilient (15)-----, capable of withstanding physical trauma, UV radiation, and extreme weather conditions, while simultaneously resisting microbial invasions. Harmful agents (16)----- bacteria, viruses, and even certain fungi constantly attempt to (17)----- this protective layer in order to access the body’s internal systems. (18)-----, the skin is not merely a passive shield; it plays an active immunological role by producing antimicrobial peptides and maintaining an acidic pH level that inhibits pathogen survival.These multiple layers of defense work in concert to safeguard the body against both immediate and long- term biological threats, making the skin an essential component of the immune system.",
+        "question":"",
+        "options": [
+            "A) promote",
+            "B) withdraw",
+            "C) mitigate",
+            "D) penetrate",
+            "E) perpetuate"
+        ],
+        "answer": "D"
+    },
+    "18": {
+        "passage":"The human skin is one of the most effective and complex barriers that the body has developed to protect itself (14)----- a wide range of external threats, including environmental hazards and infectious agents. Among all the organs, it is arguably the most resilient (15)-----, capable of withstanding physical trauma, UV radiation, and extreme weather conditions, while simultaneously resisting microbial invasions. Harmful agents (16)----- bacteria, viruses, and even certain fungi constantly attempt to (17)----- this protective layer in order to access the body’s internal systems. (18)-----, the skin is not merely a passive shield; it plays an active immunological role by producing antimicrobial peptides and maintaining an acidic pH level that inhibits pathogen survival.These multiple layers of defense work in concert to safeguard the body against both immediate and long- term biological threats, making the skin an essential component of the immune system.",
+        "question":"",
+        "options": [
+            "A) In fact",
+            "B) As long as",
+            "C) Provided that",
+            "D) Although",
+            "E) Even if"
+        ],
+        "answer": "A"
+    },
+    "19": {
+        "question": "-----, it also incorporates complementary approaches such as moxibustion, cupping, and massage therapy to enhance treatment outcomes.",
+        "options": [
+            "A) Because the foundational text of acupuncture dates back to ancient times",
+            "B) Although acupuncture is the most widely practiced technique in traditional Chinese medicine",
+            "C) Since acupuncture reduces the likelihood of adverse side effects compared to pharmaceuticals",
+            "D) As various Eastern medical traditions share common diagnostic methods",
+            "E) While the effectiveness of acupuncture is still debated in modern science"
+        ],
+        "answer": "B"
+    },
+    "20": {
+        "question": "Socially anxious individuals tend to avoid eye contact or public speaking, particularly in unfamiliar settings or high-pressure environments, ----- .",
+        "options": [
+            "A) as they are often overwhelmed by fear of negative evaluation and a persistent worry about being judged by others",
+            "B) since they usually receive encouragement from peers and mentors to express themselves more freely",
+            "C) but they are frequently required to perform in front of others despite their reluctance",
+            "D) whereas many introverts prefer solitude not because of fear, but as a personal choice",
+            "E) although such behaviours may result in increased confidence over time when properly addressed"
+        ],
+        "answer": "A"
+    },
+    "21": {
+        "question": "Educational psychologists increasingly argue that young learners are unlikely to develop critical thinking and problem-solving abilities -----.",
+        "options": [
+            "A) because these skills are closely linked to academic performance in science and math",
+            "B) although most curricula include activities aimed at fostering analytical reasoning",
+            "C) unless they are encouraged to engage with open-ended questions and real-world challenges",
+            "D) so that they can participate in collaborative projects that simulate real-life situations",
+            "E) after they complete standardized assessments that measure logical reasoning"
+        ],
+        "answer": "C"
+    },
+    "22": {
+        "question": "Just as tectonic movements beneath the Earth's crust trigger earthquakes and volcanic eruptions, -----.",
+        "options": [
+            "A) geologists have begun to monitor fault lines more closely to reduce disaster risks",
+            "B) most seismic activity occurs along plate boundaries where stress accumulates over time",
+            "C) early warning systems help communities evacuate high-risk zones before major tremors strike",
+            "D) atmospheric disturbances in the upper layers of the Earth can lead to sudden changes in weather and climate patterns",
+            "E) major shifts in landmasses can reshape coastlines and form mountain ranges over millions of years"
+        ],
+        "answer": "D"
+    },
+    "23": {
+        "question": "Once a developmental language disorder has been identified in a young learner, -----.",
+        "options": [
+            "A) many educators may confuse it with temporary speech delays that resolve without intervention",
+            "B) its presence does not necessarily indicate a lack of intelligence or academic potential",
+            "C) it is essential to implement targeted linguistic exercises to enhance vocabulary acquisition and sentence formation",
+            "D) family history and socioeconomic factors often play a critical role in the emergence of such disorders",
+            "E) recent neuroimaging studies have revealed differences in the brain structures of affected individuals"
+        ],
+        "answer": "C"
+    },
+    "24": {
+        "question": "--- PASSAGE --- Digestible microchips embedded in drugs may soon tell doctors whether a patient is taking their medications as prescribed. These sensors are the first ingestible devices approved by the US Food and Drug Administration (FDA). To some, they signify the beginning of an era in digital medicine. The sandparticle-sized sensor consists of a minute silicon chip containing trace amounts of magnesium and copper. When swallowed, it generates a slight voltage in response to digestive juices, which conveys a signal to the surface of a person’s skin where a patch then relays the information to a mobile phone belonging to a healthcare provider. Currently, the FDA and the analogous regulatory agency in Europe have only approved the device based on studies showing its safety and efficacy when implanted in placebo pills. But scientists hope to have the device approved within other drugs in the near future. Medicines that must be taken for years, such as those for drug-resistant diabetes, and for the elderly with chronic diseases, are top candidates. Proponents of digital medical devices predict they will provide alternatives to blood tests, MRIs, and CAT scans. Other gadgets in the pipeline include implantable devices that wirelessly inject drug at pre-specified times and sensors that deliver a person’s electrocardiogram to their smartphone. --- QUESTION --- It is clear from the passage that microchips placed in drugs ----.",
+        "options": [
+            "A) prompts a high-level voltage when merged with digestive juices",
+            "B) have produced prolific results on people with drug-resistant diabetes",
+            "C) need to be taken with juicy substances to be effective",
+            "D) have been tested exclusively in European countries",
+            "E) aim to inform the healthcare provider about the patient’s use of their medication"
+        ],
+        "answer": "E"
+    },
+    "25": {
+        "question": "--- PASSAGE --- [same as above Paragraph] --- QUESTION --- It can be understood from the passage that microchips ----.",
+        "options": [
+            "A) are composed of sand-particle sized copper",
+            "B) directly send a signal to the patient’s mobile phone",
+            "C) should sometimes be separated from the drug to increase its efficacy",
+            "D) are almost invisible to the naked eye",
+            "E) were initially designed to observe the digestive system of patients"
+        ],
+        "answer": "D"
+    },
+    "26": {
+        "question": "--- PASSAGE --- [same as above Paragraph] --- QUESTION --- It can be inferred from the passage that digital medicine ----.",
+        "options": [
+            "A) will probably not need the advantages of wireless technology to implement further changes",
+            "B) may not be as beneficial as they are thought since the devices are still in the trial period",
+            "C) will be prevalent in the US before it is tested safely in Europe",
+            "D) will enable medical professionals to carry out certain screening methods without being physically present with their patients",
+            "E) may not help patients with their digestive problems, even with the pre-arranged guidance of healthcare providers"
+        ],
+        "answer": "D"
+    },
+    "27": {
+        "question": "--- PASSAGE --- [same as above Paragraph] --- QUESTION --- According to the passage, microchips could be beneficial to people ----.",
+        "options": [
+            "A) who are particularly resistant to magnesium",
+            "B) facing permanent health problems",
+            "C) coming from all age groups",
+            "D) who cannot benefit from placebo pills",
+            "E) who have problems with the surface of their skin"
+        ],
+        "answer": "B"
+    },
+    "28": {
+        "question": "While most of the tourists who climb the spiral stairs of the Tower of Pisa have a sense of imbalance due to the tilt of the tower, this leaning edifice offers them a unique experience.",
+        "options": [
+            "A) Pisa Kulesi’nin sarmal merdivenlerini tırmanan turistlerin çoğu kulenin eğikliğinden dolayı dengesizlik hissi yaşasa da bu eğik yapı onlara eşsiz bir deneyim sunmaktadır.",
+            "B) Pisa Kulesi’nin sarmal merdivenlerini tırmanmak çoğu turiste kulenin eğikliğinden dolayı dengesizlik hissi yaşatsa da bu eğik yapı sayesinde onlara eşsiz bir deneyim sunulmaktadır.",
+            "C) Pisa Kulesi’nin sarmal merdivenlerini tırmanan çoğu turistin kulenin eğikliğine bağlı olarak yaşadığı dengesizlik hissine rağmen bu eğik yapı onlara eşsiz bir deneyim sunmaktadır.",
+            "D) Pisa Kulesi’nin sarmal merdivenlerini tırmanan çoğu turistin kulenin eğikliğinden dolayı dengesizlik hissi yaşamasına rağmen bu eğik yapının onlara sunduğu deneyim eşsizdir.",
+            "E) Pisa Kulesi’nin sarmal merdivenlerini tırmanırken çoğu turist kulenin eğikliğine bağlı olarak dengesizlik hissi yaşasa da bu eğik yapı onlara eşsiz bir deneyim sunmaktadır."
+        ],
+        "answer": "A"
+    },
+    "29": {
+        "question": "Temizlik ve güvenlik standartlarını karşıladıkları için mavi bayraklı plajlar olarak sınıflandırılan Türkiye’nin Ege kıyısındaki plajların birçoğu, ülkenin turistik gelişimine büyük ölçüde katkıda bulunmaktadır.",
+        "options": [
+            "A) Many of the beaches on the Aegean coast of Türkiye, which meet the standards of cleanliness and safety, are classified as blue-flag beaches, thus contributing enormously to the country’s touristic development.",
+            "B) Given that they are up to the standards of cleanliness and safety, many of the beaches on the Aegean coast of Türkiye are classified as blue-flag beaches that contribute substantially to the country’s touristic development.",
+            "C) Many of the beaches on the Aegean coast of Türkiye, which contribute enormously to the country’s touristic development, are classified as blue-flag beaches because they are up to the standards of cleanliness and safety.",
+            "D) Many of the beaches on the Aegean coast of Türkiye, which are classified as blue-flag beaches since they meet the standards of cleanliness and safety, contribute substantially to the country’s touristic development.",
+            "E) Meeting the standards of cleanliness and safety, many of the beaches on the Aegean coast of Türkiye are classified as blue-flag beaches, and they contribute substantially to the country’s touristic development."
+        ],
+        "answer": "D"
+    },
+    "30": {
+        "question": "Annie: - Britain wants to lower its carbon footprint by imposing strict rules on product labelling. In fact, they’re planning to enforce footprint labelling on packages. Clive: - Do you mean they’ll put labels on products showing the item on a scale of carbon footprint? Annie: - Exactly! They’re trying to encourage the consumption of local produce and not of items like bananas and mangos imported from tropical countries, which are high on the scale. Clive: ------ Annie: - Absolutely! It seems like a slight change, but I believe it’ll raise environmental awareness and change public perception, maybe implicitly but profoundly.",
+        "options": [
+            "A) Don’t you think such regulations fall short of expectations in practice? Instead, there must be stronger restrictions on imported products.",
+            "B) The negative effects of global warming have already alarmed people, but most of them still don’t take any action. How can people remain so indifferent?",
+            "C) Do you believe this will really address the concerns about the environment? You know we’ve already reached the critical threshold in terms of carbon emissions.",
+            "D) A similar practice is on the rise now. People go vegan to reduce their carbon footprint, but the production of soy beans used in most vegan products is shown to cause deforestation.",
+            "E) It’s difficult to discern the difference this regulation has made to the environment. I don’t think it’s been effective in changing people’s habits."
+        ],
+        "answer": "C"
+    },
+    "31": {
+        "question": "Student: - We all know that the pyramids ancient Egyptians built are absolutely marvellous. Professor: ----- Student: - What do you mean? Professor: - Well, with their particular fascination with science and technology, ancient Egyptians came up with important inventions such as the calendar and the door lock, which are still used today. Student: - Oh, that makes sense. We probably wouldn’t use these things today had it not been for ancient Egyptians.",
+        "options": [
+            "A) Well, the advanced nature of the pyramids indicates that ancient Egyptians excelled in architecture.",
+            "B) When we examine them closely, we can see that their innovations combined form and function in extraordinary ways, as in the case of the pyramids.",
+            "C) In fact, ancient Egyptians were a great model for the scientists in the Western World, who also made big discoveries.",
+            "D) Actually, they pulled together the real and the ideal in their culture in order to create remarkable works of art.",
+            "E) They shouldn’t be the only great achievement of ancient Egyptians that’s appreciated in the modern world."
+        ],
+        "answer": "E"
+    },
+    "32": {
+        "question": "Interviewer: - In your book, you promote the introduction of geometry in the primary grade levels. Can children so young really be expected to understand such difficult concepts? Author: - It's important to realise that children develop intuitions about geometric shapes and their characteristics during their early explorations of their environment. Interviewer: ----- Author: - Not at all, it's so much more than that. While exploring the objects around them, children can also learn that surfaces can be bumpy or smooth. To add, using boxes and other containers, they can form ideas of space-filling and volume.",
+        "options": [
+            "A) How can you be sure all children are exposed to such explorations? Not all families foster creative learning at home.",
+            "B) Then, your book can provide assistance to teachers in explaining advanced geometric terms. Right?",
+            "C) Realy? Are you referring to the simple recognition of two-dimensional shapes like triangles, squares, and circles?",
+            "D) Well, that's interesting. Do you think that toys should be cleverly designed so that children begin learning geometry?",
+            "E) How exciting! What would you recommend parents if they want to encourage their children to develop these skills?"
+        ],
+        "answer": "C"
+    },
+    "33": {
+        "question": "It is likely that language learners may not create grammatically correct sentences, but they can produce sentences that do not hinder the conveyance of meaning.",
+        "options": [
+            "A) While language learners can produce sentences that do not prevent the transmission of meaning, the sentences they formulate are not always grammatically correct.",
+            "B) Unless language learners can form grammatically correct sentences, they will not be able to produce sentences that do not inhibit the transmission of meaning.",
+            "C) The fact that language learners are able to form grammatically correct sentences does not necessarily mean that they are also able to produce sentences that do not obstruct the transfer of meaning.",
+            "D) Although language learners might be unable to form grammatically correct sentences, they can construct sentences that do not hamper the transfer of meaning.",
+            "E) Once language learners become able to formulate grammatically correct sentences, they can construct sentences that do not restrain the transfer of meaning."
+        ],
+        "answer": "D"
+    },
+    "34": {
+        "question": "While the Assyrians were renowned for their military power, their contribution to the advance of science was quite remarkable.",
+        "options": [
+            "A) The military strength of the Assyrians was vital to their prominence; however, it was their significant influence on the growth of science that rendered them more powerful.",
+            "B) The military supremacy of the Assyrians was widely recognised, but they considerably boosted the development of science as well.",
+            "C) The reputation of the Assyrians which was attained through their military strength was further promoted by their dedication to the improvement of science.",
+            "D) Aside from their military supremacy, the fundamental role that the Assyrians played in the growth of science made them highly distinguished.",
+            "E) The broad acceptance of the Assyrians’ military strength may have overshadowed the fact that they greatly facilitated the development of science."
+        ],
+        "answer": "B"
+    },
+    "35": {
+        "question": "It may seem counterproductive to consume fatty foods if you are hoping to lose weight, but a nutritious diet includes fat.",
+        "options": [
+            "A) Stuffing yourself with fatty foods when you aspire to lose weight will probably work against your purpose since fat should not be integrated into a nutritious diet.",
+            "B) Eating fatty foods when you intend to lose weight might feel like it could bring about an opposite effect, yet fat is part of a nutritious diet.",
+            "C) Even if you have a nutritious diet which may consist of fat, you can still lose weight as long as you do not excessively consume fatty foods.",
+            "D) It appears that you do not live on a nutritious diet if you wish to lose weight but binge on foods that contain too much fat.",
+            "E) If you are longing to lose weight, consuming fatty foods will backfire because fat is thought to be inconvenient for maintaining a nutritious diet."
+        ],
+        "answer": "B"
+    },
+    "36": {
+        "question": "Globalisation is not a single process. While economic globalisation refers to such things as the global dominance of transnational corporations and global finance, political globalisation refers to the growth of international organisations and global social movements. Globalisation is also a cultural process, exemplified by the growth of global consumption cultures, migration, and transnational identities. ----- There are globalisation optimists who suggest that a borderless world has increased human potential, but others are more pessimistic about globalisation, claiming that a globalised world is integrated but not harmonious as local perspectives are devalued.",
+        "options": [
+            "A) Thus, globalisation of consumption is equated with Americanization, an argument reinforced by the number of prominent global brands with corporate headquarters in the USA.",
+            "B) Moreover, with an unparalleled level of transnational interdependence, the world has shrunk to a ‘global village’ of telecommunications.",
+            "C) In other words, the circulation of practices, ideas, and institutional forms around the world is a central aspect of global culture.",
+            "D) However, the implications and significance of globalisation remain far from clear, making it a controversial sociological concept.",
+            "E) As a result, new technologies have speeded up the flow of information, money, people, and goods across national borders, creating a world market with a global division of labour."
+        ],
+        "answer": "D"
+    },
+    "37": {
+        "question": "The impact of school-based mental health programs is broad and long-term. ----- This leads to increased productivity and economic development for society as a whole. In addition to supporting school-based programs, national development plans and education sector plans can improve education and development outcomes for vulnerable groups by supporting early childhood programs that address the cognitive, physical, and psycho-social development of children, as well as child-parent relationships.",
+        "options": [
+            "A) Schools should be aware of the adverse conditions that can affect children’s social skills, self-confidence, and relationships with adults.",
+            "B) Early childhood interventions can be tailored for the needs of children as their mental and physical capacities are not equal.",
+            "C) Schools without mental health programs may fail to detect and support children with particular mental conditions.",
+            "D) Once children with mental health conditions are in school, on-site mental health programs can help them stay engaged in the education system.",
+            "E) They can prevent the onset or worsening of mental health conditions into adulthood, and help ensure that the number of people completing education is maximised."
+        ],
+        "answer": "E"
+    },
+    "38": {
+        "question": "(I) Striped skunks’ black-and-white colouration warns of the toxic spray they can emit. (II) Skunks are famed for their black-and-white stripes, but it appears they can evolve to lose these iconic markings, according to a new study. (III) Examining museum specimens, researchers noticed that there were differences in fur colour across the striped skunks’ North American range, from all-black stripes to all-white. (IV) The researchers then considered the variables driving this variation and discovered that the main factor was the population of predators. (V) The key finding was that skunks living alongside high populations of predators showed strong, defined stripe patterns, while in locations where skunks were living with fewer predators, fur colour was varied and there were less- well-defined stripes.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "A"
+    },
+    "39": {
+        "question": " (I) Hypnosis is a trance-like state of consciousness, induced by a hypnotic procedure, and it consists of heightened suggestibility, deep relaxation, and intense focus. (II) The best participants for hypnosis are people who are eager to be hypnotised and those who are able to confine their attention to themselves and block out peripheral awareness. (III) The main reason for hypnosis is to help people remember events, such as childhood experiences that they have forgotten or repressed. (IV) One common misconception about hypnosis is that the hypnotist is able to take control of hypnotised people and thus can command them to engage in behaviours against their will. (V) In fact, hypnotised people are suggestible; however, they are able to refuse to comply with the hypnotist's suggestions if they choose so.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "C"
+    },
+    "40": {
+        "question":"(I) Humans are not the only animals to regulate their sleep-wake cycle over a 24-hour period. (II) Many other species do this too, concentrating their peak activity at different times during the day for survival. (III) However, some animals focus their efforts at dawn and dusk, which are called 'crepuscular' habits, or solely during the night, as seen in 'nocturnal' creatures. (IV) These activity patterns are usually found alongside a host of physiological adaptations, such as better hearing, larger eyes, and enhanced night vision. (V) Being nocturnal, on the other hand, can help an animal avoid predation, find food, or even simply escape the midday heat.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "E"
+    }
+}

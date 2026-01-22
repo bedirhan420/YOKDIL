@@ -1,0 +1,447 @@
+{
+    "1": {
+        "question": "Within our solar system, the planet Mars almost certainly had a surface ocean in the past and may still have ---- of it underground.",
+        "options": [
+            "A) remnants",
+            "B) attractions",
+            "C) adjustments",
+            "D) precautions",
+            "E) illustrations"
+        ],
+        "answer": "A"
+    },
+    "2": {
+        "question": "The fact is that, right now, the Sumatran tiger faces a number of very serious threats, which are putting their very survival in ----.",
+        "options": [
+            "A) extension",
+            "B) resistance",
+            "C) jeopardy",
+            "D) distinction",
+            "E) corruption"
+        ],
+        "answer": "C"
+    },
+    "3": {
+        "question": "The importance of numbers in Chinese design stems from the ---- influence of the harmonious principles of ying and yang, repeatedly seen in architectural designs.",
+        "options": [
+            "A) pervasive",
+            "B) restraining",
+            "C) insignificant",
+            "D) disruptive",
+            "E) dampening"
+        ],
+        "answer": "A"
+    },
+    "4": {
+        "question": "The most sophisticated of Cook Islands handicrafts are considered to be tivaevae: brightly coloured, ---- embroidered ceremonial cloths, which require a great number of months to make.",
+        "options": [
+            "A) tediously",
+            "B) intricately",
+            "C) persistently",
+            "D) incidentally",
+            "E) objectively"
+        ],
+        "answer": "B"
+    },
+    "5": {
+        "question": "The Common European Framework of Reference for Languages (CEFR) is intended to overcome the barriers to communication ---- professionals working in the field of modern languages arising ---- the different educational systems in Europe.",
+        "options": [
+            "A) between / to",
+            "B) through / into",
+            "C) with / upon",
+            "D) among / from",
+            "E) about / against"
+        ],
+        "answer": "D"
+    },
+    "6": {
+        "question": "Summer ice ---- a series of record low levels in recent years as the Arctic ---- twice as fast as the mid latitudes.",
+        "options": [
+            "A) hit / was warming",
+            "B) has hit / has been warming",
+            "C) hits / had been warming",
+            "D) will hit / warms",
+            "E) had hit / had warmed"
+        ],
+        "answer": "B"
+    },
+    "7": {
+        "question": "Burials ---- an important role in the beliefs of the Lycians, for they cut hundreds of tombs into the cliff faces and crags that ---- throughout the area.",
+        "options": [
+            "A) should have held / will be seen",
+            "B) were able to hold / should be seen",
+            "C) had to hold / might be seen",
+            "D) used to hold / have to be seen",
+            "E) must have held / can be seen"
+        ],
+        "answer": "E"
+    },
+    "8": {
+        "question": "One of the greatest breakthroughs of the 17th century was to understand how and why things move and stop ----, and the key to the problem was that they slow down and stop only when something forces them ---- so.",
+        "options": [
+            "A) to be moved / having done",
+            "B) being moved / do",
+            "C) moving / to do",
+            "D) having moved / to have done",
+            "E) to move / doing"
+        ],
+        "answer": "C"
+    },
+    "9": {
+        "question": "Feminism made an important difference to British culture throughout the 20th century ---- the struggle to change unequal gender relations took place in a range of contexts.",
+        "options": [
+            "A) provided that",
+            "B) unless",
+            "C) as",
+            "D) in case",
+            "E) as long as"
+        ],
+        "answer": "C"
+    },
+    "10": {
+        "question": "Surpassed by tennis in the 19th century, croquet is today more of a recreational activity than competitive sport ---- intense competition has not disappeared entirely in croquet clubs.",
+        "options": [
+            "A) just as",
+            "B) even though",
+            "C) provided that",
+            "D) so that",
+            "E) as long as"
+        ],
+        "answer": "B"
+    },
+    "11": {
+        "question": "The management of farms in the future will be influenced ---- by climate ---- by global demand and agricultural practices, so the winners will be farmers who modernise their methods and diversify their fields.",
+        "options": [
+            "A) neither / nor",
+            "B) as / as",
+            "C) not only / but also",
+            "D) rather / than",
+            "E) so / that"
+        ],
+        "answer": "C"
+    },
+    "12": {
+        "question": "---- connecting distant empires into an integrated web of commerce, the Silk Road carried infectious diseases that severely affected immunity-free victims.",
+        "options": [
+            "A) In case of",
+            "B) Apart from",
+            "C) In terms of",
+            "D) On behalf of",
+            "E) For the purpose of"
+        ],
+        "answer": "B"
+    },
+"13": {
+    "passage": "Old blood may damage organs and contribute to ageing. Researchers are trying to reveal the restorative powers of young blood, (13) ---- brains from ageing. In fact, the effects of blood on ageing were first discovered in experiments that stitched young and old mice together so that they shared circulating blood. Older mice seemed to (14) ---- such an arrangement, developing healthier organs and becoming protected from age-related disease. But younger mice aged prematurely. Such experiments suggest that (15) ---- young blood can be restorative, there is something in old blood that is actively harmful. Hanadie Yousef at Stanford University in California seems to have identified a protein that is causing some of the damage, and has developed a compound to block it. She has observed that (16) ---- this antibody, mice were protected from the harmful effects of the old blood. However, we do not yet know what it is about young blood that keeps animals youthful. That has not stopped people (17) ---- starting trials to see if blood transfusions can treat age-related diseases.",
+    "question": "",
+    "options": [
+        "A) to be prevented",
+        "B) prevent",
+        "C) to have prevented",
+        "D) preventing",
+        "E) having prevented"
+    ],
+    "answer": "D"
+},
+"14": {
+    "passage": "Old blood may damage organs and contribute to ageing. Researchers are trying to reveal the restorative powers of young blood, (13) ---- brains from ageing. In fact, the effects of blood on ageing were first discovered in experiments that stitched young and old mice together so that they shared circulating blood. Older mice seemed to (14) ---- such an arrangement, developing healthier organs and becoming protected from age-related disease. But younger mice aged prematurely. Such experiments suggest that (15) ---- young blood can be restorative, there is something in old blood that is actively harmful. Hanadie Yousef at Stanford University in California seems to have identified a protein that is causing some of the damage, and has developed a compound to block it. She has observed that (16) ---- this antibody, mice were protected from the harmful effects of the old blood. However, we do not yet know what it is about young blood that keeps animals youthful. That has not stopped people (17) ---- starting trials to see if blood transfusions can treat age-related diseases.",
+    "question": "",
+    "options": [
+        "A) dispense with",
+        "B) relate to",
+        "C) compensate for",
+        "D) put off",
+        "E) benefit from"
+    ],
+    "answer": "E"
+},
+"15": {
+    "passage": "Old blood may damage organs and contribute to ageing. Researchers are trying to reveal the restorative powers of young blood, (13) ---- brains from ageing. In fact, the effects of blood on ageing were first discovered in experiments that stitched young and old mice together so that they shared circulating blood. Older mice seemed to (14) ---- such an arrangement, developing healthier organs and becoming protected from age-related disease. But younger mice aged prematurely. Such experiments suggest that (15) ---- young blood can be restorative, there is something in old blood that is actively harmful. Hanadie Yousef at Stanford University in California seems to have identified a protein that is causing some of the damage, and has developed a compound to block it. She has observed that (16) ---- this antibody, mice were protected from the harmful effects of the old blood. However, we do not yet know what it is about young blood that keeps animals youthful. That has not stopped people (17) ---- starting trials to see if blood transfusions can treat age-related diseases.",
+    "question": "",
+    "options": [
+        "A) while",
+        "B) until",
+        "C) when",
+        "D) as soon as",
+        "E) after"
+    ],
+    "answer": "A"
+},
+"16": {
+    "passage": "Old blood may damage organs and contribute to ageing. Researchers are trying to reveal the restorative powers of young blood, (13) ---- brains from ageing. In fact, the effects of blood on ageing were first discovered in experiments that stitched young and old mice together so that they shared circulating blood. Older mice seemed to (14) ---- such an arrangement, developing healthier organs and becoming protected from age-related disease. But younger mice aged prematurely. Such experiments suggest that (15) ---- young blood can be restorative, there is something in old blood that is actively harmful. Hanadie Yousef at Stanford University in California seems to have identified a protein that is causing some of the damage, and has developed a compound to block it. She has observed that (16) ---- this antibody, mice were protected from the harmful effects of the old blood. However, we do not yet know what it is about young blood that keeps animals youthful. That has not stopped people (17) ---- starting trials to see if blood transfusions can treat age-related diseases.",
+    "question": "",
+    "options": [
+        "A) contrary to",
+        "B) compared to",
+        "C) similar to",
+        "D) regardless of",
+        "E) thanks to"
+    ],
+    "answer": "E"
+},
+"17": {
+    "passage": "Old blood may damage organs and contribute to ageing. Researchers are trying to reveal the restorative powers of young blood, (13) ---- brains from ageing. In fact, the effects of blood on ageing were first discovered in experiments that stitched young and old mice together so that they shared circulating blood. Older mice seemed to (14) ---- such an arrangement, developing healthier organs and becoming protected from age-related disease. But younger mice aged prematurely. Such experiments suggest that (15) ---- young blood can be restorative, there is something in old blood that is actively harmful. Hanadie Yousef at Stanford University in California seems to have identified a protein that is causing some of the damage, and has developed a compound to block it. She has observed that (16) ---- this antibody, mice were protected from the harmful effects of the old blood. However, we do not yet know what it is about young blood that keeps animals youthful. That has not stopped people (17) ---- starting trials to see if blood transfusions can treat age-related diseases.",
+    "question": "",
+    "options": [
+        "A) by",
+        "B) for",
+        "C) in",
+        "D) from",
+        "E) with"
+    ],
+    "answer": "D"
+},
+    "18": {
+        "question": "While being physically attractive seems to be a basic requirement for Internet celebrities, ----.",
+        "options": [
+            "A) they closely monitor the trends in youth culture that place special emphasis on beauty",
+            "B) their popularity will decline if they cannot create fresh ideas and engage in successful projects",
+            "C) they are chased by investors hoping to expand their business by associating their products with famous people",
+            "D) they are often characterised as having the ideal beauty standards",
+            "E) they earn huge amounts of money thanks to their collaboration with famous brands"
+        ],
+        "answer": "B"
+    },
+    "19": {
+        "question": "Although Egypt was subject to outside influences, ----.",
+        "options": [
+            "A) the Egyptians settled on the fertile strip of land created by the Nile in the North African desert",
+            "B) the role played by the pharaoh, that of a link between men and gods, decreased with the disintegration of power",
+            "C) the principal characteristics of its culture remained homogenous throughout the course of its long history",
+            "D) the pyramids were built to testify to the pronounced hierarchical character of the Egyptian society",
+            "E) Ramses III, who undertook extensive social and administrative reforms, was forced to defend it against fierce attacks"
+        ],
+        "answer": "C"
+    },
+    "20": {
+        "question": "Owing to the increasing numbers of individuals and families who could no longer afford to purchase housing, ----.",
+        "options": [
+            "A) the American nation's supply of low-cost rental housing was shrinking",
+            "B) an ample boom was observed in the investment of housing construction",
+            "C) after the mid-1970s, the poor became more numerous and they got poorer",
+            "D) homelessness became so visible in the early 1980s in the US",
+            "E) there was a lack of federal commitment to the production of public housing"
+        ],
+        "answer": "D"
+    },
+    "21": {
+        "question": "----, unless it is integrated into a meaningful curricular and instructional framework.",
+        "options": [
+            "A) Technology is regarded to have the potential to improve education",
+            "B) Technology should be viewed as one tool among many",
+            "C) The use of technology requires teachers to confront their beliefs about learning",
+            "D) It is believed that technology has little influence on education",
+            "E) Technology provides an excellent platform for learning environments"
+        ],
+        "answer": "D"
+    },
+    "22": {
+        "question": "Even though the new methods of Samuel Christian Hahnemann— the creator and developer of the treatment called homeopathy— were initially met with ridicule, ----.",
+        "options": [
+            "A) the system was based on the idea that substances producing symptoms of sickness in healthy people would have a curative effect",
+            "B) homeopathic remedies used in holistic treatments were often a fraction of the cost of conventional drugs",
+            "C) by the time of his death, they were accepted over the world as a result of the great success he had with his new cure",
+            "D) he was disturbed by the medical system of his time, believing that its cures were crude and some of its strong drugs did more harm than good to patients",
+            "E) with the formation of the American Medical Association, which restricted alternative practices, homeopathy declined for half a century"
+        ],
+        "answer": "C"
+    },
+    "23": {
+        "question": "Accurate measurements in scientific investigations gained more importance in the 17th century, when scientists became aware that only with reliable measurements could they support their theories.",
+        "options": [
+            "A) Bilim insanlarının 17. yüzyılda teorilerini sadece güvenilir ölçümlerle destekleyebileceklerinin farkına varmasıyla bilimsel araştırmalardaki doğru ölçümler daha fazla önem kazandı.",
+            "B) Bilimsel araştırmalardaki doğru ölçümler, 17. yüzyılda bilim insanları teorilerinin sadece güvenilir ölçümlerle desteklenebileceğinin farkına varınca çok daha önemli hale geldi.",
+            "C) 17. yüzyılda bilim insanlarının sadece güvenilir ölçümler sayesinde teorilerini destekleyebileceklerinin farkına varması, bilimsel araştırmalardaki doğru ölçümlere daha fazla önem kazandırdı.",
+            "D) Bilimsel araştırmalardaki doğru ölçümler, bilim insanların sadece güvenilir ölçümlerle teorilerini destekleyebileceklerinin farkına vardıkları 17. yüzyılda daha fazla önem kazandı.",
+            "E) Bilimsel araştırmalardaki doğru ölçümler, 17. yüzyılda bilim insanları teorilerini sadece güvenilir ölçümlerle destekleyebileceklerinin farkına vardıkları için daha çok önem kazandı."
+        ],
+        "answer": "D"
+    },
+    "24": {
+        "question": "İnsanlar et kelimesini ilk kullandıklarında sadece içeceğin karşıtı olarak yiyeceği kastettiler ve et kelimesi ancak 1300'lerde hayvan eti anlamına karşılık gelmeye başladı.",
+        "options": [
+            "A) When people first referred to food as opposed to drink they used the word meat, and it was not until the 1300s that they began to use it for animal flesh.",
+            "B) The first use of the word meat by people simply meant food, which was the opposite of drink, and it was only in the 1300s when it started referring to animal flesh.",
+            "C) Until the 1300s, the word meat simply meant food for people, as opposed to drink, and only then it started to refer to animal flesh.",
+            "D) When people first used the word meat, they simply meant food, as opposed to drink, and it was not until the 1300s that it began to refer to animal flesh.",
+            "E) When people first used the word meat, it basically meant food, the opposite of drink, and it hardly started to refer to animal flesh in the 1300s."
+        ],
+        "answer": "D"
+    },
+    "25": {
+        "question": "--- QUESTION --- It is understood from the passage that pigeons ----.",
+        "options": [
+            "A) were able to identify cancerous tissue on mammograms even before the training",
+            "B) were motivated by food in the research as they were accepted as bird-brained",
+            "C) were fed with food which resembled the cancerous tissue on mammograms",
+            "D) reached a high percentage of accuracy in identifying cancerous tissue after being trained",
+            "E) were better than human radiologists in terms of identifying cancerous tissue"
+        ],
+        "answer": "D"
+    },
+    "26": {
+        "question": "--- QUESTION --- According to Edward Wasserman, ----.",
+        "options": [
+            "A) pigeons can pick out the pharmaceutical capsules which have differences in shape",
+            "B) pigeons are unable to remember images when there are over 1,800 of them",
+            "C) letters help pigeons identify the difference between Monet and Picasso paintings",
+            "D) pigeons are quite good at imitating emotional expressions displayed on human faces",
+            "E) the capacity of pigeons' visual memory is equal to human visual memory"
+        ],
+        "answer": "A"
+    },
+    "27": {
+        "question": "--- QUESTION --- It is clearly stated in the passage that the interpretation of mammograms ----.",
+        "options": [
+            "A) provides unreliable feedback unless pigeons are involved",
+            "B) considers visual memory as the most critical aspect of interpreting images",
+            "C) comes at a high cost both physically and economically",
+            "D) requires a more extended training programme to improve validity",
+            "E) now commonly uses pigeons to assist with the results"
+        ],
+        "answer": "C"
+    },
+    "28": {
+        "question": "--- QUESTION --- It can be inferred from the passage that pigeons ---.",
+        "options": [
+            "A) can be regarded as the most intelligent bird species considering their success rate",
+            "B) can accurately spot cancer on medical images, so they are trained for many years",
+            "C) could be used in diagnosis of some diseases in the future to reach correct interpretations",
+            "D) should be trained using food for motivation to achieve a high accuracy level in tests",
+            "E) will definitely play a significant part in the future training of physicians and radiologists"
+        ],
+        "answer": "C"
+    },
+    "29": {
+        "question": "--- QUESTION --- The author clearly states that hand-eye coordination ----.",
+        "options": [
+            "A) reaches its final level well before the child reaches the age of six",
+            "B) can hardly be seen in kids that are in the pre-school period",
+            "C) is ultimately achieved when the child becomes much younger than five",
+            "D) is apparent in four-year olds as they can use some equipment well",
+            "E) is said to have been completed when the child does a puzzle very fast"
+        ],
+        "answer": "D"
+    },
+    "30": {
+        "question": "--- QUESTION --- In which of the following does the age or period correctly match the corresponding skill?",
+        "options": [
+            "A) Pre-school children — almost no autonomy in caring oneself",
+            "B) Four-year olds —possible use of a spoon to eat independently",
+            "C) Five-year olds — low to moderate competency in hand-eye coordination",
+            "D) Six-year olds — discernible pause in the improvement in visual orientation",
+            "E) Children beyond six years of age — lack of preciseness in hand-eye coordination"
+        ],
+        "answer": "B"
+    },
+    "31": {
+        "question": "--- QUESTION --- According to the passage what does tying shoelaces signify?",
+        "options": [
+            "A) It shows that the child has obtained total independence in self-care.",
+            "B) It is a major breakthrough in the process of acquiring hand-eye coordination.",
+            "C) It is the ultimate achievement that the child can reach in terms of hand-eye coordination.",
+            "D) By doing it, the child is able to demonstrate a clear change in his / her visual orientation.",
+            "E) It represents the high speed at which pre-school children could do some manual tasks."
+        ],
+        "answer": "B"
+    },
+    "32": {
+        "question": "--- QUESTION --- Which of the following is the passage mainly concerned with?",
+        "options": [
+            "A) Phases of development in the acquisition of hand-eye coordination as a key skill",
+            "B) Differences and similarities between motor development of pre-school and school-age children",
+            "C) What kind of challenges different developmental periods in childhood lead to",
+            "D) How pre-school children use their hands and fingers to fulfil certain tasks",
+            "E) Hand-eye coordination as one of the easily acquired skills for school-age children"
+        ],
+        "answer": "A"
+    },
+    "33": {
+        "question": "Thank you for your presentation about the differences between the flu and cold, but I missed the part about how their symptoms differ. \nPresenter:\n - Well, when you have a cold, the symptoms show up primarily above your ear, but if it is the flu, you have the symptoms both above and below your neck.\nDaisy: \n- ---- \nPresenter: - Yes! When you have a cold, things get worse slowly, but the flu hits you like a high-speed train.",
+        "options": [
+            "A) I see. Then, the best thing to do is to rest up when you have a cold.",
+            "B) Alright, and you also mentioned some facts about their severity.",
+            "C) So, we can say that the flu and cold have similar impacts.",
+            "D) I believe you also said that when we have the flu, we have a terrible headache.",
+            "E) It's not hard to imagine why so many people confuse cold and the flu."
+        ],
+        "answer": "B"
+    },
+    "34": {
+        "question": "Adam: - So anyway, I heard that the registration deadline for summer school is fast approaching. You'd better hurry up and register if you want to take that physics class you've been going on and on about.\nLara: - ----.\nAdam: - Wow, that sounds like a fantastic holiday, something I can only dream of.\nLara: - Well, if you keep up your good grades like you always have, I'm sure you'll land a good job after graduation and be able to travel wherever you want someday.",
+        "options": [
+            "A) Thanks for keeping me on track, but I wish I could go on holiday instead of going to summer school.",
+            "B) Yeah, I will. Speaking of summer, did I tell you that after summer school I've got a trip to China booked? I'm finally going to climb The Great Wall.",
+            "C) Sure thing. I'm ready to get this physics class out of the way. By the way, did I mention my summer holiday plans?",
+            "D) I need to get on that soon since I've wanted to take this class for ages. So I will have some time to go on holiday this summer.",
+            "E) Yep, it's on my to-do list, but there are always so many things keeping me busy that I feel it's high time for a bit of rest and relaxation."
+        ],
+        "answer": "B"
+    },
+    "35": {
+        "question": "Genuine laughter triggers the release of mood-boosting endorphins, which leads to a higher tolerance for pain.",
+        "options": [
+            "A) Mood-enhancing endorphins are released only when people laugh heartily and thus they can tolerate pain better.",
+            "B) People can tolerate more pain if their mood is enhanced by endorphins, which cause hearty laughter.",
+            "C) If people want to enhance their mood, they should laugh heartily and tolerate pain better, which helps them release endorphins.",
+            "D) To be able to laugh heartily by releasing endorphins that enhance their mood, people have to tolerate pain better.",
+            "E) When people laugh heartily, their bodies release endorphins that enhance their mood, and they can tolerate pain better."
+        ],
+        "answer": "E"
+    },
+    "36": {
+        "question": "Some aspects of juvenile animal behaviour are precursors to adult animal behaviour, while others are vital for the survival of the young animal.",
+        "options": [
+            "A) Because certain features of juvenile animal behaviour are essential to the survival of the young animal, adult animal behaviour is presupposed by others.",
+            "B) Though some sides of juvenile animal behaviour are crucial to the survival of a young animal, other aspects predetermine adult animal behaviour.",
+            "C) Even though some characteristics of juvenile animal behaviour give an example of adult animal behaviour, others are vital to the young animals that survive.",
+            "D) While a few aspects of juvenile animal behaviour give us a preview of adult animal behaviour, others show us which young animals will survive.",
+            "E) Although certain features of juvenile animal behaviour predict adult animal behaviour, others determine the likelihood of a young animal surviving."
+        ],
+        "answer": "B"
+    },
+    "37": {
+        "question": "As elephants walk through the forest or savanna, they leave big footprints behind them. These marks then fill with water, creating microhabitats for other forms of life. Researchers at Germany's University of Koblenz-Landau analysed the contents of 30 footprints in Uganda. They found at least 61 different microinvertebrate species, including mites. ---- Nevertheless, the study adds to a body of research suggesting that elephants play vital roles in their ecosystems.",
+        "options": [
+            "A) Researchers also think that this study serves as one more reminder of what we could lose if the illegal hunting crisis in Africa continues.",
+            "B) Because elephants weigh upward of 6,000 kilograms, they make quite an impression with their giant footprints.",
+            "C) Thanks to this study, researchers have proven without doubt that elephant footprints teem with life.",
+            "D) This work is in its early stage and more needs to be done to understand how heavily the tiny species rely on these footprint worlds.",
+            "E) The most common species found in these footprints were mayflies, backswimmers, leeches and gastropods."
+        ],
+        "answer": "D"
+    },
+    "38": {
+        "question": "Cities are dense with impermeable sidewalks and streets, so the concrete jungle does not exactly absorb excess water during storms. The result: destructive flash floods. To help, a Danish architectural firm has developed a tile-based modular paving system that collects and distributes rainwater. ---- The system captures water from roofs, streets, and parking lots and delivers it to nearby permeable landscapes - such as garden boxes or park spaces - where it can be absorbed. The firm has already given a few Copenhagen sidewalks a face-lift this year to test out the tiles. But even before that experiment is finished, Toronto and several other cities have put in requests for the rain-draining material.",
+        "options": [
+            "A) Since permeable pavements come in different forms, urban planners in other countries prefer to use a type of porous asphalt to absorb storm run-off.",
+            "B) Plants could be considered a necessity since they offer many perks to cities including shade, beauty, and habitat for wildlife.",
+            "C) These tiles resemble a normal paved surface but have small holes in them that funnel storm run-off into horizontally connected channels.",
+            "D) Roads, sidewalks, and terraces connect people but are often also impermeable to rain or flood waters.",
+            "E) One concern environmentalists have is preventing storm run-off from mixing with everyday pollutants like fertiliser and sewage."
+        ],
+        "answer": "C"
+    },
+    "39": {
+        "question": "(I) Nobody knows exactly music came from because there are no written records. (II) A good guess would be that thousands of years ago, primitive peoples used music in much the same way as we use it now: to communicate, to pass time while working, to express joy or sadness, or to mark a special occasion. (III) Flutes were among the earliest instruments to be found in all parts of the world. (IV) The first instrument was the one every person is born with - the body. (V) We have voices to sing and shout with, hands to clap, and feet to stamp and this is enough to create melody and rhythm, the two basic elements of music.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "C"
+    },
+    "40": {
+        "question": " (I) The naming of constellations dates back to ancient civilisations. (II) In 140 AD the ancient Greek astronomer Claudius Ptolemy catalogued and named 48 constellations visible from Alexandria, Egypt. (III) All but one of those 48, Argo Navis (Argonauts' Ship), which was subdivided in the 1750s into four separate constellations, are still included in present-day catalogues. (IV) Stars, nebulae, or galaxies in the same constellation may or may not have anything in common. (V) Many new constellations were named in later centuries, mostly in previously uncharted parts of the sky in the Southern Hemisphere and those with originally Greek names were later changed with Latin equivalents by which they are still known today.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "D"
+    }
+}

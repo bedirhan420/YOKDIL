@@ -1,0 +1,447 @@
+{
+    "1": {
+        "question": "Scientists believe an asteroid struck the planet Earth off Mexico’s Yucatán Peninsula some 65 million years ago, bringing about the ---- of almost 50 percent of the plant species then living on Earth.",
+        "options": [
+            "A) extinction",
+            "B) identification",
+            "C) differentiation",
+            "D) invasion",
+            "E) exhibition"
+        ],
+        "answer": "A"
+    },
+    "2": {
+        "question": "The problem of evaluating new biomedical technologies and their relationship both to individuals and to society is ---- as technology comes evermore to dominate the biological lives of humans.",
+        "options": [
+            "A) inferior",
+            "B) accessible",
+            "C) sustainable",
+            "D) crucial",
+            "E) appropriate"
+        ],
+        "answer": "D"
+    },
+    "3": {
+        "question": "While toys today are ---- associated with children, historically, toys were the province of adults and were only gradually passed on to the young.",
+        "options": [
+            "A) separately",
+            "B) consecutively",
+            "C) firmly",
+            "D) slightly",
+            "E) arbitrarily"
+        ],
+        "answer": "C"
+    },
+    "4": {
+        "question": "With the knowledge that surface and ground waters are resources that can be overused, farmers are paying attention to the methods of conserving and reusing water while ---- the growth of their crops.",
+        "options": [
+            "A) transmitting",
+            "B) surrendering",
+            "C) admitting",
+            "D) installing",
+            "E) maintaining"
+        ],
+        "answer": "E"
+    },
+    "5": {
+        "question": "It is important to have big goals, but we need to ---- these goals into small, measurable pieces, or milestones, making them easier to handle and achieve.",
+        "options": [
+            "A) break down",
+            "B) reflect on",
+            "C) pull through",
+            "D) cut off",
+            "E) put off"
+        ],
+        "answer": "A"
+    },
+    "6": {
+        "question": "By about 7000 BCE, the tools and skills of Stone Age people ---- sufficiently to enable cultivating groups ---- towns with more than 1,000 people, such as Çatalhöyük in present-day Türkiye.",
+        "options": [
+            "A) were advancing / being supported",
+            "B) may have advanced / to have supported",
+            "C) would have advanced / supporting",
+            "D) had advanced / to support",
+            "E) advanced / to be supported"
+        ],
+        "answer": "D"
+    },
+    "7": {
+        "question": "Modern humans, Homo sapiens, ---- in Africa around 200,000 years ago and by about 30,000 years ago they ---- all other forms of early humans, such as Neanderthals and Homo erectus.",
+        "options": [
+            "A) have been evolving / replaced",
+            "B) would evolve / are replacing",
+            "C) were evolving / have replaced",
+            "D) evolved / had replaced",
+            "E) had evolved / had been replacing"
+        ],
+        "answer": "D"
+    },
+    "8": {
+        "question": "During a supernova, the outer parts of a star ---- by a pressure wave so intense that atoms heavier than iron, such as copper and gold, ----.",
+        "options": [
+            "A) are blasted off / can be formed",
+            "B) will be blasted off / must be formed",
+            "C) were blasted off / might be formed",
+            "D) are being blasted off / should be formed",
+            "E) are going to be blasted off / would be formed"
+        ],
+        "answer": "A"
+    },
+    "9": {
+        "question": "Lions kill fewer than 100 people each year and sharks kill only ten people per year, yet the World Health Organisation estimates that ---- 725,000 people are killed indirectly ---- mosquitoes and the diseases they transmit.",
+        "options": [
+            "A) upon / with",
+            "B) around / by",
+            "C) under / in",
+            "D) from / at",
+            "E) for / off"
+        ],
+        "answer": "B"
+    },
+    "10": {
+        "question": "---- Nigeria is potentially the richest nation in Africa, with huge reserves of oil and natural gas, the money earned from these natural resources has not been used properly, and most Nigerians remain very poor.",
+        "options": [
+            "A) Because",
+            "B) Although",
+            "C) Until",
+            "D) Now that",
+            "E) Only if"
+        ],
+        "answer": "B"
+    },
+    "11": {
+        "question": "---- the role of the school in developing students’ civic values, most proponents of citizenship education agree that it should involve a range of democratic values such as the sense of public responsibility.",
+        "options": [
+            "A) At least",
+            "B) In spite of",
+            "C) In comparison to",
+            "D) With regard to",
+            "E) Rather than"
+        ],
+        "answer": "D"
+    },
+    "12": {
+        "question": "Without your spine, which is a line of bones running down the back of your body, you could ---- hold up your head and body, ---- make any kind of movement.",
+        "options": [
+            "A) either / or",
+            "B) whether / or",
+            "C) not only / but also",
+            "D) neither / nor",
+            "E) the more / the more"
+        ],
+        "answer": "D"
+    },
+"13": {
+    "passage": "The great white butterfly, Pieris brassicae, is normally found in Europe, Africa, and Asia, but it was discovered in New Zealand in 2010, probably after arriving on a boat. New Zealand has become the first country ever (13) ---- this invasive butterfly species. An elimination plan was quickly (14) ---- by the government to protect agricultural crops from being destroyed by the invaders. P. brassicae starts out as a caterpillar that mainly eats brassica crops such as cabbage, broccoli and Brussels sprouts; (15) ----, it also targets New Zealand’s 79 native cress species (plants with small leaves that are used in salads), 57 of which are at risk of extinction. New Zealand’s Department of Conservation has reported that the caterpillar feeds (16) ---- a wide range of host plants and will completely defoliate a plant, and it can travel more than 100 metres to find another. Between 2010 and 2014, the department carried out 263,000 searches of 29,000 properties (17) ---- wiping out the invasive butterfly. Since the campaign finished in December 2014, no great white butterflies have been seen across the country, which means they have been successfully eradicated.",
+    "question": "",
+    "options": [
+        "A) to be eliminated",
+        "B) eliminating",
+        "C) being eliminated",
+        "D) to eliminate",
+        "E) having eliminated"
+    ],
+    "answer": "D"
+},
+"14": {
+    "passage": "The great white butterfly, Pieris brassicae, is normally found in Europe, Africa, and Asia, but it was discovered in New Zealand in 2010, probably after arriving on a boat. New Zealand has become the first country ever (13) ---- this invasive butterfly species. An elimination plan was quickly (14) ---- by the government to protect agricultural crops from being destroyed by the invaders. P. brassicae starts out as a caterpillar that mainly eats brassica crops such as cabbage, broccoli and Brussels sprouts; (15) ----, it also targets New Zealand’s 79 native cress species (plants with small leaves that are used in salads), 57 of which are at risk of extinction. New Zealand’s Department of Conservation has reported that the caterpillar feeds (16) ---- a wide range of host plants and will completely defoliate a plant, and it can travel more than 100 metres to find another. Between 2010 and 2014, the department carried out 263,000 searches of 29,000 properties (17) ---- wiping out the invasive butterfly. Since the campaign finished in December 2014, no great white butterflies have been seen across the country, which means they have been successfully eradicated.",
+    "question": "",
+    "options": [
+        "A) implied",
+        "B) launched",
+        "C) relieved",
+        "D) altered",
+        "E) interruped"
+    ],
+    "answer": "B"
+},
+"15": {
+    "passage": "The great white butterfly, Pieris brassicae, is normally found in Europe, Africa, and Asia, but it was discovered in New Zealand in 2010, probably after arriving on a boat. New Zealand has become the first country ever (13) ---- this invasive butterfly species. An elimination plan was quickly (14) ---- by the government to protect agricultural crops from being destroyed by the invaders. P. brassicae starts out as a caterpillar that mainly eats brassica crops such as cabbage, broccoli and Brussels sprouts; (15) ----, it also targets New Zealand’s 79 native cress species (plants with small leaves that are used in salads), 57 of which are at risk of extinction. New Zealand’s Department of Conservation has reported that the caterpillar feeds (16) ---- a wide range of host plants and will completely defoliate a plant, and it can travel more than 100 metres to find another. Between 2010 and 2014, the department carried out 263,000 searches of 29,000 properties (17) ---- wiping out the invasive butterfly. Since the campaign finished in December 2014, no great white butterflies have been seen across the country, which means they have been successfully eradicated.",
+    "question": "",
+    "options": [
+        "A) briefly",
+        "B) for instance",
+        "C) in other words",
+        "D) however",
+        "E) as a result"
+    ],
+    "answer": "D"
+},
+"16": {
+    "passage": "The great white butterfly, Pieris brassicae, is normally found in Europe, Africa, and Asia, but it was discovered in New Zealand in 2010, probably after arriving on a boat. New Zealand has become the first country ever (13) ---- this invasive butterfly species. An elimination plan was quickly (14) ---- by the government to protect agricultural crops from being destroyed by the invaders. P. brassicae starts out as a caterpillar that mainly eats brassica crops such as cabbage, broccoli and Brussels sprouts; (15) ----, it also targets New Zealand’s 79 native cress species (plants with small leaves that are used in salads), 57 of which are at risk of extinction. New Zealand’s Department of Conservation has reported that the caterpillar feeds (16) ---- a wide range of host plants and will completely defoliate a plant, and it can travel more than 100 metres to find another. Between 2010 and 2014, the department carried out 263,000 searches of 29,000 properties (17) ---- wiping out the invasive butterfly. Since the campaign finished in December 2014, no great white butterflies have been seen across the country, which means they have been successfully eradicated.",
+    "question": "",
+    "options": [
+        "A) towards",
+        "B) about",
+        "C) in",
+        "D) at",
+        "E) on"
+    ],
+    "answer": "E"
+},
+"17": {
+    "passage": "The great white butterfly, Pieris brassicae, is normally found in Europe, Africa, and Asia, but it was discovered in New Zealand in 2010, probably after arriving on a boat. New Zealand has become the first country ever (13) ---- this invasive butterfly species. An elimination plan was quickly (14) ---- by the government to protect agricultural crops from being destroyed by the invaders. P. brassicae starts out as a caterpillar that mainly eats brassica crops such as cabbage, broccoli and Brussels sprouts; (15) ----, it also targets New Zealand’s 79 native cress species (plants with small leaves that are used in salads), 57 of which are at risk of extinction. New Zealand’s Department of Conservation has reported that the caterpillar feeds (16) ---- a wide range of host plants and will completely defoliate a plant, and it can travel more than 100 metres to find another. Between 2010 and 2014, the department carried out 263,000 searches of 29,000 properties (17) ---- wiping out the invasive butterfly. Since the campaign finished in December 2014, no great white butterflies have been seen across the country, which means they have been successfully eradicated.",
+    "question": "",
+    "options": [
+        "A) despite",
+        "B) similar to",
+        "C) with the goal of",
+        "D) instead of",
+        "E) thanks to"
+    ],
+    "answer": "C"
+},
+    "18": {
+        "question": "In addition to being an unreliable power source, ----.",
+        "options": [
+            "A) wind turbines pose a serious threat to migrating bird populations",
+            "B) wind turbines have been widely used in Europe, particularly in the Netherlands and Denmark",
+            "C) most of the limitations of wind turbines have been overcome thanks to current technology",
+            "D) smaller wind turbines are utilised to provide power to individual homes",
+            "E) wind turbines are most cost-effective in areas with consistently strong winds"
+        ],
+        "answer": "A"
+    },
+    "19": {
+        "question": "----; however, humans cause a great deal of harm to them by overharvesting their limited resources and polluting them with oil and plastics.",
+        "options": [
+            "A) The oceans regulate the climate, provide us with food, and produce at least half of the world’s oxygen",
+            "B) Only a few rich nations can afford the expensive technologies required for seabed mining and mineral extraction",
+            "C) The need for marine biologists has increased because of the growing interest in conservation of the oceans",
+            "D) The institutions and laws that govern oceans are too fragmented and weak due to the lack of global collaboration",
+            "E) In the past, changes in ocean circulation amplified changes in climate, which may now account for global warming"
+        ],
+        "answer": "A"
+    },
+    "20": {
+        "question": "Even if most of the herbal medicines are safe to use, ----.",
+        "options": [
+            "A) they often complement conventional treatments, providing effective remedies for chronic illnesses such as asthma",
+            "B) their sales continue to grow year after year since many pharmaceutical companies manufacture and market them",
+            "C) they not only provide nutrients, but when needed, they also strengthen and support the action of the digestive system",
+            "D) it is essential to take them only under the guidance of a well-trained practitioner to avoid negative consequences",
+            "E) people have become increasingly knowledgeable about their role in maintaining well-being"
+        ],
+        "answer": "D"
+    },
+    "21": {
+        "question": "The first sea traders stayed close to the coast so they knew where they were ----.",
+        "options": [
+            "A) now that the sea transport industry looks to have slowly overcome its challenges with the latest advances in technology",
+            "B) even though sea transportation of people and goods has been necessary for society for thousands of years",
+            "C) despite road transport playing an important economic role in all developed countries and causing considerable carbon emission",
+            "D) whereas in modern times, powerful engines and satellite navigation greatly reduce the risks of long sea voyages",
+            "E) even if the fuel prices have increased and fuel saving in sea transport systems has attracted serious attention"
+        ],
+        "answer": "D"
+    },
+    "22": {
+        "question": "Smaller, sub-toxic exposures to chemicals might be referred to as contamination; ----.",
+        "options": [
+            "A) therefore, with the advances in technology, new industrial uses for existing chemicals are found",
+            "B) on the other hand, larger ones are considered to represent poisoning or pollution",
+            "C) nonetheless, many poisonous chemicals are present naturally in the environment",
+            "D) as a result, humans are responsible for many of the toxic chemicals",
+            "E) instead, the topic of contamination has caused disagreements among chemists"
+        ],
+        "answer": "B"
+    },
+    "23": {
+        "question": "The animal rights movement, which emerged in the 1970s, seeks to end the use of animals as sources of food and experimental subjects.",
+        "options": [
+            "A) Hayvanların besin kaynağı ve denek olarak kullanılmasını önlemeyi amaçlayan hayvan hakları hareketi 1970’lerde ortaya çıkmıştır.",
+            "B) 1970’lerde ortaya çıkan hayvan hakları hareketinin amacı, hayvanların besin kaynağı ve denek olarak kullanılmasına engel olmaktır.",
+            "C) 1970’lerde ortaya çıkan hayvan hakları hareketi, hayvanların besin kaynağı ve denek olarak kullanımını sonlandırmaya çalışmaktadır.",
+            "D) Hayvanların besin kaynağı ve denek olarak kullanımını sonlandırmaya çalışan hayvan hakları hareketinin ortaya çıkışı 1970’lere dayanmaktadır.",
+            "E) 1970’lerde ortaya çıkmasından itibaren hayvan hakları hareketi, hayvanların besin kaynağı ve denek olarak kullanılmasını engellemeye çalışmaktadır."
+        ],
+        "answer": "C"
+    },
+    "24": {
+        "question": "Bir estetik ameliyat öncesinde, hastalar gerçekçi beklentilere sahip olmak amacıyla elde edilebilecek sonuçlara açıklık getirmek ve olası sorunları tartışmak için cerrahları ile görüşmelidir.",
+        "options": [
+            "A) Before a plastic surgery, patients should meet their surgeon with an aim to clarify the results that can be achieved and discuss potential problems as this will lead them to have realistic expectations.",
+            "B) Before a plastic surgery, patients should meet their surgeon to clarify the results that can be achieved and discuss potential problems in order to have realistic expectations.",
+            "C) If patients want to have realistic expectations, they should meet their surgeon before a plastic surgery in order to clarify the results that can be achieved and discuss potential problems.",
+            "D) Before a plastic surgery, patients who want to have realistic expectations should meet their surgeon to clarify the results that can be achieved and discuss potential problems.",
+            "E) By meeting their surgeon before a plastic surgery. patients should clarify the results that can be achieved and discuss potential problems so that they can have realistic expectations."
+        ],
+        "answer": "B"
+    },
+    "25": {
+        "question": "--- PASSAGE --- The Dead Sea is a place of mystery: the lowest surface on earth, the purported sites of Sodom and Gomorrah, a supposed font of curative waters and, despite its name, a treasure trove of unusual microbial life. Yet its future is anything but a mystery. After centuries of stability – owing to a delicate equilibrium between freshwater supply from the Jordan River and evaporation under the relentless Middle Eastern sun – the sea is now disappearing. Jordanians to the east, Israelis to the west and Syrians and Lebanese to the north are pumping so much freshwater from the river catchment that almost none reaches the sea. Israel and Jordan are also siphoning water from the Dead Sea to extract valuable minerals, hastening the decline. Thousands of sinkholes have formed in the receding sea’s wake, curtailing tourism and development along the border because no one can predict where the next gaping hole will suddenly open, potentially swallowing buildings, roads or people. Concerned over losing a valuable natural and cultural resource, officials from Israel, Jordan and the Palestinian Authorities have proposed an enormous conveyor system that would steadily refill the Dead Sea with water from the Red Sea to the south. Scientists are testing how the mixing of the waters might affect the lake’s chemistry and biology. --- QUESTION --- According to the passage, the Dead Sea ----",
+        "options": [
+            "A) receives a lot of freshwater from neighbouring rivers",
+            "B) still enjoys stability thanks to the presence of regular water addition and evaporation",
+            "C) has led to the development of a touristic site along the borders of Israel and Jordan",
+            "D) is currently under serious threat of vanishing completely",
+            "E) has become so contaminated that cleansing it will be impossible"
+        ],
+        "answer": "D"
+    },
+    "26": {
+        "question": "--- PASSAGE --- The Dead Sea is a place of mystery: the lowest surface on earth, the purported sites of Sodom and Gomorrah, a supposed font of curative waters and, despite its name, a treasure trove of unusual microbial life. Yet its future is anything but a mystery. After centuries of stability – owing to a delicate equilibrium between freshwater supply from the Jordan River and evaporation under the relentless Middle Eastern sun – the sea is now disappearing. Jordanians to the east, Israelis to the west and Syrians and Lebanese to the north are pumping so much freshwater from the river catchment that almost none reaches the sea. Israel and Jordan are also siphoning water from the Dead Sea to extract valuable minerals, hastening the decline. Thousands of sinkholes have formed in the receding sea’s wake, curtailing tourism and development along the border because no one can predict where the next gaping hole will suddenly open, potentially swallowing buildings, roads or people. Concerned over losing a valuable natural and cultural resource, officials from Israel, Jordan and the Palestinian Authorities have proposed an enormous conveyor system that would steadily refill the Dead Sea with water from the Red Sea to the south. Scientists are testing how the mixing of the waters might affect the lake’s chemistry and biology. --- QUESTION --- The main reason why the Dead Sea is about to disappear is that ----.",
+        "options": [
+            "A) the Jordan River has overflowed into the sea",
+            "B) thousands of sinkholes have formed in it",
+            "C) its water source is being used up by tourists looking for miracle cures",
+            "D) the microbial life existing in it has multiplied",
+            "E) the natural balance between its water gain and loss has been destroyed"
+        ],
+        "answer": "E"
+    },
+    "27": {
+        "question": "--- PASSAGE --- The Dead Sea is a place of mystery: the lowest surface on earth, the purported sites of Sodom and Gomorrah, a supposed font of curative waters and, despite its name, a treasure trove of unusual microbial life. Yet its future is anything but a mystery. After centuries of stability – owing to a delicate equilibrium between freshwater supply from the Jordan River and evaporation under the relentless Middle Eastern sun – the sea is now disappearing. Jordanians to the east, Israelis to the west and Syrians and Lebanese to the north are pumping so much freshwater from the river catchment that almost none reaches the sea. Israel and Jordan are also siphoning water from the Dead Sea to extract valuable minerals, hastening the decline. Thousands of sinkholes have formed in the receding sea’s wake, curtailing tourism and development along the border because no one can predict where the next gaping hole will suddenly open, potentially swallowing buildings, roads or people. Concerned over losing a valuable natural and cultural resource, officials from Israel, Jordan and the Palestinian Authorities have proposed an enormous conveyor system that would steadily refill the Dead Sea with water from the Red Sea to the south. Scientists are testing how the mixing of the waters might affect the lake’s chemistry and biology. --- QUESTION --- We understand from the passage that ----.",
+        "options": [
+            "A) its curative waters are the only incentive for preserving the Dead Sea",
+            "B) it is easy to predict where the next sinkhole will occur",
+            "C) there are many good reasons for bringing the Dead Sea back to life",
+            "D) the sun no longer affects the waters of the Middle Eastern regions",
+            "E) the Palestinian Authority is the sole official mechanism concerned about the Dead Sea"
+        ],
+        "answer": "C"
+    },
+    "28": {
+        "question": "--- PASSAGE --- The Dead Sea is a place of mystery: the lowest surface on earth, the purported sites of Sodom and Gomorrah, a supposed font of curative waters and, despite its name, a treasure trove of unusual microbial life. Yet its future is anything but a mystery. After centuries of stability – owing to a delicate equilibrium between freshwater supply from the Jordan River and evaporation under the relentless Middle Eastern sun – the sea is now disappearing. Jordanians to the east, Israelis to the west and Syrians and Lebanese to the north are pumping so much freshwater from the river catchment that almost none reaches the sea. Israel and Jordan are also siphoning water from the Dead Sea to extract valuable minerals, hastening the decline. Thousands of sinkholes have formed in the receding sea’s wake, curtailing tourism and development along the border because no one can predict where the next gaping hole will suddenly open, potentially swallowing buildings, roads or people. Concerned over losing a valuable natural and cultural resource, officials from Israel, Jordan and the Palestinian Authorities have proposed an enormous conveyor system that would steadily refill the Dead Sea with water from the Red Sea to the south. Scientists are testing how the mixing of the waters might affect the lake’s chemistry and biology. --- QUESTION --- It is stated in the passage that ----.",
+        "options": [
+            "A) although its name indicates otherwise, the Dead Sea actually hosts many living organisms",
+            "B) the water transferred from the Red Sea will restore the Dead Sea to its original state",
+            "C) despite the fact that Israel and Jordan are pumping water from the sea, the loss of water is minimal",
+            "D) the Jordan River only exists today because of the waters from the Dead Sea",
+            "E) the gaping holes have had little effect on the Dead Sea’s touristic value"
+        ],
+        "answer": "A"
+    },
+    "29": {
+        "question": "--- PASSAGE --- Americans tend to think that varieties of English are more determined by region than by any other factor, such as age, ethnicity, gender and social class. The linguist Henry Smith, for instance, maintained that each region of American English is highly distinctive. Scholars who have investigated the matter have been influenced by the theory of dialect geography formulated in the 19th century by European dialectologists. As a result, investigations have presumed the idea of long-settled and stable regions – an idea appropriate for Europe but less suitable to the more recent and fluid settlement patterns of the US. Even so, American English dialects are conventionally treated under four headings: North, Coastal South, Midland, and West. The Northern dialect stretches from New England to New York and was shaped by migration from the 17th century colonial settlements. The Coastal Southern dialect centres on the Atlantic port cities of the states of Virginia, the Carolinas and Georgia, formed in a time of plantation and ranch agriculture. The Midland dialect is spoken between North and South Midlands according to some dialectologists while others emphasize its affiliation with its neighbours and describe it as Lower North and Upper South. Finally, the Western dialect is used in the area that covers California and the Pacific Northwest. --- QUESTION --- As it is clearly stated in the passage, there is an assumption that ----.",
+        "options": [
+            "A) the Midland dialect cannot be classified",
+            "B) the four-way division of American English is made according to occupational considerations",
+            "C) social factors such as ethnicity hardly ever contribute to the classification of dialects",
+            "D) Americans classify dialects according to regional factors",
+            "E) the Coastal Southern dialect is affiliated with Upper South and Lower North"
+        ],
+        "answer": "D"
+    },
+    "30": {
+        "question": "--- PASSAGE --- Americans tend to think that varieties of English are more determined by region than by any other factor, such as age, ethnicity, gender and social class. The linguist Henry Smith, for instance, maintained that each region of American English is highly distinctive. Scholars who have investigated the matter have been influenced by the theory of dialect geography formulated in the 19th century by European dialectologists. As a result, investigations have presumed the idea of long-settled and stable regions – an idea appropriate for Europe but less suitable to the more recent and fluid settlement patterns of the US. Even so, American English dialects are conventionally treated under four headings: North, Coastal South, Midland, and West. The Northern dialect stretches from New England to New York and was shaped by migration from the 17th century colonial settlements. The Coastal Southern dialect centres on the Atlantic port cities of the states of Virginia, the Carolinas and Georgia, formed in a time of plantation and ranch agriculture. The Midland dialect is spoken between North and South Midlands according to some dialectologists while others emphasize its affiliation with its neighbours and describe it as Lower North and Upper South. Finally, the Western dialect is used in the area that covers California and the Pacific Northwest. --- QUESTION --- It can be inferred from the passage that the author ----.",
+        "options": [
+            "A) believes that dialectology as a science has not fully developed despite scholarly efforts",
+            "B) believes in the advantages of the theory of dialect geography originally developed for Europe",
+            "C) has doubts about the applicability of the European view of dialects for the US",
+            "D) offers the settlement histories as the best explanation for the emergence of dialects",
+            "E) strongly believes in the idea that American English can best be classified in terms of regions"
+        ],
+        "answer": "C"
+    },
+    "31": {
+        "question": "--- PASSAGE --- Americans tend to think that varieties of English are more determined by region than by any other factor, such as age, ethnicity, gender and social class. The linguist Henry Smith, for instance, maintained that each region of American English is highly distinctive. Scholars who have investigated the matter have been influenced by the theory of dialect geography formulated in the 19th century by European dialectologists. As a result, investigations have presumed the idea of long-settled and stable regions – an idea appropriate for Europe but less suitable to the more recent and fluid settlement patterns of the US. Even so, American English dialects are conventionally treated under four headings: North, Coastal South, Midland, and West. The Northern dialect stretches from New England to New York and was shaped by migration from the 17th century colonial settlements. The Coastal Southern dialect centres on the Atlantic port cities of the states of Virginia, the Carolinas and Georgia, formed in a time of plantation and ranch agriculture. The Midland dialect is spoken between North and South Midlands according to some dialectologists while others emphasize its affiliation with its neighbours and describe it as Lower North and Upper South. Finally, the Western dialect is used in the area that covers California and the Pacific Northwest. --- QUESTION --- According to the passage, ----.",
+        "options": [
+            "A) the popular ideas of most Americans on the subject of dialects are not shared by mainstream linguists",
+            "B) linguists who have carried out research on American dialects have been educated in Europe",
+            "C) factors such as age, gender, ethnicity, and social class seldom play a role in dialectal differences",
+            "D) geography has little bearing on dialect boundaries because of migration",
+            "E) Henry Smith thinks that the relatively new and mobile settlement patterns in the US are a great influence on dialects"
+        ],
+        "answer": "E"
+    },
+    "32": {
+        "question": "--- PASSAGE --- Americans tend to think that varieties of English are more determined by region than by any other factor, such as age, ethnicity, gender and social class. The linguist Henry Smith, for instance, maintained that each region of American English is highly distinctive. Scholars who have investigated the matter have been influenced by the theory of dialect geography formulated in the 19th century by European dialectologists. As a result, investigations have presumed the idea of long-settled and stable regions – an idea appropriate for Europe but less suitable to the more recent and fluid settlement patterns of the US. Even so, American English dialects are conventionally treated under four headings: North, Coastal South, Midland, and West. The Northern dialect stretches from New England to New York and was shaped by migration from the 17th century colonial settlements. The Coastal Southern dialect centres on the Atlantic port cities of the states of Virginia, the Carolinas and Georgia, formed in a time of plantation and ranch agriculture. The Midland dialect is spoken between North and South Midlands according to some dialectologists while others emphasize its affiliation with its neighbours and describe it as Lower North and Upper South. Finally, the Western dialect is used in the area that covers California and the Pacific Northwest. --- QUESTION --- According to the passage, ----.",
+        "options": [
+            "A) scholars have a unified theory of dialect geography",
+            "B) European settlement patterns do not share the same history as those in the US",
+            "C) there is a need to compare the various regions in the US in terms of dialect differences",
+            "D) the critics who assert that social factors are equally valid are mistaken",
+            "E) the Western dialect is no longer in use in its Native California"
+        ],
+        "answer": "B"
+    },
+    "33": {
+        "question": "Daisy:  Did you know that keeping that small bulb on during the night in your bedroom negatively affects your health? John:  No, I don’t buy into that story as I love having some light all night long even while sleeping. It may at most cause some difficulty while falling asleep. Daisy:  You’ll be surprised when you learn about a new research report on the use of light during the night. John:  ---- Daisy:  Well, researchers claim that people who sleep with a light on in their bedroom are more likely to be overweight or have type 2 diabetes.",
+        "options": [
+            "A) Do you imply that my fear of the dark keeps me from turning the light off?",
+            "B) Don’t you think having a light on can make you feel more secure?",
+            "C) Should I always turn the light off and clear my mind to have an uninterrupted sleep?",
+            "D) Do you know any strategies to cope with its side effects?",
+            "E) Do you mean that it’s not as innocent as I assume it to be?"
+        ],
+        "answer": "E"
+    },
+    "34": {
+        "question": "Louise:  These days, my sister is always saying that she doesn’t feel healthy and energetic, but she isn’t ill or doesn’t suffer from a particular disease. Kate:  ---- Louise:  So you say factors like high stress and heavy workload might cause her to feel less vigorous. Kate:  Exactly! Your sister may be in need of emotional support to overcome her problems, and this could be why she always says she doesn’t feel good.",
+        "options": [
+            "A) When people get to certain ages, their physical strength may decline and they may not be willing to take part in certain activities.",
+            "B) I think you should observe her behaviours carefully because symptoms like gloomy mood and lack of enthusiasm are associated with depression.",
+            "C) Well, you know health doesn’t only mean being free from physical conditions, but it also involves mental and spiritual well-being. You seem to ignore psychological burdens.",
+            "D) Actually, she might be pretending this way so that you can spare enough time for her and better understand her feelings.",
+            "E) To enjoy good health and boost her energy, she can do regular exercise and practise meditation. They will certainly increase her physical and mental resilience."
+        ],
+        "answer": "C"
+    },
+    "35": {
+        "question": "With the huge growth in population and with the development of larger and more efficient machines, the ability of humans to influence their environment has increased enormously.",
+        "options": [
+            "A) Population of humans has grown immensely, which means both an increase in their ability to affect their environment considerably and also the development of bigger and more efficient machines.",
+            "B) Due to the massive growth in population, much larger and more efficient machines have been developed and this has led humans to be able to influence their environment extensively.",
+            "C) There has been a great increase in the ability of humans to have a huge impact on their nature as a massive growth in the population has helped them develop larger and more efficient machines.",
+            "D) There has been a great deal of increase in humans’ capability to have an impact on their environment thanks to the massive population growth and the development of larger and more efficient machines.",
+            "E) Humans have the capability to influence their nature greatly thanks to the development of larger and more efficient machines which are the products of the immensely growing population."
+        ],
+        "answer": "D"
+    },
+    "36": {
+        "question": "We cannot properly assess a student’s educational achievement unless we analyse the teaching methods and the learning environment.",
+        "options": [
+            "A) There seems to be no point in evaluating a student’s academic success without carefully analysing the teaching methods and the learning context.",
+            "B) The instructional methods and the learning context are among the factors that enable us to accurately evaluate a student’s school success.",
+            "C) It is not possible to accurately evaluate a student’s academic success if we do not analyse the instructional methods and the learning context.",
+            "D) In order to evaluate a student’s school success accurately, we need to focus on the types of teaching methods used in the learning context.",
+            "E) The careful evaluation of a student’s academic success can be carried out through examining the learning context where specific instructional methods are applied."
+        ],
+        "answer": "C"
+    },
+    "37": {
+        "question": "Our bodies contain a large amount of water, typically between 50 and 70 percent of our total body mass. The majority of this is in the approximately 30 trillion cells that make up the body, while the rest is in fluids such as the blood. ---- This transport role is more obvious, for example, when carrying material around the bloodstream. It also lubricates, dissolves valuable chemicals, and acts as a shock absorber for organs, so it is hard to find a part of the body where water does not play a role ─ even bones are around one-third water.",
+        "options": [
+            "A) We have so much water in our bodies, which prevents the cells from collapsing.",
+            "B) We generally need about two litres (eight glasses) of water a day for hydration.",
+            "C) In our cells, water acts as a medium for various molecules to get from place to place.",
+            "D) We need to consume enough water in order to ensure adequate blood flow through our bodies.",
+            "E) Water supports the functioning of our vital organs, made up of millions of cells."
+        ],
+        "answer": "C"
+    },
+    "38": {
+        "question": "Children’s fascination with television has concerned researchers and parents ever since the medium was introduced. Much of the debate has been focused on the effects of media violence, which has resulted in much analysis by psychologists and sociologists. ---- Other worries have been about children’s physical condition, such as too little exercise or the effect of radiation from the screen on the brain or eyes.",
+        "options": [
+            "A) At the end of the 20th century, however, there was a belief that television could be used for enhancing children's cognitive skills.",
+            "B) Therefore, unequal distribution of technological resources in the world has created significant differences in children’s social development over the last decades.",
+            "C) Sometimes, television addiction has been compared to other kinds of addiction children are likely to develop, such as candies and toys.",
+            "D) Television has also been blamed for causing negative effects on reading skills, and some claim that spending too much time in front of the television makes children antisocial.",
+            "E) There are a variety of programs promoting prosocial behaviour, such as solving conflicts without violence or strengthening children’s self-confidence."
+        ],
+        "answer": "D"
+    },
+    "39": {
+        "question": "Apartheid is the legal and political endorsement or institutionalization of discrimination. (II) Even though South Africa has much to offer investors, its government has come under attack for its foreign policy. (III) It involves the assigning of an individual at birth into a certain class of citizen. (IV) In the case, for example, of the apartheid regime in South Africa, this classification depended on skin colour and four classes existed – white, coloured, Asian, and black. (V) Indeed, in the South African case, this distinction was made before birth, insofar as pregnant women could only be treated by doctors of their own skin colour.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "B"
+    },
+    "40": {
+        "question": "In the long march of mankind from the cave to the computer, a central role has always been played by the idea of law. (II) Law is that element which binds the members of the community together in their adherence to recognized values and standards. (III) Every society, whether it is large or small, powerful or weak, has created for itself a framework of principles or rules within which to develop. (IV) And what is termed international law involves nation-states, not individual citizens. (V) What can or cannot be done, permissible acts, forbidden acts, have all been spelt out within the consciousness of that community.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "D"
+    }
+}

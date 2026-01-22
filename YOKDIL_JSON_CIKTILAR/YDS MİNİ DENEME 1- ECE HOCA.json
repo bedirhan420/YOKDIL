@@ -1,0 +1,447 @@
+{
+    "1": {
+        "question": "In the context of environmental policy, the introduction of new regulations can be far-reaching, influencing not only businesses but also community health and biodiversity.",
+        "options": [
+            "A) challenges",
+            "B) ramifications",
+            "C) omissions",
+            "D) discussions",
+            "E) ambiguity"
+        ],
+        "answer": "B"
+    },
+    "2": {
+        "question": "GABA, which is a neurotransmitter that plays a crucial role in the regulation of neuronal excitability, may help alleviate symptoms of depression and anxiety by promoting relaxation and improving mood stability.",
+        "options": [
+            "A) underestimate",
+            "B) aggravate",
+            "C) accelerate",
+            "D) alleviate",
+            "E) foster"
+        ],
+        "answer": "D"
+    },
+    "3": {
+        "question": "Throughout its long history, the ancient Egyptian civilization demonstrated unprecedented advancements in various fields, including art, medicine, and engineering.",
+        "options": [
+            "A) applicable",
+            "B) impermissible",
+            "C) inconsistent",
+            "D) unprecedented",
+            "E) mediocre"
+        ],
+        "answer": "D"
+    },
+    "4": {
+        "question": "Smoking is notoriously linked to a myriad of health issues, including lung cancer, heart disease, and respiratory problems, not only diminishing the quality of life for individuals but also imposing significant burdens on healthcare systems and society as a whole.",
+        "options": [
+            "A) eccentrically",
+            "B) exclusively",
+            "C) notoriously",
+            "D) productively",
+            "E) intricately"
+        ],
+        "answer": "C"
+    },
+    "5": {
+        "question": "Many people come down with seasonal illnesses during the winter months, highlighting the importance of maintaining good hygiene and getting vaccinated to reduce the risk of infections.",
+        "options": [
+            "A) run out of",
+            "B) look up to",
+            "C) do away with",
+            "D) come up with",
+            "E) come down with"
+        ],
+        "answer": "E"
+    },
+    "6": {
+        "question": "Over the past few decades, advancements in technology have caused significant changes in the way we communicate, and experts believe that this evolution will transform our social interactions for years to come.",
+        "options": [
+            "A) had caused / could transform",
+            "B) caused / would transform",
+            "C) are causing / has transformed",
+            "D) have caused / will transform",
+            "E) is causing / might have transformed"
+        ],
+        "answer": "D"
+    },
+    "7": {
+        "question": "One way to reduce the negative impact people have on the environment is to make sure that as much garbage as possible is recycled.",
+        "options": [
+            "A) to reduce / to make",
+            "B) reducing / having been made",
+            "C) to have reduced / being made",
+            "D) to be reduced / make",
+            "E) having reduced / to be making"
+        ],
+        "answer": "A"
+    },
+    "8": {
+        "question": "Across centuries, human civilizations have evolved in their understanding of science and technology, leading to revolutionary discoveries that have shaped our world today.",
+        "options": [
+            "A) During / on",
+            "B) Upon / against",
+            "C) Of / under",
+            "D) Across / in",
+            "E) Througout / at"
+        ],
+        "answer": "D"
+    },
+    "9": {
+        "question": "Despite the advancements in space exploration, many mysteries of the universe still remain unsolved, leading scientists to continue their quest for knowledge and prompting the development of more advanced technologies for future missions.",
+        "options": [
+            "A) Thanks to",
+            "B) In accordance with",
+            "C) Despite",
+            "D) In terms of",
+            "E) As a result of"
+        ],
+        "answer": "C"
+    },
+    "10": {
+        "question": "Unless we develop more efficient propulsion systems, interstellar travel will remain beyond our reach, limiting our ability to explore distant galaxies and understand the full scope of the universe.",
+        "options": [
+            "A) Although",
+            "B) Because",
+            "C) Unless",
+            "D) Provided",
+            "E) Only if"
+        ],
+        "answer": "C"
+    },
+    "11": {
+        "question": "Being reliant on fossil fuels jeopardizes our energy security while exacerbating environmental issues; instead, we should invest in renewable energy sources to reduce our carbon footprint and effectively combat climate change.",
+        "options": [
+            "A) moreover",
+            "B) since",
+            "C) instead",
+            "D) rather",
+            "E) otherwise"
+        ],
+        "answer": "C"
+    },
+    "12": {
+        "question": "Recent studies cannot agree on whether the observed increase in ocean temperatures directly impacts the breeding habits of marine species or other factors, such as changes in nutrient availability and predation rates, are more influential in shaping these behaviors.",
+        "options": [
+            "A) so / that",
+            "B) neither / nor",
+            "C) such / that",
+            "D) whether / or",
+            "E) no sooner / than"
+        ],
+        "answer": "D"
+    },
+    "13": {
+    "passage": "The first settlers of Miletus are thought (13) ---- Lelejes and Carians, followed by colonists from Crete and Greece. The city’s name was from the Cretan leader Miletus. Later, in the sixth century B.C., the Ionian city of Miletus, under control of the Greeks, had become one of the most important and (14) ---- powers in the whole Ionia. As did many early settlements, Miletus gained stability (15) ---- agriculture. Later, they developed a fleet and were able to spread and colonize many other territories in the surrounding area. (16) ---- during the 5th and 4th centuries Lydians and Cimmerians gained a foothold in Miletus. In 494 B.C. the city was virtually destroyed (17) ---- its solidarity with Athens during the Persian wars. Persian control lasted until the arrival of Alexander the Great in 334, and with his rule of the area, Miletus was again restored to prosperity. Power in Ionia went to the Romans at the beginning of the 3rd century B.C., but Miletus was declared a free city, able to continue self-administration. The religious center at Didyma was alloted to Miletus during this period, and a great reconstruction period followed.",
+    "question": "",
+    "options": [
+        "A) to be",
+        "B) to have been",
+        "C) having been",
+        "D) being",
+        "E) be"
+    ],
+    "answer": "B"
+},
+"14": {
+    "passage": "The first settlers of Miletus are thought (13) ---- Lelejes and Carians, followed by colonists from Crete and Greece. The city’s name was from the Cretan leader Miletus. Later, in the sixth century B.C., the Ionian city of Miletus, under control of the Greeks, had become one of the most important and (14) ---- powers in the whole Ionia. As did many early settlements, Miletus gained stability (15) ---- agriculture. Later, they developed a fleet and were able to spread and colonize many other territories in the surrounding area. (16) ---- during the 5th and 4th centuries Lydians and Cimmerians gained a foothold in Miletus. In 494 B.C. the city was virtually destroyed (17) ---- its solidarity with Athens during the Persian wars. Persian control lasted until the arrival of Alexander the Great in 334, and with his rule of the area, Miletus was again restored to prosperity. Power in Ionia went to the Romans at the beginning of the 3rd century B.C., but Miletus was declared a free city, able to continue self-administration. The religious center at Didyma was alloted to Miletus during this period, and a great reconstruction period followed.",
+    "question": "",
+    "options": [
+        "A) frustrating",
+        "B) insufficient",
+        "C) formidable",
+        "D) unsophisticated",
+        "E) confidential"
+    ],
+    "answer": "C"
+},
+"15": {
+    "passage": "The first settlers of Miletus are thought (13) ---- Lelejes and Carians, followed by colonists from Crete and Greece. The city’s name was from the Cretan leader Miletus. Later, in the sixth century B.C., the Ionian city of Miletus, under control of the Greeks, had become one of the most important and (14) ---- powers in the whole Ionia. As did many early settlements, Miletus gained stability (15) ---- agriculture. Later, they developed a fleet and were able to spread and colonize many other territories in the surrounding area. (16) ---- during the 5th and 4th centuries Lydians and Cimmerians gained a foothold in Miletus. In 494 B.C. the city was virtually destroyed (17) ---- its solidarity with Athens during the Persian wars. Persian control lasted until the arrival of Alexander the Great in 334, and with his rule of the area, Miletus was again restored to prosperity. Power in Ionia went to the Romans at the beginning of the 3rd century B.C., but Miletus was declared a free city, able to continue self-administration. The religious center at Didyma was alloted to Miletus during this period, and a great reconstruction period followed.",
+    "question": "",
+    "options": [
+        "A) under",
+        "B) at",
+        "C) off",
+        "D) through",
+        "E) above"
+    ],
+    "answer": "D"
+},
+"16": {
+    "passage": "The first settlers of Miletus are thought (13) ---- Lelejes and Carians, followed by colonists from Crete and Greece. The city’s name was from the Cretan leader Miletus. Later, in the sixth century B.C., the Ionian city of Miletus, under control of the Greeks, had become one of the most important and (14) ---- powers in the whole Ionia. As did many early settlements, Miletus gained stability (15) ---- agriculture. Later, they developed a fleet and were able to spread and colonize many other territories in the surrounding area. (16) ---- during the 5th and 4th centuries Lydians and Cimmerians gained a foothold in Miletus. In 494 B.C. the city was virtually destroyed (17) ---- its solidarity with Athens during the Persian wars. Persian control lasted until the arrival of Alexander the Great in 334, and with his rule of the area, Miletus was again restored to prosperity. Power in Ionia went to the Romans at the beginning of the 3rd century B.C., but Miletus was declared a free city, able to continue self-administration. The religious center at Didyma was alloted to Miletus during this period, and a great reconstruction period followed.",
+    "question": "",
+    "options": [
+        "A) For example",
+        "B) Nonetheless",
+        "C) Otherwise",
+        "D) Moreover",
+        "E) Therefore"
+    ],
+    "answer": "B"
+},
+"17": {
+    "passage": "The first settlers of Miletus are thought (13) ---- Lelejes and Carians, followed by colonists from Crete and Greece. The city’s name was from the Cretan leader Miletus. Later, in the sixth century B.C., the Ionian city of Miletus, under control of the Greeks, had become one of the most important and (14) ---- powers in the whole Ionia. As did many early settlements, Miletus gained stability (15) ---- agriculture. Later, they developed a fleet and were able to spread and colonize many other territories in the surrounding area. (16) ---- during the 5th and 4th centuries Lydians and Cimmerians gained a foothold in Miletus. In 494 B.C. the city was virtually destroyed (17) ---- its solidarity with Athens during the Persian wars. Persian control lasted until the arrival of Alexander the Great in 334, and with his rule of the area, Miletus was again restored to prosperity. Power in Ionia went to the Romans at the beginning of the 3rd century B.C., but Miletus was declared a free city, able to continue self-administration. The religious center at Didyma was alloted to Miletus during this period, and a great reconstruction period followed.",
+    "question": "",
+    "options": [
+        "A) as opposed to",
+        "B) on behalf of",
+        "C) with the goal of",
+        "D) as a result of",
+        "E) instead of"
+    ],
+    "answer": "D"
+},
+    "18": {
+        "question": "When managers place workers under time pressure to perform hazardous tasks, safety precautions become a lower priority, thereby increasing the chances of injury.",
+        "options": [
+            "A) employees adhering to the company rules are often encouraged through incentives",
+            "B) violations of workers' rights cause global protests and instability in the market",
+            "C) safety precautions become a lower priority, thereby increasing the chances of injury",
+            "D) unintentional injuries are the fourth leading cause of death in the US",
+            "E) the attitudes of both workers and managers are important in creating a safe workplace"
+        ],
+        "answer": "C"
+    },
+    "19": {
+        "question": "Although the role of diet and nutrition in human evolution has generally come under the scope of anthropology, the subject has also been of great interest to scholars in many other disciplines.",
+        "options": [
+            "A) the subject has also been of great interest to scholars in many other disciplines",
+            "B) 'nutriture' is the state resulting from the balance between supply of nutrition and the expenditure of the organism",
+            "C) it is the nutrients that are necessary for all of our bodily functions",
+            "D) it is a fact that modern humans require some 40 to 50 nutrients for proper health",
+            "E) diet and nutrition are central to an understanding of the evolutionary journey of humankind"
+        ],
+        "answer": "A"
+    },
+    "20": {
+        "question": "Particularly important to the marketer is knowledge of the philosophies of all major political parties within a country since any of them, when in power, might change the consumption patterns of the public.",
+        "options": [
+            "A) since any of them, when in power, might change the consumption patterns of the public",
+            "B) as the historical direction each minor party is likely to take is unpredictable",
+            "C) no matter how one tends to be more restrictive regarding foreign trade than the others",
+            "D) so that one party sometimes changes its membership criteria",
+            "E) although the doctrines of opposing parties have an influence on the direction of the policy"
+        ],
+        "answer": "A"
+    },
+    "21": {
+        "question": "While the study of fossils, called 'paleontology', is a field of biology, its development has been closely linked to efforts to understand the history of Earth itself.",
+        "options": [
+            "A) fossils have been the key to understanding extinct life forms since ancient times",
+            "B) its development has been closely linked to efforts to understand the history of Earth itself",
+            "C) there has been an ongoing search for finding even older fossils since the 1950s",
+            "D) each geological period has its own fossils that are characteristic of that particular time",
+            "E) some scientists find the concept of evolution difficult to accept on religious grounds"
+        ],
+        "answer": "B"
+    },
+    "22": {
+        "question": "In order to analyze the light reflected from Earth, a team of astronomers used a very large telescope in Chile.",
+        "options": [
+            "A) some of the light reaches the Moon and is again reflected, known as 'Earthshine'",
+            "B) it may be a while before astronomers are able to do that",
+            "C) a number of new planets have been discovered so far with the help of new space telescopes",
+            "D) the light reflected from these distant worlds is too faint to be analyzed by today’s telescopes",
+            "E) a team of astronomers used a very large telescope in Chile"
+        ],
+        "answer": "E"
+    },
+    "23": {
+        "question": "Started in the late 18th century in Britain, a wave of industrialisation swept across Europe and North America and set the foundations for modern capitalism by transforming the Western world from a rural society into an urban one.",
+        "options": [
+            "A) Avrupa ve Kuzey Amerika'yı etkisi altına alan sanayileşme dalgası, 18. yüzyılda Britanya'da başladı ve Batı dünyasını kırsal bir toplumdan kentsel bir topluma dönüştürmek amacıyla modern kapitalizmin temellerini oluşturdu.",
+            "B) 18. yüzyılda Britanya'yı etkisi altına alan sanayileşme dalgasının Avrupa ve Kuzey Amerika'da başlayıp Batı dünyasını kırsal bir toplumdan kentsel bir topluma dönüştürmesi modern kapitalizmin temellerini attı.",
+            "C) Batı dünyasını kırsal bir toplumdan kentsel bir topluma dönüştürerek Avrupa ve Kuzey Amerika'yı etkisi altına alan sanayileşme dalgası, 18. yüzyılın sonlarında Britanya'da modern kapitalizmin temellerini attı.",
+            "D) 18. yüzyılın sonlarında Britanya'da başlayan sanayileşme dalgası, Avrupa ve Kuzey Amerika'yı etkisi altına aldı ve Batı dünyasını kırsal bir toplumdan kentsel bir topluma dönüştürerek modern kapitalizmin temellerini oluşturdu.",
+            "E) Batı dünyasını kırsal bir toplumdan kentsel bir topluma dönüştüren ve modern kapitalizmin temellerini 18. yüzyılın sonlarında Britanya'da atan sanayileşme dalgası, Avrupa ve Kuzey Amerika'yı etkisi altına aldı."
+        ],
+        "answer": "D"
+    },
+    "24": {
+        "question": "İnsanların bilinçli tercih yapma yeteneği, kendine güvene dayanır çünkü insanlar ancak yaptıklarının sonuç verdiğini ve istenen etkiyi yarattığını gördüklerinde daha geniş bir sosyal ortaklığın parçası olmaya devam eder.",
+        "options": [
+            "A) Humans continue to be part of a larger social collective provided that they see their actions show results rendering the desired effect because the ability of humans to make conscious choices relies on self-confidence.",
+            "B) The ability of humans to make conscious choices relies on self-confidence because only if humans see that their actions show results and render the desired effect will they continue to be part of a larger social collective.",
+            "C) The ability of humans to make conscious choices to be part of a larger social collective relies on self-confidence, which renders the desired effect as long as humans see their actions show results.",
+            "D) Only when humans see that their actions show results rendering the desired effect will they continue to be part of a larger social collective, and this relies on self-confidence, which refers to the ability of humans to make conscious choices.",
+            "E) The ability of humans to make conscious choices, which relies on self-confidence, renders the desired effect when they see actions show results and they continue to be part of a larger social collective."
+        ],
+        "answer": "B"
+    },
+    "25": {
+        "question": "--- PASSAGE --- Egypt's Old Kingdom flourished on the flood-enriched banks of the River Nile. It was an era of prosperity, relative stability, and strong centralized rule. During this period, the pyramids were built and Egyptian society worshipped their mighty kings, or pharaohs, as 'gods on Earth'. Old Kingdom society was tightly controlled by the powerful pharaoh. Central to life, politics, and religion, which were all closely combined, was the idea that the pharaoh was a semi-divine figure who acted as mediator between the gods and his people. The pharaoh not only oversaw elaborate religious rituals but also headed a vast, highly organized political and administrative bureaucracy. Pharaohs were believed to be earthly representations of the gods and were the upholders of a justice system that aimed to reflect the cosmic order. A pharaoh was also the figure who worked with the gods to ensure that the Nile brought silt-rich annual floods each year, maintaining the Nile valley fertile enough to support the country. Though Egyptians did seem to realize he was a flesh-and-blood human, they stood in awe of the sacred power of the pharaoh. --- QUESTION --- According to the passage, Egypt's Old Kingdom was a wealthy state with centralized governance headed by pharaohs.",
+        "options": [
+            "A) was a wealthy state with centralized governance headed by pharaohs",
+            "B) deemed that prosperity and strong centralization were more important than stability",
+            "C) fell long before the era when the pyramids were built",
+            "D) ruled during a period when people were free to worship their own gods",
+            "E) effectively separated religious affairs from political ones"
+        ],
+        "answer": "A"
+    },
+    "26": {
+        "question": "--- PASSAGE --- Egypt's Old Kingdom flourished on the flood-enriched banks of the River Nile. It was an era of prosperity, relative stability, and strong centralized rule. During this period, the pyramids were built and Egyptian society worshipped their mighty kings, or pharaohs, as 'gods on Earth'. Old Kingdom society was tightly controlled by the powerful pharaoh. Central to life, politics, and religion, which were all closely combined, was the idea that the pharaoh was a semi-divine figure who acted as mediator between the gods and his people. The pharaoh not only oversaw elaborate religious rituals but also headed a vast, highly organized political and administrative bureaucracy. Pharaohs were believed to be earthly representations of the gods and were the upholders of a justice system that aimed to reflect the cosmic order. A pharaoh was also the figure who worked with the gods to ensure that the Nile brought silt-rich annual floods each year, maintaining the Nile valley fertile enough to support the country. Though Egyptians did seem to realize he was a flesh-and-blood human, they stood in awe of the sacred power of the pharaoh. --- QUESTION --- It is clearly stated in the passage that pharaohs were believed to be the representatives of heavenly gods.",
+        "options": [
+            "A) had to choose between being a political and religious leader",
+            "B) were believed to be the representatives of heavenly gods",
+            "C) were thought to come from another world to rule their kingdom",
+            "D) were far from making use of the fertile Nile valley",
+            "E) held their religious ceremonies along the banks of the River Nile"
+        ],
+        "answer": "B"
+    },
+    "27": {
+        "question": "--- PASSAGE --- Egypt's Old Kingdom flourished on the flood-enriched banks of the River Nile. It was an era of prosperity, relative stability, and strong centralized rule. During this period, the pyramids were built and Egyptian society worshipped their mighty kings, or pharaohs, as 'gods on Earth'. Old Kingdom society was tightly controlled by the powerful pharaoh. Central to life, politics, and religion, which were all closely combined, was the idea that the pharaoh was a semi-divine figure who acted as mediator between the gods and his people. The pharaoh not only oversaw elaborate religious rituals but also headed a vast, highly organized political and administrative bureaucracy. Pharaohs were believed to be earthly representations of the gods and were the upholders of a justice system that aimed to reflect the cosmic order. A pharaoh was also the figure who worked with the gods to ensure that the Nile brought silt-rich annual floods each year, maintaining the Nile valley fertile enough to support the country. Though Egyptians did seem to realize he was a flesh-and-blood human, they stood in awe of the sacred power of the pharaoh. --- QUESTION --- The underlined word 'upholders' in the passage is closest in meaning to keepers.",
+        "options": [
+            "A) admirers",
+            "B) speakers",
+            "C) keepers",
+            "D) finders",
+            "E) punishers"
+        ],
+        "answer": "C"
+    },
+    "28": {
+        "question": "--- PASSAGE --- Egypt's Old Kingdom flourished on the flood-enriched banks of the River Nile. It was an era of prosperity, relative stability, and strong centralized rule. During this period, the pyramids were built and Egyptian society worshipped their mighty kings, or pharaohs, as 'gods on Earth'. Old Kingdom society was tightly controlled by the powerful pharaoh. Central to life, politics, and religion, which were all closely combined, was the idea that the pharaoh was a semi-divine figure who acted as mediator between the gods and his people. The pharaoh not only oversaw elaborate religious rituals but also headed a vast, highly organized political and administrative bureaucracy. Pharaohs were believed to be earthly representations of the gods and were the upholders of a justice system that aimed to reflect the cosmic order. A pharaoh was also the figure who worked with the gods to ensure that the Nile brought silt-rich annual floods each year, maintaining the Nile valley fertile enough to support the country. Though Egyptians did seem to realize he was a flesh-and-blood human, they stood in awe of the sacred power of the pharaoh. --- QUESTION --- What can be inferred from the passage about Egypt's Old Kingdom? The figure of the pharaoh was central in designing every aspect of life.",
+        "options": [
+            "A) Stability was achieved through democratic rule despite the relative lack of prosperity.",
+            "B) Stability was negatively affected by the highly powerful position of the pharaohs.",
+            "C) It was difficult for the rulers to combine social, religious and political aspects of life in the Old Kingdom.",
+            "D) The figure of the pharaoh was central in designing every aspect of life.",
+            "E) To the pharaohs, religion was less significant than prosperity and centralization in the Old Kingdom."
+        ],
+        "answer": "D"
+    },
+    "29": {
+        "question": "--- PASSAGE --- In Indonesia, the rainforests are being destroyed due to the expansion of the palm oil industry. Today, palm oil is grown on an ever more huge scale, providing global commodity markets with vast quantities of cheap vegetable fat. Across the Indonesian islands of Sumatra and Borneo, palm oil plantations have so damaged the rainforest that experts expect the extinction of the orang-utan in the wild by about 2020, if nothing is done. More than 90 percent of the orang-utan’s original habitat is gone, and the remainder is under serious pressure, with the palm oil industry being backed by the Indonesian government even in protected areas where the last orang-utans live, for example, in southwest Borneo. The forests on these islands are also the home of countless other unique and rare species. Logging operations and plantation activities can increase the risk of serious fires, especially when coupled with unusually dry conditions. A very large fire may lead to further forest loss and increase pressure on neighbouring virgin forests by improving access to formerly remote areas. They also cause major public health problems across Indonesia and Malaysia, as the haze of smoke drifts across urbanized areas. --- QUESTION --- According to the passage, low costs of palm oil production has increased the size of the industry, but risking the rainforests.",
+        "options": [
+            "A) low costs of palm oil production has increased the size of the industry, but risking the rainforests",
+            "B) the expasion of palm oil industry in Indonesia makes the country richer than others in the region",
+            "C) the Indoesian government is trying to stop the palm oil plantation on the islands since it destroys te environment",
+            "D) the Indonesian government has provided special areas to protect the orang-utans threatened with extinction",
+            "E) Indonesian islands provide global commodity markets with palm oil cheaper than any other place in the world"
+        ],
+        "answer": "A"
+    },
+    "30": {
+        "question": "--- PASSAGE --- In Indonesia, the rainforests are being destroyed due to the expansion of the palm oil industry. Today, palm oil is grown on an ever more huge scale, providing global commodity markets with vast quantities of cheap vegetable fat. Across the Indonesian islands of Sumatra and Borneo, palm oil plantations have so damaged the rainforest that experts expect the extinction of the orang-utan in the wild by about 2020, if nothing is done. More than 90 percent of the orang-utan’s original habitat is gone, and the remainder is under serious pressure, with the palm oil industry being backed by the Indonesian government even in protected areas where the last orang-utans live, for example, in southwest Borneo. The forests on these islands are also the home of countless other unique and rare species. Logging operations and plantation activities can increase the risk of serious fires, especially when coupled with unusually dry conditions. A very large fire may lead to further forest loss and increase pressure on neighbouring virgin forests by improving access to formerly remote areas. They also cause major public health problems across Indonesia and Malaysia, as the haze of smoke drifts across urbanized areas. --- QUESTION --- It can be understood from the passage that the extinction of the orang-utans in Indonesia is more likely due to the lack of government effort to protect them.",
+        "options": [
+            "A) a combination of factors, including dry climate and increasing plantation, contributes to the extinction of rare species both in Malaysia and Indonesia",
+            "B) the extinction of the orang-utans in Indonesia is more likely due to the lack of government effort to protect them",
+            "C) people living in urbanized areas are supposed to experience less health problems than those who live in remote areas",
+            "D) palm oil industry is trying to find a better way to produce palm oil to prevent further forest loss",
+            "E) rare species in the Indonesian forests can survive negative conditions caused by palm oil plantation"
+        ],
+        "answer": "B"
+    },
+    "31": {
+        "question": "--- PASSAGE --- In Indonesia, the rainforests are being destroyed due to the expansion of the palm oil industry. Today, palm oil is grown on an ever more huge scale, providing global commodity markets with vast quantities of cheap vegetable fat. Across the Indonesian islands of Sumatra and Borneo, palm oil plantations have so damaged the rainforest that experts expect the extinction of the orang-utan in the wild by about 2020, if nothing is done. More than 90 percent of the orang-utan’s original habitat is gone, and the remainder is under serious pressure, with the palm oil industry being backed by the Indonesian government even in protected areas where the last orang-utans live, for example, in southwest Borneo. The forests on these islands are also the home of countless other unique and rare species. Logging operations and plantation activities can increase the risk of serious fires, especially when coupled with unusually dry conditions. A very large fire may lead to further forest loss and increase pressure on neighbouring virgin forests by improving access to formerly remote areas. They also cause major public health problems across Indonesia and Malaysia, as the haze of smoke drifts across urbanized areas. --- QUESTION --- The passage is mainly about the effects of palm oil plantation on the environment across the Indonesian islands.",
+        "options": [
+            "A) effects of palm oil plantation on the environment across the Indonesian islands",
+            "B) expansion and the future of palm oil industry on the Indonesian islands",
+            "C) reasons why the Indonesian islands are convenient for palm oil plantation",
+            "D) risk of fire due to palm oil plantation and how it can be harmful to both Indonesia and Malaysia",
+            "E) government efforts in Indonesia to control the palm oil plantation on the islands"
+        ],
+        "answer": "A"
+    },
+    "32": {
+        "question": "--- PASSAGE --- In Indonesia, the rainforests are being destroyed due to the expansion of the palm oil industry. Today, palm oil is grown on an ever more huge scale, providing global commodity markets with vast quantities of cheap vegetable fat. Across the Indonesian islands of Sumatra and Borneo, palm oil plantations have so damaged the rainforest that experts expect the extinction of the orang-utan in the wild by about 2020, if nothing is done. More than 90 percent of the orang-utan’s original habitat is gone, and the remainder is under serious pressure, with the palm oil industry being backed by the Indonesian government even in protected areas where the last orang-utans live, for example, in southwest Borneo. The forests on these islands are also the home of countless other unique and rare species. Logging operations and plantation activities can increase the risk of serious fires, especially when coupled with unusually dry conditions. A very large fire may lead to further forest loss and increase pressure on neighbouring virgin forests by improving access to formerly remote areas. They also cause major public health problems across Indonesia and Malaysia, as the haze of smoke drifts across urbanized areas. --- QUESTION --- The author's attitude towards palm oil plantation is disapproving.",
+        "options": [
+            "A) tolerant",
+            "B) superficial",
+            "C) impartial",
+            "D) disapproving",
+            "E) favouring"
+        ],
+        "answer": "D"
+    },
+    "33": {
+        "question": "Damon: Did you know that we literally consume billions of microplastics per year? Eliza: Don't act so surprised. After all, we are surrounded by plastics from electronics to our clothing and they leave huge plastic debris behind. Damon: But I still can't make the connection. How are they making their journey to my plate? Eliza: Take, for example, when you're laundering, microplastic fibres are released and drained into sewage water then applied to the soil. Later, in dry conditions, winds blow away the microplastics to roads or the surface of the oceans. When you think about it, a blow of wind can actually contaminate your meal. Damon: Looks like there's no escape from them.",
+        "options": [
+            "A) I don't get how widespread it is. Aren't microplastics a marine issue?",
+            "B) Let's say I chose natural-based products over plastic. Will it make a significant change in my exposure?",
+            "C) Do you think scientists have investigated sufficient amount of food types necessary to come to this conclusion?",
+            "D) But I still can't make the connection. How are they making their journey to my plate?",
+            "E) I see exposure to these particles is inevitable. The question is will our bodies tolerate such accumulation?"
+        ],
+        "answer": "D"
+    },
+    "34": {
+        "question": "Alice: Did you know that the sounds of lip smacking, slurping and swallowing can be the highest form of flattery to a chef? Matt: Yeah, especially in some cultures, but some may experience strong discomfort, annoyance or disgust when they hear particular triggers. Alice: How come? I mean they might be annoying, but I didn't know it was a phenomenon. Matt: It actually is! Some people can be provoked by chewing, throat clearing, coughing and even audible breathing.",
+        "options": [
+            "A) No, strong negative reactions to everyday sounds are most likely to come from subconscious mirroring behaviour.",
+            "B) Yes, but some people feel disgust while watching chefs contaminate themselves with food and relief while watching them wash their hands.",
+            "C) I've never heard that! However, traumas, such as food insecurity and homelessness might increase risk for depression, anxiety and post-traumatic stress disorder.",
+            "D) That's interesting. Generally, the human brain determines what food is coming next based on the status quo, plus what we recall from previous dining exeriences.",
+            "E) Yeah, especially in some cultures, but some may experience strong discomfort, annoyance or disgust when they hear particular triggers."
+        ],
+        "answer": "E"
+    },
+    "35": {
+        "question": "Geleneksel tedavilerle birlikte alternatif ve tamamlayıcı yaklaşımlar kullanmak bazı semptomları azaltabilir ancak pek çok sağlık sorununda geleneksel tedavinin yerini tam olarak alamaz.",
+        "options": [
+            "A) Alternative and complementary approaches can be used in coordination with conventional treatments to alleviate some symptoms; they cannot, however, effectively substitute for conventional medical care for many health conditions.",
+            "B) Alternative and complementary approaches used in coordination with conventional treatments alleviate some symptoms, though they cannot substitute for conventional medical care for certain health conditions.",
+            "C) Using alternative and complementary approaches in coordination with conventional treatments cannot effectively substitute for conventional medical care even if it may alleviate some symptoms of many health conditions.",
+            "D) Using alternative and complementary approaches may alleviate some symptoms if used in coordination with conventional treatments, yet they cannot be effective substitutes for conventional medical care for many health conditions.",
+            "E) Using alternative and complementary approaches in coordination with conventional treatments may alleviate some symptoms but cannot effectively substitute for conventional medical care for many health conditions."
+        ],
+        "answer": "E"
+    },
+    "36": {
+        "question": "Although we now accept drawings as works of art in their own right, up until recently they were thought to be preparatory processes – no matter how intricate or complex they might be.",
+        "options": [
+            "A) As part of the preparatory process in the production of a work of art, drawings were considered by some to be works of art; however, today, this is no longer the case unless they are detailed and complex.",
+            "B) Drawings have always been considered to be rightful works of art, but only when they were very intricate and complex, were they used in preparation for other works of art.",
+            "C) Today, drawings are considered to be art; however, not so long ago, this was not the case even though they could be detailed or complicated; they were regarded as a preliminary stage of a work of art.",
+            "D) The preparatory process of a work of art generally includes an intricate or complex drawing, which was the usual process in the past, yet this is no longer true.",
+            "E) Even though people regard drawings as true works of art, it was not until quite recently that people appreciated their role in the preparatory process of a complex, detailed work of art."
+        ],
+        "answer": "C"
+    },
+    "37": {
+        "question": "The meat industry's big public relations problem is that vegetarians are demonstrably healthier than meat eaters. If you do not eat beef, lamb or even chicken, your risk of heart disease and certain cancer is likely to be lower than that of the average meat-eating person. And as long as you eat any other animal product at all – dairy, fish, or eggs – you can avoid eating meat without affecting the nutritional quality of your diet. The only vegetarians who need to do anything special to prevent nutrient deficiencies are vegans, who eat no animal products whatsoever. If you follow vegan practices, you need to be sure to eat a variety of grains and beans to take in enough calories, and to find an alternative source for vitamin B12.",
+        "options": [
+            "A) Eating meat might stimulate the growth of intestinal bacteria that produce carcinogenic or other toxic chemicals, or some other as yet unknown mechanism might be at work.",
+            "B) If you eat red meat, you can lower your risk by selecting leaner cuts, eating smaller portions, or choosing chicken, fish or beans as alternatives.",
+            "C) And as long as you eat any other animal product at all – dairy, fish, or eggs – you can avoid eating meat without affecting the nutritional quality of your diet.",
+            "D) Meat will never be completely free of bacteria, but you have every right to wonder why producers are not doing a better job of keeping their meats free of harmful ones.",
+            "E) Although some meat packages are labelled with nutrition messages - 'only 70 calories per serving,' etc. - you will not easily find out the amount of saturated fat in the meat you buy."
+        ],
+        "answer": "C"
+    },
+    "38": {
+        "question": "By the end of the 19th century, electricity offered huge potential to change the world, but it suffered from one major limitation: distribution. It was all very well to have a steam engine next to a factory to turn the generator, to turn the motors, and light the bulbs. But the energy lost along the wires was so great that it would require a steam engine and generator at the end of every street to service a town. Indeed, early distribution networks had a limited range of about 2km. The challenge was to come up with a system that could offer useful electricity at the end of a very long wire.",
+        "options": [
+            "A) Walking at night, in the past, meant walking through a world illuminated via the burning of coal.",
+            "B) Reliable electric lighting transformed cities in Europe and America, making streets safer and helping to foster a 24-hour society.",
+            "C) By the end of the 19th century, electricity offered huge potential to change the world, but it suffered from one major limitation: distribution.",
+            "D) The name electricity was coined by William Gilbert, who had spent years studying magnetism.",
+            "E) While the major source of electricity was water and coal in the past, today it is nuclear radiation."
+        ],
+        "answer": "C"
+    },
+    "39": {
+        "question": "Which sentence disrupts the coherence of the passage? (I) Staring at the Sun without sunglasses hurts, which is reason enough to avoid doing it. (II) Too little sunshine leads to low vitamin D levels, which put you at higher risk of certain cancers. (III) But direct exposure to the ultraviolet radiation in intense sunlight can also damage the eye and increase the likelihood of a cataract developing. (IV) Cataracts affect the part of the eye that focuses light – the lens – gradually clouding vision and leading to blindness. (V) Surgery to restore vision involves making tiny cuts in the eye to remove the cataract and replace the lens.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "B"
+    },
+    "40": {
+        "question": "Which sentence disrupts the coherence of the passage? (I) What conservationists do in order to protect endangered species should be supported by governments to succeed. (II) Conservationists are using different methods to decide which species to save and not to save. (III) Each one favours certain priorities, such as an animal’s role in preserving a food chain or genetic diversity. (IV) Serving those priorities ultimately deems species winners or losers. (V) For example, Chinese river dolphins are viewed as losers since they serve no meaningful role, while gray wolves are winners because of controlling animal population.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "A"
+    }
+}

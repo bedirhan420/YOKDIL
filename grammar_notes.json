@@ -1,0 +1,723 @@
+{
+  "TENSES": [
+    {
+      "topic": "Temel Zaman Kuralları ve Kritik Uyarılar",
+      "content": [
+        {
+          "rule": "for two days, all day, throughout the year gibi süreç ifade eden zaman ifadeleri varsa 'Ving' cevap olamaz.",
+          "examples": ["She worked all day. ✅", "She was working all day. ❌"]
+        },
+        {
+          "rule": "V0 - V1 yapıları If clause ve zaman bağlaçlarında otomatik gelecek zaman göndermesi yapar.",
+          "formula": "If/when/before + S + V1, S + will V0"
+        },
+        {
+          "rule": "If/when/before'dan sonra 'will, would, shall, be going to' gelmez.",
+          "examples": ["If it rains, we will stay inside. ✅", "If it will rain, we will stay inside. ❌"]
+        }
+      ]
+    },
+    {
+      "topic": "Zaman Belirteçleri ve Karşılıkları",
+      "content": [
+        {"title": "Present Simple (V1)", "rule": "Sıklık ifadeleri ve tarihsel köken (date back to, go back to) için kullanılır.", "examples": ["She always drinks tea.", "This building dates back to the 18th century."]},
+        {"title": "Present Continuous (am/is/are Ving)", "rule": "now, right now, nowadays, at the moment, look/listen, for the time being.", "examples": ["She is talking on the phone right now."]},
+        {"title": "Past Continuous (was/were Ving)", "rule": "at that time, at the time, at that moment.", "examples": ["At that time, he was living abroad."]},
+        {"title": "Present Perfect (have/has V3)", "rule": "up to now, up till/until now, for ten years now, three times.", "examples": ["I have lived here for ten years now.", "I have visited Paris three times."]},
+        {"title": "Future Simple (will V0)", "rule": "from now on, onward, onwards, tomorrow, next..., shortly, soon.", "examples": ["From now on, we will study harder."]},
+        {"title": "Süreç Belirten be Ving", "rule": "gradually, more and more, day by day.", "examples": ["She is becoming more confident day by day."]}
+      ]
+    },
+    {
+      "topic": "V2 (Past Simple) ve Özel Durumlar",
+      "content": [
+        {"rule": "yesterday, ... ago, last ..., in 1900, during WW2, once gibi ifadelerle kullanılır.", "examples": ["They visited Rome last summer."]},
+        {
+          "title": "V2'nin Geçmiş Anlamı VERMEDİĞİ Yapılar",
+          "rule": "Bu kalıplardan sonra V2 gelirse güncel/hayali anlam taşır:",
+          "examples": [
+            "It’s about time we left.",
+            "I wish I had more time.",
+            "He acts as if he knew everything.",
+            "I’d rather you stayed home tonight.",
+            "If I had money, I would buy a car.",
+            "Would you mind if I used your pen?"
+          ]
+        },
+        {
+          "title": "was/were Ving Sadece 2 Dizilimde Kullanılır",
+          "examples": [
+            "was/were Ving, V2 (When/While)",
+            "was/were Ving, was/were Ving (While/As)"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Since Kullanım Kılavuzu",
+      "content": [
+        {
+          "title": "Edat Olarak Since (-den beri)",
+          "rule": "Since + pointed time in the past / noun phrase, have/has (been) V3.",
+          "examples": ["Since 2010, she has lived here.", "They have been married since college."]
+        },
+        {
+          "title": "Bağlaç Olarak Since",
+          "rule": "(Ever) Since + V2 (yan cümle), have/has (been) V3 (ana cümle).",
+          "examples": ["Ever since she left, I have felt lonely.", "He has worked here ever since he graduated."]
+        },
+        {
+          "title": "Zarf Olarak Since",
+          "rule": "Öncesinde kesin V2 olacak; and/but veya nokta sonrası have/has (been) V3.",
+          "examples": ["She moved to London, and since then she has lived there."]
+        }
+      ]
+    },
+    {
+      "topic": "Had V3 (Past Perfect)",
+      "content": [
+        {"rule": "by pointed time in the past + had V3", "examples": ["By 1990, they had finished the project."]},
+        {"rule": "by the time V2, had V3", "examples": ["By the time she arrived, he had left."]},
+        {"rule": "DİKKAT: Had V3'ü after/as soon as/once'ın ikinci kısmında; before/by the time'ın ilk kısmında görürsen ele!", "examples": ["As soon as he had eaten, he went to bed.", "He had left before she arrived."]},
+        {
+          "title": "Had V3 ile Özel Yapılar",
+          "examples": ["I wish I had studied harder.", "He acted as if he had seen a ghost.", "I’d rather you had told me the truth.", "If she had listened, she would have succeeded (Type 3)."]
+        }
+      ]
+    },
+    {
+      "topic": "By ve By the Time Ayrımı",
+      "content": [
+        {"rule": "By 1960 -> had V3 | By 2060 -> will have V3"},
+        {"rule": "By the time V2 (past) -> had V3"},
+        {"rule": "By the time V1 (present) -> will have V3", "examples": ["By the time she arrives, I will have prepared dinner."]}
+      ]
+    },
+    {
+      "topic": "If Clause Kesin OLMAZLAR",
+      "content": [
+        {"title": "İlk Boşlukta Olmazlar", "rule": "will, would, shall, be going to, may, might."},
+        {"title": "İkinci Boşlukta Olmazlar", "rule": "have/has V3, have/has been Ving, V2, was/were Ving, had V3, am/is/are."}
+      ]
+    },
+    {
+      "topic": "Süperlatif & Diğerleri",
+      "content": [
+        {"rule": "Cümle Superlative ile başlıyorsa -> V2 yüksek ihtimal.", "examples": ["The best moment of my life was when I met her."]},
+        {"rule": "This is ... + superlative şeklindeyse -> have/has V3.", "examples": ["This is the best book I have read."]},
+        {"rule": "Three times -> have/has V3 | Three times a day -> V1 (Geniş Zaman)."}
+      ]
+    }
+  ],
+  "MODALS": [
+    {
+      "topic": "Ability (Yetenek)",
+      "content": [
+        {"title": "Present", "rule": "can V0 ⇒ am/is/are able to V0", "examples": ["She can swim fast.", "He is able to solve the problem."]},
+        {"title": "Future", "rule": "will be able to V0 ⇒ shall be able to V0", "examples": ["You will be able to join us tomorrow.", "We shall be able to finish it on time."]},
+        {"title": "Past", "rule": "could V0 ⇒ was/were able to V0", "examples": ["She could run 10 km.", "They were able to escape the fire."]}
+      ]
+    },
+    {
+      "topic": "Possibility (İhtimal)",
+      "content": [
+        {
+          "title": "Present Possibility (Olumlu)",
+          "rule": "may / might / could V0 (may well / might well / could well ihtimali güçlendirir).",
+          "examples": ["She may come later.", "He may well win the race.", "It might well rain today."]
+        },
+        {"rule": "DİKKAT: may/might as well (bari yapalım anlamı katar).", "examples": ["We may as well leave now."]},
+        {"rule": "be likely to V0 (muhtemel) / be bound to V0 (kesin/kaçınılmaz).", "examples": ["She is likely to fail.", "He is bound to make mistakes."]},
+        {
+          "title": "Present Possibility (Olumsuz)",
+          "rule": "may not V0 / might not V0 kullanılır. DİKKAT: couldn’t V0 bu anlamda kullanılmaz!",
+          "examples": ["She may not pass.", "They might not attend."]
+        },
+        {
+          "title": "Past Possibility (Geçmiş İhtimal)",
+          "rule": "may have V3 / might have V3 / could have V3 (olumlu/olumsuz).",
+          "examples": ["She may have forgotten the key.", "He might have left early.", "She might not have known that."]
+        }
+      ]
+    },
+    {
+      "topic": "Requests & Permissions (Rica ve İzin)",
+      "content": [
+        {"title": "Requests", "rule": "Can you... / Could you... / Will you... / Would you...", "examples": ["Could you help me with this?", "Would you join us for dinner?"]},
+        {"rule": "Would you mind + Ving? / Would you mind if + S + V2?", "examples": ["Would you mind closing the door?", "Would you mind if I sat here?"]},
+        {"title": "Permissions", "rule": "May I / Might I / Can I / Could I", "examples": ["May I leave early?", "Could I borrow your book?"]}
+      ]
+    },
+    {
+      "topic": "Obligation & Necessity (Zorunluluk)",
+      "content": [
+        {"title": "Zorundayım (Present)", "rule": "must V0 / have-has to V0 / have-has got to V0 / need to V0."},
+        {"title": "Zorundaydım (Past)", "rule": "had to V0.", "examples": ["He had to leave early."]},
+        {"title": "Zorunda Değilim", "rule": "don’t have to / haven't got to / don’t need to (Past: didn’t need to).", "examples": ["You don’t have to wait."]}
+      ]
+    },
+    {
+      "topic": "Advice & Deduction (Tavsiye ve Çıkarım)",
+      "content": [
+        {"title": "Tavsiye (Advice)", "rule": "should / ought to / had better / must V0 (Olumsuz: shouldn't / ought not to / had better not / mustn't)."},
+        {"title": "Çıkarım (Present Deduction)", "rule": "Olumlu: must V0 (olmalı) / Olumsuz: can’t V0 (olamaz).", "examples": ["He must be tired.", "She can’t be serious."]},
+        {"title": "Çıkarım (Past Deduction)", "rule": "Olumlu: must have V3 / Olumsuz: can’t-couldn’t have V3.", "examples": ["He must have forgotten.", "She couldn’t have known that."]}
+      ]
+    },
+    {
+      "topic": "Habitual & Preferences (Alışkanlıklar ve Tercihler)",
+      "content": [
+        {"title": "Alışkanlıklar", "rule": "am-is-are used to + Ving (alışkın olmak) / used to V0 (eskiden yapardım).", "examples": ["I am used to working late.", "I used to play football."]},
+        {"title": "Tercihler", "rule": "would rather V0 (THAN V0) / prefer something (TO something).", "examples": ["I would rather stay home.", "I prefer tea to coffee.", "He would rather walk than drive."]}
+      ]
+    },
+    {
+      "topic": "Prohibition & Expectation (Yasaklar ve Beklenti)",
+      "content": [
+        {"title": "Yasak (Prohibition)", "rule": "mustn’t / am-is-are not allowed to / be forbidden to / be banned to / be prohibited to."},
+        {"title": "Yasak değil ama yapma", "rule": "am-is-are not supposed to / am-is-are not to / shouldn’t / ought not to."},
+        {"title": "Beklenti (Expectation)", "rule": "am-is-are to V0 / am-is-are supposed to V0 (Past: was-were supposed to).", "examples": ["You are to report at 9 a.m.", "He was supposed to arrive at noon."]}
+      ]
+    },
+    {
+      "topic": "Regret & Unreal Structures (Pişmanlık ve Gerçek Dışı)",
+      "content": [
+        {"title": "Past Advice / Regret", "rule": "should have V3 / ought to have V3 (yapmalıydı ama yapmadı).", "examples": ["You should have called me.", "You shouldn’t have shouted."]},
+        {"title": "Missed Opportunity", "rule": "could have V3 (yapabilirdi ama yapmadı).", "examples": ["I could have helped you."]},
+        {"title": "Unreal Yapılar", "rule": "was-were going to V0 (yapacaktı yapmadı) / needn’t have V3 (gerek yoktu ama yaptı)."}
+      ]
+    }
+  ],
+  "PASSIVE & CAUSATIVES": [
+    {
+      "topic": "Passive Voice (Edilgen Yapı) Temelleri",
+      "content": [
+        {
+          "rule": "Nesne alabilen fiiller (kimi, neyi sorularına cevap veren) pasif yapılabilir.",
+          "examples": ["They cleaned the room → The room was cleaned."]
+        },
+        {
+          "rule": "DİKKAT: Soruda nesne alması gereken bir fiil varsa ve yanında nesne yoksa, o yapı pasiftir.",
+          "examples": ["The window was broken. (Kıran belli değil, nesne olan pencere özne olmuş.)"]
+        },
+        {
+          "title": "Passive Yapma Formülü",
+          "formula": "S + V + O ⇒ O + BE V3",
+          "examples": ["She writes a letter ⇒ A letter is written."]
+        }
+      ]
+    },
+    {
+      "topic": "Tense ve Yapı Formları",
+      "content": [
+        {"title": "V1 (Present Simple)", "rule": "am/is/are + V3", "examples": ["The car is washed."]},
+        {"title": "V2 (Past Simple)", "rule": "was/were + V3", "examples": ["The car was washed."]},
+        {"title": "Modals + V0", "rule": "modal + be + V3", "examples": ["The job must be done."]},
+        {"title": "Continuous (Ving)", "rule": "be + being + V3", "examples": ["The cake is being baked."]},
+        {"title": "Perfect (V3)", "rule": "have/has/had + been + V3", "examples": ["The letter has been sent."]}
+      ]
+    },
+    {
+      "topic": "Infinitive & Gerund Passive",
+      "content": [
+        {"title": "Infinitive (to V0)", "rule": "to be V3 / to have been V3", "examples": ["The report needs to be finished.", "He claims to have been cheated."]},
+        {"title": "Gerund (Ving)", "rule": "being V3 / having been V3", "examples": ["He admitted being followed.", "She regrets having been ignored."]}
+      ]
+    },
+    {
+      "topic": "Pasif Sorusu Çözen Kritik İpuçları",
+      "content": [
+        {"rule": "Boşluktan sonra EDAT (with/to/at/by vb.) geliyorsa ⇒ PASİF", "examples": ["The room was filled with smoke."]},
+        {"rule": "Cümle 'It .... THAT' yapısıyla kurulmuşsa ⇒ PASİF", "examples": ["It is believed that he escaped."]},
+        {"rule": "Noktalama işaretlerinden (, / . / ;) hemen önce ⇒ PASİF", "examples": ["He was arrested; the evidence was found."]},
+        {"rule": "ZARF kullanımından sonra nesne yoksa ⇒ PASİF", "examples": ["Surprisingly, the task was completed on time."]},
+        {"rule": "Duygular ve dış kaynaklı olaylar genellikle pasiftir.", "examples": ["She was shocked by the result."]},
+        {"rule": "İSTİSNA: is seen / was caught / was found + Ving dizilimine dikkat!", "examples": ["He was seen leaving the building."]}
+      ]
+    },
+    {
+      "topic": "Edilgen Anlam Veren Edatlar",
+      "content": [
+        {"rule": "by (tarafından)", "examples": ["The novel was written by Orwell."]},
+        {"rule": "with the help of (yardımıyla)", "examples": ["The machine was built with the help of engineers."]},
+        {"rule": "via / through (aracılığıyla)", "examples": ["The message was sent via email.", "Data was obtained through observation."]},
+        {"rule": "by means of (vasıtasıyla)", "examples": ["The solution was reached by means of negotiation."]}
+      ]
+    },
+    {
+      "topic": "Causatives (Ettirgen Yapılar)",
+      "content": [
+        {
+          "title": "Sadece Eylem Odaklı (Nesne Ortada)",
+          "rule": "HAVE / GET + Something + V3",
+          "examples": ["I had my bike fixed.", "She got the documents printed."]
+        },
+        {
+          "title": "Eylemi Yapan Kişi Odaklı (Aktif Dizilim)",
+          "rule": "HAVE / LET / MAKE + Somebody + V0",
+          "examples": ["I had the mechanic check the brakes.", "She let her friend borrow her car.", "The teacher made the students stay late."]
+        },
+        {
+          "title": "İSTİSNA: GET Kullanımı",
+          "rule": "GET + Somebody + TO V0",
+          "examples": ["I got the mechanic to check the brakes."]
+        }
+      ]
+    }
+  ],
+  "GERUNDS & INFINITIVES": [
+    {
+      "topic": "Gerunds (Ving) - Genel Kullanım ve Kurallar",
+      "content": [
+        {
+          "rule": "Genel durumlara veya geçmişe gönderme yapan fiillerle (like, hate, steal, witness, remember, regret) kullanılır.",
+          "examples": ["I remember stealing that book when I was a kid.", "She likes reading novels."]
+        },
+        {"rule": "Tüm Edatlardan (PREP) sonra Ving gelir.", "examples": ["He is good at drawing.", "They talked about moving abroad."]},
+        {"rule": "go + Ving (aktivite bildiren fiiller).", "examples": ["They went swimming last weekend.", "We often go hiking."]}
+      ]
+    },
+    {
+      "topic": "Gerund Kalıpları ve Özel Durumlar",
+      "content": [
+        {
+          "title": "Idiomatic Expressions (Kalıplaşmış İfadeler)",
+          "rule": "be/get used to, be/get accustomed to, look forward to, feel like, be opposed to, object to, can’t help/bear/stand, It’s worth, no use/good, there is no point in, in the habit of.",
+          "examples": ["I’m used to waking up early.", "She looks forward to meeting you.", "There’s no point in arguing."]
+        },
+        {"rule": "Sahiplik bildiren (Possessive) yapılardan sonra Ving gelir.", "examples": ["I appreciate your helping me.", "His singing was impressive."]},
+        {"rule": "spend / waste + zaman/para + Ving.", "examples": ["He spent two hours studying.", "She wasted time complaining."]},
+        {"rule": "trouble / problem / difficulty + Ving.", "examples": ["They had trouble finding a taxi."]},
+        {"rule": "DİKKAT: busy (İstisna Sıfat) ve is seen/caught/found (İstisna Pasif) yapılarından sonra Ving gelir.", "examples": ["He is busy preparing dinner.", "He was caught stealing a phone."]},
+        {"rule": "see / hear (eylemin bir kısmına şahit olma).", "examples": ["I saw him running.", "We heard the baby crying."]},
+        {"title": "Gerund Pasif Hali", "rule": "being V3 / having been V3", "examples": ["She hates being ignored.", "He mentioned being chosen for the role."]}
+      ]
+    },
+    {
+      "topic": "Infinitives (to V0) - Gelecek ve Amaç",
+      "content": [
+        {"rule": "Geleceğe veya bir amaca gönderme yapan fiillerle (plan, hope, decide, want) kullanılır.", "examples": ["I plan to visit Italy.", "They decided to move."]},
+        {"rule": "ADJ + to V0 yapısı.", "examples": ["It’s easy to learn English.", "He was happy to help."]},
+        {"title": "Sıfat Dizilimleri", "rule": "adj + for/of + SMB + to V0", "examples": ["It’s difficult for children to focus.", "It was kind of her to offer help."]},
+        {"rule": "Noun + to V0.", "examples": ["She has a lot of work to do."]},
+        {"rule": "too ... to V0 / adj-adv + enough + to V0 / enough + noun + to V0.", "examples": ["This tea is too hot to drink.", "She’s old enough to vote.", "There isn't enough time to finish."]},
+        {"rule": "Question Word + to V0 (if hariç).", "examples": ["I don’t know what to do.", "Tell me how to use this machine."]},
+        {"rule": "something/anybody/nothing + to V0.", "examples": ["I need something to eat."]},
+        {"rule": "Superlative + to V0 (en ... ecek olan).", "examples": ["He’s the best player to join the team."]},
+        {"rule": "AMAÇ bildiren (mek/mak için) kullanım.", "examples": ["She studies hard to pass the exam."]},
+        {"title": "Infinitive Pasif Hali", "rule": "to be V3", "examples": ["The house needs to be cleaned.", "The book is expected to be published soon."]}
+      ]
+    },
+    {
+      "topic": "Her İki Yapıyı Alan ve Anlamı Değişen Fiiller (BOTH)",
+      "content": [
+        {"title": "MEAN", "rule": "Gerund: anlamına gelmek | Infinitive: kastetmek", "examples": ["This word means learning something.", "I meant to call you yesterday."]},
+        {"title": "TRY", "rule": "Gerund: denemek | Infinitive: çabalamak", "examples": ["Try restarting the computer.", "I tried to fix the issue."]},
+        {"title": "STOP", "rule": "Gerund: eylemi bırakmak (give up) | Infinitive: bir şey yapmak için durmak", "examples": ["He stopped smoking. (Bıraktı)", "She stopped to rest. (Durdu)"]},
+        {"title": "FORGET / REMEMBER", "rule": "Gerund: yapılan eylemi unutmak/hatırlamak | Infinitive: yapılacak eylemi", "examples": ["I remember seeing her. (Gördüğümü hatırlıyorum)", "Remember to turn off lights. (Kapatmayı unutma)"]},
+        {"title": "REGRET", "rule": "Gerund: yaptığına pişman olmak | Infinitive: üzülerek bildirmek", "examples": ["I regret telling him.", "We regret to inform you that..."]},
+        {"title": "GO ON", "rule": "Gerund: aynı şeye devam etmek | Infinitive: değişiklik yaparak devam etmek", "examples": ["He went on talking for hours.", "She went on to explain the details."]},
+        {"title": "NEED", "rule": "Gerund: pasif anlam (temizlik istiyor) | Infinitive: aktif anlam (temizlemem lazım)", "examples": ["The car needs washing.", "I need to wash the car."]}
+      ]
+    }
+  ],
+  "ADJECTIVES & ADVERBS": [
+    {
+      "topic": "Sıfat ve Zarf Ayrımı (ADJ vs ADV)",
+      "content": [
+        {
+          "title": "ADJECTIVES (ADJ)",
+          "rule": "İsimleri niteler. Ancak şu fiiller istisna olarak zarf yerine sıfatla nitelenir: be, look, become, feel, taste, prove, get, smell, remain, sound, seem, stay, appear.",
+          "examples": ["The soup tastes good.", "He seems happy."]
+        },
+        {
+          "title": "ADVERBS (ADV)",
+          "rule": "Zarflar şunları niteler: Fiiller, Sıfatlar, Cümleler ve Diğer Zarflar.",
+          "examples": [
+            "Fiili niteleme: She speaks slowly.",
+            "Sıfatı niteleme: The exam was extremely easy.",
+            "Cümleyi niteleme: Unfortunately, we lost.",
+            "Zarfı niteleme: She drives extremely carefully."
+          ]
+        },
+        {
+          "title": "KRİTİK İPUCU",
+          "rule": "Cümlede boş bırakılan yer hariç anlam bütünlüğü ve gramer tam ise; Even, Comparatives, Superlatives veya bir ADVERB (Zarf) seçeneğine yönel."
+        }
+      ]
+    },
+    {
+      "topic": "COMPARATIVE (Karşılaştırma)",
+      "content": [
+        {"rule": "-er THAN (kısa kelimeler) / more ... THAN (uzun kelimeler).", "examples": ["She is taller than her brother.", "This book is more interesting than the last one."]},
+        {"title": "Özel Karşılaştırmalar", "rule": "The former (önceki) / the latter (sonraki).", "examples": ["I met Jane and Sarah. The former is a teacher, the latter is a doctor."]},
+        {"rule": "The more ..., the more ... (Ne kadar ..., o kadar ...).", "examples": ["The more you practice, the better you become."]},
+        {"rule": "as ... adj/adv ... as (kadar) / so ... as (olumsuzda kadar).", "examples": ["He is as tall as his father.", "He is not so fast as his brother."]},
+        {"rule": "as many/much ... noun ... as | so many/much ... noun ... as (olumsuz).", "examples": ["She has as many books as I do.", "I don’t have so much time as you."]},
+        {"rule": "Such ... adj + noun ... as (kadar).", "examples": ["I have never seen such beautiful paintings as these."]}
+      ]
+    },
+    {
+      "topic": "Miktar ve Derece Yapıları",
+      "content": [
+        {"title": "So ... That", "rule": "So + adj/adv + that + SVO (o kadar ... ki).", "examples": ["The test was so difficult that many students failed."]},
+        {"rule": "So + many/much + noun + that + SVO.", "examples": ["He had so many problems that he couldn't sleep."]},
+        {"title": "Such ... That", "rule": "Such + (a/an) + adj + noun + that + SVO.", "examples": ["It was such a boring movie that we left early."]},
+        {"rule": "Such + a lot of + noun + that + SVO.", "examples": ["They gave us such a lot of food that we couldn’t eat it all."]},
+        {"title": "Too & Enough", "rule": "Too + adj/adv + to V0 (emeyecek kadar ...).", "examples": ["The tea is too hot to drink."]},
+        {"rule": "Too many/much + noun + to V0.", "examples": ["There are too many tasks to complete."]},
+        {"rule": "adj/adv + enough + to V0 / enough + noun + to V0.", "examples": ["She is strong enough to lift the box.", "We have enough money to buy a car."]}
+      ]
+    },
+    {
+      "topic": "SUPERLATIVE (Üstünlük)",
+      "content": [
+        {"rule": "The ...-est (kısa kelimeler) / The most ... (uzun kelimeler).", "examples": ["He is the tallest.", "This is the most beautiful place."]},
+        {"title": "Superlative İpuçları", "rule": "by far, of all, among, in gibi kelimeler superlative yapıya işaret eder.", "examples": ["She is by far the best singer.", "He is the most talented among his teammates."]},
+        {"rule": "The least (en az) / At least (en azından).", "examples": ["The least expensive option.", "Sleep at least 7 hours."]},
+        {"rule": "The last (en son - devamı yok) / The latest (en son - güncel, devamı var).", "examples": ["The last person to leave.", "The latest version of the app."]}
+      ]
+    },
+    {
+      "topic": "AS, LIKE & SUCH AS (Gibi / Olarak)",
+      "content": [
+        {"title": "LIKE", "rule": "Like + noun (gibi).", "examples": ["He plays the guitar like a professional."]},
+        {"title": "SUCH AS", "rule": "Such as / like + noun (örnekleme).", "examples": ["Water sports, such as swimming and diving."]},
+        {"title": "AS", "rule": "As + noun (olarak) / As + SVO (çünkü, iken, -dıkça) / As V3 (edilgen yapı).", "examples": ["He works as a teacher.", "As it was raining, we stayed home.", "As seen in the picture."]},
+        {"title": "SUCH Kullanımı", "rule": "Such + noun (böyle) / Such + adj + noun + as (örnekleme).", "examples": ["I’ve never seen such weather.", "Such unhealthy foods as burgers."]},
+        {"rule": "DİKKAT: Such as cümle başında KULLANILMAZ!", "examples": ["✅ I enjoy sports such as football.", "❌ Such as football, I enjoy sports."]}
+      ]
+    }
+  ],
+  "ADJECTIVE CLAUSES": [
+    {
+      "topic": "Subject Position (Özne Konumu)",
+      "content": [
+        {"rule": "Boşluktan sonra yardımcı fiil, fiil veya modal geliyorsa (özne eksikse) kullanılır."},
+        {
+          "title": "İnsan",
+          "rule": "WHO / THAT (Virgül varsa sadece WHO)",
+          "examples": ["The man who called you is my uncle.", "Mr. Smith, who is our teacher, is very kind."]
+        },
+        {
+          "title": "Diğer (Cansız/Hayvan)",
+          "rule": "WHICH / THAT (Virgül varsa sadece WHICH)",
+          "examples": ["The car that broke down is mine.", "The plan, which seemed perfect, failed."]
+        }
+      ]
+    },
+    {
+      "topic": "Object Position (Nesne Konumu)",
+      "content": [
+        {"rule": "Boşluktan sonra 'özne + fiil' dizilimi geliyorsa (nesne eksikse) kullanılır."},
+        {
+          "title": "İnsan",
+          "rule": "WHOM / WHO / THAT (Virgül varsa WHOM veya WHO)",
+          "examples": ["The person whom you met was my cousin.", "My friend, whom I trust, helped me."]
+        },
+        {
+          "title": "Diğer (Cansız/Hayvan)",
+          "rule": "WHICH / THAT",
+          "examples": ["The book which I read was amazing.", "Her answer, which I didn’t expect, surprised me."]
+        }
+      ]
+    },
+    {
+      "topic": "Possessive (İyelik - Aidiyet)",
+      "content": [
+        {"rule": "Boşluktan sonra 'noun' veya 'adj + noun' geliyorsa kullanılır."},
+        {
+          "title": "İnsan & Diğer",
+          "rule": "WHOSE",
+          "examples": ["The girl whose brother is a doctor.", "The house whose windows are broken was sold."]
+        },
+        {
+          "title": "Cansızlar için Alternatif",
+          "rule": "the + noun + of which",
+          "examples": ["The building the roof of which collapsed is unsafe."]
+        }
+      ]
+    },
+    {
+      "topic": "Place, Time & Reason (Yer, Zaman, Sebep)",
+      "content": [
+        {
+          "title": "Yer (Place)",
+          "rule": "WHERE / PREP + WHICH / WHICH (yarım cümleyle) / WHOSE + noun",
+          "examples": [
+            "which + SV/VO: The city which hosts many tourists is Rome.",
+            "where + SVO (tam cümle): The restaurant where we ate was excellent.",
+            "prep + which + SVO: The city in which we live is noisy.",
+            "whose + noun: Istanbul, whose streets are crowded..."
+          ]
+        },
+        {
+          "title": "Zaman (Time)",
+          "rule": "WHEN / WHICH / PREP + WHICH",
+          "examples": ["The moment when he arrived was magical.", "The day which followed the storm was calm."]
+        },
+        {
+          "title": "Sebep (Reason)",
+          "rule": "WHY / WHICH / THAT",
+          "examples": ["The reason why she left is unknown.", "The reason that she gave was logical."]
+        }
+      ]
+    },
+    {
+      "topic": "Kritik İpucu ve Aracılığıyla Yapısı",
+      "content": [
+        {
+          "title": "PREP + Relative Pronoun",
+          "rule": "Boşluk başında edat (prep) varsa sadece şunlar gelebilir: WHOM (insan için), WHICH (cansız için), WHOSE + noun.",
+          "examples": ["The woman to whom I spoke.", "The book about which we talked."]
+        },
+        {
+          "title": "WHEREBY",
+          "rule": "WHEREBY / BY MEANS OF WHICH + SVO (aracılığıyla / vasıtasıyla anlamı katar).",
+          "examples": ["They signed an agreement whereby both sides benefit."]
+        }
+      ]
+    },
+    {
+      "topic": "Relative Clause Kısaltmaları (Reduction)",
+      "content": [
+        {
+          "title": "Aktif & Pasif Kısaltmalar",
+          "rule": "Aktif: Noun + Ving | Pasif: Noun + V3 | Pasif (devam eden): Noun + being V3.",
+          "examples": [
+            "Aktif: The boy playing the guitar...",
+            "Pasif: The car repaired yesterday...",
+            "Pasif (Sürekli): The files being uploaded..."
+          ]
+        },
+        {
+          "title": "Özel Kısaltmalar",
+          "rule": "Superlative / The first / The only + to V0 (aktif) veya to be V3 (pasif).",
+          "examples": ["The best player to join...", "The best house to be built..."]
+        },
+        {
+          "title": "Sıfat ve Edat ile Kısaltma",
+          "rule": "Noun + ADJ | Noun + PREP",
+          "examples": ["A girl angry at her mom...", "The person in charge..."]
+        }
+      ]
+    }
+  ],
+  "NOUN CLAUSES": [
+    {
+      "topic": "Kararlı Durum Bağlaçları (That / The Fact That)",
+      "content": [
+        {
+          "title": "Özne Konumunda",
+          "rule": "That + cümlecik + V + O | The fact that + cümlecik + V + O",
+          "examples": ["That she passed surprised us.", "The fact that he lied shocked me."]
+        },
+        {
+          "title": "Özne Konumu Dışında",
+          "rule": "S + V + that + SVO | S + yardımcı fiil + that + SVO",
+          "examples": ["I know that she is here.", "He didn't say that he knew it."]
+        },
+        {
+          "title": "Pasif, Sıfat ve İsim Sonrası",
+          "rule": "It + pasif + that | sıfat + that | soyut isim + that | prep + the fact that",
+          "examples": [
+            "It is believed that he left.",
+            "I’m glad that you came.",
+            "The hope that he survives is strong.",
+            "They reacted to the fact that he resigned."
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Kararsız Durum Bağlaçları (Wh-, How, Whether, If)",
+      "content": [
+        {"rule": "S + V + Wh- / How / Whether / If + SVO", "examples": ["I wonder what she wants.", "He didn’t know how it works."]},
+        {"rule": "It is unclear whether... / I’m not sure if...", "examples": ["It is unclear whether he’ll return.", "I’m not sure if he knows."]},
+        {"rule": "Edattan (prep) sonra IF gelmez, Wh- veya How gelir.", "examples": ["They talked about how she succeeded."]}
+      ]
+    },
+    {
+      "topic": "Whether vs IF Ayrımı",
+      "content": [
+        {"rule": "Özne konumunda ise ⇒ WHETHER", "examples": ["Whether she agrees is unknown."]},
+        {"rule": "Edattan (prep) hemen sonra ise ⇒ WHETHER", "examples": ["I’m thinking about whether we should go."]},
+        {"rule": "or not'dan hemen önce ise ⇒ WHETHER", "examples": ["They asked whether or not we will apply."]},
+        {"rule": "Mastarlı kısaltmalarda (to V0) ⇒ WHETHER", "examples": ["They haven’t decided whether to stay."]},
+        {"rule": "Fiilden sonra her ikisi de olabilir.", "examples": ["I don’t know whether she will come.", "I don’t know if she will come."]}
+      ]
+    },
+    {
+      "topic": "Sınav İçin Kritik İpuçları (Boşluk Doldurma)",
+      "content": [
+        {"rule": "Boşluktan sonra 'adj/adv + S + V' geliyorsa ⇒ HOW", "examples": ["I’m amazed how fast she ran."]},
+        {"rule": "Boşluktan sonra 'noun + S + V' geliyorsa ⇒ whose, which, what, how many/much", "examples": ["Which car she bought surprised us."]},
+        {"rule": "Özne eksikse (Boşluk + fiil/modal) ⇒ who, what, which, how many/much", "examples": ["What caused the fire is unknown."]},
+        {"rule": "Nesne eksikse (Boşluk + S + V) ⇒ who, whom, what, which, how many/much", "examples": ["She met whoever you invited."]},
+        {"rule": "Cümle tam ise (Boşluk + S + V + O) ⇒ that, the fact that, whether/if, where, when, why, how", "examples": ["I don’t know where she lives."]}
+      ]
+    },
+    {
+      "topic": "Sınavda Dikkat: Tense Uyumu",
+      "content": [
+        {"title": "ASLA OLMAZ (Ana Cümlede)", "rule": "had said, Ving, would say, will say + that...", "examples": ["He will say that she is guilty. ❌"]},
+        {"title": "OLABİLİR (Ana Cümlede)", "rule": "have suggested, suggest, suggested + that...", "examples": ["They suggested that we leave early. ✅"]}
+      ]
+    },
+    {
+      "topic": "Bağlaçlar ve Question Tags",
+      "content": [
+        {"title": "Eklemeler (Too, Either, So, Neither)", "rule": "-. - , either | . +, too / as well | So (devrik) | Neither .. nor (tekil/çoğul uyumu)", "examples": ["She doesn’t like coffee, and I don’t either.", "He likes music, and I do too.", "She is tired, and so am I.", "Neither Tom nor Jerry was late."]},
+        {
+          "title": "Question Tags (Aydın Hoca Notu)",
+          "rule": "Cümle olumluysa tag olumsuz, olumsuzsa tag olumludur. Aynı modal/yardımcı fiil kullanılır.",
+          "examples": ["You’re coming, aren’t you?", "She can’t swim, can she?"]
+        }
+      ]
+    }
+  ],
+  "CONDITIONALS & WISH": [
+    {
+      "topic": "IF CLAUSES (Koşul Cümleleri)",
+      "content": [
+        {"title": "Type 0 (Genel Doğrular)", "rule": "V1 , V1", "examples": ["If you heat ice, it melts."]},
+        {"title": "Type 1 (Gerçekleşebilir)", "rule": "V1 , will/shall V0", "examples": ["If it rains, we will stay at home."]},
+        {"title": "Type 2 (Hayali - Şimdiki Zaman)", "rule": "V2 , would (be) V0", "examples": ["If I had time, I would help you."]},
+        {"title": "Type 3 (Hayali - Geçmiş Zaman)", "rule": "had V3 , would have V3", "examples": ["If she had studied, she would have passed."]}
+      ]
+    },
+    {
+      "topic": "Mixed Conditionals (Karma Koşul)",
+      "content": [
+        {"title": "Past Condition / Present Result", "rule": "had V3 , would (be) V0", "examples": ["If I had slept earlier, I would be energetic now."]},
+        {"title": "Present Condition / Past Result", "rule": "V2 , would have V3", "examples": ["If I were taller, I would have joined the team."]}
+      ]
+    },
+    {
+      "topic": "IF CLAUSES - Kesinlikle OLMAYACAK Yapılar",
+      "content": [
+        {
+          "title": "If'li Kısımda Olmazlar",
+          "rule": "will, shall, may, might, could, be going to kesinlikle gelmez.",
+          "examples": ["If you will come, call me. ❌"]
+        },
+        {
+          "title": "Sonuç (Diğer) Kısmında Olmazlar",
+          "rule": "have V3, V2, was/were, had V3, am/is/are, am/is/are Ving bu kısımda tek başına bulunmaz.",
+          "examples": ["If you come, I have seen her. ❌"]
+        }
+      ]
+    },
+    {
+      "topic": "Alternatif Koşul Bağlaçları",
+      "content": [
+        {"rule": "provided that / on condition that (şartıyla)", "examples": ["You can go out provided that you finish homework."]},
+        {"rule": "as long as / so long as (-dığı sürece)", "examples": ["You can stay as long as you keep quiet."]},
+        {"rule": "only if (ancak ... olursa)", "examples": ["He will join us only if he finishes early."]},
+        {"rule": "even if (-sa bile)", "examples": ["I'll go even if it rains."]},
+        {"rule": "unless (-mazsa / -madıkça)", "examples": ["You’ll fail unless you study."]},
+        {"rule": "whether .. or (ister ... ister)", "examples": ["We’ll go whether it rains or not."]},
+        {"rule": "just in case (olur diye / ne olur ne olmaz)", "examples": ["Take an umbrella just in case it rains."]},
+        {"rule": "in case of (durumunda)", "examples": ["In case of fire, use the stairs."]}
+      ]
+    },
+    {
+      "topic": "Özel Koşul Yapıları (If it weren't for / But for)",
+      "content": [
+        {"rule": "if it weren’t for / if it hadn’t been for (olmasaydı)", "examples": ["If it weren’t for her help, I would fail."]},
+        {"rule": "but for / without (-olmasaydı / -olmasa)", "examples": ["But for your warning, I would have missed the bus.", "I wouldn’t succeed without your support."]}
+      ]
+    },
+    {
+      "topic": "Implied Conditionals (Gizli Koşul) & Diğerleri",
+      "content": [
+        {"rule": "but, otherwise, or else, or", "examples": ["I would go, but I’m too tired.", "You must study; otherwise, you'll fail.", "Leave now, or else you'll miss the train."]},
+        {"rule": "supposed to / what if", "examples": ["You are supposed to wear a helmet.", "What if she doesn’t come?"]}
+      ]
+    },
+    {
+      "topic": "WISH CLAUSES (Keşke)",
+      "content": [
+        {"rule": "Wish cümleleri daima 'bi tık geçmiş' zamanı kullanır."},
+        {"title": "Present Wish (Şu anki istek)", "rule": "V2 / would V0 / could V0", "examples": ["I wish I knew the answer.", "I wish he would call me."]},
+        {"title": "Past Wish (Geçmiş pişmanlık)", "rule": "had V3 / would have V3 / could have V3", "examples": ["I wish I had studied harder.", "I wish you would have told me."]}
+      ]
+    },
+    {
+      "topic": "WISH - Kesinlikle OLMAYACAK Yapılar",
+      "content": [
+        {"rule": "Wish'ten sonra present (V1) veya future (will) yapılar asla gelmez.", "examples": ["I wish I am rich. ❌"]},
+        {"rule": "Özne aynıysa 'would' kullanılmaz.", "examples": ["I wish I would pass the exam. ❌"]},
+        {"title": "If Only", "rule": "Wish ile aynı mantıktadır.", "examples": ["If only I hadn’t said that."]}
+      ]
+    }
+  ],
+  "CONJUNCTIONS & PREPS": [
+    {
+      "topic": "Genel Kullanımlar ve Cümle Dizilimleri",
+      "content": [
+        {"title": "FANBOYS", "rule": "SVO + fanboys + SVO | SVO + n + VSO (devrik)"},
+        {"title": "BAĞLAÇLAR", "rule": "X SVO , SVO | SVO X SVO | SVO , X SVO"},
+        {"title": "CÜMLE ZARFLARI", "rule": "SVO. X , SVO | SVO : X ; SVO | SVO, X SVO | SVO. SVO , X | SVO. S , X , VO | SVO. S, X."},
+        {"title": "EDATLAR", "rule": "X N.P/NC/Ving , SVO | SVO X N.P/NC/Ving"}
+      ]
+    },
+    {
+      "topic": "FANBOYS & Paralel Yapılar",
+      "content": [
+        {"title": "FANBOYS", "rule": "for, and, nor, then, but, or, yet, so", "examples": ["He left early, for he had an appointment.", "She bought a book and read it in one day.", "He doesn’t smoke, nor does he drink.", "He is old, yet very strong."]},
+        {"title": "Paralel Yapılar", "rule": "not only .. but also | both .. and | either .. or | neither .. nor | not .. but", "examples": ["She speaks not only English but also French.", "He is both smart and hardworking.", "It’s not a bug but a feature."]}
+      ]
+    },
+    {
+      "topic": "ZITLIK (Contrast)",
+      "content": [
+        {"title": "Bağlaçlar (SVO)", "rule": "although, even though, much as, even if, while, though, despite the fact that, in spite of the fact that, whereas", "examples": ["Although it was cold, we went out.", "Much as I admire him, I disagree.", "She likes cats, whereas he prefers dogs."]},
+        {"title": "Edatlar (Noun/Ving)", "rule": "despite, in spite of, in contrast to/with, unlike, contrary to", "examples": ["Despite the rain, we went out.", "Unlike you, I enjoy hiking.", "Contrary to expectations, he passed."]},
+        {"title": "Cümle Zarfları", "rule": "however, still, even so, nonetheless, nevertheless, all the same, conversely, on the other hand, in contrast, by contrast", "examples": ["It was difficult. However, he did it.", "She was tired. Still, she helped.", "The old model was slow. By contrast, the new one is fast."]},
+        {"title": "Özel Kullanım", "rule": "however + adj/adv | no matter how + adj/adv", "examples": ["However hard he tried, he couldn’t win.", "No matter how fast you run, you’ll be late."]}
+      ]
+    },
+    {
+      "topic": "SEBEP (Reason) & SONUÇ (Result)",
+      "content": [
+        {"title": "Sebep Bağlaçları (SVO)", "rule": "because, since, as, seeing as, seeing that, inasmuch as, on the grounds that, now that, in that", "examples": ["Seeing as you’re here, let’s start.", "He’s lucky in that he got support."]},
+        {"title": "Sebep Edatları (Noun/Ving)", "rule": "because of, due to, owing to, on account of, in view of, thanks to, as a result of, as a consequence of", "examples": ["The flight was delayed due to fog.", "In view of the evidence, he’s guilty.", "Thanks to you, I passed."]},
+        {"title": "Sonuç Yapıları", "rule": "so .. that, such .. that, so (that), otherwise, therefore, thus, hence, accordingly, consequently, as a consequence, as a result, thereby", "examples": ["She was so tired that she fell asleep.", "He lied, thus losing our trust.", "He apologized, thereby ending the argument."]}
+      ]
+    },
+    {
+      "topic": "ZAMAN (Time) & AMAÇ (Purpose)",
+      "content": [
+        {"title": "Zaman Bağlaçları", "rule": "after, before, as soon as, the moment, when, while, once, until / till, by the time, just as, the last time, the next time, no sooner than, hardly when, whenever, every time", "examples": ["The moment he saw her, he smiled.", "By the time we got there, they had left.", "No sooner had he arrived than he left."]},
+        {"title": "Zaman Zarfları", "rule": "at first / initially, afterwards, in the mean time, meanwhile", "examples": ["At first, I didn’t understand.", "You cook; in the meantime, I’ll set the table."]},
+        {"title": "Amaç Bağlaçları", "rule": "so that, in order that, for fear that, lest", "examples": ["Take notes so that you can remember.", "He hid the letter lest anyone should see it."]}
+      ]
+    },
+    {
+      "topic": "EKLEME, ÖRNEKLEME & VURGU",
+      "content": [
+        {"title": "Ekleme Cümle Zarfları", "rule": "also, besides, further, moreover, furthermore, in addition, what's more", "examples": ["He’s smart; moreover, he’s kind."]},
+        {"title": "Ekleme Edatları", "rule": "besides, in addition to, apart from, as well as, aside from, along with, together with, alongside, coupled with", "examples": ["She paints as well as writes.", "Aside from one mistake, it’s good."]},
+        {"title": "Örnekleme & Özelleştirme", "rule": "for instance, for example, to illustrate, in particular, particularly, especially, notably, specifically", "examples": ["I love movies, in particular, thrillers.", "Many cities, notably Paris, are beautiful."]},
+        {"title": "Vurgu & Benzetme", "rule": "in fact, indeed, actually, as a matter of fact, as such, likewise, similarly, on the contrary", "examples": ["He’s not lazy; in fact, he works a lot.", "He’s not rude; on the contrary, he’s polite.", "He worked hard; likewise, his team did too."]}
+      ]
+    },
+    {
+      "topic": "HAKKINDA (-e gelince) & DURUM",
+      "content": [
+        {"title": "Hakkında / -e gelince", "rule": "as for, when it comes to, with regard to, with respect to, in the case of, about, as to, concerning, regarding, as regards, pertaining to", "examples": ["As for the test, I think I passed.", "When it comes to cooking, she’s the best.", "A law concerning animals was passed."]},
+        {"title": "Durum & Öznel Yargı", "rule": "just as, as if / as though, given that / considering that, given / considering, as far as / so far as", "examples": ["She talks as if she knew everything.", "Given that he’s new, he did well.", "As far as I know, he’s innocent."]}
+      ]
+    },
+    {
+      "topic": "HARİÇ, ARACILIĞIYLA & ÖZETLEME",
+      "content": [
+        {"title": "Hariç Tutma", "rule": "except that, save that, except (for), but, apart from, saving", "examples": ["Everyone came except (for) Tim.", "No one but her survived."]},
+        {"title": "Aracılığıyla", "rule": "by, via, through, by means of, with the help of", "examples": ["We sent the package via courier.", "He communicated by means of sign language.", "She succeeded with the help of her mentor."]},
+        {"title": "Bakılmaksızın & Tercih", "rule": "irrespective of, regardless of, rather than, instead / rather, instead of", "examples": ["It applies irrespective of age.", "He walked rather than drove.", "We chose coffee instead of tea."]},
+        {"title": "Özetleme", "rule": "in summary, in brief, in short, in conclusion, to sum up, to wrap up, all in all", "examples": ["In conclusion, the results are promising.", "All in all, it was a success."]}
+      ]
+    }
+  ]
+}

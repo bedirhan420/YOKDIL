@@ -1,0 +1,455 @@
+{
+    "1": {
+        "question": "Many scientists and research advocates contend that animal experiments are crucial for learning about basic biology and disease mechanisms, and are necessary for testing the ---- of new medicines.",
+        "options": [
+            "A) scarcity",
+            "B) urgency",
+            "C) ambiguity",
+            "D) efficacy",
+            "E) uniformity"
+        ],
+        "answer": "D"
+    },
+    "2": {
+        "question": "Because the functions and disturbances of smell and taste are nearly ----, disturbances of one affect the other.",
+        "options": [
+            "A) inconvenient",
+            "B) unremarkable",
+            "C) inexplicable",
+            "D) unsophisticated",
+            "E) inseparable"
+        ],
+        "answer": "E"
+    },
+    "3": {
+        "question": "Children with autism spectrum conditions often have trouble ---- the emotional states of people around them, struggling to distinguish a happy face from a sad one, for example.",
+        "options": [
+            "A) overcoming",
+            "B) ignoring",
+            "C) provoking",
+            "D) identifying",
+            "E) improving"
+        ],
+        "answer": "D"
+    },
+    "4": {
+        "question": "Human accomplishments ---- our ability to acquire knowledge from others and to use that communal store of experience to devise novel solutions to life’s challenges.",
+        "options": [
+            "A) call off",
+            "B) stem from",
+            "C) bring down",
+            "D) take out",
+            "E) figure out"
+        ],
+        "answer": "B"
+    },
+    "5": {
+        "question": "---- the 17th century, committed Anglicans produced a steady flow of religious and devotional literature that aimed to inspire holiness ---- readers.",
+        "options": [
+            "A) By / about",
+            "B) During / through",
+            "C) Throughout / among",
+            "D) From / against",
+            "E) Across / over"
+        ],
+        "answer": "C"
+    },
+    "6": {
+        "question": "For the first time, doctors ---- that temporarily opening the protective barrier of the human brain ---- to boost the delivery of cancer medication to brain tumors.",
+        "options": [
+            "A) are showing / helped",
+            "B) have shown / helps",
+            "C) showed / is helping",
+            "D) will have shown / was helping",
+            "E) will be showing / has been helping"
+        ],
+        "answer": "B"
+    },
+    "7": {
+        "question": "The Martian atmosphere is so thin, and the planet’s temperature so low that liquid water ---- there, and if it ever did in the past, conditions ---- very different.",
+        "options": [
+            "A) might not have existed / were to be",
+            "B) could not exist / may be",
+            "C) would not exist / can be",
+            "D) cannot exist / must have been",
+            "E) must not exist / should have been"
+        ],
+        "answer": "D"
+    },
+    "8": {
+        "question": "A tsunami damaged emergency generators that ---- power to keep the nuclear reactors at Fukushima in Japan cool; however, the earthquake ---- to the tsunami also caused the cooling systems to fail.",
+        "options": [
+            "A) should provide / to lead",
+            "B) could have provided / to have led",
+            "C) would have provided / leading",
+            "D) must have provided / having led",
+            "E) might provide / led"
+        ],
+        "answer": "C"
+    },
+    "9": {
+        "question": "---- immigrants to North America’s new colonies were primarily British in the 17th and 18th centuries, significant numbers of people of other nationalities also established a presence in the Americas.",
+        "options": [
+            "A) Because",
+            "B) While",
+            "C) As long as",
+            "D) Provided that",
+            "E) Once"
+        ],
+        "answer": "B"
+    },
+    "10": {
+        "question": "Not much had been accomplished with the phenomena of magnetism and static ---- the Chinese began to use the magnetic compass for navigation around 1000 AD.",
+        "options": [
+            "A) in case",
+            "B) while",
+            "C) until",
+            "D) if",
+            "E) as soon as"
+        ],
+        "answer": "C"
+    },
+    "11": {
+        "question": "Liquid water covers more than two-thirds of the Blue Planet’s surface, ---- exactly how it got there has always been puzzling.",
+        "options": [
+            "A) so",
+            "B) instead",
+            "C) but",
+            "D) otherwise",
+            "E) as"
+        ],
+        "answer": "C"
+    },
+    "12": {
+        "question": "Personality is ---- a crucial aspect of psychology ---- every main branch of psychological research has attempted to contribute to the existing knowledge in this area.",
+        "options": [
+            "A) such / that",
+            "B) whether / or",
+            "C) as much / as",
+            "D) the more / the more",
+            "E) neither / nor"
+        ],
+        "answer": "A"
+    },
+   "13": {
+    "passage": "In 2015, the Australian Shark Attack File, kept by researchers at Sidney’s Taronga Conservation Society, recorded 33 shark attacks in local waters, two of which were fatal. Both deaths, (13) ---- a series of close encounters in which no one was harmed, were clustered around the towns of Ballina and Byron Bay in New South Wales, one of the eastern states of Australia. (14) ----, in 2014 the total number of attacks was 23; in 2013, that figure stood at 14. “But the stats only tell part of the story,” says John West, curator of the Australian Shark Attack File. He (15) ---- the rise in attacks not to a sudden change in shark behavior but to the higher number of surfers in the water. “For the last 60 years, wetsuits (16) ---- people to spend more time in the water throughout the winter months, thus surfing in those conditions increases the risk,” says West. In addition, marine ecologist Dr. Daniel Bucher suggests that rainfalls in the state’s north could be carrying food for fish from rivers (17) ---- the ocean and attracting sharks.",
+    "question": "",
+    "options": [
+        "A) owing to",
+        "B) on behalf of",
+        "C) by means of",
+        "D) with the aim of",
+        "E) along with"
+    ],
+    "answer": "E"
+},
+"14": {
+    "passage": "In 2015, the Australian Shark Attack File, kept by researchers at Sidney’s Taronga Conservation Society, recorded 33 shark attacks in local waters, two of which were fatal. Both deaths, (13) ---- a series of close encounters in which no one was harmed, were clustered around the towns of Ballina and Byron Bay in New South Wales, one of the eastern states of Australia. (14) ----, in 2014 the total number of attacks was 23; in 2013, that figure stood at 14. “But the stats only tell part of the story,” says John West, curator of the Australian Shark Attack File. He (15) ---- the rise in attacks not to a sudden change in shark behavior but to the higher number of surfers in the water. “For the last 60 years, wetsuits (16) ---- people to spend more time in the water throughout the winter months, thus surfing in those conditions increases the risk,” says West. In addition, marine ecologist Dr. Daniel Bucher suggests that rainfalls in the state’s north could be carrying food for fish from rivers (17) ---- the ocean and attracting sharks.",
+    "question": "",
+    "options": [
+        "A) Therefore",
+        "B) That is",
+        "C) Eventually",
+        "D) For instance",
+        "E) By comparison"
+    ],
+    "answer": "E"
+},
+"15": {
+    "passage": "In 2015, the Australian Shark Attack File, kept by researchers at Sidney’s Taronga Conservation Society, recorded 33 shark attacks in local waters, two of which were fatal. Both deaths, (13) ---- a series of close encounters in which no one was harmed, were clustered around the towns of Ballina and Byron Bay in New South Wales, one of the eastern states of Australia. (14) ----, in 2014 the total number of attacks was 23; in 2013, that figure stood at 14. “But the stats only tell part of the story,” says John West, curator of the Australian Shark Attack File. He (15) ---- the rise in attacks not to a sudden change in shark behavior but to the higher number of surfers in the water. “For the last 60 years, wetsuits (16) ---- people to spend more time in the water throughout the winter months, thus surfing in those conditions increases the risk,” says West. In addition, marine ecologist Dr. Daniel Bucher suggests that rainfalls in the state’s north could be carrying food for fish from rivers (17) ---- the ocean and attracting sharks.",
+    "question": "",
+    "options": [
+        "A) leads",
+        "B) exposes",
+        "C) attributes",
+        "D) dedicates",
+        "E) conveys"
+    ],
+    "answer": "C"
+},
+"16": {
+    "passage": "In 2015, the Australian Shark Attack File, kept by researchers at Sidney’s Taronga Conservation Society, recorded 33 shark attacks in local waters, two of which were fatal. Both deaths, (13) ---- a series of close encounters in which no one was harmed, were clustered around the towns of Ballina and Byron Bay in New South Wales, one of the eastern states of Australia. (14) ----, in 2014 the total number of attacks was 23; in 2013, that figure stood at 14. “But the stats only tell part of the story,” says John West, curator of the Australian Shark Attack File. He (15) ---- the rise in attacks not to a sudden change in shark behavior but to the higher number of surfers in the water. “For the last 60 years, wetsuits (16) ---- people to spend more time in the water throughout the winter months, thus surfing in those conditions increases the risk,” says West. In addition, marine ecologist Dr. Daniel Bucher suggests that rainfalls in the state’s north could be carrying food for fish from rivers (17) ---- the ocean and attracting sharks.",
+    "question": "",
+    "options": [
+        "A) were allowing",
+        "B) have allowed",
+        "C) had allowed",
+        "D) used to allow",
+        "E) will be allowing"
+    ],
+    "answer": "B"
+},
+"17": {
+    "passage": "In 2015, the Australian Shark Attack File, kept by researchers at Sidney’s Taronga Conservation Society, recorded 33 shark attacks in local waters, two of which were fatal. Both deaths, (13) ---- a series of close encounters in which no one was harmed, were clustered around the towns of Ballina and Byron Bay in New South Wales, one of the eastern states of Australia. (14) ----, in 2014 the total number of attacks was 23; in 2013, that figure stood at 14. “But the stats only tell part of the story,” says John West, curator of the Australian Shark Attack File. He (15) ---- the rise in attacks not to a sudden change in shark behavior but to the higher number of surfers in the water. “For the last 60 years, wetsuits (16) ---- people to spend more time in the water throughout the winter months, thus surfing in those conditions increases the risk,” says West. In addition, marine ecologist Dr. Daniel Bucher suggests that rainfalls in the state’s north could be carrying food for fish from rivers (17) ---- the ocean and attracting sharks.",
+    "question": "",
+    "options": [
+        "A) with",
+        "B) about",
+        "C) for",
+        "D) into",
+        "E) upon"
+    ],
+    "answer": "D"
+},
+    "18": {
+        "question": "Because we are bombarded with so much information and misinformation about what might cause cancer, ----.",
+        "options": [
+            "A) it is often hard to separate myth from reality",
+            "B) it affects every one of us in the same way",
+            "C) the chance of being diagnosed is one in two",
+            "D) there are some things we can do to reduce our risks of getting cancer",
+            "E) the extent of public confusion was exposed in a survey last year"
+        ],
+        "answer": "C"
+    },
+    "19": {
+        "question": "While each researcher has their own way of analysing and interpreting animal remains, ----.",
+        "options": [
+            "A) it must be remembered that sample size and preservation quality ultimately influence the outcome",
+            "B) animal remains aid in the interpretation of ancient resource choices",
+            "C) it is fundamental to determine the locations and social complexity of archaeological sites",
+            "D) animal remains can be used to provide information about a variety of issues in the study of societies",
+            "E) some methods, terms and analytical tools are considered standard"
+        ],
+        "answer": "E"
+    },
+    "20": {
+        "question": "Peer pressure is what causes people to do things that are popular in order to fit in with others, ----.",
+        "options": [
+            "A) while middle school students influence each other to a great extent",
+            "B) however, peers are the people who are of similar age, such as classmates",
+            "C) in other words, some individuals resist peer pressure and prioritize their own personal views",
+            "D) so it can be very powerful driving force in the lives of adolescents",
+            "E) as psychologists use positive peer pressure as a method to change a child’s behavior"
+        ],
+        "answer": "D"
+    },
+    "21": {
+        "question": "According to skeletal therapists, it is vital that women strengthen their bodies in their 40s, ----.",
+        "options": [
+            "A) so a considerable number of women do not know very well how to maintain their bone health",
+            "B) as bone density starts to gradually decrease, leaving the bones fragile during this period",
+            "C) but hunched shoulders and poor posture can lead to a range of health issues in old age",
+            "D) as long as muscles work optimally to support the skeleton and the body is positioned correctly",
+            "E) even though bad posture is known to give them an awkward look and might lead to serious ailments in time"
+        ],
+        "answer": "B"
+    },
+    "22": {
+        "question": "Fast food has emerged as one of the biggest enemies of health, especially for children, ----.",
+        "options": [
+            "A) thus its high consumption makes sense when the prices are considered.",
+            "B) provided that the most common cause of obesity is the wide availability of fast food.",
+            "C) while people are highly concerned about the nutritional deficiency of foods like burgers",
+            "D) so the fast food industry has received a lot of critical attention in recent years",
+            "E) as many fast food restaurants have started to provide healthier alternatives such as salads"
+        ],
+        "answer": "D"
+    },
+    "23": {
+        "question": "Alternative medicine has become increasingly popular in the Western world since about 1975, and has been the subject of much research ever since.",
+        "options": [
+            "A) Yaklaşık 1975’ten beri Batı dünyasında gittikçe yaygınlaşan alternatif tıp, bu tarihten itibaren birçok araştırmanın konusu olmuştur.",
+            "B) Alternatif tıp, Batı dünyasında yaklaşık 1975’ten beri gittikçe popüler hale gelmiştir ve bu tarihten itibaren pek çok araştırmanın konusu olmuştur.",
+            "C) Alternatif tıp, Batı dünyasında yaklaşık 1975’ten beri gitgide yaygınlaşarak bu tarihten itibaren çok sayıda araştırmanın konusu olmuştur.",
+            "D) Yaklaşık 1975’ten beri Batı dünyasında gittikçe artan bir popülerliğe sahip olan alternatif tıp, bu tarihten itibaren birçok araştırmaya konu olmuştur.",
+            "E) Alternatif tıp, yaklaşık 1975’ten beri Batı dünyasında gitgide tanındığı için bu tarihten itibaren birçok araştırmanın konusu olmuştur."
+        ],
+        "answer": "B"
+    },
+    "24": {
+        "question": "Aşırı yağlı yiyecekler tüketen insanların diğerlerine göre kalitesiz gece uykusundan yakınmaları daha muhtemeldir, çünkü yağ tüketimi hormonları ve metabolizmayı olumsuz etkiler, ki bunların ikisi de uykuyu düzenleyen biyolojik saatle etkileşim içerisindedir.",
+        "options": [
+            "A) People who live on high-fat foods are more likely to suffer from poor night-time sleep than others, because hormones and metabolism, both of which interact with the internal clock to regulate sleep, are adversely affected by fat intake.",
+            "B) People who consume high-fat foods are more likely to suffer from poor night-time sleep than others, as fat intake negatively affects hormones and metabolism, both of which interact with the internal clock that regulates sleep.",
+            "C) Because fat intake negatively affects both hormones and metabolism and their interaction with the internal clock that regulates sleep, people who prefer high-fat foods are more likely to suffer from poor night-time sleep than others.",
+            "D) When people consume high-fat foods, they become more likely to suffer from poor night-time sleep than others, as fat intake adversely affects hormones and metabolism, both of which interact with the internal clock in regulating sleep.",
+            "E) Compared to others, people who eat high-fat foods are more likely to suffer from poor night-time sleep and the negative effect of the fat intake on their hormones and metabolism, both of which interact with the internal clock that regulates sleep."
+        ],
+        "answer": "B"
+    },
+    "25": {
+        "passage": "The annual melt of Arctic ice is under way, and the melt is getting worse and worse. The size of the ice cap where the melt is taking place has become the smallest since satellite records began. It will not be many more years until the Arctic is ice-free in summer. What is also not-news is the antibiotic crisis. For years, if not decades, medics have been warning that overuse is driving up resistance, threatening to propel us back to a pre-penicillin age when common bacterial infections could be fatal.", 
+        "question":"(25) According to the passage, the Arctic melt ----.",
+        "options": [
+            "A) has only recently been found to cause ice-free summers in the Arctic soon",
+            "B) has finally led the US to keep its promise on its climate change policies",
+            "C) was taking place at a faster pace before satellite recordings began",
+            "D) will possibly result in worldwide devastation due to a lack of sound climate policies",
+            "E) is one of the most immediate priorities of a large number of governments worldwide"
+        ],
+        "answer": "D"
+    },
+    "26": {
+        "passage": "The annual melt of Arctic ice is under way, and the melt is getting worse and worse. The size of the ice cap where the melt is taking place has become the smallest since satellite records began. It will not be many more years until the Arctic is ice-free in summer. What is also not-news is the antibiotic crisis. For years, if not decades, medics have been warning that overuse is driving up resistance, threatening to propel us back to a pre-penicillin age when common bacterial infections could be fatal.", 
+        "question": "(26) What is the author’s attitude towards the current US administration's climate policies?",
+        "options": [
+            "A) impartial",
+            "B) dissatisfied",
+            "C) indifferent",
+            "D) appreciative",
+            "E) sarcastic"
+        ],
+        "answer": "B"
+    },
+    "27": {
+        "passage": "The annual melt of Arctic ice is under way, and the melt is getting worse and worse. The size of the ice cap where the melt is taking place has become the smallest since satellite records began. It will not be many more years until the Arctic is ice-free in summer. What is also not-news is the antibiotic crisis. For years, if not decades, medics have been warning that overuse is driving up resistance, threatening to propel us back to a pre-penicillin age when common bacterial infections could be fatal.", 
+        "question": "(27) It is clearly stated in the passage that the antibiotic crisis —.",
+        "options": [
+            "A) might have been alleviated thanks to the extensive use of penicillin",
+            "B) has diminished as a result of coordinated efforts to raise awareness of the issue",
+            "C) could have been prevented if doctors had been warned about it much earlier",
+            "D) is different from the climate change crisis in terms of politicians' level of sensitivity",
+            "E) can be tackled through the effective use of technological developments"
+        ],
+        "answer": "B"
+    },
+    "28": {
+        "passage": "The annual melt of Arctic ice is under way, and the melt is getting worse and worse. The size of the ice cap where the melt is taking place has become the smallest since satellite records began. It will not be many more years until the Arctic is ice-free in summer. What is also not-news is the antibiotic crisis. For years, if not decades, medics have been warning that overuse is driving up resistance, threatening to propel us back to a pre-penicillin age when common bacterial infections could be fatal.", 
+        "question": "(28) What is the main aim of the author in writing this passage?",
+        "options": [
+            "A) To emphasize the importance of collective action in addressing major global problems",
+            "B) To show how carefully governments are trying to cope with global issues",
+            "C) To criticize the US government's policies on climate change and the antibiotic crisis",
+            "D) To compare the methods used in the handling of the antibiotic crisis and climate change",
+            "E) To highlight the incompetence of policy-makers in combating global tragedies"
+        ],
+        "answer": "A"
+    },
+    "29": {
+        "passage": "Earth is teeming with life — and water makes it all possible. But elsewhere in the cosmos, life might be built from different chemicals that dissolve and assemble in some other liquid: perhaps methane, kerosene, or even chloroform. ",
+        "question": "(29) According to the passage, chemicals such as methane, kerosene, and chloroform ----.",
+        "options": [
+            "A) cannot be compared with water in their capacity to dissolve life chemicals",
+            "B) have been found on several exoplanets humans are planning to set foot on",
+            "C) have been proved to be much better alternatives to water, which makes life possible",
+            "D) could possibly be solvents of various chemicals that form life",
+            "E) should be researched more extensively in order to protect life on Earth"
+        ],
+        "answer": "D"
+    },
+    "30": {
+        "passage": "Earth is teeming with life — and water makes it all possible. But elsewhere in the cosmos, life might be built from different chemicals that dissolve and assemble in some other liquid: perhaps methane, kerosene, or even chloroform. ",
+        "question": " 30) It is stated in the passage that Isaac Asimov ----.",
+        "options": [
+            "A) led the way to the discovery of several exoplanets that host life-friendly exotic liquids such as hexane, ethers, and chloroform",
+            "B) was the first person to understand that a solvent chemical, even if not water, is necessary for life to develop",
+            "C) came up with the idea that life might have formed elsewhere in the universe with a different chemistry than we know",
+            "D) developed his thoughts about the strange parallel forms of life using the data provided by the Cassini spacecraft which studies Saturn",
+            "E) inspired Steve Benner who wrote in 2004 that liquid hydrocarbons might make life possible on a world like Saturn's moon Titan"
+        ],
+        "answer": "C"
+    },
+    "31": {
+        "passage": "Earth is teeming with life — and water makes it all possible. But elsewhere in the cosmos, life might be built from different chemicals that dissolve and assemble in some other liquid: perhaps methane, kerosene, or even chloroform. ",
+        "question":"31) The underlined word in the passage 'broached' is closest in meaning to ----.",
+        "options": [
+            "A) Introduced",
+            "B) Distorted",
+            "C) Revised",
+            "D) Obscured",
+            "E) Simplified"
+        ],
+        "answer": "A"
+    },
+    "32": {
+        "passage": "Earth is teeming with life — and water makes it all possible. But elsewhere in the cosmos, life might be built from different chemicals that dissolve and assemble in some other liquid: perhaps methane, kerosene, or even chloroform. ",
+        "question":"32) What is the passage mainly about?",
+        "options": [
+            "A) The contributions of Asimov and Benner to the understanding of life on Earth",
+            "B) The search for alternatives to water that can support extraterrestrial life",
+            "C) The newly discovered exoplanets being studied to determine if they potentially host life",
+            "D) The role of water as a solvent in the formation of life on Earth",
+            "E) The chemical processes underlying the formation of water on other planets"
+        ],
+        "answer": "B"
+    },
+    "33": {
+        "question": "Student: How do leaves know that it's autumn? \nTeacher: During the autumn, every day is four minutes shorter than the one before it. This means leaves have four minutes less sunlight. \nStudent: ---- \nTeacher: Exactly! And, at some point, when it’s simply not worth the effort, trees shed their leaves.",
+        "options": [
+            "A) In other words, they have a relatively smaller amount of time to change light and water into energy.",
+            "B) Does this mean some trees closest to streetlights keep their leaves later into autumn?",
+            "C) But the decrease in the amount of sunlight is not the sole reason, is it?",
+            "D) So, trees are very strong and in winter even produce their own anti-freeze in their cells.",
+            "E) That's because leaves can't distinguish between sunlight and artificial light, right?"
+        ],
+        "answer": "A"
+    },
+    "34": {
+        "question": "Doctor: Most people don't worry about their eye health, but we often say that all of us need an eye test, even if we can see fine. \nReporter: You're right, but people generally don't see a doctor unless they have a problem with their vision. So, could you tell us why you highlight the importance of eye examinations? \nDoctor: ---- \nReporter: It seems early diagnosis is crucial in fighting some eye diseases.",
+        "options": [
+            "A) If people would make a conscious effort to try to understand their visual health through personal research, many eye diseases would be less problematic.",
+            "B) Eye tests not only help us treat visual impairment, but they can also reveal the presence of some non-eye diseases like diabetes and high blood pressure.",
+            "C) Many eye conditions show no symptoms, and if people put off eye tests until they experience symptoms like blurry vision, the damage could already be irreversible",
+            "D) The frequency of eye tests differs with age and the health of the person, but we often recommend an eye test every two years between ages 19 and 40.",
+            "E) Visual problems are not the single cause. People should also have an eye test when they experience redness, pain, discharge or flashes of light."
+        ],
+        "answer": "C"
+    },
+    "35": {
+        "question": "The system of logic, formulated by Aristotle and considered to include the laws that govern thought, remained unaltered until the 19th century.",
+        "options": [
+            "A) The 19th century witnessed a change in the system of logic, which was created by Aristotle after he defined the laws that govern thought.",
+            "B) Throughout the 19th century, the system of logic developed by Aristotle was believed to involve the laws that govern thought.",
+            "C) It was only in the 19th century that the system of logic, established by Aristotle and believed to include the laws that govern thought, began to change.",
+            "D) In the 19th century, the system of logic, which was drawn up by Aristotle, went through a change because the laws that govern thought started to change as well.",
+            "E) Aristotle is considered to have developed the system of logic, which embraces the laws that govern thought and has not been changed since the 19th century."
+        ],
+        "answer": "C"
+    },
+    "36": {
+        "question": "Because eating disorders are neither purely physical nor purely psychological, management and psychotherapy should be combined for effective treatment.",
+        "options": [
+            "A) While eating disorders can be separated into physical and psychological ones, successful treatment requires a combination of medical intervention and psychotherapy.",
+            "B) Eating disorders can be treated effectively with medical intervention or psychotherapy, based on whether they are mostly physical or psychological.",
+            "C) To treat eating disorders effectively, regardless of their classification as physical or psychological, medical management should be accompanied by psychotherapy.",
+            "D) Given that eating disorders cannot be classified as only physical or psychological, effective treatment should include both medical intervention and psychotherapy.",
+            "E) Since eating disorders are not only physical but psychological as well, psychotherapy should be administered more often than medical management to treat them successfully."
+        ],
+        "answer": "D"
+    },
+    "37": {
+        "question": "Wilhelm Röntgen was born in Germany, but lived in the Netherlands for part of his childhood. He studied mechanical engineering in Zurich before becoming a lecturer in physics at Strasbourg University in 1874, and a professor two years later. He took senior positions at several universities during his career. ---- However, in the world of science, he is best known for his research into X-rays, and in 1901, he was awarded the first Nobel Prize in Physics for this work.",
+        "options": [
+            "A) Röntgen was always shy of having an assistant, and he usually preferred to work alone and built much of the apparatus he used by himself.",
+            "B) By 1900, Röntgen's discovery of high energy electromagnetic radiation in the form of X-rays was being used in medical diagnosis.",
+            "C) Röntgen studied many different areas of physics, including light, gases, heat transfer, and thermal conductivity of crystals.",
+            "D) In his laboratory in Germany, Röntgen discovered X-rays by accident while he was studying the conduction of electricity through gases at low pressure.",
+            "E) Despite the numerous prizes, medals and honorary doctorates he had, Röntgen retained the characteristics of a strikingly modest man."
+        ],
+        "answer": "C"
+    },
+    "38": {
+        "question": "There is a new milk in town; there are many, actually. The old alternatives to cow's milk - soy, rice, and coconut milk - are now joined on grocery shelves by alternative milks made from almonds, peanuts, cashews, oats, peas - the list goes on and on. You can even buy milk made from potatoes or bananas. ---- But is that really true? Almond and cashew milks have less than half the calories found in cow's milk, but are lower in protein. For those with allergies to nuts, banana milk is the way to go, but it can be difficult to find. Each type of alternative milk has its benefits and limitations. You should decide what is most important to you - nutrition, sustainability, or allergies.",
+        "options": [
+            "A) Alternative milks are only healthy if combined with a well-balanced diet, though the same is true of cow's milk.",
+            "B) Manufacturers have recently begun to position such products as a reasonable alternative.",
+            "C) Alternative milks vary greatly in their nutritional value, and while some have a mild flavor, others have a stronger taste.",
+            "D) Most alternative milks are friendlier to the environment than dairy products, as the carbon footprint of producing, packaging and transporting cow's milk is very high.",
+            "E) However, people do not drink alternative milks for their nutritional benefits; instead, they tend to use them for their coffee or cereal."
+        ],
+        "answer": "B"
+    },
+    "39": {
+        "question": "Which sentence should be removed to make the paragraph logically consistent: (I) The world of plants is rich and diversified and produces numerous herbal remedies that have been used for thousands of years. (II) A qualified herbalist and well-respected herbal guide or specialist are generally expected to be conferred with for the most effective herbal treatments. (III) Today, modern scientific research continues to document and validate the historical traditional uses of many herbs as well as new uses of some traditional medicines. (IV) The safe and responsible use of traditional herbal medicines offers an important way to lower health care costs and increase the wellness of the public. (V) It is most likely that more scientific research will continue to place herbs in a position to offer many benefits in the new medicine of the 21st century.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "B"
+    },
+    "40": {
+        "question": "Which sentence should be removed to make the paragraph logically consistent: (I) Water is one of the essential natural resources that have been the centre of attention in the last century due to pollution and excessive consumption, particularly in the developed world. (II) Water itself does not conduct electricity particularly well, yet it is the chemicals dissolved in it that are the source of the trouble. (III) For example, the salt content of seawater makes it a million times better at conducting electricity than ultra-pure water. (IV) Even so, even a trace of water can prove fatal with high voltages. (V) This is the very reason why people have been killed thinking they can move live cables using a freshly broken tree branch.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "A"
+    }
+}

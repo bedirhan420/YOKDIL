@@ -1,0 +1,440 @@
+{
+    "1": {
+        "question": "Recent decades have witnessed a significant ---- in the variety of cognitive treatments available for clinical depression thanks to the refinement of neuroscience techniques, enabling therapists to tailor interventions to individual patient brain chemistry.",
+        "options": [
+            "A) fragility",
+            "B) urgency",
+            "C) constraint",
+            "D) expansion",
+            "E) disparity"
+        ],
+        "answer": "D"
+    },
+    "2": {
+        "question": "The rapid advancements in large language models have fundamentally altered the landscape of natural language processing research, leading to unprecedented capabilities in automated text generation and ---- a widespread, urgent debate regarding the future of copyright laws and intellectual property rights in the creative industries.",
+        "options": [
+            "A) interpreting",
+            "B) pinpointing",
+            "C) accelerating",
+            "D) converting",
+            "E) sparking"
+        ],
+        "answer": "E"
+    },
+    "3": {
+        "question": "Despite numerous studies confirming the link between diet and gut health, researchers are still struggling to establish a single, ---- biological pathway that fully accounts for how specific fermented foods exert their varied anti-inflammatory effects on human physiology.",
+        "options": [
+            "A) arbitrary",
+            "B) perilous",
+            "C) plausible",
+            "D) susceptible",
+            "E) haphazard"
+        ],
+        "answer": "C"
+    },
+    "4": {
+        "question": "Patients with acute neurological conditions often struggle to process and recall information, which makes it difficult for them to report their symptoms ---- to medical staff, necessitating the use of detailed observation and proxy reporting from family members.",
+        "options": [
+            "A) notoriously",
+            "B) ambiguously",
+            "C) intricately",
+            "D) erroneously",
+            "E) coherently"
+        ],
+        "answer": "E"
+    },
+    "5": {
+        "question": "Many scientists argue that only a rapid and decisive global transition to renewable energy sources can ---- the most catastrophic effects of unchecked global warming, specifically the irreversible loss of polar ice caps and coastal flooding.",
+        "options": [
+            "A) bring along",
+            "B) draw upon",
+            "C) delve into",
+            "D) embark upon",
+            "E) ward off"
+        ],
+        "answer": "E"
+    },
+    "6": {
+        "question": "Without the swift and widespread adoption of hybrid seed technology in the mid-20th century, global agricultural yields ---- a drastic reduction in per capita consumption ---- the exponentially growing population.",
+        "options": [
+            "A) could have mandated / to be sustained",
+            "B) would have mandated / to sustain",
+            "C) should have mandated / being sustained",
+            "D) can mandate / sustaining",
+            "E) must have mandated / having sustained"
+        ],
+        "answer": "B"
+    },
+    "7": {
+        "question": "---- the success of the pilot project in reducing emissions, the city council felt that its primary responsibility was ---- a strategy for immediate implementation across the entire urban transportation network.",
+        "options": [
+            "A) Being recognized / to have been formulating",
+            "B) To recognize / having formulated",
+            "C) Having recognized / to formulate",
+            "D) Recognizing / determining",
+            "E) To be recognized / to determine"
+        ],
+        "answer": "C"
+    },
+    "8": {
+        "question": "Geologists discovered that a vast network of ancient lava tubes, extending several kilometers ---- the Martian surface, could potentially have sheltered microbial life ---- the planet's tumultuous history.",
+        "options": [
+            "A) on / below",
+            "B) against / over",
+            "C) beneath / throughout",
+            "D) in / along",
+            "E) from / towards"
+        ],
+        "answer": "C"
+    },
+    "9": {
+        "question": "Neuroscientists are still striving to identify the precise molecular reason ---- the rapid progression of Alzheimer's, which is crucial for establishing the basis for new targeted pharmacological interventions ---- neurodegeneration.",
+        "options": [
+            "A) for / along",
+            "B) at / over",
+            "C) behind / against",
+            "D) beyond / during",
+            "E) among / with"
+        ],
+        "answer": "C"
+    },
+    "10": {
+        "question": "The vast majority of ancient Greek sculpture was originally painted in vibrant colors, a fact often ignored by modern museums; ----, the popular perception of classical statues remains one of pure white marble.",
+        "options": [
+            "A) moreover",
+            "B) nevertheless",
+            "C) that is",
+            "D) as a result",
+            "E) similarly"
+        ],
+        "answer": "B"
+    },
+    "11": {
+        "question": "Ecological models must accurately account for changes in local biodiversity ---- fluctuations in the mean annual temperature, as this correlation is vital for predicting ecosystem stability under future climate scenarios.",
+        "options": [
+            "A) At least",
+            "B) In spite of",
+            "C) In comparison to",
+            "D) in relation to",
+            "E) Rather than"
+        ],
+        "answer": "D"
+    },
+    "12": {
+        "question": "The latest generation of diagnostic imaging technology provides unprecedented resolution, allowing pathologists to observe cell structures ---- superficially ---- invasively, but instead offering high-definition visualization crucial for early and non-destructive detection of malignancy.",
+        "options": [
+            "A) either / or",
+            "B) whether / or",
+            "C) not only / but also",
+            "D) neither / nor",
+            "E) the more / the more"
+        ],
+        "answer": "D"
+    },
+    "13": {
+        "passage":"The common raccoon (Procyon lotor) is native to North America but has spread rapidly (13)---- the globe, primarily due to the pet trade and accidental releases. Its adaptability to diverse environments means it can thrive in urban, suburban, and rural settings. Because raccoons are highly intelligent, adapting quickly to new food sources and challenges, an integrated management strategy was urgently (14)---- by local municipalities to control their population. Raccoons are known to consume almost anything, including fruits, insects, and garbage; (15)----, they also carry several diseases, such as rabies and roundworm, posing a significant risk to domestic animals and human health. Wildlife experts report that the animals actively forage upon a wide variety of human-generated food waste and will travel great distances (16) ---- reliable sources. Between 2018 and 2022, several cities implemented strict waste storage regulations and widespread public education campaigns (17)---- reducing contact between humans and these animals. Since the implementation of these measures, the incidence of raccoon-related property damage has significantly declined.",
+        "question":"",
+        "options": [
+            "A) under",
+            "B) on",
+            "C) against",
+            "D) across",
+            "E) from"
+        ],
+        "answer": "D"
+    },
+    "14": {
+        "passage":"The common raccoon (Procyon lotor) is native to North America but has spread rapidly (13)---- the globe, primarily due to the pet trade and accidental releases. Its adaptability to diverse environments means it can thrive in urban, suburban, and rural settings. Because raccoons are highly intelligent, adapting quickly to new food sources and challenges, an integrated management strategy was urgently (14)---- by local municipalities to control their population. Raccoons are known to consume almost anything, including fruits, insects, and garbage; (15)----, they also carry several diseases, such as rabies and roundworm, posing a significant risk to domestic animals and human health. Wildlife experts report that the animals actively forage upon a wide variety of human-generated food waste and will travel great distances (16) ---- reliable sources. Between 2018 and 2022, several cities implemented strict waste storage regulations and widespread public education campaigns (17)---- reducing contact between humans and these animals. Since the implementation of these measures, the incidence of raccoon-related property damage has significantly declined.",
+        "question":"",
+        "options": [
+            "A) implied",
+            "B) commenced",
+            "C) relieved",
+            "D) altered",
+            "E) interruped"
+        ],
+        "answer": "B"
+    },
+    "15": {
+        "passage":"The common raccoon (Procyon lotor) is native to North America but has spread rapidly (13)---- the globe, primarily due to the pet trade and accidental releases. Its adaptability to diverse environments means it can thrive in urban, suburban, and rural settings. Because raccoons are highly intelligent, adapting quickly to new food sources and challenges, an integrated management strategy was urgently (14)---- by local municipalities to control their population. Raccoons are known to consume almost anything, including fruits, insects, and garbage; (15)----, they also carry several diseases, such as rabies and roundworm, posing a significant risk to domestic animals and human health. Wildlife experts report that the animals actively forage upon a wide variety of human-generated food waste and will travel great distances (16) ---- reliable sources. Between 2018 and 2022, several cities implemented strict waste storage regulations and widespread public education campaigns (17)---- reducing contact between humans and these animals. Since the implementation of these measures, the incidence of raccoon-related property damage has significantly declined.",
+        "question":"",
+        "options": [
+            "A) accordingly",
+            "B) in contrast",
+            "C) moreover",
+            "D) ultimately",
+            "E) for this reason"
+        ],
+        "answer": "C"
+    },
+    "16": {
+        "passage":"The common raccoon (Procyon lotor) is native to North America but has spread rapidly (13)---- the globe, primarily due to the pet trade and accidental releases. Its adaptability to diverse environments means it can thrive in urban, suburban, and rural settings. Because raccoons are highly intelligent, adapting quickly to new food sources and challenges, an integrated management strategy was urgently (14)---- by local municipalities to control their population. Raccoons are known to consume almost anything, including fruits, insects, and garbage; (15)----, they also carry several diseases, such as rabies and roundworm, posing a significant risk to domestic animals and human health. Wildlife experts report that the animals actively forage upon a wide variety of human-generated food waste and will travel great distances (16) ---- reliable sources. Between 2018 and 2022, several cities implemented strict waste storage regulations and widespread public education campaigns (17)---- reducing contact between humans and these animals. Since the implementation of these measures, the incidence of raccoon-related property damage has significantly declined.",
+        "question":"",
+        "options": [
+            "A) to be found",
+            "B) to find",
+            "C) having found",
+            "D) being found",
+            "E) finding"
+        ],
+        "answer": "B"
+    },
+    "17": {
+        "passage":"The common raccoon (Procyon lotor) is native to North America but has spread rapidly (13)---- the globe, primarily due to the pet trade and accidental releases. Its adaptability to diverse environments means it can thrive in urban, suburban, and rural settings. Because raccoons are highly intelligent, adapting quickly to new food sources and challenges, an integrated management strategy was urgently (14)---- by local municipalities to control their population. Raccoons are known to consume almost anything, including fruits, insects, and garbage; (15)----, they also carry several diseases, such as rabies and roundworm, posing a significant risk to domestic animals and human health. Wildlife experts report that the animals actively forage upon a wide variety of human-generated food waste and will travel great distances (16) ---- reliable sources. Between 2018 and 2022, several cities implemented strict waste storage regulations and widespread public education campaigns (17)---- reducing contact between humans and these animals. Since the implementation of these measures, the incidence of raccoon-related property damage has significantly declined.",
+        "question":"",
+        "options": [
+            "A) instead of",
+            "B) with the aim of",
+            "C) by means of",
+            "D) in spite of",
+            "E) regardless of"
+        ],
+        "answer": "B"
+    },
+    "18": {
+        "question": "Although dialysis treatment is very effective in removing toxins and fluids from the body, ----.",
+        "options": [
+            "A) it is typically administered by a nurse or patient care technician in outpatient clinics known as dialysis centres",
+            "B) there are several functions of the kidney it cannot mimic, such as the regulation of high blood pressure and red blood cell production",
+            "C) specific treatment schedules depend on the type of dialyzer used and the patient's current physical condition",
+            "D) access to in-home hemodialysis treatment may be provided by health care programmes initiated by governments",
+            "E) blood pressure and temperature are taken, and the patient is assessed for physical changes since their last dialysis run"
+        ],
+        "answer": "B"
+    },
+    "19": {
+        "question": "----, they are an expected part of the natural environment for some species that have lived for thousands of years in the fire-prone areas.",
+        "options": [
+            "A) Even though the fireweed is one of the first plants to regrow in burned areas",
+            "B) Even if some pine tree species are known to require fire to reproduce and survive",
+            "C) Although some seeds are covered by a hard coat that depend on fire to crack them open",
+            "D) While wildfires can cause devastating damage to property and human lives",
+            "E) Since fire-dependent pine tree species do not drop their cones without fire"
+        ],
+        "answer": "D"
+    },
+    "20": {
+        "question": "Because a sedentary lifestyle leads to insulin resistance for the majority of patients with diabetes, ----.",
+        "options": [
+            "A) patients who suffer from diabetes of any type can be treated with insulin",
+            "B) the defining feature of diabetes is an abnormal elevation of the blood glucose level",
+            "C) the disease causes serious consequences such as blindness in the long run",
+            "D) it is likely that patients could overcome the relative or absolute insulin deficiency",
+            "E) exercise is recommended to improve insulin sensitivity sufficient to make the diabetic state better"
+        ],
+        "answer": "E"
+    },
+    "21": {
+        "question": "Advances in airplane engine performance historically taken place in military development; ----.",
+        "options": [
+            "A) by contrast, the cost is a secondary consideration compared to the military performance of the aircraft",
+            "B) in fact, the core of every engine model currently used on commercial aircraft had its beginning as a military engine",
+            "C) at least, new models are taken to the edge of their performance by testing them under the most extreme weather conditions",
+            "D) therefore, the purpose of testing is to certify that any new airplane will safely carry passengers and is airworthy",
+            "E) instead, military requirements diverging too far from commercial interests led to a jet development centre supported by the government"
+        ],
+        "answer": "B"
+    },
+    "22": {
+        "question": "Right after emerging from the egg, baby turtles instinctively head for the ocean ----.",
+        "options": [
+            "A) although the rhythmic sound of the waves, combined with the reflection of the moonlight, naturally draws them toward the sea",
+            "B) as if they already knew where their true habitat was, even though they have never seen the ocean before",
+            "C) when the light from nearby buildings confused them and caused them to move in the wrong direction",
+            "D) in case predators such as birds or crabs suddenly appear and threaten their survival",
+            "E) although they are extremely fragile and slow, making the journey to the water both dangerous and exhausting"
+        ],
+        "answer": "B"
+    },
+    "23": {
+        "question": "Started in the late 18th century in Britain, a wave of industrialisation swept across Europe and North America and set the foundations for modern capitalism by transforming the Western world from a rural society into an urban one.",
+        "options": [],
+        "answer": ""
+    },
+    "24": {
+        "question": "----",
+        "options": [
+            "A) Humans continue to be part of a larger social collective provided that they see their actions show results rendering the desired effect because the ability of humans to make conscious choices relies on self-confidence.",
+            "B) The ability of humans to make conscious choices relies on self-confidence because only if humans see that their actions show results and render the desired effect will they continue to be part of a larger social collective.",
+            "C) The ability of humans to make conscious choices to be part of a larger social collective relies on self-confidence, which renders the desired effect as long as humans see their actions show results.",
+            "D) Only when humans see that their actions show results rendering the desired effect will they continue to be part of a larger social collective, and this relies on self-confidence, which refers to the ability of humans to make conscious choices.",
+            "E) The ability of humans to make conscious choices, which relies on self-confidence, renders the desired effect when they see actions show results and they continue to be part of a larger social collective."
+        ],
+        "answer": "B"
+    },
+    "25": {
+        "question": "--- PASSAGE --- Egypt's Old Kingdom was defined by a political and religious doctrine centered entirely on the Pharaoh. This immense figure was not just the head of state but was considered a living deity, ensuring the functioning of the entire cosmos. The country's wealth was generated primarily through efficient administration of agriculture along the fertile Nile, a process the Pharaoh symbolically and practically guaranteed by mediating with the gods to ensure the essential annual flood. The construction of the pyramids, massive engineering feats, served as a potent display of the Pharaoh's absolute command over resources, labor, and his eternal divinity. Because the Pharaoh embodied the state's welfare and its connection to the divine, loyalty and order were maintained not merely through force, but through a deeply ingrained reverence for his sacred power, underpinning the era's remarkable stability and prosperity. --- QUESTION --- According to this passage, the prosperity of the Old Kingdom was primarily linked to:",
+        "options": [
+            "A) Its democratic governance and lack of military conflicts.",
+            "B) The Pharaoh's personal wealth and trade with foreign lands.",
+            "C) The symbolic meaning of the pyramids and their religious importance.",
+            "D) The efficient management of agriculture along the Nile River.",
+            "E) The maintenance of order through political force alone."
+        ],
+        "answer": "D"
+    },
+    "26": {
+        "question": "--- PASSAGE --- Egypt's Old Kingdom was defined by a political and religious doctrine centered entirely on the Pharaoh. This immense figure was not just the head of state but was considered a living deity, ensuring the functioning of the entire cosmos. The country's wealth was generated primarily through efficient administration of agriculture along the fertile Nile, a process the Pharaoh symbolically and practically guaranteed by mediating with the gods to ensure the essential annual flood. The construction of the pyramids, massive engineering feats, served as a potent display of the Pharaoh's absolute command over resources, labor, and his eternal divinity. Because the Pharaoh embodied the state's welfare and its connection to the divine, loyalty and order were maintained not merely through force, but through a deeply ingrained reverence for his sacred power, underpinning the era's remarkable stability and prosperity. --- QUESTION --- It is clearly stated in the passage that the pyramids were built to demonstrate the Pharaoh's:",
+        "options": [
+            "A) Understanding of complex mathematical principles.",
+            "B) Absolute control over labor, resources, and his divinity.",
+            "C) Commitment to a decentralized political structure.",
+            "D) Focus on engineering rather than religious doctrine.",
+            "E) Concern for the welfare of the working class."
+        ],
+        "answer": "B"
+    },
+    "27": {
+        "question": "--- PASSAGE --- Egypt's Old Kingdom was defined by a political and religious doctrine centered entirely on the Pharaoh. This immense figure was not just the head of state but was considered a living deity, ensuring the functioning of the entire cosmos. The country's wealth was generated primarily through efficient administration of agriculture along the fertile Nile, a process the Pharaoh symbolically and practically guaranteed by mediating with the gods to ensure the essential annual flood. The construction of the pyramids, massive engineering feats, served as a potent display of the Pharaoh's absolute command over resources, labor, and his eternal divinity. Because the Pharaoh embodied the state's welfare and its connection to the divine, loyalty and order were maintained not merely through force, but through a deeply ingrained reverence for his sacred power, underpinning the era's remarkable stability and prosperity. --- QUESTION --- The passage suggests that the stability and order of the Old Kingdom stemmed from:",
+        "options": [
+            "A) The people's fear of severe punishment by the bureaucracy.",
+            "B) A strong tradition of separating state power from religious belief.",
+            "C) The citizens' deep respect for the Pharaoh's sacred and divine authority.",
+            "D) The introduction of democratic principles by the ruling class.",
+            "E) The Pharaoh's focus strictly on military might and expansion."
+        ],
+        "answer": "C"
+    },
+    "28": {
+        "question": "--- PASSAGE --- Egypt's Old Kingdom was defined by a political and religious doctrine centered entirely on the Pharaoh. This immense figure was not just the head of state but was considered a living deity, ensuring the functioning of the entire cosmos. The country's wealth was generated primarily through efficient administration of agriculture along the fertile Nile, a process the Pharaoh symbolically and practically guaranteed by mediating with the gods to ensure the essential annual flood. The construction of the pyramids, massive engineering feats, served as a potent display of the Pharaoh's absolute command over resources, labor, and his eternal divinity. Because the Pharaoh embodied the state's welfare and its connection to the divine, loyalty and order were maintained not merely through force, but through a deeply ingrained reverence for his sacred power, underpinning the era's remarkable stability and prosperity. --- QUESTION --- What can be inferred from the passage about the Egyptian concept of the state during the Old Kingdom?",
+        "options": [
+            "A) The state's power was fragmented among various nobles and local authorities.",
+            "B) The state was essentially an extension of the Pharaoh's personal and divine will.",
+            "C) The political system placed limits on the Pharaoh's ability to utilize national resources.",
+            "D) The success of the state relied more on its foreign diplomacy than on internal administration.",
+            "E) The state's primary function was to protect the citizens' right to private property."
+        ],
+        "answer": "B"
+    },
+    "29": {
+        "question": "--- PASSAGE --- In the Brazilian Amazon, the rapid expansion of cattle ranching is the primary driver of deforestation, replacing the native Amazonian forests. Driven by rising global demand for beef and leather, ranchers clear vast tracts of land, often illegally, to create grazing pastures. This unsustainable practice has decimated the habitat of numerous endemic species, including the jaguar and several species of threatened monkeys. Furthermore, the methods used to clear the land—primarily slash-and-burn agriculture—release massive amounts of carbon dioxide, contributing significantly to global warming. These fires are also poorly controlled, frequently escaping into adjacent, untouched primary forest and causing widespread ecological collapse. The resulting environmental damage is compounded by the lack of robust enforcement from local authorities, who often prioritize short-term economic gains over long-term environmental sustainability. --- QUESTION --- According to the passage, the primary cause of deforestation in the Brazilian Amazon is ----.",
+        "options": [
+            "A) illegal logging operations driven by the timber industry.",
+            "B) the government's inability to control accidental forest fires.",
+            "C) the expansion of cattle ranching to meet global demand for beef and leather.",
+            "D) a shift in agricultural policy favouring large-scale soy cultivation.",
+            "E) the natural spread of wildfires due to unusually dry conditions."
+        ],
+        "answer": "C"
+    },
+    "30": {
+        "question": "--- PASSAGE --- In the Brazilian Amazon, the rapid expansion of cattle ranching is the primary driver of deforestation, replacing the native Amazonian forests. Driven by rising global demand for beef and leather, ranchers clear vast tracts of land, often illegally, to create grazing pastures. This unsustainable practice has decimated the habitat of numerous endemic species, including the jaguar and several species of threatened monkeys. Furthermore, the methods used to clear the land—primarily slash-and-burn agriculture—release massive amounts of carbon dioxide, contributing significantly to global warming. These fires are also poorly controlled, frequently escaping into adjacent, untouched primary forest and causing widespread ecological collapse. The resulting environmental damage is compounded by the lack of robust enforcement from local authorities, who often prioritize short-term economic gains over long-term environmental sustainability. --- QUESTION --- It can be understood from the passage that the methods used for clearing land, such as slash-and-burn agriculture, ----.",
+        "options": [
+            "A) primarily affect only the endangered jaguar population.",
+            "B) are an environmentally friendly way to manage agricultural waste.",
+            "C) contribute to global warming by releasing carbon dioxide.",
+            "D) are strongly regulated and rarely escape into primary forests.",
+            "E) are mainly used to plant exotic, non-native species of trees."
+        ],
+        "answer": "C"
+    },
+    "31": {
+        "question": "--- PASSAGE --- In the Brazilian Amazon, the rapid expansion of cattle ranching is the primary driver of deforestation, replacing the native Amazonian forests. Driven by rising global demand for beef and leather, ranchers clear vast tracts of land, often illegally, to create grazing pastures. This unsustainable practice has decimated the habitat of numerous endemic species, including the jaguar and several species of threatened monkeys. Furthermore, the methods used to clear the land—primarily slash-and-burn agriculture—release massive amounts of carbon dioxide, contributing significantly to global warming. These fires are also poorly controlled, frequently escaping into adjacent, untouched primary forest and causing widespread ecological collapse. The resulting environmental damage is compounded by the lack of robust enforcement from local authorities, who often prioritize short-term economic gains over long-term environmental sustainability. --- QUESTION --- The passage is mainly about the ----.",
+        "options": [
+            "A) positive economic growth brought by the beef and leather industries in Brazil.",
+            "B) efforts by local authorities to conserve endemic species like the jaguar.",
+            "C) negative environmental consequences and drivers of deforestation in the Amazon.",
+            "D) history of slash-and-burn agriculture in South American countries.",
+            "E) solutions proposed to mitigate the effects of global warming."
+        ],
+        "answer": "C"
+    },
+    "32": {
+        "question": "--- PASSAGE --- In the Brazilian Amazon, the rapid expansion of cattle ranching is the primary driver of deforestation, replacing the native Amazonian forests. Driven by rising global demand for beef and leather, ranchers clear vast tracts of land, often illegally, to create grazing pastures. This unsustainable practice has decimated the habitat of numerous endemic species, including the jaguar and several species of threatened monkeys. Furthermore, the methods used to clear the land—primarily slash-and-burn agriculture—release massive amounts of carbon dioxide, contributing significantly to global warming. These fires are also poorly controlled, frequently escaping into adjacent, untouched primary forest and causing widespread ecological collapse. The resulting environmental damage is compounded by the lack of robust enforcement from local authorities, who often prioritize short-term economic gains over long-term environmental sustainability. --- QUESTION --- The author's attitude towards the actions of the local authorities regarding deforestation is best described as ----.",
+        "options": [
+            "A) approving.",
+            "B) indifferent.",
+            "C) critical.",
+            "D) supportive.",
+            "E) hopeful."
+        ],
+        "answer": "C"
+    },
+    "33": {
+        "question": "Alex: Did you know that recent studies suggest exposure to nature, even just looking at pictures of trees, can reduce stress levels? Ben: I find that hard to believe. Stress is mainly caused by heavy workloads and financial worries, not a lack of green scenery. Alex: ----- Ben: Well, research has shown that the sight of natural environments triggers a neurological response that lowers the production of the stress hormone cortisol, and even slows the heart rate. Alex: That makes more sense now. I should probably change my desktop background.",
+        "options": [
+            "A) But do you think that our diet also plays a crucial role in managing our overall stress?",
+            "B) I agree with you, but surely a picture is not a substitute for visiting a real forest, is it?",
+            "C) Do you mean to say that we should completely stop using technology and move to the countryside?",
+            "D) I understand the physical causes, but I don't see the mechanism. How does visual nature affect my biology?"
+        ],
+        "answer": "D"
+    },
+    "34": {
+        "question": "Alice: Did you know that the sounds of lip smacking, slurping and swallowing can be the highest form of flattery to a chef? Matt: ----- Alice: How come? I mean they might be annoying, but I didn't know it was a phenomenon. Matt: It actually is! Some people can be provoked by chewing, throat clearing, coughing and even audible breathing.",
+        "options": [
+            "A) No, strong negative reactions to everyday sounds are most likely to come from subconscious mirroring behaviour.",
+            "B) Yes, but some people feel disgust while watching chefs contaminate themselves with food and relief while watching them wash their hands.",
+            "C) I've never heard that! However, traumas, such as food insecurity and homelessness might increase risk for depression, anxiety and post-traumatic stress disorder.",
+            "D) That's interesting. Generally, the human brain determines what food is coming next based on the status quo, plus what we recall from previous dining exeriences.",
+            "E) Yeah, especially in some cultures, but some may experience strong discomfort, annoyance or disgust when they hear particular triggers."
+        ],
+        "answer": "E"
+    },
+    "35": {
+        "question": "----",
+        "options": [
+            "A) Alternative and complementary approaches can be used in coordination with conventional treatments to alleviate some symptoms; they cannot, however, effectively substitute for conventional medical care for many health conditions.",
+            "B) Alternative and complementary approaches used in coordination with conventional treatments alleviate some symptoms, though they cannot substitute for conventional medical care for certain health conditions.",
+            "C) Using alternative and complementary approaches in coordination with conventional treatments cannot effectively substitute for conventional medical care even if it may alleviate some symptoms of many health conditions.",
+            "D) Using alternative and complementary approaches may alleviate some symptoms if used in coordination with conventional treatments, yet they cannot be effective substitutes for conventional medical care for many health conditions.",
+            "E) Using alternative and complementary approaches in coordination with conventional treatments may alleviate some symptoms but cannot effectively substitute for conventional medical care for many health conditions."
+        ],
+        "answer": "E"
+    },
+    "36": {
+        "question": "Although we now accept drawings as works of art in their own right, up until recently they were thought to be preparatory processes no matter how intricate or complex they might be.",
+        "options": [
+            "A) As part of the preparatory process in the production of a work of art, drawings were considered by some to be works of art; however, today, this is no longer the case unless they are detailed and complex.",
+            "B) Drawings have always been considered to be rightful works of art, but only when they were very intricate and complex, were they used in preparation for other works of art.",
+            "C) Today, drawings are considered to be art; however, not so long ago, this was not the case even though they could be detailed or complicated; they were regarded as a preliminary stage of a work of art.",
+            "D) The preparatory process of a work of art generally includes an intricate or complex drawing, which was the usual process in the past, yet this is no longer true.",
+            "E) Even though people regard drawings as true works of art, it was not until quite recently that people appreciated their role in the preparatory process of a complex, detailed work of art."
+        ],
+        "answer": "C"
+    },
+    "37": {
+        "question": "Much can be learned about the early histories of tribes by studying their languages. It can be discovered, for example, that two tribes might have been one group in earlier times and then divided before Europeans came to the Americas. ---- Even if tribes spoke similar languages, they would have different ways of life if they lived in different environments. People on the plains would live differently than woodland people, for instance, whether they spoke the same language or not.",
+        "options": [
+            "A) Yet in studying some cultures, geography is usually seen to be more of a determinant factor than language.",
+            "B) They may have left their villages to track herds of buffalo and deer, as deemed necessary for their survival.",
+            "C) In the case where tribes of the same language family lived in the same environment, it is convenient to study them together.",
+            "D) Because of varying lifestyles and different histories, many tribes are listed according to their individual names.",
+            "E) In general, some tribes were friendly with the French and often fought as their allies against the British."
+        ],
+        "answer": "A"
+    },
+    "38": {
+        "question": "Children's fascination with television has concerned researches and parents ever since the medium was introduced. Much of the debate has been focused on the effects of media violence, which has resulted in much analysis by psychologists and sociologists ---- Other worries have been about the impact of spending long periods of time in front of a screen on the brain or eyes.",
+        "options": [
+            "A) At the end of the 20th century, however, there was a belief that television could be used for enhancing children's cognitive skills.",
+            "B) Therefore, unequal distribution of technological resources in the world has created significant",
+            "C) Sometimes, television addiction has been compared to other kinds of addiction children are likely to develop, such as candies and toys.",
+            "D) Television has also been blamed for causing negative effects on reading skills, and some claim that spending too much time in front of the television makes children antisocial.",
+            "E) There are a variety of programs promoting prosocial behaviour, such as solving conflicts without violence."
+        ],
+        "answer": "E"
+    },
+    "39": {
+        "question":"(I)As new technologies have become available, the opportunities for advertising have broadened. (II) Newspapers and magazines have been a significant vehicle for advertising since the 17th century. (III) When radio networks were established in the first half of the 20th century, people used advertising to bring in revenue and then in the 1950s television introduced a further medium that owes its effectiveness to the wide range of means that can be used to promote a product. (IV) In the late 20th century, on the other hand, the introduction and extended use of the Internet and e commerce had an enormous initial growth for the advertising industry. (V) Manufacturers advertise their products on their distribution vans; some also have special promotional vehicles that they use in campaigns where they take their products to public places or special shows to advertise them.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "E"
+    },
+    "40": {
+        "question":"(I) By increasing children's self-esteem and motivation for achievement, educators can help children overcome learned helplessness. (II) The negative attributions that adults make towards children and academic failure seem to contribute to learned helplessness, which refers to the eventual passive acceptance of consistent failure, resulting in the cessation of all voluntary activity. (III) It is particularly evident in children who have been diagnosed with a learning disability. (IV) Children who believe that academic failure is the result of an ability deficit are unlikely to exert much effort to change this seemingly unavoidable condition. (V) Such children are more likely to view failure as a permanent and internal condition.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "A"
+    }
+}

@@ -1,0 +1,447 @@
+{
+    "1": {
+        "question": "Although governments ---- public expenditures during economic recessions in order to stabilize national budgets, such restrictions may inadvertently reduce investments in healthcare and education, which can, in the long term, hinder social development.",
+        "options": [
+            "A) allocate",
+            "B) execute",
+            "C) prolong",
+            "D) curtail",
+            "E) elucidate"
+        ],
+        "answer": "D"
+    },
+    "2": {
+        "question": "Many inscriptions from ancient civilizations remain ---- because the languages in which they were written have no surviving descendants and the cultural context necessary for interpretation has been lost over the centuries.",
+        "options": [
+            "A) undeniable",
+            "B) irreversible",
+            "C) inconsistent",
+            "D) unintelligible",
+            "E) indestructible"
+        ],
+        "answer": "D"
+    },
+    "3": {
+        "question": "Researchers have studied the effects of climate change on polar ecosystems ----, because understanding the rapid transformations in these regions is crucial for predicting global environmental shifts.",
+        "options": [
+            "A) severely",
+            "B) suspiciously",
+            "C) uniquely",
+            "D) extensively",
+            "E) instantly"
+        ],
+        "answer": "D"
+    },
+    "4": {
+        "question": "Recent psychological research has demonstrated that children exposed to chronic stress at an early age exhibit a stronger ---- to anxiety disorders, particularly when this vulnerability is reinforced by lack of social support and negative environmental conditions.",
+        "options": [
+            "A) assertion",
+            "B) competence",
+            "C) inclination",
+            "D) ambiguity",
+            "E) distortion"
+        ],
+        "answer": "C"
+    },
+    "5": {
+        "question": "Traditional communities have long relied on herbal remedies to ---- infectious diseases, thus demonstrating both an accessible form of healthcare in the absence of modern medicine and a profound knowledge of local ecosystems.",
+        "options": [
+            "A) thrust on",
+            "B) lay down",
+            "C) draw on",
+            "D) ward off",
+            "E) pin down"
+        ],
+        "answer": "D"
+    },
+    "6": {
+        "question": "Microscopes are essential tools for ---- microorganisms, enabling scientists ---- infections and to design appropriate medical interventions.",
+        "options": [
+            "A) having observed/ to be detected",
+            "B) to observe / detecting",
+            "C) to have observed / having detected",
+            "D) observing / to detect",
+            "E) to be observing / being detected"
+        ],
+        "answer": "D"
+    },
+    "7": {
+        "question": "Research on human nutrition, ---- back to the early 20th century when scientists first began systematically studying vitamins and minerals, ---- critical insights into preventing chronic diseases and promoting overall health.",
+        "options": [
+            "A) to be stretched / was providing",
+            "B) stretching / has provided",
+            "C) to have stretched / had provided",
+            "D) being stretched / will provide",
+            "E) stretched / provided"
+        ],
+        "answer": "B"
+    },
+    "8": {
+        "question": "To ensure accurate measurements, laboratory technicians must separate volatile solvents ---- reactive chemicals and avoid mixing them ---- acids, as this can trigger dangerous reactions.",
+        "options": [
+            "A) to / at",
+            "B) during / for",
+            "C) in / over",
+            "D) from / with",
+            "E) off / within"
+        ],
+        "answer": "D"
+    },
+    "9": {
+        "question": "Organizational policies were systematically revised ---- contemporary empirical findings, thereby ensuring that strategic frameworks are grounded in current evidence and adhere to established best practices.",
+        "options": [
+            "A) besides",
+            "B) contrary to",
+            "C) in pursuit of",
+            "D) in line with",
+            "E) in terms of"
+        ],
+        "answer": "D"
+    },
+    "10": {
+        "question": "Communities should implement proper waste management and pollution control measures; ----, local ecosystems could suffer irreversible damage, affecting biodiversity and water quality.",
+        "options": [
+            "A) instead",
+            "B) otherwise",
+            "C) for instance",
+            "D) additionally",
+            "E) as a result"
+        ],
+        "answer": "B"
+    },
+    "11": {
+        "question": "Climate change presents challenges that ---- governments, which focus on regulatory policies, ---- private corporations, which prioritize profit, can fully tackle without international cooperation.",
+        "options": [
+            "A) whether / or",
+            "B) the more / the more",
+            "C) so / that",
+            "D) neither / nor",
+            "E) as / as"
+        ],
+        "answer": "D"
+    },
+    "12": {
+        "passage":"According to classical Western historiography, modernity begins in 1789 with the advent of the French Revolution. This is, perhaps, not entirely (12) ---- the many social changes inspired by that upheaval. It is also because of the political change, marking the break between the former regime and modernity (13) ---- the French Revolution represents the beginning of modem political culture. Between 1791 and 1795, France (14) ---- three constitutions. These were a liberal constitutional monarchy a democratic republic based on universal manhood suffrage and a liberal republic. All three provided inspiration for constitutional monarchists, democrats and liberals far (15) ---- the borders of France. Indeed, the legacy of the 1791 constitution eventually forced most ruling 19th century monarchs (16) ---- a constitution limiting their powers. And of the 29 constitutions adopted in Europe during 1791 ‐ 1802 alone, 26 were the result of direct French influence.",
+        "question":"",
+        "options": [
+            "A) unlike",
+            "B) despite",
+            "C) due to",
+            "D) instead of",
+            "E) except for"
+        ],
+        "answer": "C"
+    },
+    "13": {
+        "passage":"According to classical Western historiography, modernity begins in 1789 with the advent of the French Revolution. This is, perhaps, not entirely (12) ---- the many social changes inspired by that upheaval. It is also because of the political change, marking the break between the former regime and modernity (13) ---- the French Revolution represents the beginning of modem political culture. Between 1791 and 1795, France (14) ---- three constitutions. These were a liberal constitutional monarchy a democratic republic based on universal manhood suffrage and a liberal republic. All three provided inspiration for constitutional monarchists, democrats and liberals far (15) ---- the borders of France. Indeed, the legacy of the 1791 constitution eventually forced most ruling 19th century monarchs (16) ---- a constitution limiting their powers. And of the 29 constitutions adopted in Europe during 1791 ‐ 1802 alone, 26 were the result of direct French influence.",
+        "question":"",
+        "options": [
+            "A) as if",
+            "B) because",
+            "C) although",
+            "D) once",
+            "E) unless"
+        ],
+        "answer": "B"
+    },
+    "14": {
+        "passage":"According to classical Western historiography, modernity begins in 1789 with the advent of the French Revolution. This is, perhaps, not entirely (12) ---- the many social changes inspired by that upheaval. It is also because of the political change, marking the break between the former regime and modernity (13) ---- the French Revolution represents the beginning of modem political culture. Between 1791 and 1795, France (14) ---- three constitutions. These were a liberal constitutional monarchy a democratic republic based on universal manhood suffrage and a liberal republic. All three provided inspiration for constitutional monarchists, democrats and liberals far (15) ---- the borders of France. Indeed, the legacy of the 1791 constitution eventually forced most ruling 19th century monarchs (16) ---- a constitution limiting their powers. And of the 29 constitutions adopted in Europe during 1791 ‐ 1802 alone, 26 were the result of direct French influence.",
+        "question":"",
+        "options": [
+            "A) withdrew",
+            "B) neglected",
+            "C) jeopardised",
+            "D) dispelled",
+            "E) adopted"
+        ],
+        "answer": "E"
+    },
+    "15": {
+        "passage":"According to classical Western historiography, modernity begins in 1789 with the advent of the French Revolution. This is, perhaps, not entirely (12) ---- the many social changes inspired by that upheaval. It is also because of the political change, marking the break between the former regime and modernity (13) ---- the French Revolution represents the beginning of modem political culture. Between 1791 and 1795, France (14) ---- three constitutions. These were a liberal constitutional monarchy a democratic republic based on universal manhood suffrage and a liberal republic. All three provided inspiration for constitutional monarchists, democrats and liberals far (15) ---- the borders of France. Indeed, the legacy of the 1791 constitution eventually forced most ruling 19th century monarchs (16) ---- a constitution limiting their powers. And of the 29 constitutions adopted in Europe during 1791 ‐ 1802 alone, 26 were the result of direct French influence.",
+        "question":"",
+        "options": [
+            "A) beyond",
+            "B) under",
+            "C) between",
+            "D) by",
+            "E) into"
+        ],
+        "answer": "A"
+    },
+    "16": {
+        "passage":"According to classical Western historiography, modernity begins in 1789 with the advent of the French Revolution. This is, perhaps, not entirely (12) ---- the many social changes inspired by that upheaval. It is also because of the political change, marking the break between the former regime and modernity (13) ---- the French Revolution represents the beginning of modem political culture. Between 1791 and 1795, France (14) ---- three constitutions. These were a liberal constitutional monarchy a democratic republic based on universal manhood suffrage and a liberal republic. All three provided inspiration for constitutional monarchists, democrats and liberals far (15) ---- the borders of France. Indeed, the legacy of the 1791 constitution eventually forced most ruling 19th century monarchs (16) ---- a constitution limiting their powers. And of the 29 constitutions adopted in Europe during 1791 ‐ 1802 alone, 26 were the result of direct French influence.",
+        "question":"",
+        "options": [
+            "A) having accepted",
+            "B) to have accepted",
+            "C) accepting",
+            "D) to accept",
+            "E) to be accepting"
+        ],
+        "answer": "D"
+    },
+    "17": {
+        "question": "While it is unknown why some people develop misshapen cornea which leads to astigmatism, ----.",
+        "options": [
+            "A) corrective measures are necessary only in cases where the distortion is severe enough to impair vision",
+            "B) light entering the eye is directed by the cornea to a single point, enabling the eye to see clearly",
+            "C) an instrument is used to measure the cornea and calculate the shape of the required corrective lens",
+            "D) factors such as stress, continual reading in dim lighting, or excessive close-up work may contribute",
+            "E) the main symptom of astigmatism is blurred or distorted vision as well as a history of eye strain and double vision"
+        ],
+        "answer": "D"
+    },
+    "18": {
+        "question": "-----, but it was after the first Industrial Revolution that the global demand for resources increased at high speed.",
+        "options": [
+            "A) If the pace of human population growth continues at a steady rate, humankind will suffer from food shortages",
+            "B) There is a link between a country's level of resource redistribution and the accessibility of health care",
+            "C) Political stability and peace result in resources being shifted towards economic prosperity",
+            "D) Since its early stages, humankind has been utilising the natural resources that the Earth provides",
+            "E) Scientists have developed efficient mining methods for rich caches of mineral resources"
+        ],
+        "answer": "D"
+    },
+    "19": {
+        "question": "-----, as it is during this time infants construct all the cognitive substructures that will serve to their later intellectual development.",
+        "options": [
+            "A) Babies born at twenty-eight weeks can survive, although often with chronic health problems",
+            "B) Each period of a child's development only partially explains the periods that will follow",
+            "C) Cognitive development involves such processes membering, problem-solving and decision-making",
+            "D) Mental development during the first eighteen months of life is particularly important",
+            "E) Every child goes through the same developmental stages, but when they enter a new stage may vary"
+        ],
+        "answer": "D"
+    },
+    "20": {
+        "question": "With the exception of sign languages, speech is the primary means of communication in all human communities; ---.",
+        "options": [
+            "A) for example, no single method is suited to study the different structures and motor systems involved in speech",
+            "B) nonetheless, the rapid rate of speech is quite impressive from the perspective of production and the motor control processes it entails",
+            "C) therefore, it is often the only means by which a particular language can be studied, because the majority of languages do not have a written form",
+            "D) instead, the aim of speech research is to understand the relation of the units and organisation of linguistic forms to the properties of speech signals",
+            "E) however, large amounts of speech data have been collected and analysed in attempts to discover the structures of speech organisation"
+        ],
+        "answer": "C"
+    },
+    "21": {
+        "question": "Peer relationships with negative outcomes are usually observed among teens searching for a particular emotion they lack in their lives; -----.",
+        "options": [
+            "A) on the other hand, research indicates that peers could be fairly detrimental to an adolescent's development",
+            "B) in contrast, most parents fear that their children will befriend the wrong crowd and end up in trouble",
+            "C) nonetheless, adolescents are more likely to conform to their peers' opinions when it comes to day-to-day matters",
+            "D) moreover, adolescents who have positive relationships with their parents tend to easily engage in social interaction with their peers.",
+            "E) for instance, teens joining cliques that bully or harass have low self-esteem and seek approval or a sense of dominance"
+        ],
+        "answer": "E"
+    },
+    "22": {
+        "question": "While infants are capable of feeling emotions such as distress and disgust at birth, complex emotions like embarrassment and guilt are proposed to emerge after the development of self-awareness that occurs around the age of 2.",
+        "options": [
+            "A) Üzüntü ve tiksinme gibi duygular bebekler tarafından doğuştan hissedilebilse de utanç ve suçluluk gibi karmaşık duygular öz farkındalık gelişiminden sonra ortaya çıkar ki bunun 2 yaş civarında gerçekleştiği öne sürülmektedir.",
+            "B) Bebekler üzüntü ve tiksinme gibi duyguları doğuştan hissedebilirler ancak utanç ve suçluluk gibi karmaşık duyguların öz farkındalık gelişiminin gerçekleşmesinden sonra 2 yaş civarında ortaya çıktığı öne sürülmektedir.",
+            "C) Bebekler üzüntü ve tiksinme gibi duyguları doğuştan hissedebilse de utanç ve suçluluk gibi karmaşık duyguların 2 yaş civarında gerçekleşen öz farkındalık gelişiminden sonra ortaya çıktığı öne sürülmektedir.",
+            "D) Bebeklerin üzüntü ve tiksinme gibi duyguları doğuştan hissedebildiği öne sürülse de öz farkındalık gelişimi 2 yaş civarında gerçekleşir ve bundan sonra utanç ve suçluluk gibi karmaşık duygular ortaya çıkar.",
+            "E) Bebekler üzüntü ve tiksinme gibi duyguları doğuştan hissedebilse de utanç ve suçluluk gibi karmaşık duyguları 2 yaş civarında hissedebildiği ve bu duyguların öz farkındalık gelişiminin gerçekleşmesinden sonra ortaya çıktığı öne sürülmektedir."
+        ],
+        "answer": "C"
+    },
+    "23": {
+        "question": "Improvements in information technologies have allowed marketers to respond more quickly and flexibly to the changes in consumer behaviour; however, highly complex information systems can distract the marketers from imagination essential to successful advertising strategies.",
+        "options": [
+            "A) Bilgi teknolojilerindeki ilerlemeler pazarlamacıların tüketici davranışındaki değişikliklere daha hızlı ve esnek bir şekilde karşılık vermelerini sağlasa da pazarlamacıları başarılı reklam stratejileri için önemli olan hayal gücünden uzaklaştırabilecek oldukça karmaşık bilgi sistemleri vardır.",
+            "B) Bilgi teknolojilerindeki ilerlemeler pazarlamacıların tüketici davranışındaki değişikliklere daha hızlı ve esnek bir şekilde karşılık vermelerini sağlamıştır ancak oldukça karmaşık bilgi sistemleri pazarlamacıları başarılı reklam stratejileri için önemli olan hayal gücünden uzaklaştırabilir.",
+            "C) Bilgi teknolojilerindeki ilerlemelerle tüketici davranışındaki değişikliklere pazarlamacılar tarafından daha hızlı ve esnek bir şekilde karşılık verilse de oldukça karmaşık bilgi sistemleri pazarlamacıları başarılı reklam stratejileri için önem taşıyan hayal gücünden uzaklaştırabilir.",
+            "D) Bilgi teknolojilerindeki ilerlemeler pazarlamacıların tüketici davranışındaki değişikliklere daha hızlı ve esnek bir şekilde karşılık vermelerini sağlamıştır ancak pazarlamacılar oldukça karmaşık bilgi sistemlerinden dolayı başarılı reklam stratejileri için önemli olan hayal gücünden uzaklaşabilir.",
+            "E) Bilgi teknolojilerindeki ilerlemeler sayesinde pazarlamacılar tüketici davranışındaki değişikliklere daha hızlı ve esnek bir şekilde karşılık vermektedir ancak oldukça karmaşık bilgi sistemleri pazarlamacıları başarılı reklam stratejileri için önem taşıyan hayal gücünden uzaklaştırabilir."
+        ],
+        "answer": "B"
+    },
+    "24": {
+        "question": "Doğada gördüğünüz belirli bir yabani mantarın kimliğinden emin değilseniz, onu tüketmemelisiniz, çünkü zehirli bir mantarı yemek hızlı bir biçimde karaciğer yetmezliğine ve sonunda ölüme yol açabilir.",
+        "options": [
+            "A) Given that a poisonous mushroom can cause liver failure and eventually death, you must not consume a wild mushroom you see in nature if you are not sure about the identity of that particular mushroom.",
+            "B) You should not consume a wild mushroom that you see in nature even if you are certain about the identity of that particular mushroom because you can have liver failure and eventually die due to a poisonous mushroom.",
+            "C) If you are not certain about the identity of a particular wild mushroom that you see in nature, you should not consume it as eating a poisonous mushroom can quickly lead to liver failure and eventually death.",
+            "D) A wild mushroom that you see in nature can be poisonous and quickly lead to liver failure and eventually death; therefore, unless you are sure about the identity of that particular mushroom, you should not consume it.",
+            "E) When you see a particular wild mushroom in nature, you should be certain about its identity if you want to consume it as, when eaten, a poisonous mushroom can quickly lead to liver failure and eventually death."
+        ],
+        "answer": "C"
+    },
+    "25": {
+        "question": "İkinci bir dil öğrenmek uzun ve karmaşık bir süreçtir çünkü ana dilinizin sınırlarının ötesine ulaşmanız ve yeni bir kültürü benimsemek için farklı bir düşünme yöntemi geliştirmeniz gerekmektedir.",
+        "options": [
+            "A) Because you are required to reach beyond the confines of your native language by developing a different way of thinking to embrace a new culture, learning a second language is a long and complex process.",
+            "B) Since you have to reach beyond the confines of your native language to devise a different way of thinking while embracing a new culture, learning a second language is a long and complex process.",
+            "C) Learning a second language, which is a long and complex process, requires you to reach beyond the confines of your native language and develop a different way of thinking in order to embrace a new culture.",
+            "D) Learning a second language is a long and complex process as you have to reach beyond the confines of your native language and develop a different way of thinking to embrace a new culture.",
+            "E) Learning a second language is a long and complex process through which you have to reach beyond the confines of your native language and devise a different way of thinking so that you can embrace a new culture"
+        ],
+        "answer": "D"
+    },
+    "26": {
+        "question": "--- PASSAGE --- A key feature of globalization has been the transformation of the world economy, highlighted by the rapid integration of markets since 1970. In a series of historic changes, the international agreements that had regulated the movement of people, goods, and money since World War II were overturned. To begin with, the postwar economic arrangements sealed by various treaties steadily eroded in the late 1960s, as Western industrial nations faced a double burden of inflation and economic stagnation. A crucial shift in monetary policy occurred in 1971, when the United States abandoned the postwar gold standard and allowed the dollar to range freely. As a result, formal regulations on currencies, international banking, and lending among states faded away. They were replaced with an informal network of arrangements managed autonomously by large private lenders, their political friends in leading Western states, and independent financial agencies such as the International Monetary Fund (IMF) and the World Bank. The economists and administrators who dominated these new networks steered away from the interventionist policies that had shaped postwar planning and recovery. Instead, they relied on a broad range of market-driven models termed 'neoliberalism.' --- QUESTION --- It is indicated in the passage that the economic performance in the postwar period ----.",
+        "options": [
+            "A) totally eliminated the economic stagnation experienced by Western industrial nations",
+            "B) primarily depended on policies formulated by the International Monetary Fund",
+            "C) was mainly based on policies that allowed state intervention",
+            "D) was so good that leading industrial states remained indifferent to neoliberalism",
+            "E) had a positive impact on the development of international banking"
+        ],
+        "answer": "C"
+    },
+    "27": {
+        "question": "--- PASSAGE --- A key feature of globalization has been the transformation of the world economy, highlighted by the rapid integration of markets since 1970. In a series of historic changes, the international agreements that had regulated the movement of people, goods, and money since World War II were overturned. To begin with, the postwar economic arrangements sealed by various treaties steadily eroded in the late 1960s, as Western industrial nations faced a double burden of inflation and economic stagnation. A crucial shift in monetary policy occurred in 1971, when the United States abandoned the postwar gold standard and allowed the dollar to range freely. As a result, formal regulations on currencies, international banking, and lending among states faded away. They were replaced with an informal network of arrangements managed autonomously by large private lenders, their political friends in leading Western states, and independent financial agencies such as the International Monetary Fund (IMF) and the World Bank. The economists and administrators who dominated these new networks steered away from the interventionist policies that had shaped postwar planning and recovery. Instead, they relied on a broad range of market-driven models termed 'neoliberalism.' --- QUESTION --- As clearly stressed in the passage, the World economy ----.",
+        "options": [
+            "A) underwent a process of radical change after 1970, with markets quickly integrating",
+            "B) has never recovered from the adverse effects of inflation since World War II",
+            "C) is now fully managed only by the International Monetary Fund and the World Bank",
+            "D) was affected by globalization for only a relatively short period after 1970",
+            "E) is constantly manipulated by the United States and other leading Western countries"
+        ],
+        "answer": "A"
+    },
+    "28": {
+        "question": "--- PASSAGE --- A key feature of globalization has been the transformation of the world economy, highlighted by the rapid integration of markets since 1970. In a series of historic changes, the international agreements that had regulated the movement of people, goods, and money since World War II were overturned. To begin with, the postwar economic arrangements sealed by various treaties steadily eroded in the late 1960s, as Western industrial nations faced a double burden of inflation and economic stagnation. A crucial shift in monetary policy occurred in 1971, when the United States abandoned the postwar gold standard and allowed the dollar to range freely. As a result, formal regulations on currencies, international banking, and lending among states faded away. They were replaced with an informal network of arrangements managed autonomously by large private lenders, their political friends in leading Western states, and independent financial agencies such as the International Monetary Fund (IMF) and the World Bank. The economists and administrators who dominated these new networks steered away from the interventionist policies that had shaped postwar planning and recovery. Instead, they relied on a broad range of market-driven models termed 'neoliberalism.' --- QUESTION --- It is clearly pointed out in the passage that the United States’ decision in 1971 to give up the postwar gold standard ----.",
+        "options": [
+            "A) greatly undermined the process of globalization in the following decades and has since led the world economy into a serious crisis",
+            "B) has been the primary cause of the chronic inflation and economic stagnation faced by the rest of the world",
+            "C) was essentially inspired by new economic models based on free-market policies and neoliberal practices",
+            "D) was extremely important, since it overturned international currency and banking regulations",
+            "E) was the natural outcome of the wide range of economic arrangements made in the postwar period in the West"
+        ],
+        "answer": "D"
+    },
+    "29": {
+        "question": "--- PASSAGE --- A key feature of globalization has been the transformation of the world economy, highlighted by the rapid integration of markets since 1970. In a series of historic changes, the international agreements that had regulated the movement of people, goods, and money since World War II were overturned. To begin with, the postwar economic arrangements sealed by various treaties steadily eroded in the late 1960s, as Western industrial nations faced a double burden of inflation and economic stagnation. A crucial shift in monetary policy occurred in 1971, when the United States abandoned the postwar gold standard and allowed the dollar to range freely. As a result, formal regulations on currencies, international banking, and lending among states faded away. They were replaced with an informal network of arrangements managed autonomously by large private lenders, their political friends in leading Western states, and independent financial agencies such as the International Monetary Fund (IMF) and the World Bank. The economists and administrators who dominated these new networks steered away from the interventionist policies that had shaped postwar planning and recovery. Instead, they relied on a broad range of market-driven models termed 'neoliberalism.' --- QUESTION --- As can be understood from the passage, the International Monetary Fund and the World Bank ----.",
+        "options": [
+            "A) have always been regarded with suspicion by industrialized Western nations",
+            "B) develop policies that give priority to state intervention in the management of the economy",
+            "C) have always introduced new formal regulations for currencies and international banking",
+            "D) recruit only those economists who strongly support interventionist economic policies",
+            "E) are financial bodies that are free from any intervention by an outside authority"
+        ],
+        "answer": "E"
+    },
+    "30": {
+        "question": "--- PASSAGE --- Until the late thirteenth century, European maritime commerce had been divided between a Mediterranean and a North Atlantic world. Starting around 1270, however, Italian merchants began to sail through the Strait of Gibraltar and on to the wool-producing regions of England and the Netherlands. This was the essential first step in the extension of Mediterranean commerce and colonization into the Atlantic Ocean. The second step was the discovery by Genoese sailors, during the fourteenth century, of the Atlantic island chains known as the Canaries and the Azores. Efforts to colonize the Canary Islands and to convert and enslave their inhabitants began almost immediately. But an effective conquest of the Canary Islands did not begin until the fifteenth century, when it was undertaken by Portugal and completed by Spain. The Canaries, in turn, became the base from which further Portuguese voyages down the west coast of Africa proceeded. They were also the “jumping off point” from which Christopher Columbus would sail westward across the Atlantic Ocean in hopes of reaching Asia. --- QUESTION --- It is clear from the passage that the European discovery and conquest of the Canary Islands in the fourteenth and fifteenth centuries ----.",
+        "options": [
+            "A) actually had no commercial and maritime significance, but became the major cause of rivalry between Portugal and Spain",
+            "B) strategically paved the way for further explorations along coastal West Africa and across the Atlantic Ocean",
+            "C) could have been prevented if the natives had been politically united to resist conversion and colonization",
+            "D) caused so much excitement across Europe that especially Italian merchants were keen to use the islands as their commercial base",
+            "E) had an adverse impact on the Netherlands’ maritime trade with England and other countries in northern Europe"
+        ],
+        "answer": "B"
+    },
+    "31": {
+        "question": "--- PASSAGE --- Until the late thirteenth century, European maritime commerce had been divided between a Mediterranean and a North Atlantic world. Starting around 1270, however, Italian merchants began to sail through the Strait of Gibraltar and on to the wool-producing regions of England and the Netherlands. This was the essential first step in the extension of Mediterranean commerce and colonization into the Atlantic Ocean. The second step was the discovery by Genoese sailors, during the fourteenth century, of the Atlantic island chains known as the Canaries and the Azores. Efforts to colonize the Canary Islands and to convert and enslave their inhabitants began almost immediately. But an effective conquest of the Canary Islands did not begin until the fifteenth century, when it was undertaken by Portugal and completed by Spain. The Canaries, in turn, became the base from which further Portuguese voyages down the west coast of Africa proceeded. They were also the “jumping off point” from which Christopher Columbus would sail westward across the Atlantic Ocean in hopes of reaching Asia. --- QUESTION --- As suggested in the passage, in medieval Europe before 1270, ----.",
+        "options": [
+            "A) Spanish and Portuguese sailors had attempted to explore the west coast of Africa and enslave the natives",
+            "B) only Italian merchants had had the monopoly to import wool from England and the Netherlands",
+            "C) some daring attempts had been made to conquer and colonize the Canaries and the Azores",
+            "D) there had been two major zones for maritime trade: the Mediterranean and the North Atlantic",
+            "E) there had been continual efforts especially by the Portuguese to convert West African natives to Christianity"
+        ],
+        "answer": "D"
+    },
+    "32": {
+        "question": "--- PASSAGE --- Until the late thirteenth century, European maritime commerce had been divided between a Mediterranean and a North Atlantic world. Starting around 1270, however, Italian merchants began to sail through the Strait of Gibraltar and on to the wool-producing regions of England and the Netherlands. This was the essential first step in the extension of Mediterranean commerce and colonization into the Atlantic Ocean. The second step was the discovery by Genoese sailors, during the fourteenth century, of the Atlantic island chains known as the Canaries and the Azores. Efforts to colonize the Canary Islands and to convert and enslave their inhabitants began almost immediately. But an effective conquest of the Canary Islands did not begin until the fifteenth century, when it was undertaken by Portugal and completed by Spain. The Canaries, in turn, became the base from which further Portuguese voyages down the west coast of Africa proceeded. They were also the “jumping off point” from which Christopher Columbus would sail westward across the Atlantic Ocean in hopes of reaching Asia. --- QUESTION --- It is asserted in the passage that, in the late thirteenth century, ----.",
+        "options": [
+            "A) Italian merchants were first able to carry their Mediterranean trade into England and the Netherlands",
+            "B) the Strait of Gibraltar gained so much strategic importance that it became a territorial issue between Spain and Portugal",
+            "C) the Europeans soon realized that there was a great deal of profit to be made by slave trade across the Atlantic",
+            "D) both England and the Netherlands emerged as the only major colonizing powers in the North Atlantic",
+            "E) the Italians absolutely dominated the trade in the Mediterranean and strongly opposed other nations’ attempts to benefit from it"
+        ],
+        "answer": "A"
+    },
+    "33": {
+        "question": "--- PASSAGE --- Until the late thirteenth century, European maritime commerce had been divided between a Mediterranean and a North Atlantic world. Starting around 1270, however, Italian merchants began to sail through the Strait of Gibraltar and on to the wool-producing regions of England and the Netherlands. This was the essential first step in the extension of Mediterranean commerce and colonization into the Atlantic Ocean. The second step was the discovery by Genoese sailors, during the fourteenth century, of the Atlantic island chains known as the Canaries and the Azores. Efforts to colonize the Canary Islands and to convert and enslave their inhabitants began almost immediately. But an effective conquest of the Canary Islands did not begin until the fifteenth century, when it was undertaken by Portugal and completed by Spain. The Canaries, in turn, became the base from which further Portuguese voyages down the west coast of Africa proceeded. They were also the “jumping off point” from which Christopher Columbus would sail westward across the Atlantic Ocean in hopes of reaching Asia. --- QUESTION --- As can be inferred from the passage, Christopher Columbus ----.",
+        "options": [
+            "A) hoped that his westward voyage across the Atlantic would ultimately take him to Asia",
+            "B) learned much from Genoese sailors about the locations of the Canaries and the Azores",
+            "C) had taken part earlier in Portuguese voyages down the west coast of Africa",
+            "D) paid little attention to the strategic and economic importance of the Canary Islands",
+            "E) always dreamed of completely controlling all the maritime commerce with Asia"
+        ],
+        "answer": "A"
+    },
+    "34": {
+        "question": "Matt: I think many people are misled to assume that global warming has a direct bearing mainly on animals, not on people. Sam: ------ Matt: Exactly yes. Research has found that as the planet warms, many people find it much harder to get a good night's sleep. Sleep loss is a common problem, particularly in areas with high temperatures. Sam: That makes sense given the fact that our planet has already warmed 1°C since pre-industrial times.",
+        "options": [
+            "A) Do you imply that animals contribute to the health issues associated with global warming?",
+            "B) Do you mean that daily routines of people are also affected by global warming?",
+            "C) Do you suggest that it is difficult to estimate the impacts of global warming on human health?",
+            "D) Do you claim that scientists are trying to cancel out the harmful effects of global warming on people's future?",
+            "E) Do you believe that people are the agents and animals are the victims of global warming?"
+        ],
+        "answer": "B"
+    },
+    "35": {
+        "question": "Tiffany: Mike, do you know anything about synesthesia? Mike: Well, it means joined perception; two or more senses are coupled. For example, a voice is not only heard but also felt, seen, tasted, or even sensed in multiple modalities. Tiffany: I guess those with this condition were shown great interest and attention in old times as they had exceptional experiences that others couldn't enjoy. Mike: - ---- Tiffany: It's horrible to hear that they were judged unfairly.",
+        "options": [
+            "A) In fact, for a long time, it faced hostility from critics, who viewed those having the condition as liars, considering the subjective experience nothing more than a learned association.",
+            "B) Definitely! They were asked to share their experiences with others. Not only ordinary people but also philosophers were in close contact with them to learn more about the condition.",
+            "C) Well, they had been thought to have supernatural powers until medical science clearly defined the characteristics of the condition and detected its prevalence.",
+            "D) As far as I know, synesthesia was not regarded as a serious subject for decades. A major factor for such late attention was that people were thought to be highly emotional and poetic rather than having a particular condition.",
+            "E) After all, someone with this condition can experience feelings others are deprived of in their lives. I'm not certain but it must have been the same for those in the past."
+        ],
+        "answer": "A"
+    },
+    "36": {
+        "question": "Learning about the universe and our place in it is one of the best experiences of childhood but few students try to explore the mysteries of the universe because of overwhelming workload at schools.",
+        "options": [
+            "A) Regardless of excessive workload at schools, some students try to learn about the universe and our place in it and understand the mysteries of the universe, which is one of the best experiences of childhood.",
+            "B) Huge workload at schools may discourage students from wondering about the universe and our place in it; however, there are those who try to investigate the mysteries of the universe, which is one of the best experiences of childhood.",
+            "C) Although learning about the universe and our place in it is one of the best experiences of childhood, a small number of students try to investigate the mysteries of the universe due to excessive workload at schools.",
+            "D) Despite being one of the best experiences of childhood, learning about the universe and our place in it and exploring the mysteries of the universe do not seem to attract the attention of most students because of huge workload at schools.",
+            "E) There is a limited number of students who admit that learning about the universe and our place in it is one of the best experiences of childhood although investigating the mysteries of the universe may considerably increase the workload at schools."
+        ],
+        "answer": "C"
+    },
+    "37": {
+        "question": "Because of a decrease in the sense of taste, older people often increase their salt intake as well as sugar, which can contribute to high blood pressure and nutrient loss.",
+        "options": [
+            "A) The rise in salt and sugar intake might lead to high blood pressure and nutrient loss as well as a decline in the sense of taste in older people.",
+            "B) A decline in the sense of taste in older people frequently results in more salt and sugar consumption, potentially contributing to high blood pressure and nutrient loss.",
+            "C) Older people frequently tend to have a decreased sense of taste as a result of the increase in their salt and sugar intake, leading to high blood pressure and nutrient loss.",
+            "D) The contribution of high blood pressure and nutrient loss to the decline in the sense of taste in older people often manifests itself in increased salt and sugar consumption.",
+            "E) An increased intake of salt and sugar, and therefore a decreased sense of taste often contribute to high blood pressure as well as nutrient loss in older people."
+        ],
+        "answer": "B"
+    },
+    "38": {
+        "question": "Artificial sweeteners make things much sweeter than the corresponding calorific value of ordinary sugar, so very small doses can make products sweet while adding very few calories. In 1996, American neurologist John Olney claimed that the aspartame, a widely used artificial sweetener, caused cancer. His argument was based on data showing that since the approval of aspartame in 1981, the number of brain cancer cases has increased. ----- However, many scientists agree that its long-term health effects have not yet been sufficiently clarified.",
+        "options": [
+            "A) Aspartame is one of the most comprehensively studied sweeteners and is 200 times sweeter than table sugar.",
+            "B) A group of scientists have studied the history of artificial sweeteners, such as aspartame and saccharin, and analysed their consumption rates.",
+            "C) Furthermore, aspartame can also be found in milk drinks, shake mixes, and juice beverages.",
+            "D) This caused heated debate, but since then, most studies have found that it does not cause cancer, and health authorities allow aspartame in food today",
+            "E) It is evident that governments and the medical field express uncertainty regarding the use of aspartame due to its changing health safety status."
+        ],
+        "answer": "D"
+    },
+    "39": {
+        "question": " (I) Until the 1990s, the only planets known to science were the eight planets that orbit our Sun. (II) People suspected that planets might orbit other stars, but such worlds were impossible to detect because of the vast distances separating them from us. (III) However, as telescopes became more advanced, astronomers began to notice faint changes in the colour or intensity of light from distant stars, which suggested planets were passing in front of them. (IV) There may be hundreds of billions of exoplanets in our galaxy which range from small, probably rocky worlds like Earth to giants with rings 200 times wider than Saturn's. (V) Careful studies followed: the first exoplanet was confirmed in 1995, and so far, thousands of extrasolar systems have been discovered, some with up to eight planets.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "C"
+    },
+    "40": {
+        "question": "(I) Until about a century ago, it was thought that not much lived in the deep sea - with its average depth of around 3.5 km, crushing pressures, and permanent darkness, few people bothered looking there. (II) Deep sea is home to many creatures, from snails covered in metal plates to hairy crabs having unusual adaptations that help them to survive with no sunlight and in water temperatures that range from boiling to freezing. (III) But today's scientists have ditchied the old ideas of a deep, empty ocean and flat, featureless seabed. (IV) They are keen to take a closer look beneath the waves, and the latest generation of research equipment is opening up the depths like never before. (V) New technology is helping scientists uncover the oceans' vital role in global climate and find bizarre creatures that offer clues about the origins of life on Earth.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "B"
+    }
+}

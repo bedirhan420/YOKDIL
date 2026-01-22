@@ -1,0 +1,447 @@
+{
+    "1": {
+        "question": "The mitochondria are called the powerhouses of the cell because without them cells would be unable to ---- enough energy from the nutrients and all cellular functions would cease.",
+        "options": [
+            "A) abuse",
+            "B) elaborate",
+            "C) assess",
+            "D) extract",
+            "E) quarrel"
+        ],
+        "answer": "D"
+    },
+    "2": {
+        "question": "The United Kingdom is now making use of artificial intelligence to forecast solar power generation more ---- ; thus, energy bills for consumers can be lowered.",
+        "options": [
+            "A) reluctantly",
+            "B) exaggeratedly",
+            "C) arbitrarily",
+            "D) implicitly",
+            "E) accurately"
+        ],
+        "answer": "E"
+    },
+    "3": {
+        "question": "Self-sufficiency is a way of life where you endeavour to produce all you need from the resources that are ---- to you.",
+        "options": [
+            "A) manageable",
+            "B) convertible",
+            "C) available",
+            "D) sustainable",
+            "E) inevitable"
+        ],
+        "answer": "C"
+    },
+    "4": {
+        "question": "The structure of a planet's atmosphere depends on a number of factors, one of which is ---- to the Sun.",
+        "options": [
+            "A) interruption",
+            "B) resistance",
+            "C) proximity",
+            "D) susceptibility",
+            "E) distraction"
+        ],
+        "answer": "C"
+    },
+    "5": {
+        "question": "Although several geological phenomena ---- the formation of numerous lakes on Earth, most lakes were formed as a result of glacier activity.",
+        "options": [
+            "A) rule out",
+            "B) account for",
+            "C) give off",
+            "D) fall behind",
+            "E) set back"
+        ],
+        "answer": "B"
+    },
+    "6": {
+        "question": "Researchers working on artificial intelligence ---- for years whether it is possible ---- a machine with intelligence that can be comparable to that of a human being.",
+        "options": [
+            "A) debate / building",
+            "B) have debated / to be built",
+            "C) had debated / to have been built",
+            "D) have been debating / to build",
+            "E) debated / being built"
+        ],
+        "answer": "D"
+    },
+    "7": {
+        "question": "For thousands of years, humans ---- on animals and manpower to move heavy loads and drive machinery but this all ---- in the late 18th century with the arrival of a new invention: the steam engine.",
+        "options": [
+            "A) have relied / change",
+            "B) had relied / changed",
+            "C) would rely / can change",
+            "D) rely / would have changed",
+            "E) will rely / used to change"
+        ],
+        "answer": "B"
+    },
+    "8": {
+        "question": "Chemical irrigation can be an effective method for pest management ---- the system is properly designed and well operated and that the essential safety precautions are followed.",
+        "options": [
+            "A) unless",
+            "B) since",
+            "C) so that",
+            "D) provided that",
+            "E) now that"
+        ],
+        "answer": "D"
+    },
+    "9": {
+        "question": "---- the world can no longer disregard some issues caused by global warming, all countries need to develop effective solutions to deal with climate change.",
+        "options": [
+            "A) Although",
+            "B) Because",
+            "C) As long as",
+            "D) Whereas",
+            "E) By the time"
+        ],
+        "answer": "B"
+    },
+    "10": {
+        "question": "There is a possibility that oceans may become uninhabitable for many species in the near future ---- noise pollution seismic explorations create.",
+        "options": [
+            "A) along with",
+            "B) as a consequence of",
+            "C) on behalf of",
+            "D) in favour of",
+            "E) in spite of"
+        ],
+        "answer": "B"
+    },
+    "11": {
+        "question": "The era of foragers was the time in human history when all human communities lived by searching out or hunting for food and other things they needed, ---- growing or manufacturing them.",
+        "options": [
+            "A) on account of",
+            "B) in terms of",
+            "C) such as",
+            "D) as a result of",
+            "E) rather than"
+        ],
+        "answer": "E"
+    },
+    "12": {
+        "question": "As a radioactive material decays, the atoms of the radioactive element change --- other elements, and so the number of unstable atoms reduces ---- time.",
+        "options": [
+            "A) for / along",
+            "B) among / at",
+            "C) from / over",
+            "D) to / with",
+            "E) above / off"
+        ],
+        "answer": "D"
+    },
+    "13": {
+        "question": "In China, agriculture began ----- the Yellow River valley around 10,000 BCE ----- the domestication of millet, barley, and other crops.",
+        "options": [
+            "A) by / from",
+            "B) in / on",
+            "C) along / with",
+            "D) at / for",
+            "E) through / over"
+        ],
+        "answer": "C"
+    },
+    "14": {
+        "question": "Tapping the ocean for its valuable properties is a slow process, ---- because of the nature of the environment, ---- because the exploration of the underwater world can only be fulfilled by remotely operated vehicles.",
+        "options": [
+            "A) the more / the more",
+            "B) as / as",
+            "C) so / that",
+            "D) not only / but also",
+            "E) such / that"
+        ],
+        "answer": "D"
+    },
+    "15": {
+        "question": "Ancient Greek architecture ---- influence in architecture has persisted to present day is a miracle of style and harmony with its elegant simplicity.",
+        "options": [
+            "A) that",
+            "B) why",
+            "C) which",
+            "D) whose",
+            "E) where"
+        ],
+        "answer": "D"
+    },
+  "16": {
+    "passage": "River systems are completely changed when dams are built. The main reason is obvious: dams block the channels, altering the water's direction by decreasing or increasing the amount of water that flows (16) ---- the channel – the defined pathway the water follows. In turn, this modifies or completely changes the river's erosional and depositional characteristics, thus changing the channel's landscape and affecting the local environment. (17) ---- there are good reasons for dams (mainly to stop flooding in populated areas), there are often just as many potential problems. One in particular is the erosion that occurs just below the main structure holding back the water. Because sediment is no longer transported within the water (the load is dropped in the reservoir), the water from the spillway often erodes the channel immediately below. (18) ---- another problem can also arise from the fact that because there is less sediment load, there is also less of a delta being formed at the mouth of a river. For example, the Aswan High Dam along the Nile River in Egypt (19) ---- in 1966, primarily to provide electricity and irrigation. But the water is dammed up in a lake about 280 kilometers long, and this is starving the Nile delta of sediments. Because of this, the currents in the Mediterranean Sea are carrying away more sediment than the river can (20) ---- and causing the delta to slowly erode away.",
+    "question": "",
+    "options": [
+        "A) without",
+        "B) at",
+        "C) through",
+        "D) under",
+        "E) off"
+    ],
+    "answer": "C"
+},
+"17": {
+    "passage": "River systems are completely changed when dams are built. The main reason is obvious: dams block the channels, altering the water's direction by decreasing or increasing the amount of water that flows (16) ---- the channel – the defined pathway the water follows. In turn, this modifies or completely changes the river's erosional and depositional characteristics, thus changing the channel's landscape and affecting the local environment. (17) ---- there are good reasons for dams (mainly to stop flooding in populated areas), there are often just as many potential problems. One in particular is the erosion that occurs just below the main structure holding back the water. Because sediment is no longer transported within the water (the load is dropped in the reservoir), the water from the spillway often erodes the channel immediately below. (18) ---- another problem can also arise from the fact that because there is less sediment load, there is also less of a delta being formed at the mouth of a river. For example, the Aswan High Dam along the Nile River in Egypt (19) ---- in 1966, primarily to provide electricity and irrigation. But the water is dammed up in a lake about 280 kilometers long, and this is starving the Nile delta of sediments. Because of this, the currents in the Mediterranean Sea are carrying away more sediment than the river can (20) ---- and causing the delta to slowly erode away.",
+    "question": "",
+    "options": [
+        "A) Unless",
+        "B) Although",
+        "C) Since",
+        "D) Only if",
+        "E) Just as"
+    ],
+    "answer": "B"
+},
+"18": {
+    "passage": "River systems are completely changed when dams are built. The main reason is obvious: dams block the channels, altering the water's direction by decreasing or increasing the amount of water that flows (16) ---- the channel – the defined pathway the water follows. In turn, this modifies or completely changes the river's erosional and depositional characteristics, thus changing the channel's landscape and affecting the local environment. (17) ---- there are good reasons for dams (mainly to stop flooding in populated areas), there are often just as many potential problems. One in particular is the erosion that occurs just below the main structure holding back the water. Because sediment is no longer transported within the water (the load is dropped in the reservoir), the water from the spillway often erodes the channel immediately below. (18) ---- another problem can also arise from the fact that because there is less sediment load, there is also less of a delta being formed at the mouth of a river. For example, the Aswan High Dam along the Nile River in Egypt (19) ---- in 1966, primarily to provide electricity and irrigation. But the water is dammed up in a lake about 280 kilometers long, and this is starving the Nile delta of sediments. Because of this, the currents in the Mediterranean Sea are carrying away more sediment than the river can (20) ---- and causing the delta to slowly erode away.",
+    "question": "",
+    "options": [
+        "A) Otherwise",
+        "B) Therefore",
+        "C) Moreover",
+        "D) For instance",
+        "E) Nevertheless"
+    ],
+    "answer": "C"
+},
+"19": {
+    "passage": "River systems are completely changed when dams are built. The main reason is obvious: dams block the channels, altering the water's direction by decreasing or increasing the amount of water that flows (16) ---- the channel – the defined pathway the water follows. In turn, this modifies or completely changes the river's erosional and depositional characteristics, thus changing the channel's landscape and affecting the local environment. (17) ---- there are good reasons for dams (mainly to stop flooding in populated areas), there are often just as many potential problems. One in particular is the erosion that occurs just below the main structure holding back the water. Because sediment is no longer transported within the water (the load is dropped in the reservoir), the water from the spillway often erodes the channel immediately below. (18) ---- another problem can also arise from the fact that because there is less sediment load, there is also less of a delta being formed at the mouth of a river. For example, the Aswan High Dam along the Nile River in Egypt (19) ---- in 1966, primarily to provide electricity and irrigation. But the water is dammed up in a lake about 280 kilometers long, and this is starving the Nile delta of sediments. Because of this, the currents in the Mediterranean Sea are carrying away more sediment than the river can (20) ---- and causing the delta to slowly erode away.",
+    "question": "",
+    "options": [
+        "A) had been finished",
+        "B) used to be finished",
+        "C) will be finished",
+        "D) was finished",
+        "E) has been finished"
+    ],
+    "answer": "D"
+},
+"20": {
+    "passage": "River systems are completely changed when dams are built. The main reason is obvious: dams block the channels, altering the water's direction by decreasing or increasing the amount of water that flows (16) ---- the channel – the defined pathway the water follows. In turn, this modifies or completely changes the river's erosional and depositional characteristics, thus changing the channel's landscape and affecting the local environment. (17) ---- there are good reasons for dams (mainly to stop flooding in populated areas), there are often just as many potential problems. One in particular is the erosion that occurs just below the main structure holding back the water. Because sediment is no longer transported within the water (the load is dropped in the reservoir), the water from the spillway often erodes the channel immediately below. (18) ---- another problem can also arise from the fact that because there is less sediment load, there is also less of a delta being formed at the mouth of a river. For example, the Aswan High Dam along the Nile River in Egypt (19) ---- in 1966, primarily to provide electricity and irrigation. But the water is dammed up in a lake about 280 kilometers long, and this is starving the Nile delta of sediments. Because of this, the currents in the Mediterranean Sea are carrying away more sediment than the river can (20) ---- and causing the delta to slowly erode away.",
+    "question": "",
+    "options": [
+        "A) appreciate",
+        "B) replenish",
+        "C) speculate",
+        "D) magnify",
+        "E) pollute"
+    ],
+    "answer": "B"
+},
+    "21": {
+        "question": "In addition to being an unreliable power source, ----.",
+        "options": [
+            "A) wind turbines pose a serious threat to migrating bird populations",
+            "B) wind turbines have been widely used in Europe, particularly in the Netherlands and Denmark",
+            "C) most of the limitations of wind turbines have been overcome thanks to current technology",
+            "D) smaller wind turbines are utilised to provide power to individual homes",
+            "E) wind turbines are most cost-effective in areas with consistently strong winds"
+        ],
+        "answer": "A"
+    },
+    "22": {
+        "question": "Elephant society revolves around stable herds of females who raise calves cooperatively under the leadership of an elderly, experienced matriarch -------.",
+        "options": [
+            "A) just as little is known about the social lives of males after they leave their natal herd in adolescence",
+            "B) although new research suggests that mature males, too, play a crucial educational role",
+            "C) because elder elephants of both sexes can pass their knowledge onto youngsters",
+            "D) even though mature bulls are attractive targets for hunters and enjoy less legal protection than females",
+            "E) while scientists say that males have huge ranges and therefore they are really difficult to track"
+        ],
+        "answer": "B"
+    },
+    "23": {
+        "question": "-----, they are an expected part of the natural environment for some species that have lived for thousands of years in the fire-prone areas.",
+        "options": [
+            "A) Even though the fireweed is one of the first plants to regrow in burned areas",
+            "B) Even if some pine tree species are known to require fire to reproduce and survive",
+            "C) Although some seeds are covered by a hard coat that depend on fire to crack them open",
+            "D) While wildfires can cause devastating damage to property and human lives",
+            "E) Since fire-dependent pine tree species do not drop their cones without fire"
+        ],
+        "answer": "D"
+    },
+    "24": {
+        "question": "-----, safety areas are established in and around an airport to accommodate the safe passage of aircraft.",
+        "options": [
+            "A) Although construction of buildings or towers may be prohibited or restricted within the vicinity of an airport",
+            "B) Because aircraft are affected by the wind and are subject to human inaccuracies in flight and on the ground",
+            "C) As the configuration of runways is determined by the prevailing wind direction and the type of expected aircraft",
+            "D) Given that nations develop their own guidelines in accordance with the International Civil Aviation Organisation",
+            "E) While the type of runway used at an airport is determined by the weight of the aircraft expected to use it"
+        ],
+        "answer": "B"
+    },
+    "25": {
+        "question": "Human eyes might miss subtle shifts in a river's colours holding clues to what flows in its water -----.",
+        "options": [
+            "A) while satellites can detect them and researchers can use them to track large-scale changes and potentially spot signs of trouble",
+            "B) supposing that colours of rivers can range from warm yellows and brown to cool greens and blues, a range of shades appearing to the human eye",
+            "C) even though regional factors such as land-use patterns and watershed-management practices influence long-term river hue shift",
+            "D) so that many of the world's rivers turn more yellow in spring or summer as high rainfall muddies the waters",
+            "E) as the fact that river colours in western US mostly transcend toward the blue end of the spectrum over time suggests that they carry less sand and silt"
+        ],
+        "answer": "A"
+    },
+    "26": {
+        "question": "--- PASSAGE --- When scientists from the University of California excavated a 9000-year-old grave in the Andes Mountains of Peru, they were in for a major surprise. The grave included many well-made knives and spearheads, which is a clear indication of the dead being a well-respected hunter. The scientists found bones from deer and llama, together with tools for butchering the animals. The real surprise came from the hunter’s own bones, which were thin and light, making scientists suspect that it could be a woman. This was confirmed by the examination of the protein amelogenin in the tooth enamel, which showed that the hunter’s dental enamel lacked Y chromosome-specific amelogenin. As a result, it was revealed that the hunter, estimated to have died at the age of 17-19, was indeed a woman. The discovery challenges the conception of hunter-gatherer communities in which men hunted while women took care of other chores such as collecting roots, fruits, and berries. The scientists broadened their studies with excavation reports from 107 Stone Age graves from 8000+ years ago across South and North America. The results showed that there were 26 graves with hunting weapons, and 10 of them probably belonged to women, which allowed archaeologists to reshape their views about Stone Age gender roles. --- QUESTION --- Which can be said about the findings from the excavation of a 9000-year-old grave in Peru?",
+        "options": [
+            "A) It was the young age of the dead person and her hunting skills that astonished scientists most.",
+            "B) The materials found in the grave reflect the social status of the dead person in her community.",
+            "C) Without the protein amelogenin, scientists would not have been able to distinguish the human bone from that of an animal.",
+            "D) The bones of the dead person were less heavy and thick than the bones of women in the graves excavated in South and North America.",
+            "E) Scientists encountered animal bones that are considered unusual to be seen in Peru during the Stone Age."
+        ],
+        "answer": "B"
+    },
+    "27": {
+        "question": "--- PASSAGE --- When scientists from the University of California excavated a 9000-year-old grave in the Andes Mountains of Peru, they were in for a major surprise. The grave included many well-made knives and spearheads, which is a clear indication of the dead being a well-respected hunter. The scientists found bones from deer and llama, together with tools for butchering the animals. The real surprise came from the hunter’s own bones, which were thin and light, making scientists suspect that it could be a woman. This was confirmed by the examination of the protein amelogenin in the tooth enamel, which showed that the hunter’s dental enamel lacked Y chromosome-specific amelogenin. As a result, it was revealed that the hunter, estimated to have died at the age of 17-19, was indeed a woman. The discovery challenges the conception of hunter-gatherer communities in which men hunted while women took care of other chores such as collecting roots, fruits, and berries. The scientists broadened their studies with excavation reports from 107 Stone Age graves from 8000+ years ago across South and North America. The results showed that there were 26 graves with hunting weapons, and 10 of them probably belonged to women, which allowed archaeologists to reshape their views about Stone Age gender roles. --- QUESTION --- Which could be understood from the passage?",
+        "options": [
+            "A) The butchering tools found in a 9000-year-old grave showed that animals hunted in Peru were different from those in other areas across South and North America.",
+            "B) The age of a person is the most significant indicator of daily responsibilities he or she had to carry out in the Stone Age.",
+            "C) The hunting weapons found in the 9000-year-old grave in Peru were more sophisticated than those found in other graves in South and North America.",
+            "D) With the discovery of a 9000-year-old grave in Peru, the idea of a sharp division of duties based on gender within hunter-gatherer communities became open to debate.",
+            "E) While excavating a 9000-year-old grave, scientists initially expected to see plant fossils such as fruit seeds, but they later discovered animal remains."
+        ],
+        "answer": "D"
+    },
+    "28": {
+        "question": "--- PASSAGE --- When scientists from the University of California excavated a 9000-year-old grave in the Andes Mountains of Peru, they were in for a major surprise. The grave included many well-made knives and spearheads, which is a clear indication of the dead being a well-respected hunter. The scientists found bones from deer and llama, together with tools for butchering the animals. The real surprise came from the hunter’s own bones, which were thin and light, making scientists suspect that it could be a woman. This was confirmed by the examination of the protein amelogenin in the tooth enamel, which showed that the hunter’s dental enamel lacked Y chromosome-specific amelogenin. As a result, it was revealed that the hunter, estimated to have died at the age of 17-19, was indeed a woman. The discovery challenges the conception of hunter-gatherer communities in which men hunted while women took care of other chores such as collecting roots, fruits, and berries. The scientists broadened their studies with excavation reports from 107 Stone Age graves from 8000+ years ago across South and North America. The results showed that there were 26 graves with hunting weapons, and 10 of them probably belonged to women, which allowed archaeologists to reshape their views about Stone Age gender roles. --- QUESTION --- What is the passage mainly about?",
+        "options": [
+            "A) The importance of enlarging the research area to reach a definitive conclusion in archaeological excavations",
+            "B) The redefinition of Stone Age gender roles thanks to the excavations conducted in various graves, triggered by the excavation of a 9000-year-old grave",
+            "C) The contribution of the excavation reports from different Stone Age graves to the classification of ancient hunting weapons",
+            "D) The use of the protein amelogenin as an accurate gender-determining marker in archaeological studies",
+            "E) The drawbacks scientists experience while trying to identify the remains of people and animals in Stone Age graves"
+        ],
+        "answer": "B"
+    },
+    "29": {
+        "question": "--- PASSAGE --- Red wavelengths of sunlight are the biggest drivers of plant growth because they stimulate leaves to make the chlorophyll needed for photosynthesis. This is why some farms have started shining red LED lights on crops to boost their yields. But these are costly, energy-draining and do not distribute light as evenly to plants as sunlight. To address these issues, Alexander Falber from the University of New South Wales developed a material called LLEAF that passively converts some of the green wavelengths in sunlight - which are less important for plant growth - to red ones. It is a transparent plastic containing a fluorescent dye that absorbs green wavelengths of sunlight and re-emits them as red ones. LLEAF can be hung over existing greenhouses and creates a soft pink light inside. One important consideration is whether taking green light from plants and giving them extra red light might harm them, says farmer Henry Tissue. He noticed that lettuces grown under the material had an orange tinge, probably because the altered sunlight changed their composition of carotenoids and other pigments. \"But we need to do further research to see if this changes the flavour or nutrition,\" Falber says. By this technique, he believes it may even be possible to grow crops in parts of the world that do not normally suit them, if other variables like temperature and humidity are also controlled. --- QUESTION --- The underlined word 'converts' in the passage is closest in meaning to ----.",
+        "options": [
+            "A) alters",
+            "B) divides",
+            "C) confines",
+            "D) distributes",
+            "E) tracks"
+        ],
+        "answer": "A"
+    },
+    "30": {
+        "question": "--- PASSAGE --- Red wavelengths of sunlight are the biggest drivers of plant growth because they stimulate leaves to make the chlorophyll needed for photosynthesis. This is why some farms have started shining red LED lights on crops to boost their yields. But these are costly, energy-draining and do not distribute light as evenly to plants as sunlight. To address these issues, Alexander Falber from the University of New South Wales developed a material called LLEAF that passively converts some of the green wavelengths in sunlight - which are less important for plant growth - to red ones. It is a transparent plastic containing a fluorescent dye that absorbs green wavelengths of sunlight and re-emits them as red ones. LLEAF can be hung over existing greenhouses and creates a soft pink light inside. One important consideration is whether taking green light from plants and giving them extra red light might harm them, says farmer Henry Tissue. He noticed that lettuces grown under the material had an orange tinge, probably because the altered sunlight changed their composition of carotenoids and other pigments. \"But we need to do further research to see if this changes the flavour or nutrition,\" Falber says. By this technique, he believes it may even be possible to grow crops in parts of the world that do not normally suit them, if other variables like temperature and humidity are also controlled. --- QUESTION --- It is stated in the passage that red wavelengths ------.",
+        "options": [
+            "A) are equally important as green wavelengths for plant growth",
+            "B) improve both the flavour and nutrition of plants",
+            "C) decrease the sunlight plants get when they are emitted by an artificial light source",
+            "D) help plant growth but do not guarantee an increase in crop productivity",
+            "E) affect plants positively to produce more chlorophyll"
+        ],
+        "answer": "E"
+    },
+    "31": {
+        "question": "--- PASSAGE --- Red wavelengths of sunlight are the biggest drivers of plant growth because they stimulate leaves to make the chlorophyll needed for photosynthesis. This is why some farms have started shining red LED lights on crops to boost their yields. But these are costly, energy-draining and do not distribute light as evenly to plants as sunlight. To address these issues, Alexander Falber from the University of New South Wales developed a material called LLEAF that passively converts some of the green wavelengths in sunlight - which are less important for plant growth - to red ones. It is a transparent plastic containing a fluorescent dye that absorbs green wavelengths of sunlight and re-emits them as red ones. LLEAF can be hung over existing greenhouses and creates a soft pink light inside. One important consideration is whether taking green light from plants and giving them extra red light might harm them, says farmer Henry Tissue. He noticed that lettuces grown under the material had an orange tinge, probably because the altered sunlight changed their composition of carotenoids and other pigments. \"But we need to do further research to see if this changes the flavour or nutrition,\" Falber says. By this technique, he believes it may even be possible to grow crops in parts of the world that do not normally suit them, if other variables like temperature and humidity are also controlled. --- QUESTION --- According to the passage, LLEAF ---.",
+        "options": [
+            "A) has not been adopted by farmers as it is astronomically expensive",
+            "B) has been found to cause plants to lose their taste with its artificial light",
+            "C) has no observed effects on the composition and pigmentation of crops",
+            "D) needs verification regarding if it distributes light as evenly as sunlight",
+            "E) was developed to boost crop production by manipulating the light that plants receive"
+        ],
+        "answer": "B"
+    },
+    "32": {
+        "question": "Jethro Tull, who was one of the first scholars to study the systems of agricultural production in a comparative way, was a famous advocate of the application of new and scientific means of farming.",
+        "options": [
+            "A) Jethro Tull, yeni ve bilimsel tarım yöntemlerinin uygulanmasının ünlü bir savunucusu olarak tarımsal üretim sistemlerini karşılaştırmalı bir şekilde araştıran ilk bilim insanlarından biriydi.",
+            "B) Tarımsal üretim sistemlerini karşılaştırmalı bir şekilde araştıran ilk bilim insanlarından biri olan Jethro Tull, yeni ve bilimsel tarım yöntemlerinin uygulanmasının ünlü bir savunucusuydu",
+            "C) Jethro Tull, tarımsal üretim sistemlerini karşılaştırmalı bir şekilde araştıran ilk bilim insanlarından biriydi ve yeni, bilimsel tarım yöntemlerinin uygulanmasının ünlü bir savunucusuydu.",
+            "D) Yeni ve bilimsel tarım yöntemlerinin uygulanmasının ünlü bir savunucusu olan Jethro Tull, tarımsal üretim sistemlerini karşılaştırmalı bir şekilde araştıran ilk bilim insanlarından biriydi.",
+            "E) Jethro Tull, tarımsal üretim sistemlerini karşılaştırmalı bir şekilde araştıran ilk bilim insanlarından biri olmasının yanı sıra yeni ve bilimsel tarım yöntemlerinin uygulanmasının ünlü bir savunucusuydu."
+        ],
+        "answer": "B"
+    },
+    "33": {
+        "question": "Kuzey Afrika'nın birçok bölümünde, diğer su kaynaklarına yeterli erişimi olmayan çiftçiler, sulama için tüketiciler açısından oldukça yüksek bir sağlık tehlikesi oluşturan işlemden geçmemiş atık su kullanımına başvurmaktadır.",
+        "options": [
+            "A) In most parts of North Africa, where there is no sufficient access to other water sources, farmers have resorted to using untreated wastewater for irrigation, which poses a highly elevated health risk to consumers.",
+            "B) The health of consumers in many parts of North Africa is highly threatened because of the untreated wastewater farmers need to use for irrigation because they do not have sufficient access to other water sources.",
+            "C) In many parts of North Africa, farmers without sufficient access to other water sources have resorted to using untreated wastewater for irrigation, which poses a significantly elevated health risk to consumers.",
+            "D) In several parts of North Africa, farmers who do not have sufficient access to other water sources resort to using untreated wastewater for irrigation; however, it poses a highly serious health risk to consumers.",
+            "E) Untreated wastewater that farmers have to use for irrigation in most parts of North Africa, where there is no sufficient access to other water sources, threatens the health of consumers seriously."
+        ],
+        "answer": "C"
+    },
+    "34": {
+        "question": "Dijital ekranlarımızdan yayılan mavi ışığın da cildimiz için zararlı olduğu konusunda çok az bilgi sahibi olsak da, hepimiz güneşin ultraviyole ışınlarının zarar verici etkilerinden sakınmanın gerekli olduğunu biliriz.",
+        "options": [
+            "A) Whether we know little about how harmful the blue light emitted from our digital screens can be for our skin or not, we all know that it is necessary to avoid ultraviolet rays of the Sun and its damaging effects, too.",
+            "B) Though we little know about how blue light emitted from our digital screens can be harmful for our skin, too, we all know that it is necessary to avoid the damaging effects of the Sun's ultraviolet rays.",
+            "C) No matter how little we know about the harmful effects of blue light emitted from our digital screens as well, we all know that the ultraviolet rays of the Sun also have damaging effects on our skin and we need to avoid them.",
+            "D) Even if blue light emitted from our digital screens is harmful for our skin, we have very little knowledge about it despite our knowledge of necessity to avoid the Sun's ultraviolet rays, which also have damaging effects.",
+            "E) Given that we know about the damaging effects of the Sun's ultraviolet rays on our skin, it is necessary that we all know how harmful the blue light emitted from our digital screens is as well and the fact that we need to avoid it, too."
+        ],
+        "answer": "B"
+    },
+    "35": {
+        "question": "Her ne kadar Leonardo da Vinci'nin mühendisliğe olan ilgisi, matematik kuramındaki ve Klasik mimarideki canlanmanın bir parçası olsa da, anatomik çalışmaları tam da tıp alanı Rönesans ruhunu yakalamaya başladığı sırada ortaya çıkmıştır.",
+        "options": [
+            "A) Despite the fact that his anatomical studies in the field of medicine were catching up with the spirit of the Renaissance, Leonardo da Vinci's interest in engineering started to develop when there was a renewal of mathematical theory and Classical architecture.",
+            "B) Whereas Leonardo da Vinci's interest in engineering was part of a revival of mathematical theory and Classical architecture, his anatomical studies came just as the field of medicine began to catch the Renaissance spirit.",
+            "C) Notwithstanding his interest in engineering as a renewal in mathematical theory and Classical architecture, Leonardo da Vinci's studies in anatomy were just in time with the field of medicine having caught the Renaissance spirit.",
+            "D) However much Leonardo da Vinci's engineering interests were within the reawakening of mathematical theory and Classical architecture, his studies in anatomy were produced at a time when the Renaissance spirit was catching up with the field of medicine.",
+            "E) Although Leonardo da Vinci's anatomical studies caught the spirit of the Renaissance in the field of medicine, his interest in engineering constituted a revival of mathematical theory and Classical architecture."
+        ],
+        "answer": "B"
+    },
+    "36": {
+        "question": "High-viz, or high-visibility, clothing is essential for cyclists and people who work in safety-critical jobs such as construction. It allows them to be easily seen when it is dark or if there is a lot of activity going on around them. ----- These materials are also used to make road signs easy to see even in the dark. Their surfaces are covered with tiny glass beads or prisms, which reflect light back in the same direction it comes from. These are called 'retroreflective' materials, and cause the object to appear to shine brightly.",
+        "options": [
+            "A) In order to avoid car accidents, pedestrians can wear high-viz clothes made out of materials that shine in the night though.",
+            "B) The reflected light makes the same angle as the incoming; as a result, the reflected light can be seen from a faraway location.",
+            "C) While there is much to do about the regulations for creating a safe working environment, it is important to draw some standards for these critical jobs.",
+            "D) Most objects scatter light in all directions when it hits them, but when light bounces off shiny or reflective surfaces, it bounces back in a predictable way.",
+            "E) High-viz clothing is made using materials that reflect light directly back to its source, making the object much easier to see."
+        ],
+        "answer": "E"
+    },
+    "37": {
+        "question": "Tracking users online is less about providing a service for users and more about advertising and making profits. Advertisers pay to place their products and services in front of certain people that they feel may be potential customers. Tracking, via large data-collecting companies, allows them to do that. ----- Therefore, governments around the world are increasingly legislating to rein in these tech giants that are responsible for this data-collecting issue. Nowadays some companies are reacting to changing customer sentiment by altering the way they track users, but the truth is that they are also being forced to act.",
+        "options": [
+            "A) Cookies are small bits of software that are implanted by a website into the computer of a visitor and are then used for tracking purposes.",
+            "B) The changes are likely to make life harder for advertisers, which have grown used to being able to access a wealth of data and closely target adverts.",
+            "C) When visiting a website, your browser will allow advertisers access to some topics, chosen at random, so they can decide which adverts to show you.",
+            "D) But many people are growing more and more uncomfortable with the extent to which firms track, analyze, and market to them.",
+            "E) A new tool, for instance, keeps our identity and movements hidden from advertisers, but in a slightly different way."
+        ],
+        "answer": "D"
+    },
+    "38": {
+        "question": "(I) In the past, historians believed that the extensive irrigation systems used in southern Mesopotamia led to the formation of the first urban civilisations. (II) They argued that the amount of planning and organising necessary to create and tend the complex network of canals generated a complex political structure in which leaders dominated the great masses of people. (III) Few scholars now agree with such a straightforward link of cause and effect. (IV) Agriculture produced a more secure supply of food, and that promoted population growth. (V) Nevertheless, the adoption of agriculture did have a significant impact on human society.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "D"
+    },
+    "39": {
+        "question": "(I) 'Learned helplessness' is a term to characterise the overgeneralised learning of helpless responses that occur when animals are repeatedly exposed to uncontrollable, and inescapable situations. (II) What is learned is that their actions will not affect the outcome they desire. (III) As for humans, learned helplessness is particularly problematic in education. (IV) Research has found that susceptibility to learned helplessness varies considerably from individual to individual. (V) Students may falsely believe that effortful actions, such as studying, will have no effect on performance or learning.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "D"
+    },
+    "40": {
+        "question": "(I) Rocks from space regularly rain down on our planet, but only a few survive the fall. (II) At Arizona State University's Center for Meteorite Studies, some 40,000 meteorite remnants are stored in a humidity-controlled facility. (III) Another team of scientists from MIT try to challenge the efforts made to preserve these rocks claiming that the budget can be spent on other scientific discoveries. (IV) Some of these rocks are extremely toxic; they have nuclear radiations and special equipment is required to preserve them. (V) Scientists try to keep all of these rocks free of contamination so future generations can study them for clues to how our solar system formed, and how we might one day survive in space.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "C"
+    }
+}

@@ -1,0 +1,450 @@
+{
+    "1": {
+        "question": "The stocks of bluefin tuna, the most valuable fish in the world, have plummeted to such paltry levels that many scientists speculate that the fish could be headed for ----.",
+        "options": [
+            "A) application",
+            "B) extinction",
+            "C) opposition",
+            "D) superiority",
+            "E) collaboration"
+        ],
+        "answer": "B"
+    },
+    "2": {
+        "question": "Although we now accept drawings as works of art in their own right, up until recently they were thought to be preparatory processes – no matter how ---- and complex they might be.",
+        "options": [
+            "A) preliminary",
+            "B) proper",
+            "C) intricate",
+            "D) willful",
+            "E) valuable"
+        ],
+        "answer": "C"
+    },
+    "3": {
+        "question": "There is a possibility that one of the world's largest flowers, Rafflesia, may become extinct from the jungle, so scientists are working hard to ---- its unusual biology.",
+        "options": [
+            "A) abuse",
+            "B) postpone",
+            "C) comprehend",
+            "D) complain",
+            "E) implement"
+        ],
+        "answer": "C"
+    },
+    "4": {
+        "question": "According to Alexander Todorov, we encounter so many faces in our modern world that our shortcuts may not guide us ----.",
+        "options": [
+            "A) accurately",
+            "B) notoriously",
+            "C) severely",
+            "D) peculiarly",
+            "E) temporarily"
+        ],
+        "answer": "A"
+    },
+    "5": {
+        "question": "In the 1950s, manufacturers met people's demand for more powerful cars by making the engine bigger and the rotation speed faster, but they were not able to predict that it would ---- a worse fuel economy.",
+        "options": [
+            "A) turn down",
+            "B) result in",
+            "C) leave out",
+            "D) give off",
+            "E) fall for"
+        ],
+        "answer": "B"
+    },
+    "6": {
+        "question": "For a long time, researchers ---- the language abilities of parrots, however it seems that they also have the capacity ---- their skills to solve problems.",
+        "options": [
+            "A) studied / to have utilised",
+            "B) have studied / to utilise",
+            "C) are studying / having been utilised",
+            "D) would studied / being utilised",
+            "E) had studied / utilising"
+        ],
+        "answer": "B"
+    },
+    "7": {
+        "question": "Even if DNA ---- influence on our moral character, it is widely believed that we ---- products of our social and cultural environment.",
+        "options": [
+            "A) would have / were",
+            "B) could have / are",
+            "C) may have / have been",
+            "D) will have / are to be",
+            "E) should have / will have been"
+        ],
+        "answer": "B"
+    },
+    "8": {
+        "question": "---- the beginning of the 20th century, a young German named Albert Einstein shook classical physics and ended the idea of an absolute time and space ---- proposing his theory of relativity.",
+        "options": [
+            "A) In / with",
+            "B) During / through",
+            "C) At / by",
+            "D) For / from",
+            "E) Across / of"
+        ],
+        "answer": "C"
+    },
+    "9": {
+        "question": "---- the history of mankind, there have been many important innovations, ---- the first stone tools that enabled people to hunt animals to radio telescopes that can see into deep space.",
+        "options": [
+            "A) In / under",
+            "B) During / at",
+            "C) Along / by",
+            "D) Throughout / from",
+            "E) Of / with"
+        ],
+        "answer": "D"
+    },
+    "10": {
+        "question": "---- migrating birds can be likened to human athletes in extreme endurance sports, the best athletes prove to be far superior to birds.",
+        "options": [
+            "A) Unless",
+            "B) Because",
+            "C) Once",
+            "D) Even though",
+            "E) Given that"
+        ],
+        "answer": "D"
+    },
+    "11": {
+        "question": "As a result of the construction of hydropower dams, forests become waterlogged and cannot absorb carbon in sufficient amounts;----, they release substantial quantities of greenhouse gases as they decay.",
+        "options": [
+            "A) provided that",
+            "B) even if",
+            "C) rather",
+            "D) though",
+            "E) as long as"
+        ],
+        "answer": "C"
+    },
+    "12": {
+        "question": "Because chameleons are not capable of providing their own body heat, their colour gets darker ---- more heat can be received from the sun, and they can warm themselves.",
+        "options": [
+            "A) since",
+            "B) if",
+            "C) so that",
+            "D) provided that",
+            "E) unless"
+        ],
+        "answer": "C"
+    },
+    "13": {
+        "question": "Even though there is sufficient water available to cover the demands of the world population, there is a shortage of clean water ---- increased pollution.",
+        "options": [
+            "A) despite",
+            "B) due to",
+            "C) instead of",
+            "D) in terms of",
+            "E) rather than"
+        ],
+        "answer": "B"
+    },
+    "14": {
+        "question": "Lightning sensors detect ---- many fires caused by lightning strikes ---- even if they show initial attack crews the exact location of these strikes, it is not easy to check them all.",
+        "options": [
+            "A) both / and",
+            "B) so / that",
+            "C) whether / or",
+            "D) neither / nor",
+            "E) so / as"
+        ],
+        "answer": "B"
+    },
+    "15": {
+        "question": "The DNA from the modern domestic horses bears great similarities to that of their ancestors once living on the steppes of Western Eurasia, the region ---- the Volga and Don rivers flow from north to south and drain into the Caspian Sea.",
+        "options": [
+            "A) which",
+            "B) whose",
+            "C) where",
+            "D) that",
+            "E) what"
+        ],
+        "answer": "C"
+    },
+    "16": {
+        "passage": "One day in 1952, John W. Hetrick was driving with his wife and daughter in the front seat when he had to change his direction suddenly and brake quickly to avoid an obstacle. Instinctively, he and his wife put their arms out to protect their daughter in case of a crash. This event inspired him to provide automobiles with airbags to protect people during accidents. Hetrick had been an engineer in the US Navy during World War II. He recalled a compressed-air torpedo accidentally turning itself on, causing its canvas cover to shoot up into the air, 'quicker than a blink of an eye'. In 1952, Hetrick proposed using compressed air to inflate airbags rapidly during car crashes. He received a patent for this invention in 1953, but car manufacturers in the 1950s were more interested in style rather than safety. Later, consumers became more safety conscious and airbag technology improved. The first airbags were optional, but by the 1990s, they had become standard. Although airbags have saved thousands of lives, they are not always sufficient to prevent death and injury during crashes. Travellers must also wear seat belts, and automobiles must have dashboards made of soft materials and steering columns that can absorb energy during impact from car crashes.",
+        "question": "----, he and his wife put their arms out to protect their daughter in case of a crash.",
+        "options": [
+            "A) Unfortunately",
+            "B) Instinctively",
+            "C) Vaguely",
+            "D) Devastatingly",
+            "E) Abundantly"
+        ],
+        "answer": "B"
+    },
+    "17": {
+        "passage": "One day in 1952, John W. Hetrick was driving with his wife and daughter in the front seat when he had to change his direction suddenly and brake quickly to avoid an obstacle. Instinctively, he and his wife put their arms out to protect their daughter in case of a crash. This event inspired him to provide automobiles with airbags to protect people during accidents. Hetrick had been an engineer in the US Navy during World War II. He recalled a compressed-air torpedo accidentally turning itself on, causing its canvas cover to shoot up into the air, 'quicker than a blink of an eye'. In 1952, Hetrick proposed using compressed air to inflate airbags rapidly during car crashes. He received a patent for this invention in 1953, but car manufacturers in the 1950s were more interested in style rather than safety. Later, consumers became more safety conscious and airbag technology improved. The first airbags were optional, but by the 1990s, they had become standard. Although airbags have saved thousands of lives, they are not always sufficient to prevent death and injury during crashes. Travellers must also wear seat belts, and automobiles must have dashboards made of soft materials and steering columns that can absorb energy during impact from car crashes.",
+        "question": "This event inspired him to provide automobiles (17)---- airbags to protect people during accidents.",
+        "options": [
+            "A) of",
+            "B) under",
+            "C) with",
+            "D) by",
+            "E) against"
+        ],
+        "answer": "C"
+    },
+    "18": {
+        "passage": "One day in 1952, John W. Hetrick was driving with his wife and daughter in the front seat when he had to change his direction suddenly and brake quickly to avoid an obstacle. Instinctively, he and his wife put their arms out to protect their daughter in case of a crash. This event inspired him to provide automobiles with airbags to protect people during accidents. Hetrick had been an engineer in the US Navy during World War II. He recalled a compressed-air torpedo accidentally turning itself on, causing its canvas cover to shoot up into the air, 'quicker than a blink of an eye'. In 1952, Hetrick proposed using compressed air to inflate airbags rapidly during car crashes. He received a patent for this invention in 1953, but car manufacturers in the 1950s were more interested in style rather than safety. Later, consumers became more safety conscious and airbag technology improved. The first airbags were optional, but by the 1990s, they had become standard. Although airbags have saved thousands of lives, they are not always sufficient to prevent death and injury during crashes. Travellers must also wear seat belts, and automobiles must have dashboards made of soft materials and steering columns that can absorb energy during impact from car crashes.",
+        "question": "In 1952, Hetrick proposed using compressed air to inflate airbags rapidly during car crashes. He received a patent for this invention in 1953, but car manufacturers in the 1950s were more interested in style (18)---- safety.",
+        "options": [
+            "A) similar to",
+            "B) rather than",
+            "C) because of",
+            "D) on behalf of",
+            "E) as a result of"
+        ],
+        "answer": "B"
+    },
+    "19": {
+        "passage": "One day in 1952, John W. Hetrick was driving with his wife and daughter in the front seat when he had to change his direction suddenly and brake quickly to avoid an obstacle. Instinctively, he and his wife put their arms out to protect their daughter in case of a crash. This event inspired him to provide automobiles with airbags to protect people during accidents. Hetrick had been an engineer in the US Navy during World War II. He recalled a compressed-air torpedo accidentally turning itself on, causing its canvas cover to shoot up into the air, 'quicker than a blink of an eye'. In 1952, Hetrick proposed using compressed air to inflate airbags rapidly during car crashes. He received a patent for this invention in 1953, but car manufacturers in the 1950s were more interested in style rather than safety. Later, consumers became more safety conscious and airbag technology improved. The first airbags were optional, but by the 1990s, they had become standard. Although airbags have saved thousands of lives, they are not always sufficient to prevent death and injury during crashes. Travellers must also wear seat belts, and automobiles must have dashboards made of soft materials and steering columns that can absorb energy during impact from car crashes.",
+        "question": "The first airbags were optional, but by the 1990s, they (19)---- standard.",
+        "options": [
+            "A) would become",
+            "B) were becoming",
+            "C) had become",
+            "D) became",
+            "E) have become"
+        ],
+        "answer": "C"
+    },
+    "20": {
+        "passage": "One day in 1952, John W. Hetrick was driving with his wife and daughter in the front seat when he had to change his direction suddenly and brake quickly to avoid an obstacle. Instinctively, he and his wife put their arms out to protect their daughter in case of a crash. This event inspired him to provide automobiles with airbags to protect people during accidents. Hetrick had been an engineer in the US Navy during World War II. He recalled a compressed-air torpedo accidentally turning itself on, causing its canvas cover to shoot up into the air, 'quicker than a blink of an eye'. In 1952, Hetrick proposed using compressed air to inflate airbags rapidly during car crashes. He received a patent for this invention in 1953, but car manufacturers in the 1950s were more interested in style rather than safety. Later, consumers became more safety conscious and airbag technology improved. The first airbags were optional, but by the 1990s, they had become standard. Although airbags have saved thousands of lives, they are not always sufficient to prevent death and injury during crashes. Travellers must also wear seat belts, and automobiles must have dashboards made of soft materials and steering columns that can absorb energy during impact from car crashes.",
+        "question": "(20) ---- airbags have saved thousands of lives, they are not always sufficient to prevent death and injury during crashes.",
+        "options": [
+            "A) Since",
+            "B) When",
+            "C) Only if",
+            "D) Although",
+            "E) Unless"
+        ],
+        "answer": "D"
+    },
+    "21": {
+        "question": "Just as the greatest human chess masters cannot stand against with artificial intelligence, ----.",
+        "options": [
+            "A) soon it might become impossible for human CEOs to compete with their artificial intelligence counterparts",
+            "B) one major criticism is that traditional artificial intelligence focuses too much on intelligence as a process",
+            "C) people would have to make decisions about the elimination of entire categories of human work in a fully automated world",
+            "D) artificial intelligence programs have been able to succeed in solving problems on narrowly defined domains",
+            "E) the aim of artificial intelligence is not limited to minor tasks but also to interact with the outside world"
+        ],
+        "answer": "A"
+    },
+    "22": {
+        "question": "----, it was not until the late 20th century that telescopes with sufficient power to resolve surface details were developed.",
+        "options": [
+            "A) Given that NASA’s Mariner 10 is the first spacecraft to visit Mercury and photograph it up close",
+            "B) Although Mercury was first observed through a telescope by Italian scientist Galileo Galilei in the early 17th century",
+            "C) Because Italian astronomer Giovanni Schiaparelli observed Mercury and created the most accurate map",
+            "D) Since the astronomer Friedrich Bessel estimated that Mercury spins at the same speed as Earth",
+            "E) While Institute of Radio-engineering became the first to bounce a radar signal off Mercury and receive its echo"
+        ],
+        "answer": "B"
+    },
+    "23": {
+        "question": "Unless learners are encouraged to recognise their own cognitive abilities, ----.",
+        "options": [
+            "A) self-discipline and self-motivation are among the factors that play a key role in addressing particular cognitive and linguistic difficulties",
+            "B) motivation shapes the development of metacognitive thinking processes or what teachers can do to help learners in this regard",
+            "C) they cannot exercise control over their thinking, including being able to step outside the boundaries of their own constructed thoughts",
+            "D) scholars suggest that development of competence and autonomy greatly helps learners overcome challenges they face during the learning process",
+            "E) self-determination will stimulate them to take a greater share in small-group tasks as the teacher fades the interactive support"
+        ],
+        "answer": "C"
+    },
+    "24": {
+        "question": "As a growing number of unskilled and agricultural workers migrate to urban centres, ----.",
+        "options": [
+            "A) problems such as lack of job opportunities and educational services force people to migrate",
+            "B) governments are struggling to absorb the influx into the workforce",
+            "C) population growth is fuelled by high fertility rates among people already living in cities",
+            "D) rural poverty prompts many to try city life and enjoy better living conditions",
+            "E) those living in rural areas now have access to new communication technologies"
+        ],
+        "answer": "B"
+    },
+    "25": {
+        "question": "Even though William Hamilton was not the first person to come up with the idea for a jet boat, ----.",
+        "options": [
+            "A) Greek scholar Archimedes had the concept of a jet boat when he devised his water screw",
+            "B) the maneuverability of the jet boat has long made its design highly marketable",
+            "C) he has been credited with revolutionising the conventional world of boating",
+            "D) Italian inventor Secondo Campani had devised a remarkably similar jet-powered boat",
+            "E) he lived in New Zealand, where his boat was able to power quickly through shallow waters"
+        ],
+        "answer": "C"
+    },
+    "26": {
+        "question": "Mısırlılar, sadece gökyüzünün haritasını çıkarmakla kalmayıp gözlemledikleri yıldızların bazılarına isim de veren ilk antik uygarlıklardan biriydi.",
+        "options": [
+            "A) The Egyptians were one of the first ancient cultures to not only map the sky but to name some of the stars they observed.",
+            "B) It was the ancient Egypt culture that both mapped the sky and named some of the stars they observed.",
+            "C) The culture of ancient Egypt was sophisticated enough to map the sky and name some of the stars they observed.",
+            "D) Having named some of the stars they observed, the Egyptians were one of the first ancient cultures to map the sky.",
+            "E) If Egyptians had mapped the sky, they would have become one of the first ancient cultures to name some of the stars they observed."
+        ],
+        "answer": "A"
+    },
+    "27": {
+        "question": "Kuzey Afrika’nın birçok bölümünde, diğer su kaynaklarına yeterli erişimi olmayan çiftçiler, sulama için tüketiciler açısından oldukça yüksek bir sağlık tehlikesi oluşturan işlemden geçmemiş atık su kullanımına başvurmaktadır.",
+        "options": [
+            "A. In most parts of North Africa, where there is no sufficient access to other water sources, farmers have resorted to using untreated wastewater for irrigation, which poses a highly elevated health risk to consumers.",
+            "B. The health of consumers in many parts of North Africa is highly threatened because of the untreated wastewater farmers need to use for irrigation because they do not have sufficient access to other water sources.",
+            "C. In many parts of North Africa, farmers without sufficient access to other water sources have resorted to using untreated wastewater for irrigation, which poses a significantly elevated health risk to consumers.",
+            "D. In several parts of North Africa, farmers who do not have sufficient access to other water sources resort to using untreated wastewater for irrigation; however, it poses a highly serious health risk to consumers.",
+            "E. Untreated wastewater that farmers have to use for irrigation in most parts of North Africa, where there is no sufficient access to other water sources, threatens the health of consumers seriously."
+        ],
+        "answer": "C"
+    },
+    "28": {
+        "question": "New Zealand, separated from other land masses, has unique plant and animal species, which are vulnerable to the impacts of non-native species.",
+        "options": [
+            "A) Eşsiz bitki ve hayvan türlerinin bulunduğu Yeni Zelanda diğer kara parçalarından ayrıdır, dolayısıyla bu türler yabancı türlerin etkilerine karşı savunmasızdır.",
+            "B) Yeni Zelanda’nın diğer kara parçalarından ayrı olması, eşsiz bitki ve hayvan türlerini yabancı türlerin etkilerine karşı savunmasız hâle getirmiştir.",
+            "C) Yeni Zelanda diğer kara parçalarından ayrılmış olsa da yabancı türlerin etkilerine karşı savunmasız hâlde bulunan eşsiz bitki ve hayvan türlerine sahiptir.",
+            "D) Diğer kara parçalarından ayrı olan Yeni Zelanda, yabancı türlerin etkilerine karşı savunmasız hâlde bulunan eşsiz bitki ve hayvan türlerine sahiptir.",
+            "E) Yeni Zelanda diğer kara parçalarından ayrı olduğu için burada bulunan eşsiz bitki ve hayvan türleri, yabancı türlerin etkilerine karşı savunmasızdır."
+        ],
+        "answer": "D"
+    },
+    "29": {
+        "question": "Reptiles and insects have no need to sweat because, unlike mammals, they do not need to maintain a constant body temperature.",
+        "options": [
+            "A) Memelilerin sabit bir vücut ısısını korumak için terlemeye ihtiyaçları vardır fakat sürüngenler ve böcekler için aynı durum söz konusu değildir.",
+            "B) Sürüngenler ve böcekler terlemeye ihtiyaç duymaz çünkü memelilerin aksine sabit bir vücut ısısını korumaları gerekmez.",
+            "C) Memelilerin sabit bir vücut ısısını korumak için terlemeleri gerekmektedir ancak sürüngenlerin ve böceklerin buna ihtiyacı yoktur.",
+            "D) Sürüngenler ve böcekler, sabit bir vücut ısısını korumaları gerekmediği için, memeliler gibi terlemeye ihtiyaç duymazlar.",
+            "E) Sürüngenlerin ve böceklerin terlemeye ihtiyaçları yoktur çünkü memelilerde olduğu gibi sabit bir vücut ısısını korumaları gerekmez."
+        ],
+        "answer": "B"
+    },
+    "30": {
+        "question": "While some animal species use their keen sense of smell to locate their prey, others find their victims through their outstanding eyesight.",
+        "options": [
+            "A. Avlarının yerini belirlerken keskin koku duyularını kullanan bazı hayvan türleri dışında kurbanlarını üstün görme yetenekleri sayesinde bulan başka türler de mevcuttur.",
+            "B. Bazı hayvan türleri avlarının yerini keskin koku duyularını kullanarak belirler, bazıları ise kurbanlarını üstün görme yetenekleri sayesinde bulur.",
+            "C. Avlarının yerini belirlemek için keskin koku duyularını kullanan bazı hayvan türleri olduğu gibi kurbanlarını bulmak için üstün görme yeteneklerini kullanan türler de bulunmaktadır.",
+            "D. Bazı hayvan türleri avlarının yerini belirlemek için keskin koku duyularını kullanırken bazıları da kurbanlarını üstün görme yetenekleri sayesinde bulur.",
+            "E. Bazı hayvan türlerinin avlarının yerini belirlemek için kullandıkları şey keskin koku duyularıyken bazılarına kurbanlarını bulduran şey üstün görme yetenekleridir."
+        ],
+        "answer": "D"
+    },
+    "31": {
+        "question": "Cheese, which can be made with different kinds of milk, from reindeer’s milk in Scandinavia to buffalo’s milk in Australia, varies greatly in shape, texture and taste based on where it is produced.",
+        "options": [
+            "A. Peynir, İskandinavya’daki ren geyiği sütünden Avustralya’daki bufalo sütüne kadar değişik süt çeşitleriyle yapılabilir ve üretildiği yere göre şekil, doku ve tat bakımından büyük farklılık gösterir.",
+            "B. İskandinavya’daki ren geyiği sütünden Avustralya’daki bufalo sütüne kadar farklı süt çeşitleri kullanılarak yapılabilen peynirin üretildiği yere göre şekil, doku ve tadında büyük farklılıklar bulunmaktadır.",
+            "C. İskandinavya’daki ren geyiği sütünden Avustralya’daki bufalo sütüne kadar değişik süt çeşitleriyle yapılabilen peynir, üretildiği yere bağlı olarak şekil, doku ve tat bakımından büyük farklılık gösterir.",
+            "D. Peynir, İskandinavya’daki ren geyiği sütünden Avustralya’daki bufalo sütüne kadar değişik süt çeşitleriyle yapılabildiği için üretildiği yere bağlı olarak şekil, doku ve tat bakımından büyük farklılık gösterir.",
+            "E. Üretildiği yere bakıldığında şekil, doku ve tat bakımından büyük farklılık gösteren peynir, İskandinavya’daki ren geyiği sütünden Avustralya’daki bufalo sütüne kadar değişik süt çeşitleriyle yapılabilir."
+        ],
+        "answer": "C"
+    },
+    "32": {
+        "question": "(I) On 27 August 1883, the biggest volcanic eruption in history blasted apart the Indonesian island of Krakatoa. (II) On nearby islands, forests disappeared under 75 metres of burning ash, while on Krakatoa itself, not a single plant or animal is thought to have survived. (III) Compared to animals, plants are often better at surviving the flames, even though their leaves may be burned away. (IV) Fortunately for the earth's wildlife, this kind of catastrophe is very rare. (V) But every year, living things have to cope with all sorts of other hazards.",
+        "options": [
+            "A. I",
+            "B. II",
+            "C. III",
+            "D. IV",
+            "E. V"
+        ],
+        "answer": "C"
+    },
+    "33": {
+        "question": "(I) Rocks from space regularly rain down on our planet, but only a few survive the fall. (II) At Arizona State University’s Center for Meteorite Studies, some 40,000 meteorite remnants are stored in a humidity-controlled facility. (III) Another team of scientists from MIT try to challenge the efforts made to preserve these rocks claiming that the budget can be spent on other scientific discoveries. (IV) Some of these rocks are extremely toxic; they have nuclear radiations and special equipment is required to preserve them. (V) Scientists try to keep all of these rocks free of contamination so future generations can study them for clues to how our solar system formed, and how we might one day survive in space.",
+        "options": [
+            "A. I",
+            "B. II",
+            "C. III",
+            "D. IV",
+            "E. V"
+        ],
+        "answer": "C"
+    },
+    "34": {
+        "question": "(I) In 1960, the Soviet Union chose Mars as its target for the first interplanetary probes. (II) Although they failed, these attempts were just the first of decades of Mars missions. (III) Since water is integral to life on Earth, the presence of water on Mars could mean complex life once existed there too. (IV) Since then, more ships have been sent to Mars than any other planet in our Solar System, and more than half of our total attempts to visit Mars have failed. (V) Luckily we have learned a lot from the successful missions to Mars, and we are striving to learn more about this inhospitable, but intriguing planet.",
+        "options": [
+            "A. I",
+            "B. II",
+            "C. III",
+            "D. IV",
+            "E. V"
+        ],
+        "answer": "C"
+    },
+    "35": {
+        "question": "Newton was engaged in two major scientific controversies. The first was from 1705 to 1712 with Astronomer Royal John Flamsteed, whose notes Newton conspired to publish against his wishes. The second was from 1704 to 1724 with Gottfried Wilhelm von Leibniz, a German mathematician. Leibniz claimed he had discovered calculus before Newton. ---- Leibniz and Johann Bernoulli, who mastered calculus, sent Newton problems they believed no one could solve in months, yet he solved them within hours.",
+        "options": [
+            "A. Newton also questioned the nature of gravity but he left the problem till 1685 as his experiments required more work.",
+            "B. However, Newton’s focus was to date biblical events using his mathematical calculations.",
+            "C. Later, it was proven that Newton discovered calculus first but did not publish it, while Leibniz did.",
+            "D. After painstaking experiments, Newton discovered the spectrum which led him to perfect the reflecting telescope.",
+            "E. Hence, Newton’s work was noticed by scientific luminaries and his theories began to be taught in universities."
+        ],
+        "answer": "C"
+    },
+    "36": {
+        "question": "There are currently more than 1.5 million species of animals, plants and microorganisms known to science. Biologists split up this teeming diversity of life into categories depending on each organism’s shape and appearance and its anatomy using a scheme referred to as biological taxonomy. Life on Earth is organised into a hierarchical structure by a modern classification system using eight taxonomic ranks. The top rank is known as a domain, each of which is divided into several kingdoms, which then split into a number of phyla. ---- Carl Linnaeus, the Swedish botanist and zoologist, laid down the foundations of this system in the early 18th century.",
+        "options": [
+            "A. Over time, organisms of the same species in different geographical locations adapt to their different surroundings.",
+            "B. The taxation in biological classification that lies below class and groups together into similar biological families is order.",
+            "C. In botany, the study of plants and fungi, phyla are instead known as divisions.",
+            "D. In the modern classification scheme, there are three domains based on the genetic make-up of the organisms’s cells.",
+            "E. These in turn break down into class, then order, family and finally species."
+        ],
+        "answer": "E"
+    },
+    "37": {
+        "question": "Lithium exists everywhere in the world, but only in a few places in such concentrations that it is profitable to extract it. Bolivia has the most considerable reserves, almost 25% of the world’s total known lithium resources of 39 million tonnes. ---- So far, only a few people can afford pure electric cars, but it will be a problem when everybody wants an electric vehicle: their batteries consume about 13,000 times more lithium than a smartphone. So, scientists are looking to the oceans. To date, the extraction of lithium from the oceans has been uneconomic, as the concentration is too low. Recently, Japanese scientists have introduced a method that will make lithium from ocean water profitable.",
+        "options": [
+            "A. Battery-powered electronics such as laptops and smartphones have become the standard equipment of all people in the world.",
+            "B. To scientists, it has been a mystery, how the miracle metal ended up on our planet in the first place.",
+            "C. Several experts worry that the increasing popularity of electric cars will deplete Earth’s lithium reserves in record time.",
+            "D. And just like in the case of oil, there is a competition among countries to obtain new reserves of lithium.",
+            "E. The metal, which is primarily produced as a white powder known as lithium carbonate, has been nicknamed ‘white oil’."
+        ],
+        "answer": "C"
+    },
+    "38": {
+        "passage": "Mammals have spread successfully over the entire world, and have even conquered extreme habitats such as deserts and the Arctic. In spite of all external diversities, they have numerous characteristics in common. Mammals are the most highly developed vertebrate animals. Their constant body temperature grants them a life largely independent of temperatures of the surrounding areas. They achieve constant body temperature by a high food intake ─ in comparison to reptiles, for example ─ and an increased rate of metabolism. Long respiration, typical of mammals, supplies the body cells efficiently with oxygen. The heart consists of two atria and two ventricles, which are completely separated from each other. This prevents the mixing of oxygen-rich and oxygen-deficient blood. All mammals, except for the egg-laying monotremes, give birth to live young. During pregnancy, the foetus is linked to the circulatory system of the female and is supplied with nutrients via the placenta and umbilical cord. The exchange of oxygen and carbon dioxide also takes place using this route.",
+        "question": "Which of the following is true about mammals?",
+        "options": [
+            "A) As a result of their adaptation to living in different habitats around the world, their physical appearances have become varied.",
+            "B) Compared to reptiles, mammals consume a much higher amount of food in order to maintain their body temperatures.",
+            "C) Thanks to their oxygen-rich blood, they are able to nurture their offspring.",
+            "D) Their increased rate of metabolism has helped them to be highly sophisticated animals.",
+            "E) They share several similarities with reptiles in terms of nutrition and food intake."
+        ],
+        "answer": "B"
+    },
+    "39": {
+        "passage": "Mammals have spread successfully over the entire world, and have even conquered extreme habitats such as deserts and the Arctic. In spite of all external diversities, they have numerous characteristics in common. Mammals are the most highly developed vertebrate animals. Their constant body temperature grants them a life largely independent of temperatures of the surrounding areas. They achieve constant body temperature by a high food intake ─ in comparison to reptiles, for example ─ and an increased rate of metabolism. Long respiration, typical of mammals, supplies the body cells efficiently with oxygen. The heart consists of two atria and two ventricles, which are completely separated from each other. This prevents the mixing of oxygen-rich and oxygen-deficient blood. All mammals, except for the egg-laying monotremes, give birth to live young. During pregnancy, the foetus is linked to the circulatory system of the female and is supplied with nutrients via the placenta and umbilical cord. The exchange of oxygen and carbon dioxide also takes place using this route.",
+        "question": "Which of the following is true about the biology of mammals according to the passage?",
+        "options": [
+            "A) Monotremes are a type of mammal which give birth to live young.",
+            "B) The structure of the mammal heart helps blend oxygen-rich and oxygen-deficient blood.",
+            "C) The hearts of mammals are unique in terms of exchanging oxygen and carbon dioxide.",
+            "D) Long respiration is a characteristic limited to certain types of mammals.",
+            "E) The foetus inside a female is able to survive thanks to the placenta and umbilical cord."
+        ],
+        "answer": "E"
+    },
+    "40": {
+        "passage": "Mammals have spread successfully over the entire world, and have even conquered extreme habitats such as deserts and the Arctic. In spite of all external diversities, they have numerous characteristics in common. Mammals are the most highly developed vertebrate animals. Their constant body temperature grants them a life largely independent of temperatures of the surrounding areas. They achieve constant body temperature by a high food intake ─ in comparison to reptiles, for example ─ and an increased rate of metabolism. Long respiration, typical of mammals, supplies the body cells efficiently with oxygen. The heart consists of two atria and two ventricles, which are completely separated from each other. This prevents the mixing of oxygen-rich and oxygen-deficient blood. All mammals, except for the egg-laying monotremes, give birth to live young. During pregnancy, the foetus is linked to the circulatory system of the female and is supplied with nutrients via the placenta and umbilical cord. The exchange of oxygen and carbon dioxide also takes place using this route.",
+        "question": "What is the passage mainly about?",
+        "options": [
+            "A) Mammal diversity on the planet",
+            "B) Distribution of mammals in the world",
+            "C) Common features of mammals",
+            "D) Differences between mammals and reptiles",
+            "E) Reproduction differences in mammals"
+        ],
+        "answer": "C"
+    }
+}

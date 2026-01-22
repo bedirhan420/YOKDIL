@@ -1,0 +1,447 @@
+{
+    "1": {
+        "question": "In the context of ecological studies, occurs when there is little to no progress or development in an ecosystem, leading to a lack of biodiversity and environmental change.",
+        "options": [
+            "A) uniqueness",
+            "B) comprehension",
+            "C) mindset",
+            "D) stagnation",
+            "E) priority"
+        ],
+        "answer": "D"
+    },
+    "2": {
+        "question": "The study of climate change requires an analysis of data from various regions across the globe, as it involves multiple variables and long-term observations.",
+        "options": [
+            "A) extensive",
+            "B) deceptive",
+            "C) deliberate",
+            "D) reversible",
+            "E) consistent"
+        ],
+        "answer": "A"
+    },
+    "3": {
+        "question": "During the research process, the scientist must examine all the materials to avoid any oversight or errors that might compromise the findings.",
+        "options": [
+            "A) fairly",
+            "B) thoroughly",
+            "C) randomly",
+            "D) sparsely",
+            "E) abruptly"
+        ],
+        "answer": "B"
+    },
+    "4": {
+        "question": "In biomedical research, certain enzymes are used to the absorption of drugs into the bloodstream by breaking down complex molecules into simpler forms more easily processed by the body.",
+        "options": [
+            "A) excavate",
+            "B) nurture",
+            "C) withdrawn",
+            "D) acknowledge",
+            "E) facilitate"
+        ],
+        "answer": "E"
+    },
+    "5": {
+        "question": "In the field of epidemiology, researchers must carefully consider all possible variables that could influence the spread of a disease, ensuring they do not prematurely any potential factors without thorough investigation.",
+        "options": [
+            "A) rule out",
+            "B) put off",
+            "C) give up",
+            "D) throw away",
+            "E) make out"
+        ],
+        "answer": "A"
+    },
+    "6": {
+        "question": "If the researchers aware of the potential risks, they their experiment under more controlled conditions to prevent any unforeseen consequences.",
+        "options": [
+            "A) have been / could do",
+            "B) had been / would have done",
+            "C) were / did",
+            "D) might be / have been doing",
+            "E) may be / would do"
+        ],
+        "answer": "B"
+    },
+    "7": {
+        "question": "In autonomous navigation systems, integrating GPS with inertial sensors facilitates a robot’s precise position in real-time, and it to improve accuracy in areas where GPS signals are weak or unavailable.",
+        "options": [
+            "A) having measured / may use",
+            "B) measuring / can be used",
+            "C) being measured / has to be used",
+            "D) to measure / must have been used",
+            "E) to be measuring / should be used"
+        ],
+        "answer": "B"
+    },
+    "8": {
+        "question": "In 2010, it that approximately 20 per cent of university graduates in Europe employment in their field of study within two years.",
+        "options": [
+            "A) would be predicted / had secured",
+            "B) is predicted / are securing",
+            "C) had been predicted / secure",
+            "D) was predicted / would secure",
+            "E) has been predicted / have secured"
+        ],
+        "answer": "D"
+    },
+    "9": {
+        "question": "most chemical reactions are spontaneous under standard conditions, they often require a certain amount of activation energy to proceed at a noticeable rate, especially when catalysis is not involved.",
+        "options": [
+            "A) Although",
+            "B) Since",
+            "C) Just as",
+            "D) Only when",
+            "E) Supposing that"
+        ],
+        "answer": "A"
+    },
+    "10": {
+        "question": "Long-standing methods of scientific research have been overshadowed by new, faster technologies, such as artificial intelligence and machine learning; , many researchers are struggling to adapt to the changing landscape of their fields.",
+        "options": [
+            "A) for instance",
+            "B) instead",
+            "C) otherwise",
+            "D) nevertheless",
+            "E) hence"
+        ],
+        "answer": "E"
+    },
+    "11": {
+        "question": "The research team worked tirelessly over the years, collecting valuable data on climate change the global community, aiming to provide crucial insights that could help mitigate the impacts of rising temperatures and extreme weather events.",
+        "options": [
+            "A) due to",
+            "B) rather than",
+            "C) contrary to",
+            "D) on behalf of",
+            "E) with the aim of"
+        ],
+        "answer": "D"
+    },
+    "12": {
+        "question": "environmental sustainability, numerous companies have transitioned to renewable energy sources, aiming to reduce their carbon footprint and minimize harm to the planet.",
+        "options": [
+            "A) In comparison to",
+            "B) For the sake of",
+            "C) In spite of",
+            "D) Rather than",
+            "E) In the absence of"
+        ],
+        "answer": "B"
+    },
+    "13": {
+        "question": "renewable energy sources wind, solar, and hydroelectric power are increasingly being adopted to reduce dependency on fossil fuels.",
+        "options": [
+            "A) Such / as",
+            "B) Not only / but also",
+            "C) So / that",
+            "D) Either / or",
+            "E) Such / that"
+        ],
+        "answer": "A"
+    },
+    "14": {
+        "question": "Ocean currents, which play a crucial role in regulating Earth's climate, flow the world's oceans, yet the strongest currents are typically found the Atlantic and Pacific Oceans.",
+        "options": [
+            "A) along / from",
+            "B) about / for",
+            "C) throughout / in",
+            "D) upon / to",
+            "E) off / on"
+        ],
+        "answer": "C"
+    },
+    "15": {
+        "question": "the advent of CRISPR technology, researchers have been able to make precise edits to the DNA of various organisms, leading to breakthroughs with genetic engineering and opening new possibilities medicine and agriculture.",
+        "options": [
+            "A) Over / at",
+            "B) During / from",
+            "C) After / for",
+            "D) With / in",
+            "E) For / with"
+        ],
+        "answer": "D"
+    },
+    "16": {
+        "question": "The laboratory, cutting-edge research on renewable energy sources is conducted, has recently received a major grant to expand its operations.",
+        "options": [
+            "A) where",
+            "B) which",
+            "C) that",
+            "D) how",
+            "E) who"
+        ],
+        "answer": "A"
+    },
+    "17": {
+    "passage": "Making food is one thing; keeping it is another. In their natural state, all the organic materials we eat are (17) -----. After a certain period of time, they go bad – smell bad, taste bad, look bad. Even if they do not become downright unappetising, foods lose nutritional value as vitamins degrade (18) ----- heat, strong light, air, or water. In preserving foods, the first order of business is to prevent yeasts, moulds, bacteria, and insects from devouring them before we do. Yeasts and moulds thrive on acidic fruits and conver their sugars to an acidic fizz. Bacteria prefer meat, dairy products, and low-acid vegetables; if allowed (19) -----, they create acid and other waste products that destroy food. Certain bacteria can overrun a person's gastrointestinal tract or release dangerous toxins, causing the misery of acute food poisoning. People have tried to prevent food spoilage since they first started cooking meat (20) ----- a fire – smoking, salting, drying, and pickling have been around for millennia. (21) ----- the science of food preservation advanced considerably in the 19th century with the advent of such processes as pasteurisation.",
+    "question": "",
+    "options": [
+        "A) reasonable",
+        "B) abundant",
+        "C) assertive",
+        "D) evident",
+        "E) perishable"
+    ],
+    "answer": "E"
+},
+"18": {
+    "passage": "Making food is one thing; keeping it is another. In their natural state, all the organic materials we eat are (17) -----. After a certain period of time, they go bad – smell bad, taste bad, look bad. Even if they do not become downright unappetising, foods lose nutritional value as vitamins degrade (18) ----- heat, strong light, air, or water. In preserving foods, the first order of business is to prevent yeasts, moulds, bacteria, and insects from devouring them before we do. Yeasts and moulds thrive on acidic fruits and conver their sugars to an acidic fizz. Bacteria prefer meat, dairy products, and low-acid vegetables; if allowed (19) -----, they create acid and other waste products that destroy food. Certain bacteria can overrun a person's gastrointestinal tract or release dangerous toxins, causing the misery of acute food poisoning. People have tried to prevent food spoilage since they first started cooking meat (20) ----- a fire – smoking, salting, drying, and pickling have been around for millennia. (21) ----- the science of food preservation advanced considerably in the 19th century with the advent of such processes as pasteurisation.",
+    "question": "",
+    "options": [
+        "A) such as",
+        "B) unlike",
+        "C) due to",
+        "D) according to",
+        "E) prior to"
+    ],
+    "answer": "C"
+},
+"19": {
+    "passage": "Making food is one thing; keeping it is another. In their natural state, all the organic materials we eat are (17) -----. After a certain period of time, they go bad – smell bad, taste bad, look bad. Even if they do not become downright unappetising, foods lose nutritional value as vitamins degrade (18) ----- heat, strong light, air, or water. In preserving foods, the first order of business is to prevent yeasts, moulds, bacteria, and insects from devouring them before we do. Yeasts and moulds thrive on acidic fruits and conver their sugars to an acidic fizz. Bacteria prefer meat, dairy products, and low-acid vegetables; if allowed (19) -----, they create acid and other waste products that destroy food. Certain bacteria can overrun a person's gastrointestinal tract or release dangerous toxins, causing the misery of acute food poisoning. People have tried to prevent food spoilage since they first started cooking meat (20) ----- a fire – smoking, salting, drying, and pickling have been around for millennia. (21) ----- the science of food preservation advanced considerably in the 19th century with the advent of such processes as pasteurisation.",
+    "question": "",
+    "options": [
+        "A) being proliferated",
+        "B) to proliferate",
+        "C) to be proliferated",
+        "D) to have proliferated",
+        "E) proliferating"
+    ],
+    "answer": "B"
+},
+"20": {
+    "passage": "Making food is one thing; keeping it is another. In their natural state, all the organic materials we eat are (17) -----. After a certain period of time, they go bad – smell bad, taste bad, look bad. Even if they do not become downright unappetising, foods lose nutritional value as vitamins degrade (18) ----- heat, strong light, air, or water. In preserving foods, the first order of business is to prevent yeasts, moulds, bacteria, and insects from devouring them before we do. Yeasts and moulds thrive on acidic fruits and conver their sugars to an acidic fizz. Bacteria prefer meat, dairy products, and low-acid vegetables; if allowed (19) -----, they create acid and other waste products that destroy food. Certain bacteria can overrun a person's gastrointestinal tract or release dangerous toxins, causing the misery of acute food poisoning. People have tried to prevent food spoilage since they first started cooking meat (20) ----- a fire – smoking, salting, drying, and pickling have been around for millennia. (21) ----- the science of food preservation advanced considerably in the 19th century with the advent of such processes as pasteurisation.",
+    "question": "",
+    "options": [
+        "A) under",
+        "B) into",
+        "C) beyond",
+        "D) over",
+        "E) off"
+    ],
+    "answer": "D"
+},
+"21": {
+    "passage": "Making food is one thing; keeping it is another. In their natural state, all the organic materials we eat are (17) -----. After a certain period of time, they go bad – smell bad, taste bad, look bad. Even if they do not become downright unappetising, foods lose nutritional value as vitamins degrade (18) ----- heat, strong light, air, or water. In preserving foods, the first order of business is to prevent yeasts, moulds, bacteria, and insects from devouring them before we do. Yeasts and moulds thrive on acidic fruits and conver their sugars to an acidic fizz. Bacteria prefer meat, dairy products, and low-acid vegetables; if allowed (19) -----, they create acid and other waste products that destroy food. Certain bacteria can overrun a person's gastrointestinal tract or release dangerous toxins, causing the misery of acute food poisoning. People have tried to prevent food spoilage since they first started cooking meat (20) ----- a fire – smoking, salting, drying, and pickling have been around for millennia. (21) ----- the science of food preservation advanced considerably in the 19th century with the advent of such processes as pasteurisation.",
+    "question": "",
+    "options": [
+        "A) Because",
+        "B) Therefore",
+        "C) For example",
+        "D) In addition",
+        "E) However"
+    ],
+    "answer": "E"
+},
+    "22": {
+        "question": "Just as the greatest human chess masters cannot stand against with artificial intelligence.",
+        "options": [
+            "A) soon it might become impossible for human CEOs to compete with their artificial intelligence counterparts",
+            "B) one major criticism is that traditional artificial intelligence focuses too much on intelligence as a process",
+            "C) people would have to make decisions about the elimination of entire categories of human work in a fully automated world",
+            "D) artificial intelligence programs have been able to succeed in solving problems on narrowly defineci domains",
+            "E) the aim of artificial intelligence is not limited to minor tasks but also to interact with the outside World"
+        ],
+        "answer": "A"
+    },
+    "23": {
+        "question": "it was not until the late 20th century that telescopes with sufficient power to resolve surface details were developed.",
+        "options": [
+            "A) Given that NASA's Mariner 10 is the first spacecraft to visit Mercury and photograph it up close",
+            "B) Although Mercury was first observed through a telescope by Italian scientist Galileo Galilei in the early 17th century",
+            "C) Because Italian astronomer Giovanni Schiaparelli observed Mercury and created the most accurate map",
+            "D) Since the astronomer Friedrich Bessel estimated that Mercury spins at the same speed as Earth",
+            "E) While Institute of Radio-engineering became the first to bounce a radar signal off Mercury and receive its echo"
+        ],
+        "answer": "B"
+    },
+    "24": {
+        "question": "Although conservation efforts for black rhinos whose number decreased to as low as 2,500 from 100,000 have brought the number up to a promising point.",
+        "options": [
+            "A) scientists do their best to protect these rare creatures by tracking them with GPS devices strapped to their necks or ankles",
+            "B) their behavioral patterns in countries such as Namibia and Zimbabwe are extensively monitored so that their population can increase",
+            "C) the species is still critically endangered due to relentless poaching supported by the wide demand for these animals' horns",
+            "D) a recent study in biology describes a new technology that uses smartphones to record rhinos' footprints to analyze their movements",
+            "E) local people are good at identifying individual black rhinos from the shape of their feet which are as distinctive as human fingerprint"
+        ],
+        "answer": "C"
+    },
+    "25": {
+        "question": "While some may claim that their individual shopping habits are innocent and away from harming our planet.",
+        "options": [
+            "A) chemical pollution does not only have debilitating impacts on humans, but it might also have deadly consequences for plants and animals",
+            "B) the goal of green chemistry is to make industrial chemistry safer, cleaner, and more energy- efficient",
+            "C) it is promising that the number of environmentally-friendly products on shelves has dramatically increased in recent years",
+            "D) nearly every product in our hands hides a ripple effect that expands from soil to waterways, by leaving a pollution mark on Earth",
+            "E) the use of green technology has been shown to bring important economic advantages along with environmental benefits"
+        ],
+        "answer": "D"
+    },
+    "26": {
+        "question": ", safety areas are established in and around an airport to accommodate the safe passage of aircraft.",
+        "options": [
+            "A) Although construction of buildings or towers may be prohibited or restricted within the vicinity of an airport",
+            "B) Because aircraft are affected by the wind and are subject to human inaccuracies in flight and on the ground",
+            "C) As the configuration of runways is determined by the prevailing wind direction and the type of expected aircraft",
+            "D) Given that nations develop their own guidelines in accordance with the International Civil Aviation Organisation",
+            "E) While the type of runway used at an airport is determined by the weight of the aircraft expected to use it"
+        ],
+        "answer": "B"
+    },
+    "27": {
+        "question": "Dijital ekranlarımızdan yayılan mavi ışığın da cildimiz için zararlı olduğu konusunda çok az bilgi sahibi olsak da, hepimiz güneşin ultraviyole ışınlarının zarar verici etkilerinden sakınmanın gerekli olduğunu biliriz.",
+        "options": [
+            "A) Whether we know little about how harmful the blue light emitted from our digital screens can be for our skin or not, we all know that it is necessary to avoid ultraviolet rays of the Sun and its damaging effects, too.",
+            "B) Though we little know about how blue light emitted from our digital screens can be harmful for our skin, too, we all know that it is necessary to avoid the damaging effects of the Sun's ultraviolet rays.",
+            "C) No matter how little we know about the harmful effects of blue light emitted from our digital screens as well, we all know that the ultraviolet rays of the Sun also have damaging effects on our skin and we need to avoid them.",
+            "D) Even if blue light emitted from our digital screens is harmful for our skin, we have very little knowledge about it despite our knowledge of necessity to avoid the Sun's ultraviolet rays, which also have damaging effects.",
+            "E) Given that we know about the damaging effects of the Sun's ultraviolet rays on our skin, it is necessary that we all know how harmful the blue light emitted from our digital screens is as well and the fact that we need to avoid it, too."
+        ],
+        "answer": "B"
+    },
+    "28": {
+        "question": "Her ne kadar Leonardo da Vinci'nin mühendisliğe olan ilgisi, matematik kuramındaki ve Klasik mimarideki canlanmanın bir parçası olsa da, anatomik çalışmaları tam da tıp alanı Rönesans ruhunu yakalamaya başladığı sırada ortaya çıkmıstır.",
+        "options": [
+            "A) Despite the fact that his anatomical studies in the field of medicine were catching up with the spirit of the Renaissance, Leonardo da Vinci's interest in engineering started to develop when there was a renewal of mathematical theory and Classical architecture.",
+            "B) Whereas Leonardo da Vinci's interest in engineering was part of a revival of mathematical theory and Classical architecture, his anatomical studies came just as the field of medicine began to catch the Renaissance spirit.",
+            "C) Notwithstanding his interest in engineering as a renewal in mathematical theory and Classical architecture, Leonardo da Vinci's studies in anatomy were just in time with the field of medicine having caught the Renaissance spirit.",
+            "D) However much Leonardo da Vinci's engineering interests were within the reawakening of mathematical theory and Classical architecture, his studies in anatomy were produced at a time when the Renaissance spirit was catching up with the field of medicine.",
+            "E) Although Leonardo da Vinci's anatomical studies caught the spirit of the Renaissance in the field of medicine, his interest in engineering constituted a revival of mathematical theory and Classical architecture."
+        ],
+        "answer": "B"
+    },
+    "29": {
+        "question": "Amelia Earhart’s achievements in aviation had already made her an internationally famous name when, on May 21, 1937, she set out to become the first woman to fly around the world.",
+        "options": [
+            "A) Amelia Earhart dünyanın etrafında uçan ilk kadın olmak için 21 Mayıs 1937’de yola çıkmış olsa da havacılık alanındaki başarıları onu çoktan uluslararası ünlü bir isim hâline getirmişti.",
+            "B) 21 Mayıs 1937’de dünyanın etrafında uçan ilk kadın olmak için yola çıkan Amelia Earhart’ın havacılık alanındaki başarıları onu hâlihazırda uluslararası ünlü bir isim hâline getirmişti.",
+            "C) Havacılık alanındaki başarılarıyla uluslararası ünlü bir isim hâline gelen Amelia Earhart, 21 Mayıs 1937’de dünyanın etrafında uçan ilk kadın olmak için yola çıktı.",
+            "D) 21 Mayıs 1937’de dünyanın etrafında uçan ilk kadın olmak için yola çıktığında, Amelia Earhart’ın havacılık alanındaki başarıları onu çoktan uluslararası ünlü bir isim hâline getirmişti.",
+            "E) Amelia Earhart 21 Mayıs 1937’de dünyanın etrafında uçan ilk kadın olmak üzere yola çıktığında, havacılık alanındaki başarıları sayesinde çoktandır uluslararası ünlü bir isimdi."
+        ],
+        "answer": "D"
+    },
+    "30": {
+        "question": "Organic chemistry is already at the heart of modern advances in nanotechnology and medicine; however, it is still perceived to be a challenging field that many students fear because of its far-reaching applications.",
+        "options": [
+            "A) Organik kimya çoktandır nanoteknolojideki ve tıptaki modern ilerlemelerin merkezinde bulunmasına rağmen geniş kapsamlı uygulamaları yüzünden hâlâ birçok öğrenciyi korkutan zor bir alan olarak algılanmaktadır.",
+            "B) Organik kimya, çoktandır nanoteknolojideki ve tıptaki modern ilerlemelerin merkezindedir, fakat geniş kapsamlı uygulamaları yüzünden zor bir alan olarak algılanmakta ve hâlâ pek çok öğrenciyi korkutmaktadır.",
+            "C) Organik kimya, çoktandır nanoteknolojideki ve tıptaki modern ilerlemelerin merkezinde bulunmaktadır, ancak geniş kapsamlı uygulamalarından korkan birçok öğrenci tarafından hâlâ zor bir alan olarak algılanmaktadır.",
+            "D) Çoktandır nanoteknolojideki ve tıptaki modern ilerlemelerin merkezinde olan organik kimya, geniş kapsamlı uygulamaları yüzünden hâlâ birçok öğrenciyi korkutan zor bir alan olarak algılanmaktadır.",
+            "E) Organik kimya, çoktandır nanoteknolojideki ve tıptaki modern ilerlemelerin merkezindedir, fakat geniş kapsamlı uygulamaları yüzünden hâlâ birçok öğrencinin korktuğu zor bir alan olarak algılanmaktadır."
+        ],
+        "answer": "E"
+    },
+    "31": {
+        "question": "There are many reasons why animal breeding is of paramount importance to those who use animals for their livelihood. Cats have been bred largely for aesthetic beauty; many people are willing to pay a great deal of money for a Siamese or Persian cat, even though the affection felt for a pet has little to do with physical appearance. For instance, most dog breeds are the result of a deliberate attempt to isolate traits that would produce better hunting and herding dogs, although some, like toy poodles, were bred for traits that would make them desirable pets. Horses have also been extensively bred for certain useful qualities; some for size and strength, some for speed.",
+        "options": [
+            "A) There is accumulating evidence that humans tend to be attracted to pets that exhibit similar physical traits.",
+            "B) Although maximum food production is always a major goal, modern animal breeders are also concerned about the ability of animals to survive in extreme environments.",
+            "C) Thus, animals are generally all bred for feed efficiency, growth rate, and resistance to disease.",
+            "D) But the most extensive animal breeding has occurred in those areas where animals have been used to serve specific practical purposes.",
+            "E) And farm animals, particularly food animals, have been the subject of the most intensive breeding efforts."
+        ],
+        "answer": "D"
+    },
+    "32": {
+        "question": "Until the final quarter of the 20th century, the relationship between gender and technical change was included in the simple equation of masculinity with machinery. The prevailing view was that men’s physical strength equipped them to adopt machinery more readily than women. After all, machinery tends to be introduced to reduce physical effort in the production process, thus making it ideal for female use.",
+        "options": [
+            "A) Although they were competent in various areas, women were regarded as peripheral to the core of the labour market.",
+            "B) Therefore, industries that employed relatively lowcost and abundant female labour faced little incentive to invest in expensive labour-saving technologies.",
+            "C) Thus, the ideology of women as homemakers paved the way for the introduction of industrial technologies into the home.",
+            "D) However, such biological reasoning failed to account for the social shaping of technology by existing ideologies of gendered work.",
+            "E) Women were subject to systematic discrimination in pay and access to skilled occupations, even in industries where they predominated."
+        ],
+        "answer": "D"
+    },
+    "33": {
+        "question": "If you find the quantum world confusing, you are not alone. A recent study shows that physicists disagree over the picture of reality that quantum mechanics describes, and that many of them do not even care. Quantum mechanics refers to the mathematical description of the motion and interaction of subatomic particles in terms of quanta. There is no consensus: 39 per cent support the conventional picture of quantum mechanics, while 25 per cent support alternatives and 36 per cent have no preference at all. In addition, many are not sure they understand what certain interpretations describe.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "C"
+    },
+    "34": {
+        "question": "Marie Curie was the first woman to receive the Nobel Prize. She received the Nobel Prize in Physics for her work on radioactivity in collaboration with her husband, Pierre Curie, and A.H. Becquerel. Thus, the 1903 prize in physics was shared by all three individuals and was the first of Curie's Nobel Prizes. Five prizes were conferred in the areas of physics, chemistry, physiology or medicine, economic sciences, and peace. Marie Curie went on to be the first person ever to be awarded two Nobel Prizes and is one of only two individuals to have been awarded a Nobel Prize in two different fields.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "D"
+    },
+    "35": {
+        "question": "--- PASSAGE --- Applied to various materials across many industries, nanotechnology is the science of the very small. Originally, it dealt with the engineering of nanoparticles to build mechanisms on an atomic level, but this has become only one definition, now referred to as MNT, or molecular nanotechnology. The meaning of nanotechnology has evolved to now include all scientific endeavours below 'micro technology', thereby encompassing any products and materials dealing with nanoscale operations. Due to the possibilities of nanotechnology in so many fields, the science has received increased attention from both businesses and masses in recent years. 'Nano' refers to the infinitesimal nanometre, one billionth of a metre; at this level, the components of molecules, atoms, and their parts are large enough to be physically manipulated, arranged, and built into layers. At the technical level, nanotechnology is interested in using these molecular construction abilities to create machines and computers at this nanoscale. In theory, these tiny systems will be capable of incredible speed and atomic precision performance. On a more universal and practical level, nanotechnology can arrange molecules to help create every day, life-size products with new qualities such as weather resistance, conductivity, and enhanced efficiency. However, the large scale investment in nanotechnology still outpaces its current profits, if not its expectations.",
+        "options": [
+            "A) Molecular construction abilities at nanoscale does not require any further improvement for machines to operate efficiently.",
+            "B) It is still difficult to physically manipulate molecules and atoms at the 'nano' level, yet the field is improving",
+            "C) The present universal and practical applications of nanotechnology for everyday life are limited.",
+            "D) Both businesses and people have become more and more interested in the field of nanotechnology.",
+            "E) The components of molecules and atoms at the 'nano' level move at incredible speeds and are very precise."
+        ],
+        "answer": "D"
+    },
+    "36": {
+        "question": "--- PASSAGE --- Applied to various materials across many industries, nanotechnology is the science of the very small. Originally, it dealt with the engineering of nanoparticles to build mechanisms on an atomic level, but this has become only one definition, now referred to as MNT, or molecular nanotechnology. The meaning of nanotechnology has evolved to now include all scientific endeavours below 'micro technology', thereby encompassing any products and materials dealing with nanoscale operations. Due to the possibilities of nanotechnology in so many fields, the science has received increased attention from both businesses and masses in recent years. 'Nano' refers to the infinitesimal nanometre, one billionth of a metre; at this level, the components of molecules, atoms, and their parts are large enough to be physically manipulated, arranged, and built into layers. At the technical level, nanotechnology is interested in using these molecular construction abilities to create machines and computers at this nanoscale. In theory, these tiny systems will be capable of incredible speed and atomic precision performance. On a more universal and practical level, nanotechnology can arrange molecules to help create every day, life-size products with new qualities such as weather resistance, conductivity, and enhanced efficiency. However, the large scale investment in nanotechnology still outpaces its current profits, if not its expectations.",
+        "options": [
+            "A) The science of nanotechnology needs more investors if it is to succeed at a practical level.",
+            "B) The profits made through the use of nanotechnology applications are greater than expected.",
+            "C) The investments in the universal and practical application of nanotechnology are limited.",
+            "D) Investors need to see more profitable applications before they consider increasing funding.",
+            "E) Investors in nanotechnology are optimistic about the future of this scientific field."
+        ],
+        "answer": "E"
+    },
+    "37": {
+        "question": "--- PASSAGE --- Applied to various materials across many industries, nanotechnology is the science of the very small. Originally, it dealt with the engineering of nanoparticles to build mechanisms on an atomic level, but this has become only one definition, now referred to as MNT, or molecular nanotechnology. The meaning of nanotechnology has evolved to now include all scientific endeavours below 'micro technology', thereby encompassing any products and materials dealing with nanoscale operations. Due to the possibilities of nanotechnology in so many fields, the science has received increased attention from both businesses and masses in recent years. 'Nano' refers to the infinitesimal nanometre, one billionth of a metre; at this level, the components of molecules, atoms, and their parts are large enough to be physically manipulated, arranged, and built into layers. At the technical level, nanotechnology is interested in using these molecular construction abilities to create machines and computers at this nanoscale. In theory, these tiny systems will be capable of incredible speed and atomic precision performance. On a more universal and practical level, nanotechnology can arrange molecules to help create every day, life-size products with new qualities such as weather resistance, conductivity, and enhanced efficiency. However, the large scale investment in nanotechnology still outpaces its current profits, if not its expectations.",
+        "options": [
+            "A) To encourage people to invest in this field of science",
+            "B) To describe how useful this technology will be in the future",
+            "C) To give a brief description of the field",
+            "D) To exemplify how all-encompassing the field is",
+            "E) To reinforce the importance of this field for daily life applications"
+        ],
+        "answer": "C"
+    },
+    "38": {
+        "question": "--- PASSAGE --- Svante August Arrhenius was a Swedish chemist and one of the founders of the science of physical chemistry. At the age of three, Arrhenius taught himself to read, despite his parents' wishes, and by watching his father's addition of numbers in his account books, became an arithmetical prodigy. This amazing scientist was the first person to predict what the future atmosphere might look like in the wake of the Industrial Revolution. He spent many of his days (and likely nights) at the end of the 19th century calculating how the carbon released by burning coal (the major source of fuel at the time) might actually change the atmospheric carbon balance. In the end, he calculated that humanity could double the concentration of atmospheric carbon - in 3,000 years. The fact that Earth is now closing in on doubling that concentration just over 100 years after Arrhenius made his calculations has nothing to do with this great visionary's grasp of chemistry or math - it has everything to do with the fact that he had to base estimates on what he knew. The internal combustion engine was only a speculative invention, with none in use. No cars were on the road, and Arrhenius certainly had no idea about traffic jams, drive-through windows, or airplanes. Who could have imagined today's level of fossil-fuel consumption 100 years ago?",
+        "options": [
+            "A) the relationship between the atmosphere and carbon release",
+            "B) the ways of releasing reduced amounts of carbon into the atmosphere",
+            "C) the amount of carbon in the atmosphere way before the Industrial Revolution",
+            "D) the future technological developments of the Industrial Revolution",
+            "E) the more efficient methods of burning industrial coal"
+        ],
+        "answer": "A"
+    },
+    "39": {
+        "question": "--- PASSAGE --- Svante August Arrhenius was a Swedish chemist and one of the founders of the science of physical chemistry. At the age of three, Arrhenius taught himself to read, despite his parents' wishes, and by watching his father's addition of numbers in his account books, became an arithmetical prodigy. This amazing scientist was the first person to predict what the future atmosphere might look like in the wake of the Industrial Revolution. He spent many of his days (and likely nights) at the end of the 19th century calculating how the carbon released by burning coal (the major source of fuel at the time) might actually change the atmospheric carbon balance. In the end, he calculated that humanity could double the concentration of atmospheric carbon - in 3,000 years. The fact that Earth is now closing in on doubling that concentration just over 100 years after Arrhenius made his calculations has nothing to do with this great visionary's grasp of chemistry or math - it has everything to do with the fact that he had to base estimates on what he knew. The internal combustion engine was only a speculative invention, with none in use. No cars were on the road, and Arrhenius certainly had no idea about traffic jams, drive-through windows, or airplanes. Who could have imagined today's level of fossil-fuel consumption 100 years ago?",
+        "options": [
+            "A) the amount and variety of carbon-releasing products have increased beyond his imagination",
+            "B) the concept of fossil-fuel consumption was not available to him at the time",
+            "C) he thought the number of cars on roads would always remain the same",
+            "D) he was not very good with disciplines like chemistry and maths",
+            "E) even technologies like the internal combustion engine had not been invented yet"
+        ],
+        "answer": "A"
+    },
+    "40": {
+        "question": "--- PASSAGE --- Svante August Arrhenius was a Swedish chemist and one of the founders of the science of physical chemistry. At the age of three, Arrhenius taught himself to read, despite his parents' wishes, and by watching his father's addition of numbers in his account books, became an arithmetical prodigy. This amazing scientist was the first person to predict what the future atmosphere might look like in the wake of the Industrial Revolution. He spent many of his days (and likely nights) at the end of the 19th century calculating how the carbon released by burning coal (the major source of fuel at the time) might actually change the atmospheric carbon balance. In the end, he calculated that humanity could double the concentration of atmospheric carbon - in 3,000 years. The fact that Earth is now closing in on doubling that concentration just over 100 years after Arrhenius made his calculations has nothing to do with this great visionary's grasp of chemistry or math - it has everything to do with the fact that he had to base estimates on what he knew. The internal combustion engine was only a speculative invention, with none in use. No cars were on the road, and Arrhenius certainly had no idea about traffic jams, drive-through windows, or airplanes. Who could have imagined today's level of fossil-fuel consumption 100 years ago?",
+        "options": [
+            "A) Critical",
+            "B) Admiring",
+            "C) Neutral",
+            "D) Indifferent",
+            "E) Sceptical"
+        ],
+        "answer": "B"
+    }
+}

@@ -1,0 +1,447 @@
+{
+    "1": {
+        "question": "The definitions of genius are unique to each culture and open to different ---- , yet psychologists are trying to identify the factors that may foster the emergence of genius.",
+        "options": [
+            "A) transmissions",
+            "B) alleviations",
+            "C) deteriorations",
+            "D) interpretations",
+            "E) deprivations"
+        ],
+        "answer": "D"
+    },
+    "2": {
+        "question": "In situations where tensions are already high, introducing additional policies that fail to address the underlying issues can ---- the situation, leading to further frustration and potential conflict among affected parties.",
+        "options": [
+            "A) overcome",
+            "B) curtail",
+            "C) aggravate",
+            "D) relieve",
+            "E) overtake"
+        ],
+        "answer": "C"
+    },
+    "3": {
+        "question": "Leaders must help groups to overcome the conflicts that ---- arise in groups in the course of working as they relentlessly struggle with work pressures like time and heavy workload.",
+        "options": [
+            "A) separately",
+            "B) innovatively",
+            "C) eccentrically",
+            "D) inevitably",
+            "E) unevenly"
+        ],
+        "answer": "D"
+    },
+    "4": {
+        "question": "The benefits of botanical medicine may be ---- or dramatic, depending on the remedy used and the symptom or problem being addressed.",
+        "options": [
+            "A) profound",
+            "B) subtle",
+            "C) irreversible",
+            "D) distinct",
+            "E) credible"
+        ],
+        "answer": "B"
+    },
+    "5": {
+        "question": "The destructive effects of spending extended periods of time ---- from society have been recognised for centuries, if not thoroughly understood.",
+        "options": [
+            "A) fill out",
+            "B) give up",
+            "C) cut off",
+            "D) run into",
+            "E) work out"
+        ],
+        "answer": "C"
+    },
+    "6": {
+        "question": "The globalisation of the world economy, especially since World War II, ---- rise to large inequalities and an increase in the proportion of the human population ---- from extreme poverty and starvation.",
+        "options": [
+            "A) had given / having suffered",
+            "B) give / suffered",
+            "C) would give / to suffer",
+            "D) has given / suffering",
+            "E) has been giving / having been suffered"
+        ],
+        "answer": "D"
+    },
+    "7": {
+        "question": "Don’t Look Up, a satirical science-fiction film, portrays that it is astronomers who must do their best ---- politicians to eliminate the possibility of a catastrophe caused by a comet which is about ---- Earth.",
+        "options": [
+            "A) to guide / hitting",
+            "B) having guided / to have hit",
+            "C) to guide / to hit",
+            "D) guide / having been hit",
+            "E) being guided / to be hitting"
+        ],
+        "answer": "C"
+    },
+    "8": {
+        "question": "---- urban renewal projects, abandoned hospitals and healthcare centers are being refurbished to be reintegrated ---- the community, providing significant opportunities for both physical and mental health in the process.",
+        "options": [
+            "A) Along / at",
+            "B) During / into",
+            "C) Across / in",
+            "D) With / upon",
+            "E) On / by"
+        ],
+        "answer": "B"
+    },
+    "9": {
+        "question": "---- you are not certain about the identity of a particular wild mushroom that you see in nature, you should not consume it as eating a poisonous mushroom can quickly lead to liver failure and eventually death.",
+        "options": [
+            "A) Whereas",
+            "B) If",
+            "C) Only when",
+            "D) Whenever",
+            "E) Although"
+        ],
+        "answer": "B"
+    },
+    "10": {
+        "question": "The emergence of the awareness of a link between our body and our emotions, which was thanks to the American philosopher William James suggesting that we do not laugh because we are happy, ---- we are happy because we laugh, dates back to the 19th century.",
+        "options": [
+            "A) if",
+            "B) rather",
+            "C) as",
+            "D) unless",
+            "E) provided that"
+        ],
+        "answer": "B"
+    },
+    "11": {
+        "question": "The rise in the US population, ---- the increased diversity in its composition, has significantly changed the understanding of cultural differences.",
+        "options": [
+            "A) as opposed to",
+            "B) instead of",
+            "C) unlike",
+            "D) together with",
+            "E) with the goal of"
+        ],
+        "answer": "D"
+    },
+    "12": {
+        "question": "One question that has not yet been answered concerning Internet addiction is ---- it is a distinctive type of addiction ---- simply an instance of a new technology being used to support other addictions.",
+        "options": [
+            "A) hardly / when",
+            "B) whether / or",
+            "C) both / and",
+            "D) no sooner / than",
+            "E) either / or"
+        ],
+        "answer": "B"
+    },
+    "13": {
+        "passage":"The first settlers of Miletus are thought (13) ---- Lelejes and Carians, followed by colonists from Crete and Greece. The city’s name was from the Cretan leader Miletus. Later, in the sixth century B.C., the Ionian city of Miletus, under control of the Greeks, had become one of the most important and formidable powers in the whole Ionia. As did many early settlements, Miletus gained stability (14) ---- agriculture. Later, they developed a fleet and were able to spread and colonize many other territories in the surrounding area. (15) ---- during the 5th and 4th centuries Lydians and Cimmerians gained a foothold in Miletus. In 494 B.C. the city was virtually destroyed (16) ---- its solidarity with Athens during the Persian wars. Persian control lasted until the arrival of Alexander the Great in 334, and with his rule of the area, Miletus was again restored to prosperity. Power in Ionia went to the Romans at the beginning of the 3rd century B.C., but Miletus was declared a free city, able to continue self-administration. The religious center at Didyma was (17) ---- to Miletus during this period, and a great reconstruction period followed.",
+        "question":"",
+        "options": [
+            "A) to be",
+            "B) be",
+            "C) to have been",
+            "D) having been",
+            "E) to be being"
+        ],
+        "answer": "C"
+    },
+    "14": {
+        "passage":"The first settlers of Miletus are thought (13) ---- Lelejes and Carians, followed by colonists from Crete and Greece. The city’s name was from the Cretan leader Miletus. Later, in the sixth century B.C., the Ionian city of Miletus, under control of the Greeks, had become one of the most important and formidable powers in the whole Ionia. As did many early settlements, Miletus gained stability (14) ---- agriculture. Later, they developed a fleet and were able to spread and colonize many other territories in the surrounding area. (15) ---- during the 5th and 4th centuries Lydians and Cimmerians gained a foothold in Miletus. In 494 B.C. the city was virtually destroyed (16) ---- its solidarity with Athens during the Persian wars. Persian control lasted until the arrival of Alexander the Great in 334, and with his rule of the area, Miletus was again restored to prosperity. Power in Ionia went to the Romans at the beginning of the 3rd century B.C., but Miletus was declared a free city, able to continue self-administration. The religious center at Didyma was (17) ---- to Miletus during this period, and a great reconstruction period followed.",
+        "question":"",
+        "options": [
+            "A) at",
+            "B) through",
+            "C) onto",
+            "D) into",
+            "E) along"
+        ],
+        "answer": "B"
+    },
+    "15": {
+        "passage":"The first settlers of Miletus are thought (13) ---- Lelejes and Carians, followed by colonists from Crete and Greece. The city’s name was from the Cretan leader Miletus. Later, in the sixth century B.C., the Ionian city of Miletus, under control of the Greeks, had become one of the most important and formidable powers in the whole Ionia. As did many early settlements, Miletus gained stability (14) ---- agriculture. Later, they developed a fleet and were able to spread and colonize many other territories in the surrounding area. (15) ---- during the 5th and 4th centuries Lydians and Cimmerians gained a foothold in Miletus. In 494 B.C. the city was virtually destroyed (16) ---- its solidarity with Athens during the Persian wars. Persian control lasted until the arrival of Alexander the Great in 334, and with his rule of the area, Miletus was again restored to prosperity. Power in Ionia went to the Romans at the beginning of the 3rd century B.C., but Miletus was declared a free city, able to continue self-administration. The religious center at Didyma was (17) ---- to Miletus during this period, and a great reconstruction period followed.",
+        "question":"",
+        "options": [
+            "A) Otherwise",
+            "B) Nonetheless",
+            "C) In other words",
+            "D) For example",
+            "E) Thus"
+        ],
+        "answer": "B"
+    },
+    "16": {
+        "passage":"The first settlers of Miletus are thought (13) ---- Lelejes and Carians, followed by colonists from Crete and Greece. The city’s name was from the Cretan leader Miletus. Later, in the sixth century B.C., the Ionian city of Miletus, under control of the Greeks, had become one of the most important and formidable powers in the whole Ionia. As did many early settlements, Miletus gained stability (14) ---- agriculture. Later, they developed a fleet and were able to spread and colonize many other territories in the surrounding area. (15) ---- during the 5th and 4th centuries Lydians and Cimmerians gained a foothold in Miletus. In 494 B.C. the city was virtually destroyed (16) ---- its solidarity with Athens during the Persian wars. Persian control lasted until the arrival of Alexander the Great in 334, and with his rule of the area, Miletus was again restored to prosperity. Power in Ionia went to the Romans at the beginning of the 3rd century B.C., but Miletus was declared a free city, able to continue self-administration. The religious center at Didyma was (17) ---- to Miletus during this period, and a great reconstruction period followed.",
+        "question":"",
+        "options": [
+            "A) despite",
+            "B) in place of",
+            "C) as a result of",
+            "D) irrespective of",
+            "E) in need of"
+        ],
+        "answer": "C"
+    },
+    "17": {
+        "passage":"The first settlers of Miletus are thought (13) ---- Lelejes and Carians, followed by colonists from Crete and Greece. The city’s name was from the Cretan leader Miletus. Later, in the sixth century B.C., the Ionian city of Miletus, under control of the Greeks, had become one of the most important and formidable powers in the whole Ionia. As did many early settlements, Miletus gained stability (14) ---- agriculture. Later, they developed a fleet and were able to spread and colonize many other territories in the surrounding area. (15) ---- during the 5th and 4th centuries Lydians and Cimmerians gained a foothold in Miletus. In 494 B.C. the city was virtually destroyed (16) ---- its solidarity with Athens during the Persian wars. Persian control lasted until the arrival of Alexander the Great in 334, and with his rule of the area, Miletus was again restored to prosperity. Power in Ionia went to the Romans at the beginning of the 3rd century B.C., but Miletus was declared a free city, able to continue self-administration. The religious center at Didyma was (17) ---- to Miletus during this period, and a great reconstruction period followed.",
+        "question":"",
+        "options": [
+            "A) restricted",
+            "B) penetrated",
+            "C) altered",
+            "D) eradicated",
+            "E) allocated"
+        ],
+        "answer": "E"
+    },
+    "18": {
+        "question": "-----, about one in three people in the world had been infected, with the pandemic claiming some 50 million lives.",
+        "options": [
+            "A) Given that autopsies on people who were struck by the Spanish flu showed hard, red lungs drenched in fluid",
+            "B) Because what made the Spanish flu especially bewildering to health care workers was that it attacked healthy, strong adults most often",
+            "C) While the outbreaks of the Spanish flu occurred in nearly every inhabited part of the world, first in ports and then spreading from city to city",
+            "D) As it is very difficult from our perspective, 100 years later, to have an accurate picture of the Spanish flu",
+            "E) When the fourth and last wave of the Spanish flu subsided in 1920, which was more lethal than the others"
+        ],
+        "answer": "E"
+    },
+    "19": {
+        "question": "The widespread popularity of yoga is not up for debate, -----.",
+        "options": [
+            "A) whereas it is thought to prepare the body, particularly the nervous system, for stillness and calmness",
+            "B) even if it embraces a whole approach to lifestyle, including physical, mental, and spiritual practices",
+            "C) although how exactly the practice of yoga, which was once regarded as an unrated alternative spiritual practice, has become mainstream is still in question",
+            "D) unless one appreciates that yoga can help people engage with their life by paying full attention to tasks and feelings",
+            "E) while the results of numerous research studies into the health benefits of yoga have recurrently confirmed its positive effects"
+        ],
+        "answer": "C"
+    },
+    "20": {
+        "question": "Humour was used rather infrequently during the early years of modern advertising; ----.",
+        "options": [
+            "A) however, its use in contemporary advertising is prevalent, especially in the broadcast media",
+            "B) therefore, advertisers used humour as a message tactic, with the intent of enhancing an advertisement's potential",
+            "C) thus, humour is found somewhat more frequently in the advertising of Western countries and cultures than in Eastern ones",
+            "D) by comparison, the effects of humorous advertisements might vary based on the type of product for which they are being used",
+            "E) nevertheless, consumers will be amused by a humorous advertisement but fail to recall anything else about it"
+        ],
+        "answer": "A"
+    },
+    "21": {
+        "question": "----, there are also great environmental benefits such as advances in productivity that has been brought about by chemical use.",
+        "options": [
+            "A) Before the direct importance of climate's effect on agriculture has been a key focus of studies on the potential agriculture policies",
+            "B) Because considerable uncertainty remains about the global influence of chemical use on agricultural production",
+            "C) While it is easy to see some of the environmental harm caused by modern chemical-intensive agricultural production",
+            "D) As long as human activities negatively affect the fertility of soil and agricultural production",
+            "E) Given that agriculture is thought to be a principal source of water pollution, especially in developed nations"
+        ],
+        "answer": "C"
+    },
+    "22": {
+        "question": "Extremes of movement, such as rapid swinging or spinning, can temporarily disrupt the vestibular system in the ear, causing dizziness and nausea -----.",
+        "options": [
+            "A) as more serious dysfunctions and disorders of the vestibular system can result in complete loss of balance",
+            "B) while some people experience the symptoms even with a light movement, such as riding in a car, boat, or airplane, known as motion sickness",
+            "C) even if sudden movements cause shifts in pressure of the fluid in the ear, which focuses and aligns the sound waves into patterns",
+            "D) although the inner ear is responsible for managing the body's balance and motion in relation to gravity",
+            "E) so that the brain instantaneously receives messages from sensory nerve cells responding with neuromuscular signals"
+        ],
+        "answer": "B"
+    },
+    "23": {
+        "question": "As the advances in medicine have increased with important discoveries and effective treatments, many health problems that were considered serious few years ago can now be handled with ease.",
+        "options": [
+            "A) Önemli keşifler ve etkili tedavilerle birlikte tıp alanındaki gelişmelerin artmasiyla, birkaç yil önce ciddi olarak nitelendirilen pek çok sağlik sorunuyla günümüzde kolaylikla başa çıkılabilmektedir.",
+            "B) Birkaç yil önce ciddi olduğu düşünülen pek çok sağlik sorununun günümüzde kolaylikla çözülebilmesinin sebebi, önemli keşifler ve etkili tedavilerle birlikte tip alanındaki gelişmelerin artmasıdır.",
+            "C) Önemli keşifler ve etkili tedavilerle birlikte tıp alanındaki gelişmeler arttıkça birkaç yil önce ciddi olduğu düşünülen pek çok sağlık sorunuyla günümüzde kolaylikla başa çıkılabilmektedir.",
+            "D) Önemli keşifler ve etkili tedavilerle birlikte tip alanindaki gelişmeler arttığından, birkaç yıl önce ciddi olduğu düşünülen pek çok sağlik sorunuyla günümüzde başa çıkılabilmesi kolaylaşmiştır.",
+            "E) Tip alanindaki gelişmeler ile önemli keşiflerin ve etkili tedavilerin artması sayesinde birkaç yıl önce ciddi olduğu düşünülen pek çok sağlık sorunu günümüzde kolaylıkla çözülebilmektedir."
+        ],
+        "answer": "C"
+    },
+    "24": {
+        "question": "Bedenimiz ve duygularımiz arasındaki bağlantıya dair farkındalığın ortaya çıkışı, Amerikalı düşünür William James'in mutlu olduğumuz için gülmediğimizi, aksine güldüğümüz için mutlu olduğumuzu ileri sürdüğü 19. yüzyıla dayanır.",
+        "options": [
+            "A) The emergence of the awareness of a link between our body and our emotions goes back to the 19th century, when the American philosopher William James suggested that we do not laugh because we are happy, rather we are happy because we laugh.",
+            "B) In the 19th century, the American philosopher William James claimed that we do not laugh because we are happy rather we are happy because we laugh, which led to the emergence of the awareness of a link between our body and our emotions.",
+            "C) The emergence of the awareness of a link between our body and our emotions, which was thanks to the American philosopher William James suggesting that we do not laugh because we are happy, rather we are happy because we laugh, dates back to the 19th century.",
+            "D) The suggestion of the American philosopher William James that we do not laugh because we are happy, rather we are happy because we laugh raised an awareness of a link between our body and our emotions in the 19th century.",
+            "E) The link between our body and our emotions led to the emergence of an awareness dating back to the 19th century, when the American philosopher William James suggested that we do not laugh because we are happy, rather we are happy because we laugh."
+        ],
+        "answer": "A"
+    },
+    "25": {
+        "question": "--- PASSAGE --- Environmental diplomacy can be broken into two general categories: conventions regulating the use of natural resources and conventions regulating pollution. In each case, the central problem is that political boundaries rarely reflect biological boundaries - as national economies consume resources and produce pollution, they spread environmental problems far beyond their national boundaries and thus cannot control them. For example, the sheer size of the US economy has given it both the power to degrade the environment around the world and the strength to push diplomatic efforts to protect the environment. For most of its history, the US has been one of the leading nations in the field of environmental diplomacy, but at the end of the 20th century, it found itself more often on the outside, as global discussions produced treaties that were increasingly unacceptable to the US government's schemes. This loss of leadership has coincided with a shift away from bilateral treaties; first to small multilateral treaties and then to conventions that are open to every nation. That shift has been a logical result of an increasing international awareness that some of the biggest threats to human society come from global environmental problems, but it has meant that the US has been less able to shape the course of events to its liking. --- QUESTION --- The main problem in environmental diplomacy is the failure ----.",
+        "options": [
+            "A) to discriminate between conventions regulating the utilisation of natural resources and pollution",
+            "B) to lead national economies to efficiently use resources that produce pollution",
+            "C) to understand that biological boundaries of a country are set regarding the size of its economy",
+            "D) to keep environmental hazards within national boundaries",
+            "E) to draw biological boundaries precisely in the use of natural resources"
+        ],
+        "answer": "D"
+    },
+    "26": {
+        "question": "--- PASSAGE --- Environmental diplomacy can be broken into two general categories: conventions regulating the use of natural resources and conventions regulating pollution. In each case, the central problem is that political boundaries rarely reflect biological boundaries - as national economies consume resources and produce pollution, they spread environmental problems far beyond their national boundaries and thus cannot control them. For example, the sheer size of the US economy has given it both the power to degrade the environment around the world and the strength to push diplomatic efforts to protect the environment. For most of its history, the US has been one of the leading nations in the field of environmental diplomacy, but at the end of the 20th century, it found itself more often on the outside, as global discussions produced treaties that were increasingly unacceptable to the US government's schemes. This loss of leadership has coincided with a shift away from bilateral treaties; first to small multilateral treaties and then to conventions that are open to every nation. That shift has been a logical result of an increasing international awareness that some of the biggest threats to human society come from global environmental problems, but it has meant that the US has been less able to shape the course of events to its liking. --- QUESTION --- Which could be inferred from the passage?",
+        "options": [
+            "A) The US economy has presented both benefits and threats to the conservation of the environment due to its large size.",
+            "B) The US government has recently taken on an instrumental role in global discussions thanks to its power in environmental diplomacy.",
+            "C) The US has long been a strong proponent of using conventions that apply to every nation in the world in international environmental protection.",
+            "D) The amount and variety of natural resources in the US have caused it to follow environmental policies that are incompatible with those in many parts of the world.",
+            "E) The success of the US environmental diplomacy in the 20th century relied mostly on multilateral treaties."
+        ],
+        "answer": "A"
+    },
+    "27": {
+        "question": "--- PASSAGE --- Environmental diplomacy can be broken into two general categories: conventions regulating the use of natural resources and conventions regulating pollution. In each case, the central problem is that political boundaries rarely reflect biological boundaries - as national economies consume resources and produce pollution, they spread environmental problems far beyond their national boundaries and thus cannot control them. For example, the sheer size of the US economy has given it both the power to degrade the environment around the world and the strength to push diplomatic efforts to protect the environment. For most of its history, the US has been one of the leading nations in the field of environmental diplomacy, but at the end of the 20th century, it found itself more often on the outside, as global discussions produced treaties that were increasingly unacceptable to the US government's schemes. This loss of leadership has coincided with a shift away from bilateral treaties; first to small multilateral treaties and then to conventions that are open to every nation. That shift has been a logical result of an increasing international awareness that some of the biggest threats to human society come from global environmental problems, but it has meant that the US has been less able to shape the course of events to its liking. --- QUESTION --- The reason why the US has lost the leadership in the field of environmental diplomacy is that ----.",
+        "options": [
+            "A) the environmental problems the US faces are different from those experienced in other countries",
+            "B) the US government has become less competent in dealing with environmental deterioration",
+            "C) the US government has failed to react to the increased global awareness of the major environmental threats",
+            "D) the US government's plans have contradicted the treaties drafted through global discussions",
+            "E) the shift to the conventions regarding every nation has revealed that the US is mainly responsible for global environmental problems"
+        ],
+        "answer": "D"
+    },
+    "28": {
+        "question": "--- PASSAGE --- Environmental diplomacy can be broken into two general categories: conventions regulating the use of natural resources and conventions regulating pollution. In each case, the central problem is that political boundaries rarely reflect biological boundaries - as national economies consume resources and produce pollution, they spread environmental problems far beyond their national boundaries and thus cannot control them. For example, the sheer size of the US economy has given it both the power to degrade the environment around the world and the strength to push diplomatic efforts to protect the environment. For most of its history, the US has been one of the leading nations in the field of environmental diplomacy, but at the end of the 20th century, it found itself more often on the outside, as global discussions produced treaties that were increasingly unacceptable to the US government's schemes. This loss of leadership has coincided with a shift away from bilateral treaties; first to small multilateral treaties and then to conventions that are open to every nation. That shift has been a logical result of an increasing international awareness that some of the biggest threats to human society come from global environmental problems, but it has meant that the US has been less able to shape the course of events to its liking. --- QUESTION --- What is the passage mainly about?",
+        "options": [
+            "A) The position of the US in environmental diplomacy",
+            "B) The increased awareness of global environmental problems",
+            "C) The importance of environmental diplomacy to save nations",
+            "D) The design of environmental policy in the 20th century",
+            "E) The historical development of environmental diplomacy"
+        ],
+        "answer": "A"
+    },
+    "29": {
+        "question": "--- PASSAGE --- During the 1990s, the field of cognitive development became increasingly popular. It focused on a child's 'theory of mind', suggesting that children have theories for the way their minds work as well as the way other people's minds work. Studies examining children's theory of mind are examples of how recent cognitive development research has moved away from experiments designed to test Piaget's theory. Many studies no longer concern which Piagetian tasks can be done earlier and instead aim to provide theoretical explanations for why and when children might be successful on certain tasks. Some of these studies employ modern neuroimaging techniques to examine the effects of cognitive development in the brain. For example, if psychologists using these techniques can map out when the various brain structures develop during childhood, it may become possible to predict when the skills and capabilities that rely on those structures will emerge. Another burgeoning area of research in cognitive development examines the influence of culture on cognition in order to test the universality or uniqueness of development across cultures. For example, the study of culture is critical for investigating how language and thought may affect each other, understanding why some people believe intelligence is primarily innate and others believe it is primarily the product of effort, and determining how people may solve problems differently based on their cultural norms. --- QUESTION --- The recent studies on children's cognitive development ----.",
+        "options": [
+            "A) have included experiments that test how cognitive development can be supported so that children can perform Piagetian tasks competently",
+            "B) have provided further information on the tasks that children can achieve, largely based on Piaget's theory",
+            "C) have compared and contrasted the stages at which Piagetian tasks can be successfully carried out by children",
+            "D) have concentrated mainly on the differences between children's minds and other people's minds",
+            "E) have shifted their focus towards offering theoretical explanations about the reason and period of particular tasks children can do"
+        ],
+        "answer": "E"
+    },
+    "30": {
+        "question": "--- PASSAGE --- During the 1990s, the field of cognitive development became increasingly popular. It focused on a child's 'theory of mind', suggesting that children have theories for the way their minds work as well as the way other people's minds work. Studies examining children's theory of mind are examples of how recent cognitive development research has moved away from experiments designed to test Piaget's theory. Many studies no longer concern which Piagetian tasks can be done earlier and instead aim to provide theoretical explanations for why and when children might be successful on certain tasks. Some of these studies employ modern neuroimaging techniques to examine the effects of cognitive development in the brain. For example, if psychologists using these techniques can map out when the various brain structures develop during childhood, it may become possible to predict when the skills and capabilities that rely on those structures will emerge. Another burgeoning area of research in cognitive development examines the influence of culture on cognition in order to test the universality or uniqueness of development across cultures. For example, the study of culture is critical for investigating how language and thought may affect each other, understanding why some people believe intelligence is primarily innate and others believe it is primarily the product of effort, and determining how people may solve problems differently based on their cultural norms. --- QUESTION --- Modern neuroimaging techniques employed in studies on cognitive development ----.",
+        "options": [
+            "A) have enabled researchers to formulate a new 'theory of mind, which mostly relates cognitive development to cultural environment",
+            "B) have demonstrated why some children fail to perform certain tasks due to the problems with language development",
+            "C) can help psychologists better predict which Piagetian tasks can be done earlier or delayed in children based on cultural variables",
+            "D) have helped researchers to come up with new facts on brain structures, which contradict Piaget's theory",
+            "E) may allow psychologists to analyse the brain's make-up and its contribution to the development of certain skills and capabilities"
+        ],
+        "answer": "E"
+    },
+    "31": {
+        "question": "--- PASSAGE --- During the 1990s, the field of cognitive development became increasingly popular. It focused on a child's 'theory of mind', suggesting that children have theories for the way their minds work as well as the way other people's minds work. Studies examining children's theory of mind are examples of how recent cognitive development research has moved away from experiments designed to test Piaget's theory. Many studies no longer concern which Piagetian tasks can be done earlier and instead aim to provide theoretical explanations for why and when children might be successful on certain tasks. Some of these studies employ modern neuroimaging techniques to examine the effects of cognitive development in the brain. For example, if psychologists using these techniques can map out when the various brain structures develop during childhood, it may become possible to predict when the skills and capabilities that rely on those structures will emerge. Another burgeoning area of research in cognitive development examines the influence of culture on cognition in order to test the universality or uniqueness of development across cultures. For example, the study of culture is critical for investigating how language and thought may affect each other, understanding why some people believe intelligence is primarily innate and others believe it is primarily the product of effort, and determining how people may solve problems differently based on their cultural norms. --- QUESTION --- Which of the following is investigated by the studies focusing on the influence of culture on cognition?",
+        "options": [
+            "A) Whether cultural norms affect the early emergence of Piagetian tasks",
+            "B) What language problems are experienced by children with different cultural backgrounds",
+            "C) Whether cognitive development follows the same or divergent paths in different cultures",
+            "D) Which cognitive tasks are prioritised or specified in certain cultures",
+            "E) How intelligence can be enhanced despite being largely inherited"
+        ],
+        "answer": "C"
+    },
+    "32": {
+        "question": "--- PASSAGE --- During the 1990s, the field of cognitive development became increasingly popular. It focused on a child's 'theory of mind', suggesting that children have theories for the way their minds work as well as the way other people's minds work. Studies examining children's theory of mind are examples of how recent cognitive development research has moved away from experiments designed to test Piaget's theory. Many studies no longer concern which Piagetian tasks can be done earlier and instead aim to provide theoretical explanations for why and when children might be successful on certain tasks. Some of these studies employ modern neuroimaging techniques to examine the effects of cognitive development in the brain. For example, if psychologists using these techniques can map out when the various brain structures develop during childhood, it may become possible to predict when the skills and capabilities that rely on those structures will emerge. Another burgeoning area of research in cognitive development examines the influence of culture on cognition in order to test the universality or uniqueness of development across cultures. For example, the study of culture is critical for investigating how language and thought may affect each other, understanding why some people believe intelligence is primarily innate and others believe it is primarily the product of effort, and determining how people may solve problems differently based on their cultural norms. --- QUESTION --- Which could be the best title for this passage?",
+        "options": [
+            "A) The Assessment of Cognitive Development through Neuroimaging Techniques",
+            "B) Ordering Piagetian Tasks in Terms of Cognitive Development",
+            "C) The Significance of Culture for Cognitive Studies",
+            "D) Current Trends in Cognitive Development Research",
+            "E) The Universality of Cognitive Development across All Children"
+        ],
+        "answer": "D"
+    },
+    "33": {
+        "question": "Thomas: Solar power is derived from the energy of the Sun. So, I think nations should benefit much more from solar power to produce electricity in a cheaper way. Dave: In fact, throughout the world, nearly 10 percent of electricity is generated based on solar power. Thomas: I can't believe that. Why don't we fully replace fossil fuels with solar energy? Dave: ---- Thomas: So, it seems our environment is suffering from pollution due to high motives of profit.",
+        "options": [
+            "A) The process used to produce electricity in this way is far more expensive than using conventional fossil fuels, and this deters electric companies from investing in it.",
+            "B) Using solar energy is not as easy as people think. It cannot be utilised worldwide since there are not many countries that have the necessary expertise and technical equipment.",
+            "C) Just imagine what could happen if cheap electricity were accessible. People would use electricity so extravagantly that solar batteries couldn't meet huge demands.",
+            "D) As you know, in some countries such as Sweden, Norway, and Finland, there is not enough sunshine to be used for producing electricity. This makes it unpopular.",
+            "E) Simply because it's a new source of energy and most people do not trust it as a sustainable and reliable energy source. But I'm sure it'll be more popular in near future."
+        ],
+        "answer": "A"
+    },
+    "34": {
+        "question": "Seth: So, you've heard of toxic positivity, right? It means someone is positive even in the hardest of times and completely out of touch with reality. Marie: Oh, yeah, I've heard of that before. Actually, one of my best friends is truly a toxic positivist, and always acts as if everything is fine. I think being positive is good, but it should have its limits. Seth: Definitely! And there's also toxic gratitude. Marie: What's that? Is it even possible to be too grateful? Seth: ---- Marie: To be honest, I often tend to behave that way. I'd better look for some coping strategies to combat it.",
+        "options": [
+            "A) When someone is full of toxic positivity, you'll often see an unrealistic amount of gratitude, too. So, toxic positivity and toxic gratitude go hand in hand.",
+            "B) We know staying positive in tough times is important, but it can be really difficult. But when we are unrealistically positive, it can actually be detrimental to our well-being.",
+            "C) It just means being too dismissive of your feelings. It's like being unhappy in a career, but instead of addressing that dissatisfaction, saying how grateful you are to have a job.",
+            "D) Yeah, it is, I guess. Toxic gratitude, just like toxic positivity, is all around us, so we have to be careful not to let ourselves become too entrenched in it.",
+            "E) Toxic gratitude is finding ways to be grateful even in the worst of circumstances. But that's not to say it's bad. I think it's better to be positive and grateful than being pessimistic."
+        ],
+        "answer": "C"
+    },
+    "35": {
+        "question": "Culturally shared ideas about language and its users are known as language ideologies, and they can profoundly shape attitudes toward speakers who do not speak prestigious dialects.",
+        "options": [
+            "A) It is probable that culturally shared ideas about a language and its users, also known as language ideologies, deeply affect the approaches to people who do not speak high status dialects.",
+            "B) Because culturally shared ideas about a language and its users are also known as language ideologies, the attitudes towards the speakers who do not speak prestigious dialects are totally shaped by these ideologies.",
+            "C) Speakers often embrace language ideologies which can extremely affect their culturally shared ideas about language and the speakers who do not use highly-regarded dialects.",
+            "D) People who do not speak highly-valued dialects most likely adopt attitudes promoted by language ideologies, which are also known as culturally shared ideas about language and its users.",
+            "E) Attitudes towards speakers who do not speak high-status dialects are constantly altered because of the culturally shared ideas about language and its speakers, also known as language ideologies."
+        ],
+        "answer": "A"
+    },
+    "36": {
+        "question": "If without sufficient sleep in the week before having an annual flu shot, the individual may produce less than 50 per the required antibody response, rendering the vaccination far less effective.",
+        "options": [
+            "A) If a person has inadequate sleep in a week before getting a yearly flu shot, the vaccination will lose its effectiveness as A the expected antibody response the individual would produce will decrease by 50 per cent.",
+            "B) Inadequate sleep, even for a week, may cause a person to produce 50 per cent less antibody response a yearly flu shot normally elicits and this may diminish the effect of the vaccination on the individual.",
+            "C) If a person has not slept adequately for a week before receiving a yearly flu shot, it is possible for the individual to produce less than 50 per cent of the necessary antibody response, which may make the vaccination a lot less effective.",
+            "D) It is highly likely for a person to produce 50 per cent less antibodies when the individual has not had enough sleep more than a week before receiving the yearly flu shot and this will, in turn, reduce the efficiency of the vaccination.",
+            "E) It is important for a person to have enough sleep in a week prior to receiving a yearly flu shot; otherwise, the vaccine may prove useless to a great extent as the necessary antibody response produced by the individual may be less than 50 per cent."
+        ],
+        "answer": "C"
+    },
+    "37": {
+        "question": "Many factors may contribute to the fact that some people have higher cholesterol levels than others. A diet high in certain types of fats is one factor. Medical problems such as poorly controlled diabetes, an underactive thyroid gland, liver disease or kidney failure may cause high cholesterol levels. ---- This allows cholesterol to build up in the blood. Treatment for high cholesterol levels usually begins with changes in daily habits. By losing weight, exercising more and reducing the amount of fat in the diet, many people can bring their cholesterol levels down to acceptable levels. However, some may need to use cholesterol-reducing drugs to reduce their risk of health problems.",
+        "options": [
+            "A) To complicate matters, not all cholesterol contributes to heart and blood vessel problems.",
+            "B) People who are taking other certain medications may have problems if they take cholesterol-reducing drugs",
+            "C) And some people have inherited disorders that prevent their bodies from properly using and eliminating fats.",
+            "D) People over 60 years of age may be unusually sensitive to the effects of some cholesterol-reducing drugs.",
+            "E) Cholesterol plays an important role in the structure of cells and in the production of hormones."
+        ],
+        "answer": "C"
+    },
+    "38": {
+        "question": "The symptoms and signs of arthritis and related conditions include pain, stiffness, swelling, muscle weakness, and limitation of movement of the joints. These are some of the most common health complaints among older people. Together, these symptoms and signs greatly affect the population in terms of morbidity, disability, and cost. ---- With the ageing population, however, the impact of arthritis is becoming increasingly apparent. Arthritis is one of the leading causes of pain, physical disability, and health-care utilisation in Canada. By the year 2026, over 6 million Canadian adults are expected to suffer from arthritis and related conditions.",
+        "options": [
+            "A) Diagnosis and management of arthritis can be particularly challenging in the elderly.",
+            "B) Fortunately, there are a few diagnostic tests to detect an incidence of arthritis.",
+            "C) Traditionally, the burden of arthritis in the population has been underestimated.",
+            "D) Orthopaedists usually suggest physical exercise every day in order to delay the onset of the condition.",
+            "E) The symptoms are considered by many older people to be a normal part of ageing."
+        ],
+        "answer": "C"
+    },
+    "39": {
+        "question":"(I) Antibiotics work by eliminating bacteria or by preventing them from multiplying. (II) Sometimes, however, not all the bacteria are eliminated completely; instead they survive despite the antibiotics and the bacteria that survive are said to have a resistance to the antibiotic. (III) As those bacteria multiply, they pass on the resistance to new bacteria and the next time those bacteria are exposed to the same antibiotic, even fewer of them die. (IV) Eventually the antibiotic does not kill enough of the bacteria to make the illness go away and when enough types of bacteria become resistant to an antibiotic, doctors no longer use that antibiotic as a medicine. (V) Antibiotics do not work against common colds or other illnesses caused by a virus.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "E"
+    },
+    "40": {
+        "question":" (I) Ottoman architecture was the most visible manifestation of human craft that many European artists worked on. (II) As the chief architect of Süleyman the Magnificent, Sinan, the greatest of all Ottoman architects, designed his first architectural masterpiece in 1543, following the death of Prince Mehmed, one of Süleyman's sons. (III) The complex was named Şehzade (Prince) and he used Hagia Sophia as his design model. (IV) Sinan's next giant project was the design and construction of the magnificent Süleymaniye Mosque, set on a hill overlooking the Istanbul harbour. (V) However, the crowning glory of Ottoman architecture and Sinan's architectural paradise was the Selimiye Mosque in Edirne.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "B"
+    }
+}

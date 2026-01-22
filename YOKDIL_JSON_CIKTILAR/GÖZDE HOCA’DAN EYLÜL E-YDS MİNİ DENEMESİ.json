@@ -1,0 +1,447 @@
+{
+    "1": {
+        "question": "Although the official report claimed that the funds had been allocated properly, auditors discovered a serious ----- between the recorded expenditures and the actual transactions, raising concerns about potential corruption.",
+        "options": [
+            "A) contingency",
+            "B) discrepancy",
+            "C) inception",
+            "D) allegiance",
+            "E) Notion"
+        ],
+        "answer": "B"
+    },
+    "2": {
+        "question": "With the rapid advancement of digital technology, smartphones have become so ----- in modern societies that it is almost impossible to find a public place where people are not using them.",
+        "options": [
+            "A) perpetual",
+            "B) rigorous",
+            "C) ubiquitous",
+            "D) redundant",
+            "E) intrinsic"
+        ],
+        "answer": "C"
+    },
+    "3": {
+        "question": "Before any procedure is carried out in medical research, participants must be ----- informed about the potential risks, benefits, and alternatives, so that their decision to take part is based on full awareness rather than vague assumptions.",
+        "options": [
+            "A) reluctantly",
+            "B) controversially",
+            "C) erratically",
+            "D) notoriously",
+            "E) explicitly"
+        ],
+        "answer": "E"
+    },
+    "4": {
+        "question": "Given the rising number of cyberattacks on governmental databases, security experts have been urged to ----- the existing defense systems thoroughly, identifying even the smallest vulnerabilities before they can be exploited by hackers.",
+        "options": [
+            "A) scrutinize",
+            "B) entail",
+            "C) exacerbate",
+            "D) plunder",
+            "E) undermine"
+        ],
+        "answer": "A"
+    },
+    "5": {
+        "question": "In order to maintain social order and protect individual rights, democratic governments are expected to ----- clear principles that regulate not only the responsibilities of citizens but also the limitations of political authority.",
+        "options": [
+            "A) dwell on",
+            "B) point out",
+            "C) stem from",
+            "D) lay down",
+            "E) carry out"
+        ],
+        "answer": "D"
+    },
+    "6": {
+        "question": "The concept of germ theory ----- fully acknowledged by the medical community until the late 19th century, but substantial empirical data ----- long before it was finally embraced.",
+        "options": [
+            "A) cannot be acknowledged / was collecting",
+            "B) had not been acknowledged / has collected",
+            "C) was not acknowledged / had been collected",
+            "D) could not have been acknowledged / is collected",
+            "E) has not been acknowledged / would collect"
+        ],
+        "answer": "C"
+    },
+    "7": {
+        "question": "Sigmund Freud was the driving force ----- the shift in psychology, moving ------ a purely physiological explanation of behavior to a complex interplay of unconscious motives.",
+        "options": [
+            "A) over / into",
+            "B) behind / from",
+            "C) through / between",
+            "D) on / across",
+            "E) with / about"
+        ],
+        "answer": "B"
+    },
+    "8": {
+        "question": "Although modern online education platforms share common strategies such as interactive assessments and adaptive feedback, they can vary significantly ----- accessibility, user interface, and the integration of artificial intelligence tools.",
+        "options": [
+            "A) in terms of",
+            "B) rather than",
+            "C) with the aim of",
+            "D) despite",
+            "E) regardless of"
+        ],
+        "answer": "A"
+    },
+    "9": {
+        "question": "Many universities have invested heavily in digital libraries and online databases, giving students immediate access to scholarly articles and rare manuscripts; -----, research that once required weeks in traditional archives can now be completed within hours.",
+        "options": [
+            "A) even so",
+            "B) as a result",
+            "C) however",
+            "D) rather",
+            "E) conversely"
+        ],
+        "answer": "B"
+    },
+    "10": {
+        "question": "Although climate change is often associated with rising global temperatures, ecosystems can be disrupted ----- the shifts are caused by prolonged droughts ----- by intense flooding.",
+        "options": [
+            "A) the more / the more",
+            "B) as / as",
+            "C) not only / but also",
+            "D) whether / or",
+            "E) so / that"
+        ],
+        "answer": "D"
+    },
+    "11": {
+    "passage": "The debate over the ownership of cultural heritage has intensified in recent decades, as countless artefacts (11) ---- from ancient Anatolian sites and placed in the vaults of Western institutions. Entire temple friezes, Hittite reliefs, and Byzantine mosaics are displayed in Berlin and Paris (12) ---- in Ankara or İzmir, where they originally belonged. The continuous (13) ---- of these items by foreign museums is often justified through arguments of “universal heritage,” suggesting that humanity benefits from shared access, yet such claims frequently overlook the rights of source nations. (14) ---- Türkiye has secured several repatriations through persistent diplomacy and international litigation, the reluctance of powerful states to relinquish their holdings remains a formidable obstacle. Still, in 2015, a trove of rare artifacts was ceremoniously returned (15) ---- the Antalya Museum, marking a symbolic victory for cultural restitution.",
+    "question": "",
+    "options": [
+        "A) were being removed",
+        "B) will have been removed",
+        "C) have been removed",
+        "D) would have been removed",
+        "E) will be removed"
+    ],
+    "answer": "C"
+},
+"12": {
+    "passage": "The debate over the ownership of cultural heritage has intensified in recent decades, as countless artefacts (11) ---- from ancient Anatolian sites and placed in the vaults of Western institutions. Entire temple friezes, Hittite reliefs, and Byzantine mosaics are displayed in Berlin and Paris (12) ---- in Ankara or İzmir, where they originally belonged. The continuous (13) ---- of these items by foreign museums is often justified through arguments of “universal heritage,” suggesting that humanity benefits from shared access, yet such claims frequently overlook the rights of source nations. (14) ---- Türkiye has secured several repatriations through persistent diplomacy and international litigation, the reluctance of powerful states to relinquish their holdings remains a formidable obstacle. Still, in 2015, a trove of rare artifacts was ceremoniously returned (15) ---- the Antalya Museum, marking a symbolic victory for cultural restitution.",
+    "question": "",
+    "options": [
+        "A) regardless of",
+        "B) similar to",
+        "C) along with",
+        "D) rather than",
+        "E) in case of"
+    ],
+    "answer": "D"
+},
+"13": {
+    "passage": "The debate over the ownership of cultural heritage has intensified in recent decades, as countless artefacts (11) ---- from ancient Anatolian sites and placed in the vaults of Western institutions. Entire temple friezes, Hittite reliefs, and Byzantine mosaics are displayed in Berlin and Paris (12) ---- in Ankara or İzmir, where they originally belonged. The continuous (13) ---- of these items by foreign museums is often justified through arguments of “universal heritage,” suggesting that humanity benefits from shared access, yet such claims frequently overlook the rights of source nations. (14) ---- Türkiye has secured several repatriations through persistent diplomacy and international litigation, the reluctance of powerful states to relinquish their holdings remains a formidable obstacle. Still, in 2015, a trove of rare artifacts was ceremoniously returned (15) ---- the Antalya Museum, marking a symbolic victory for cultural restitution.",
+    "question": "",
+    "options": [
+        "A) fluctuation",
+        "B) retention",
+        "C) alleviation",
+        "D) implication",
+        "E) acceleration"
+    ],
+    "answer": "B"
+},
+"14": {
+    "passage": "The debate over the ownership of cultural heritage has intensified in recent decades, as countless artefacts (11) ---- from ancient Anatolian sites and placed in the vaults of Western institutions. Entire temple friezes, Hittite reliefs, and Byzantine mosaics are displayed in Berlin and Paris (12) ---- in Ankara or İzmir, where they originally belonged. The continuous (13) ---- of these items by foreign museums is often justified through arguments of “universal heritage,” suggesting that humanity benefits from shared access, yet such claims frequently overlook the rights of source nations. (14) ---- Türkiye has secured several repatriations through persistent diplomacy and international litigation, the reluctance of powerful states to relinquish their holdings remains a formidable obstacle. Still, in 2015, a trove of rare artifacts was ceremoniously returned (15) ---- the Antalya Museum, marking a symbolic victory for cultural restitution.",
+    "question": "",
+    "options": [
+        "A) While",
+        "B) Because",
+        "C) Only when",
+        "D) As long as",
+        "E) Until"
+    ],
+    "answer": "A"
+},
+"15": {
+    "passage": "The debate over the ownership of cultural heritage has intensified in recent decades, as countless artefacts (11) ---- from ancient Anatolian sites and placed in the vaults of Western institutions. Entire temple friezes, Hittite reliefs, and Byzantine mosaics are displayed in Berlin and Paris (12) ---- in Ankara or İzmir, where they originally belonged. The continuous (13) ---- of these items by foreign museums is often justified through arguments of “universal heritage,” suggesting that humanity benefits from shared access, yet such claims frequently overlook the rights of source nations. (14) ---- Türkiye has secured several repatriations through persistent diplomacy and international litigation, the reluctance of powerful states to relinquish their holdings remains a formidable obstacle. Still, in 2015, a trove of rare artifacts was ceremoniously returned (15) ---- the Antalya Museum, marking a symbolic victory for cultural restitution.",
+    "question": "",
+    "options": [
+        "A) with",
+        "B) along",
+        "C) in",
+        "D) to",
+        "E) about"
+    ],
+    "answer": "D"
+},
+    "16": {
+        "question": "While it is still not fully understood why certain populations are disproportionately affected by autoimmune disorders such as lupus or rheumatoid arthritis, ------- .",
+        "options": [
+            "A) current treatment strategies focus mainly on reducing inflammation through immunosuppressive drugs",
+            "B) genetic predisposition has been identified as the single most important determinant of autoimmune disease",
+            "C) researchers employ advanced imaging techniques to monitor the progression of joint or organ damage",
+            "D) hypotheses suggest that a combination of environmental triggers, including chronic stress, viral infections, and dietary patterns, may interact with genetic vulnerabilities to increase susceptibility",
+            "E) the most recognizable symptoms often involve persistent fatigue, joint pain, and periods of remission followed by relapses"
+        ],
+        "answer": "D"
+    },
+    "17": {
+        "question": "Whereas some commercial photographers accept a wide range of assignment, including photographing small products, automobiles and food, -----. ",
+        "options": [
+            "A) they typically take photographs of commercial products for advertisements",
+            "B) others focus on a more specialised area, such as photographing only furniture",
+            "C) they have the freedom to glorify products and create an exaggerated appearance",
+            "D) their photographs should create a favourable impression on the viewer",
+            "E) some studios use a number of photographers who specialise in different areas"
+        ],
+        "answer": "B"
+    },
+    "18": {
+        "question": "In ancient Greece, winning in the Olympic Games brought glory not only to the individual, but also to the city that the athlete represented; -----.",
+        "options": [
+            "A) however, athletes in these competitions were highly motivated to win",
+            "B) hence, some types of games taught the practitioners about the art of war",
+            "C) likewise, a losing competitor reflected poorly on his city",
+            "D) yet, competition among the city-states during the Games was fierce",
+            "E) even so, they did not want to shame their city with a poor performance"
+        ],
+        "answer": "C"
+    },
+    "19": {
+        "question": "-----, the aging process would continue persistently, making the saved population ever more susceptible to a new set of diseases.",
+        "options": [
+            "A) Because aging makes us ever more vulnerable to the common fatal diseases",
+            "B) Before aging contributed to a wide variety of non-fatal diseases and disorders",
+            "C) Although authorities underestimated the speed with which mortality was declining",
+            "D) Even if medical interventions were to eliminate all the existing major killer diseases",
+            "E) Once scientific forecasts of the survival of individuals began with the work of life insurance companies"
+        ],
+        "answer": "D"
+    },
+    "20": {
+        "question": "In traditional Cuban American families, the elderly are taken care of at home whenever possible, -----.",
+        "options": [
+            "A) even if many grandparents take care of their grandchildren while their parents are working",
+            "B) although this is becoming difficult today as both spouses often work outside the home",
+            "C) given that the definition of 'family' in America does not include grandparents",
+            "D) despite the fact that most Cuban immigrants in America maintain their traditional beliefs",
+            "E) unless grandparents maintain close and special bonds within the family unit"
+        ],
+        "answer": "B"
+    },
+    "21": {
+        "question": "The Morse code, which is a milestone in long-range communication, was designed so that telegraph operators could communicate via electrical signals.",
+        "options": [
+            "A) Uzun mesafe iletişimde bir dönüm noktası olan Mors alfabesi, telgraf operatörlerinin elektrik sinyalleri kurabilmeleri için tasarlanmıştır.",
+            "B) Uzun mesafe iletişimde bir dönüm noktası olsa da Mors alfabesi ilk olarak telgraf operatörlerinin elektrik sinyalleri yoluyla haberleşmeleri için tasarlanmıştır.",
+            "C) Telgraf operatörlerinin elektrik sinyalleri aracılığıyla iletişim kurması için tasarlanması, Mors alfabesini uzun mesafe iletişimde bir dönüm noktası haline getirmiştir.",
+            "D) Elektrik sinyalleri aracılığıyla telgraf operatörlerinin iletişim kurması için tasarlanan Mors alfabesi, uzun mesafe iletişimin dönüm noktasıdır.",
+            "E) Uzun mesafe iletişimde bir dönüm noktası olan Mors alfabesinin tasarlanma sebebi, telgraf operatörlerinin elektrik sinyalleriyle iletişim kurabilmelerini sağlamaktı."
+        ],
+        "answer": "A"
+    },
+    "22": {
+        "question": "Solving a series of incredibly difficult problems, the Wright brothers created a revolutionary new technology that changed the world in a way that even they could not imagine.",
+        "options": [
+            "A) Wright kardeşler, kendilerinin bile hayal edemeyeceği bir biçimde dünyayı değiştiren, devrim niteliğinde yeni bir teknoloji yaratarak inanılmaz derecede zor bir dizi problemi çözmüşlerdir.",
+            "B) Wright kardeşler, inanılmaz derecede zor bir dizi problemi çözmüşler ve kendilerinin bile hayal edemeyeceği bir biçimde dünyayı değiştiren, devrim niteliğinde yeni bir teknoloji yaratmışlardır.",
+            "C) Wright kardeşlerin inanılmaz derecede zor bir dizi problemi çözerek dünyayı değiştiren, devrim niteliğinde yeni bir teknoloji yaratmaları, kendilerinin bile hayal edemeyeceği bir şeydi.",
+            "D) Wright kardeşlerin kendilerinin bile hayal edemeyeceği bir biçimde dünyayı değiştiren, devrim niteliğinde yeni bir teknoloji yaratmak için yaptıkları şey, inanılmaz derecede zor bir dizi problemi çözmekti.",
+            "E) Wright kardeşler, inanılmaz derecede zor bir dizi problemi çözerek kendilerinin bile hayal edemeyeceği bir şekilde dünyayı değiştiren, devrim niteliğinde yeni bir teknoloji yaratmışlardır."
+        ],
+        "answer": "E"
+    },
+    "23": {
+        "question": "Gen terapisi çoğunlukla ender genetik bozuklukların tedavisinde faydalıdır; bunun aksine, mevcut genlerin değiştirilmesini kapsayan gen düzeltme, çok daha fazla hastalığı tedavi eder.",
+        "options": [
+            "A) Gene therapy is mainly useful for treating rare genetic disorders, whereas gene-editing involves altering existing genes and treating a wider range of conditions.",
+            "B) Gene therapy mainly treats rare genetic disorders; gene-editing, on the other hand, involves the alteration of the existing genes, which is useful for treating a wider range of conditions.",
+            "C) Gene therapy is mainly useful for treating rare genetic disorders; in contrast, gene-editing, which involves altering existing genes, treats a much wider range of conditions.",
+            "D) Gene therapy is mainly used for the treatment of rare genetic disorders, but gene-editing can treat a much wider range of disorders since it involves altering existing genes.",
+            "E) Gene therapy is mainly used to treat rare genetic disorders while gene-editing, which is the alteration of the existing genes, is involved in the treatment of a wider range of conditions."
+        ],
+        "answer": "C"
+    },
+    "24": {
+        "question": "Sağlık okuryazarlığı, bireylerin sağlık konusunda uygun kararlar vermek için gerekli olan temel sağlık bilgi ve hizmetlerini elde etme ve anlama kapasitesine sahip olma derecesi olarak tanımlanabilir.",
+        "options": [
+            "A) Health literacy can be defined as the degree to which individuals have the capacity to obtain and understand basic health information and services, and to make necessary health decisions in an appropriate way.",
+            "B) Health literacy, which is required to make appropriate health decisions, can be defined as the degree to which individuals have the capacity to obtain and understand basic health information and services.",
+            "C) Defined as the degree to which individuals have the capacity to obtain and understand basic health information and services, health literacy is necessary to make appropriate health decisions.",
+            "D) Health literacy can be defined as the degree to which individuals have the capacity to obtain and understand basic health information and services required to make appropriate health decisions.",
+            "E) The degree to which individuals have the capacity to obtain and understand basic health information and services needed to make health decisions appropriately can be defined as health literacy."
+        ],
+        "answer": "D"
+    },
+    "25": {
+        "question": "--- PASSAGE --- Recent research suggests that not only can children differentiate between two languages at an early age, but also show cognitive benefits from being exposed to a second language starting as early as infancy. In a study in 2009 of ‘crib bilinguals’, cognitive psychologists Agnes Kovács and Jacques Mehler used a visual test to measure cognitive flexibility in preverbal seven-month-olds. Kovács and Mehler wanted to see how quickly the infants could adapt to changing rules. They taught the infants a pattern consisting of speech-like sounds. At the end of the sequence, a visual reward in the form of a puppet would appear in one part of a computer screen. The infants were expected to learn that a given sound pattern predicated the appearance of the puppet in that location. Both bilingual and monolingual infants showed that they associated the sound sequence with the puppet’s location equally well by looking in the right place for the puppet to appear. But when Kovács and Mehler modified the sequence – and moved the puppet – the bilingual infants adjusted, switching their anticipatory gaze to the new location. The monolingual infants, however, continued to look for the puppet in the original location. --- QUESTION --- One can conclude from the passage that bilingual children ----.",
+        "options": [
+            "A) are likely to make more verbal mistakes and delay the full acquisition process because of interference between two languages",
+            "B) can differentiate between two languages they are exposed to at an early age, but their cognitive abilities remain indistinguishable from monolinguals",
+            "C) not only develop the same patterns of cognitive flexibility as monolinguals do, but they also respond to verbal stimuli equally well",
+            "D) innately show more creativity than their monolingual peers do, indicating a superior ability to grasp abstract concepts",
+            "E) are capable of both distinguishing between two languages and developing cognitive flexibility at an early age"
+        ],
+        "answer": "E"
+    },
+    "26": {
+        "question": "--- PASSAGE --- Recent research suggests that not only can children differentiate between two languages at an early age, but also show cognitive benefits from being exposed to a second language starting as early as infancy. In a study in 2009 of ‘crib bilinguals’, cognitive psychologists Agnes Kovács and Jacques Mehler used a visual test to measure cognitive flexibility in preverbal seven-month-olds. Kovács and Mehler wanted to see how quickly the infants could adapt to changing rules. They taught the infants a pattern consisting of speech-like sounds. At the end of the sequence, a visual reward in the form of a puppet would appear in one part of a computer screen. The infants were expected to learn that a given sound pattern predicated the appearance of the puppet in that location. Both bilingual and monolingual infants showed that they associated the sound sequence with the puppet’s location equally well by looking in the right place for the puppet to appear. But when Kovács and Mehler modified the sequence – and moved the puppet – the bilingual infants adjusted, switching their anticipatory gaze to the new location. The monolingual infants, however, continued to look for the puppet in the original location. --- QUESTION --- It is obvious from the passage that Kovács and Mehler wanted to ----.",
+        "options": [
+            "A) demonstrate the role of visual and non-visual rewards in children’s language development",
+            "B) prove monolingual infants complete their cognitive development later than bilinguals",
+            "C) find out whether bilingual and monolingual infants differ in their cognitive abilities",
+            "D) show the role of computers in the acquisition of distinct sound patterns in bilinguals",
+            "E) explore the sound-learning strategies of the monolingual infants"
+        ],
+        "answer": "C"
+    },
+    "27": {
+        "question": "--- PASSAGE --- Recent research suggests that not only can children differentiate between two languages at an early age, but also show cognitive benefits from being exposed to a second language starting as early as infancy. In a study in 2009 of ‘crib bilinguals’, cognitive psychologists Agnes Kovács and Jacques Mehler used a visual test to measure cognitive flexibility in preverbal seven-month-olds. Kovács and Mehler wanted to see how quickly the infants could adapt to changing rules. They taught the infants a pattern consisting of speech-like sounds. At the end of the sequence, a visual reward in the form of a puppet would appear in one part of a computer screen. The infants were expected to learn that a given sound pattern predicated the appearance of the puppet in that location. Both bilingual and monolingual infants showed that they associated the sound sequence with the puppet’s location equally well by looking in the right place for the puppet to appear. But when Kovács and Mehler modified the sequence – and moved the puppet – the bilingual infants adjusted, switching their anticipatory gaze to the new location. The monolingual infants, however, continued to look for the puppet in the original location. --- QUESTION --- Kovács and Mehler’s research reveals that both monolingual and bilingual infants ----.",
+        "options": [
+            "A) predict how modified sequences of speech-like sounds match with moved objects",
+            "B) fail to associate the sound sequence with the location of the object on the screen",
+            "C) confirm the hypothesis that the brain is preset for only one language",
+            "D) guess the appearance of the puppet in a given location upon a particular sound pattern",
+            "E) have equally sophisticated modes of thinking in the preverbal stage of language acquisition"
+        ],
+        "answer": "D"
+    },
+    "28": {
+        "question": "--- PASSAGE --- Recent research suggests that not only can children differentiate between two languages at an early age, but also show cognitive benefits from being exposed to a second language starting as early as infancy. In a study in 2009 of ‘crib bilinguals’, cognitive psychologists Agnes Kovács and Jacques Mehler used a visual test to measure cognitive flexibility in preverbal seven-month-olds. Kovács and Mehler wanted to see how quickly the infants could adapt to changing rules. They taught the infants a pattern consisting of speech-like sounds. At the end of the sequence, a visual reward in the form of a puppet would appear in one part of a computer screen. The infants were expected to learn that a given sound pattern predicated the appearance of the puppet in that location. Both bilingual and monolingual infants showed that they associated the sound sequence with the puppet’s location equally well by looking in the right place for the puppet to appear. But when Kovács and Mehler modified the sequence – and moved the puppet – the bilingual infants adjusted, switching their anticipatory gaze to the new location. The monolingual infants, however, continued to look for the puppet in the original location. --- QUESTION --- It is understood from the passage that ----.",
+        "options": [
+            "A) many scientists make use of visual tests to measure the cognitive capacity of bilingual children",
+            "B) monolinguals were unable to guess where the puppet would appear when a sound pattern was given for the first time",
+            "C) growing up bilingually led to verbal delays as psychologists demonstrate today",
+            "D) only bilingual infants adapted to the modified sound sequence and the relocated puppet",
+            "E) bilingual children’s adaptation to changing rules was similar to that of monolinguals"
+        ],
+        "answer": "D"
+    },
+    "29": {
+        "question": "--- PASSAGE --- A behavioural pattern is considered to be innate when it is essential for survival and already present at birth, as it is predetermined by the genetic make-up of the organism. A reflex is the simplest form of an innate behaviour. It is a programmed reaction to an outside stimulus that is carried out unconsciously. For example, the eyelids close automatically as soon as a draft of air stimulates the surface of the eye and the pupils of a cat will contract as soon as it looks into bright light. These are reflexes that an organism does not have to learn; they are referred to as unconditioned reflexes. An unconditioned reflex is always an unconscious response, and therefore it is impossible to suppress it at will. Such a reflex always requires a stimulus that triggers a certain behaviour. Many unconditioned reflexes exist in order to protect the organism, for example coughing, nausea, or the draw back reflex of the body part that touches a hot object. Anatomically, a reflex is based on a chain of stimulus and reaction, which is referred to as a reflex arc. A well-known example is the knee jerk or patellar reflex in humans, which is triggered by a light hit to the patellar tendon in the knee. The knee jerk reflex is often used in medicine to test the function of the spinal cord and associated nerves. The real purpose of this reflex is to protect humans from injury when tripping. --- QUESTION --- It is understood from the passage that reflexes ----.",
+        "options": [
+            "A) can cause damage to an organism if they are not strictly controlled",
+            "B) represent series of behaviours present only in human-like organisms",
+            "C) are passed on through an organism’s genetic structure",
+            "D) are learned by an organism as it struggles to survive",
+            "E) are difficult to differentiate from voluntary movements"
+        ],
+        "answer": "C"
+    },
+    "30": {
+        "question": "--- PASSAGE --- A behavioural pattern is considered to be innate when it is essential for survival and already present at birth, as it is predetermined by the genetic make-up of the organism. A reflex is the simplest form of an innate behaviour. It is a programmed reaction to an outside stimulus that is carried out unconsciously. For example, the eyelids close automatically as soon as a draft of air stimulates the surface of the eye and the pupils of a cat will contract as soon as it looks into bright light. These are reflexes that an organism does not have to learn; they are referred to as unconditioned reflexes. An unconditioned reflex is always an unconscious response, and therefore it is impossible to suppress it at will. Such a reflex always requires a stimulus that triggers a certain behaviour. Many unconditioned reflexes exist in order to protect the organism, for example coughing, nausea, or the draw back reflex of the body part that touches a hot object. Anatomically, a reflex is based on a chain of stimulus and reaction, which is referred to as a reflex arc. A well-known example is the knee jerk or patellar reflex in humans, which is triggered by a light hit to the patellar tendon in the knee. The knee jerk reflex is often used in medicine to test the function of the spinal cord and associated nerves. The real purpose of this reflex is to protect humans from injury when tripping. --- QUESTION --- It is clearly stated in the passage that ----.",
+        "options": [
+            "A) there is no conscious control over unconditioned reflexes",
+            "B) it is useful to suppress certain unconditioned reflexes such as nausea",
+            "C) unconditioned reflexes are learned responses to certain stimuli",
+            "D) the purpose of some unconditioned reflexes is unknown",
+            "E) unconditioned reflexes are activated even when there is no stimulus present"
+        ],
+        "answer": "A"
+    },
+    "31": {
+        "question": "--- PASSAGE --- A behavioural pattern is considered to be innate when it is essential for survival and already present at birth, as it is predetermined by the genetic make-up of the organism. A reflex is the simplest form of an innate behaviour. It is a programmed reaction to an outside stimulus that is carried out unconsciously. For example, the eyelids close automatically as soon as a draft of air stimulates the surface of the eye and the pupils of a cat will contract as soon as it looks into bright light. These are reflexes that an organism does not have to learn; they are referred to as unconditioned reflexes. An unconditioned reflex is always an unconscious response, and therefore it is impossible to suppress it at will. Such a reflex always requires a stimulus that triggers a certain behaviour. Many unconditioned reflexes exist in order to protect the organism, for example coughing, nausea, or the draw back reflex of the body part that touches a hot object. Anatomically, a reflex is based on a chain of stimulus and reaction, which is referred to as a reflex arc. A well-known example is the knee jerk or patellar reflex in humans, which is triggered by a light hit to the patellar tendon in the knee. The knee jerk reflex is often used in medicine to test the function of the spinal cord and associated nerves. The real purpose of this reflex is to protect humans from injury when tripping. --- QUESTION --- We can understand from the passage that unconditioned reflexes are behaviours that ----.",
+        "options": [
+            "A) can frequently be observed in animals but rarely in humans",
+            "B) display great complexity in both humans and animals",
+            "C) help an organism to protect itself against outside dangers",
+            "D) are limited to organs such as the eye and the legs",
+            "E) can vary substantially among individuals in some circumstances"
+        ],
+        "answer": "C"
+    },
+    "32": {
+        "question": "--- PASSAGE --- A behavioural pattern is considered to be innate when it is essential for survival and already present at birth, as it is predetermined by the genetic make-up of the organism. A reflex is the simplest form of an innate behaviour. It is a programmed reaction to an outside stimulus that is carried out unconsciously. For example, the eyelids close automatically as soon as a draft of air stimulates the surface of the eye and the pupils of a cat will contract as soon as it looks into bright light. These are reflexes that an organism does not have to learn; they are referred to as unconditioned reflexes. An unconditioned reflex is always an unconscious response, and therefore it is impossible to suppress it at will. Such a reflex always requires a stimulus that triggers a certain behaviour. Many unconditioned reflexes exist in order to protect the organism, for example coughing, nausea, or the draw back reflex of the body part that touches a hot object. Anatomically, a reflex is based on a chain of stimulus and reaction, which is referred to as a reflex arc. A well-known example is the knee jerk or patellar reflex in humans, which is triggered by a light hit to the patellar tendon in the knee. The knee jerk reflex is often used in medicine to test the function of the spinal cord and associated nerves. The real purpose of this reflex is to protect humans from injury when tripping. --- QUESTION --- According to the passage, the knee jerk reflex is ----.",
+        "options": [
+            "A) necessary to protect an organism from a hot object",
+            "B) a very rare reaction to a physical stimulus",
+            "C) useless in terms of helping a person to survive",
+            "D) used to assess certain anatomic functions",
+            "E) a reaction that indicates a severe spinal cord injury"
+        ],
+        "answer": "D"
+    },
+    "33": {
+        "question": "Steve: -How come this new employee gets a raise in salary and I don’t? David: -He might be new, but he’s already outperformed you in every area. That’s why. Steve: - OK! What am I supposed to do to get a raise, then? David: ------",
+        "options": [
+            "A) I promise you’ll get a promotion if you keep up the good work.",
+            "B) He only received a small raise last month.",
+            "C) Employees are expected to work very hard.",
+            "D) You may lack the necessary skills, but you put a lot of effort into your work.",
+            "E) Well, work as hard as he does and then you might get one too."
+        ],
+        "answer": "E"
+    },
+    "34": {
+        "question": "Jane: - A study I’ve recently read about claims that 65% of mothers and 70% of fathers exhibited a preference for one of their children. You’ve got two. Which one is your favourite? Anna: - I don’t have a favourite child! And I don’t think any parent could say they have a favourite. Jane: ----- Anna: - That’s ridiculous! Don’t believe everything you read in magazines.",
+        "options": [
+            "A) But do you treat your older child differently than your younger one?",
+            "B) I suppose you’re right. I’ve got only one daughter, so I can’t really say.",
+            "C) So you’re saying that you love your son more than your daughter. Any reason why?",
+            "D) You’re doing exactly what the study claims. You’re refusing to admit you favour one child over the other.",
+            "E) What about you? I suppose you have a favourite child. Is it your son or your daughter?"
+        ],
+        "answer": "D"
+    },
+    "35": {
+        "question": "While the country is prepared for rapid development, the President knows that no amount of economic growth can ever compensate for the degradation of the country’s natural resources and rich biodiversity.",
+        "options": [
+            "A) Because of the exhaustion of the country’s natural resources and rich biodiversity, the President was uncertain whether to continue or halt the rapid development of the country.",
+            "B) Since the country is about to develop quickly, the President is ready to make use of the country’s natural resources and abundant biodiversity and he will compensate the people for their loss.",
+            "C) The President thinks that no economic growth can substitute for the loss of the country’s natural resources because rapid development would mean that the destruction of the country is finishing them off.",
+            "D) Although the country seems ready to develop, the President is aware that no economic growth could make up for the deterioration of the country’s natural resources and abundant biodiversity.",
+            "E) The country is ready for rapid development; however, the government does not realize that abundant resources and biodiversity could be lost as a result of this economic growth."
+        ],
+        "answer": "D"
+    },
+    "36": {
+        "question": "Not only the general populace, but also those who work in the field of economics find it difficult to understand the differences and the relationships between theory and practice.",
+        "options": [
+            "A) The general population, including those working in the field of economics, can understand the theory, but cannot grasp the practice of economics.",
+            "B) Understanding the differences and the relationships between theory and practice in economics is challenging for those who do not specialize in economics.",
+            "C) Both the general public and the people working in the area of economics fail to fully comprehend how theory and practice differ from and relate to each other.",
+            "D) Ordinary people have difficulty in understanding the theory and practice of economics but the people working in the field can see them clearly.",
+            "E) Specialists understand the differences between theory and practice in the field of economics because they can see how they affect the general populace."
+        ],
+        "answer": "C"
+    },
+    "37": {
+        "question": "Eating too much fatty food, exercising too little and smoking can raise your future risk of heart disease. ----- Previous studies have linked exposure to environmental pollution to an increased risk of heart problems, but the two analyses now show that poor air quality can lead to a heart attack or stroke within as little as a few hours after exposure. Scientists found that people exposed to high levels of pollutants were up to 5% more likely to suffer a heart attack within days of exposure than those with lower exposure.",
+        "options": [
+            "A) This can be reduced, however, if you exercise outside in the fresh air.",
+            "B) Heart disease is reversible if the underlying disease can be treated.",
+            "C) But there is another factor that can trigger heart problems more immediately.",
+            "D) The risks are relatively low for people who “smoke socially” and have lower cholesterol levels.",
+            "E) Strict regulation of pollutants may not only improve air quality but could also become necessary to protect public health."
+        ],
+        "answer": "C"
+    },
+    "38": {
+        "question": "Four hundred years after he was born, the 17th century Ottoman traveller Evliya Çelebi is making a long-overdue international comeback. Explorer, peace broker, tax collector, war chronicler and mystic, Evliya spent 40 years travelling in the Middle East. His 10-volume Seyahatname is an epic travelogue that provides a fascinating account of everyday life in the 17th century. ---- UNESCO decreed him Man of the Year in 2011 and the recent publication of An Ottoman Traveller allows English-language readers to discover his masterpiece.",
+        "options": [
+            "A) Though previously little known outside of Turkey, Evliya is finally going global.",
+            "B) You can still feel the joy of Evliya’s journey across Turkey’s vast and unspoiled countryside.",
+            "C) This work was also appreciated by foreigners, particularly English speakers.",
+            "D) Evliya loved eating and wrote in detail of the regional specialties he sampled.",
+            "E) One can trace the early stages of Evliya’s journey from Istanbul to Mecca."
+        ],
+        "answer": "A"
+    },
+    "39": {
+        "question": " (I) When you find a good source of pastured meat, you will want to buy it in quantity and store it for future use. (II) Animals are fed a high energy diet of grain to make them grow quickly. (III) Deep freezers are surprisingly inexpensive to buy and to operate, because they are not opened nearly as often as the one in your refrigerator. (IV) A freezer will also enable you to buy produce in bulk at the height of its season, when it will be most abundant and therefore cheap. (V) Also, freezing does not significantly diminish the nutritional value of the product.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "B"
+    },
+    "40": {
+        "question": " (I) Galileo attempted to measure the speed of light by trying to measure the time required for light to travel a known distance between two hilltops. (II) Galileo stationed an assistant on one hilltop, and himself on another, and ordered the assistant to lift the cover from a lamp the instant he saw a flash from Galileo’s lamp. (III) When the person’s head moved to one side, a different bundle of rays would enter the eye from each point. (IV) The time was so short that he concluded it merely represented human reaction time, and that the speed of light must be extremely high. (V) Galileo measured the time between the flash of his lamp and when he received the light from his assistant’s lamp.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "C"
+    }
+}

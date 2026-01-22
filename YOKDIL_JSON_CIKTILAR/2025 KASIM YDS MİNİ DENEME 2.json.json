@@ -1,0 +1,447 @@
+{
+    "1": {
+        "question": "The news report claimed to be objective, but careful readers noted a deliberate ----- of facts, where key information was selectively altered to fit the publisher's political agenda.",
+        "options": [
+            "A) retention",
+            "B) appraisal",
+            "C) distortion",
+            "D) precision",
+            "E) succession"
+        ],
+        "answer": "C"
+    },
+    "2": {
+        "question": "The new treatment regimen focused on the ----- power of sleep, utilizing advanced neurofeedback techniques to maximize the brain’s ability to repair and reorganize itself during rest.",
+        "options": [
+            "A) abiding",
+            "B) graceful",
+            "C) prominent",
+            "D) restorative",
+            "E) convenient"
+        ],
+        "answer": "D"
+    },
+    "3": {
+        "question": "Due to accelerated greenhouse gas emissions, the Arctic region’s fragile ecosystems will ----- alter the landscape, forcing native wildlife to adapt or face eventual extinction.",
+        "options": [
+            "A) competitively",
+            "B) progressively",
+            "C) astonishingly",
+            "D) temporarily",
+            "E) constantly"
+        ],
+        "answer": "B"
+    },
+    "4": {
+        "question": "The new data analysis software, developed by a startup, is expected to ----- the market dominance of the established corporations, offering similar precision at a fraction of the cost.",
+        "options": [
+            "A) endorse",
+            "B) perplex",
+            "C) amplify",
+            "D) interpret",
+            "E) rival"
+        ],
+        "answer": "E"
+    },
+    "5": {
+        "question": "To understand the core causes of the political unrest, sociologists must ----- archival documents and interview records dating back to the colonial era.",
+        "options": [
+            "A) delve into",
+            "B) embark upon",
+            "C) scale down",
+            "D) set aside",
+            "E) prevail over"
+        ],
+        "answer": "A"
+    },
+    "6": {
+        "question": "Since the discovery of penicillin by Alexander Fleming in 1928, which fundamentally ----- medicine, scientists worldwide ----- potent new classes of antibiotics to combat infectious diseases.",
+        "options": [
+            "A) has transformed / have been developing",
+            "B) had transformed / developed",
+            "C) transformed / have developed",
+            "D) was transforming / are developing",
+            "E) transforms / develop"
+        ],
+        "answer": "C"
+    },
+    "7": {
+        "question": "The ancient city of Troy is believed ----- strategically near the Dardanelles over 3,000 years ago, a location that ------ its economic and military significance throughout antiquity.",
+        "options": [
+            "A) to have been established / determined",
+            "B) establishing / has determined",
+            "C) to establish / might determine",
+            "D) having established / had determined",
+            "E) to establish / would determine"
+        ],
+        "answer": "A"
+    },
+    "8": {
+        "question": "Navigators in antiquity used the Pole Star to chart a safe course ------ the coastline, a technique that provided the vital navigational data ----- the first successful transatlantic voyages.",
+        "options": [
+            "A) across / for",
+            "B) in / by",
+            "C) from / towards",
+            "D) along / behind",
+            "E) over / with"
+        ],
+        "answer": "D"
+    },
+    "9": {
+        "question": "The use of social media among adolescents, which is associated ----- varying degrees of anxiety, is now monitored ----- distinct cultural backgrounds and socioeconomic levels.",
+        "options": [
+            "A) by / along",
+            "B) in / upon",
+            "C) with / across",
+            "D) from / towards",
+            "E) about / to"
+        ],
+        "answer": "C"
+    },
+    "10": {
+        "question": "The philosopher argued that the human capacity for abstraction extends significantly ----- the limits of mere sensory input, enabling us to form complex theories ----- the nature of existence itself.",
+        "options": [
+            "A) along / to",
+            "B) beyond / about",
+            "C) through / with",
+            "D) over / within",
+            "E) across / at"
+        ],
+        "answer": "B"
+    },
+    "11": {
+        "question": "----- access to education was truly equitable for all citizens, the local government proceeded to close several public libraries in underprivileged districts, further limiting essential community resources.",
+        "options": [
+            "A) Given that",
+            "B) Unless",
+            "C) Although",
+            "D) When",
+            "E) As if"
+        ],
+        "answer": "E"
+    },
+    "12": {
+        "question": "----- a massive international treaty were signed next month to stabilize the world economy, it would still take several years for the unemployment rates in developing countries to show any significant improvement.",
+        "options": [
+            "A) Even if",
+            "B) Although",
+            "C) Because",
+            "D) In case",
+            "E) Once"
+        ],
+        "answer": "A"
+    },
+    "13": {
+        "question": "----- the recent recommendations from the International Health Organization, governments worldwide have increased taxes on sugary beverages to combat rising rates of obesity.",
+        "options": [
+            "A) Along with",
+            "B) Despite",
+            "C) In line with",
+            "D) Except for",
+            "E) Unlike"
+        ],
+        "answer": "C"
+    },
+    "14": {
+        "question": "Technological developments in artificial intelligence have resulted in ----- powerful data processing tools ----- researchers can now analyze immense datasets almost instantaneously.",
+        "options": [
+            "A) so / that",
+            "B) both / and",
+            "C) the more / the more",
+            "D) whether / or",
+            "E) such / that"
+        ],
+        "answer": "E"
+    },
+    "15": {
+        "passage":"Finding effective treatments for Alzheimer’s disease is still a highly (15)-----issue in medical science. For many years, most research was based on one major idea: that the disease is primarily caused by sticky protein clumps called amyloid. Drug companies often start clinical trials (16)----- the specific plan of removing these clumps from the brain. (17)-----, this strategy, has recently resulted in big failures and disappointments, (18)----- the fast approval of several promising new medicines. Many doctors now argue that the scientific community needs to look at the disease more broadly, focusing on inflammation and diet issues (19)----- continuing the narrow focus only on amyloid. Because the number of people getting Alzheimer’s is rising globally, it is clear that researchers must quickly change their approach and explore all possible treatment paths.",
+        "question":"",
+        "options": [
+            "A) restrictive",
+            "B) contentious",
+            "C) prompt",
+            "D) dispensable",
+            "E) conventional"
+        ],
+        "answer": "B"
+    },
+    "16": {
+        "passage":"Finding effective treatments for Alzheimer’s disease is still a highly (15)-----issue in medical science. For many years, most research was based on one major idea: that the disease is primarily caused by sticky protein clumps called amyloid. Drug companies often start clinical trials (16)----- the specific plan of removing these clumps from the brain. (17)-----, this strategy, has recently resulted in big failures and disappointments, (18)----- the fast approval of several promising new medicines. Many doctors now argue that the scientific community needs to look at the disease more broadly, focusing on inflammation and diet issues (19)----- continuing the narrow focus only on amyloid. Because the number of people getting Alzheimer’s is rising globally, it is clear that researchers must quickly change their approach and explore all possible treatment paths.",
+        "question":"",
+        "options": [
+            "A) against",
+            "B) over",
+            "C) towards",
+            "D) with",
+            "E) about"
+        ],
+        "answer": "D"
+    },
+    "17": {
+        "passage":"Finding effective treatments for Alzheimer’s disease is still a highly (15)-----issue in medical science. For many years, most research was based on one major idea: that the disease is primarily caused by sticky protein clumps called amyloid. Drug companies often start clinical trials (16)----- the specific plan of removing these clumps from the brain. (17)-----, this strategy, has recently resulted in big failures and disappointments, (18)----- the fast approval of several promising new medicines. Many doctors now argue that the scientific community needs to look at the disease more broadly, focusing on inflammation and diet issues (19)----- continuing the narrow focus only on amyloid. Because the number of people getting Alzheimer’s is rising globally, it is clear that researchers must quickly change their approach and explore all possible treatment paths.",
+        "question":"",
+        "options": [
+            "A) Therefore",
+            "B) For example",
+            "C) In other words",
+            "D) In addition",
+            "E) However"
+        ],
+        "answer": "E"
+    },
+    "18": {
+        "passage":"Finding effective treatments for Alzheimer’s disease is still a highly (15)-----issue in medical science. For many years, most research was based on one major idea: that the disease is primarily caused by sticky protein clumps called amyloid. Drug companies often start clinical trials (16)----- the specific plan of removing these clumps from the brain. (17)-----, this strategy, has recently resulted in big failures and disappointments, (18)----- the fast approval of several promising new medicines. Many doctors now argue that the scientific community needs to look at the disease more broadly, focusing on inflammation and diet issues (19)----- continuing the narrow focus only on amyloid. Because the number of people getting Alzheimer’s is rising globally, it is clear that researchers must quickly change their approach and explore all possible treatment paths.",
+        "question":"",
+        "options": [
+            "A) hindering",
+            "B) to hinder",
+            "C) being hindered",
+            "D) hindered",
+            "E) having hindered"
+        ],
+        "answer": "A"
+    },
+    "19": {
+        "passage":"Finding effective treatments for Alzheimer’s disease is still a highly (15)-----issue in medical science. For many years, most research was based on one major idea: that the disease is primarily caused by sticky protein clumps called amyloid. Drug companies often start clinical trials (16)----- the specific plan of removing these clumps from the brain. (17)-----, this strategy, has recently resulted in big failures and disappointments, (18)----- the fast approval of several promising new medicines. Many doctors now argue that the scientific community needs to look at the disease more broadly, focusing on inflammation and diet issues (19)----- continuing the narrow focus only on amyloid. Because the number of people getting Alzheimer’s is rising globally, it is clear that researchers must quickly change their approach and explore all possible treatment paths.",
+        "question":"",
+        "options": [
+            "A) such as",
+            "B) in the face of",
+            "C) rather than",
+            "D) along with",
+            "E) in line with"
+        ],
+        "answer": "C"
+    },
+    "20": {
+        "question": "-----, there has been a significant decline in its production capabilities due to intense international competition, which began in the early 2000s.",
+        "options": [
+            "A) When the country's national factory expand its operations by opening new facilities overseas and hiring hundreds of workers",
+            "B) Even if competition remains the biggest challenge for the national factory and its workers are frequently laid off",
+            "C) Given that the country's national factory was heavily subsidized by the government despite poorly managed operational structure",
+            "D) While the high quality of the factory's output initially don’t give it an advantage over its rivals in the global market",
+            "E) Although the country's national factory was once the powerhouse of the region's economy, employing thousands of people in its industrial zones"
+        ],
+        "answer": "E"
+    },
+    "21": {
+        "question": "Neuroscientists have long puzzled over the precise mechanism by which general anaesthesia induces unconsciousness, -----. ",
+        "options": [
+            "A) instead it is known that the drugs act on GABA receptors, suppressing neural activity in the brain",
+            "B) so it is now widely accepted that anaesthesia is primarily achieved by preventing communication between different brain regions",
+            "C) thus they are studying the effects of volatile gases and intravenous drugs on the central nervous system",
+            "D) but recent studies suggest that the state is related to a coordinated, low-frequency oscillation of brain waves",
+            "E) as the effects of the drugs take several minutes to wear off after the surgical procedure is complete"
+        ],
+        "answer": "D"
+    },
+    "22": {
+        "question": "Because employee morale and engagement are closely linked to overall organizational performance, ______.",
+        "options": [
+            "A) offering competitive salaries, ensuring fair treatment, and maintaining transparent communication are generally considered the main drivers of employee satisfaction",
+            "B) workplace culture, job security, and career advancement opportunities are critical factors that influence how employees perceive their value",
+            "C) companies should prioritize understanding the factors that shape employee attitudes and implement strategies to foster a positive working environment",
+            "D) the connection between employee happiness and the company's financial results is often debated by human resources professionals",
+            "E) many leading companies are now implementing regular surveys and feedback mechanisms to gauge staff happiness and address potential issues"
+        ],
+        "answer": "E"
+    },
+    "23": {
+        "question": "Elektronik tıbbi kayıt sistemleri, hastaların tanı ve tedavi süreçlerine ilişkin detaylı verileri güvenli bir biçimde depolayan, küresel sağlık hizmetlerinin standardizasyonu açısından hayati öneme sahip olan gelişmiş bilgi teknolojileri olarak nitelendirilebilir.",
+        "options": [
+            "A) Advanced information technologies, which are vital for the standardization of global healthcare services, can be characterized as electronic medical record systems that securely store detailed data regarding patients' diagnosis and treatment processes.",
+            "B) Electronic medical record systems, characterized as advanced information technologies, are of vital importance for the standardization of global healthcare services which securely store detailed data regarding patients' diagnosis and treatment processes.",
+            "C) The standardization of global healthcare services, which is of vital importance, can be achieved through electronic medical record systems that securely store detailed data regarding patients' diagnosis and treatment processes and are characterized as advanced information technologies.",
+            "D) Characterized as advanced information technologies that securely store detailed data regarding patients' diagnosis and treatment processes, electronic medical record systems are vital for the standardization of global healthcare services.",
+            "E) Electronic medical record systems can be characterized as advanced information technologies that securely store detailed data regarding patients' diagnosis and treatment processes to be vital for the standardization of global healthcare services."
+        ],
+        "answer": "E"
+    },
+    "24": {
+        "question": "The invention of the printing press, which significantly reduced the cost of reproducing texts and made knowledge widely accessible, is considered one of the most transformative technological advances that shaped the modern era.",
+        "options": [
+            "A) Matbaanın icadı, çoğunlukla metinlerin çoğaltılma maliyetini önemli ölçüde azalttığı ve bilgiyi yaygın olarak erişilebilir kıldığı için modern çağı şekillendiren en dönüştürücü teknolojik gelişmelerden biri olarak kabul edilmektedir.",
+            "B) Matbaanın icadı, modern çağı şekillendiren en dönüştürücü teknolojik gelişmelerden biri olarak kabul edilmekte olup, çoğunlukla metinlerin çoğaltılma maliyetini önemli ölçüde azaltmıştır ve bilgiyi yaygın olarak erişilebilir kılmıştır.",
+            "C) Metinlerin çoğaltılma maliyetini önemli ölçüde azaltan ve bilgiyi yaygın olarak erişilebilir kılan matbaanın icadı, modern çağı şekillendiren en dönüştürücü teknolojik gelişmelerden biri olarak kabul edilmektedir.",
+            "D) Modern çağı şekillendiren en dönüştürücü teknolojik gelişmelerden biri olarak kabul edilen matbaanın icadı, çoğunlukla metinlerin çoğaltılma maliyetini önemli ölçüde azaltmıştır ve bilgiyi yaygın olarak erişilebilir kılmıştır.",
+            "E) Matbaanın icadı, modern çağı şekillendiren en dönüştürücü teknolojik gelişmelerden biri olup metinlerin çoğaltılma maliyetini önemli ölçüde azaltan ve bilgiyi yaygın olarak erişilebilir kılan bir buluştur."
+        ],
+        "answer": "C"
+    },
+    "25": {
+        "question": "--- PASSAGE --- Ecotourism is not inherently beneficial in its effect on conservation areas. The economic, educational, and cultural awareness benefits for local communities involved in ecotourism projects can contribute positively to the protection of endangered species and natural habitats. Conversely, ecotourism can be quite damaging. Delicate flora can be severely impacted, as in some instances of trampling by hikers and the alteration of animal migration routes by new footpaths. Observation decks and trails may require expansion, resulting in the loss of critical nesting grounds and topsoil stability. Local populations might illegally collect rare plants or disrupt animal breeding cycles. Vehicles used for guided tours can destabilize remote access roads, leading to problems of increased runoff and the sedimentation of sensitive streams. Tourists often leave behind waste and non-native materials in wilderness areas. The sheer concentration of tourist activity means that popular sites face immense pressure, and without strict, supervised guidelines, irreversible impacts to biodiversity can occur. The primary objective for conservation authorities is to satisfy visitor demand for wilderness experiences, but through methods that strictly mitigate damage to fragile ecosystems. Various measures, from guided educational tours to the careful zoning of protected areas, prove effective in this balancing act. The carrying capacity model helps focus on the maximum number of visitors that can be accommodated before unacceptable ecological change occurs. --- QUESTION --- Which of the following is not among the ways in which ecotourism negatively impacts the environment?",
+        "options": [
+            "A) Increased visitor density leads to greater pollution risks in popular conservation sites.",
+            "B) Observation decks and trails may need to be expanded, requiring the removal of critical nesting grounds.",
+            "C) The construction of necessary facilities may result in the deterioration of topsoil stability.",
+            "D) Local people are sometimes tempted to collect unique plants illegally for personal gain.",
+            "E) The knowledge gained by visitors can have a positive effect on the preservation of natural habitats."
+        ],
+        "answer": "E"
+    },
+    "26": {
+        "question": "--- PASSAGE --- Ecotourism is not inherently beneficial in its effect on conservation areas. The economic, educational, and cultural awareness benefits for local communities involved in ecotourism projects can contribute positively to the protection of endangered species and natural habitats. Conversely, ecotourism can be quite damaging. Delicate flora can be severely impacted, as in some instances of trampling by hikers and the alteration of animal migration routes by new footpaths. Observation decks and trails may require expansion, resulting in the loss of critical nesting grounds and topsoil stability. Local populations might illegally collect rare plants or disrupt animal breeding cycles. Vehicles used for guided tours can destabilize remote access roads, leading to problems of increased runoff and the sedimentation of sensitive streams. Tourists often leave behind waste and non-native materials in wilderness areas. The sheer concentration of tourist activity means that popular sites face immense pressure, and without strict, supervised guidelines, irreversible impacts to biodiversity can occur. The primary objective for conservation authorities is to satisfy visitor demand for wilderness experiences, but through methods that strictly mitigate damage to fragile ecosystems. Various measures, from guided educational tours to the careful zoning of protected areas, prove effective in this balancing act. The carrying capacity model helps focus on the maximum number of visitors that can be accommodated before unacceptable ecological change occurs. --- QUESTION --- Which of the following cannot be inferred about ecotourism activities?",
+        "options": [
+            "A) The density of visitors in natural areas can potentially cause damage to the ecosystem.",
+            "B) Ecotourism is often organized specifically to generate profit for large commercial companies.",
+            "C) Improperly managed roads used for wildlife viewing can lead to the erosion of sediment into water sources.",
+            "D) Authorities use zoning as one of the possible strategies to manage the detrimental impacts of visitors.",
+            "E) Plant species may suffer harm from foot traffic in protected areas."
+        ],
+        "answer": "B"
+    },
+    "27": {
+        "question": "--- PASSAGE --- Ecotourism is not inherently beneficial in its effect on conservation areas. The economic, educational, and cultural awareness benefits for local communities involved in ecotourism projects can contribute positively to the protection of endangered species and natural habitats. Conversely, ecotourism can be quite damaging. Delicate flora can be severely impacted, as in some instances of trampling by hikers and the alteration of animal migration routes by new footpaths. Observation decks and trails may require expansion, resulting in the loss of critical nesting grounds and topsoil stability. Local populations might illegally collect rare plants or disrupt animal breeding cycles. Vehicles used for guided tours can destabilize remote access roads, leading to problems of increased runoff and the sedimentation of sensitive streams. Tourists often leave behind waste and non-native materials in wilderness areas. The sheer concentration of tourist activity means that popular sites face immense pressure, and without strict, supervised guidelines, irreversible impacts to biodiversity can occur. The primary objective for conservation authorities is to satisfy visitor demand for wilderness experiences, but through methods that strictly mitigate damage to fragile ecosystems. Various measures, from guided educational tours to the careful zoning of protected areas, prove effective in this balancing act. The carrying capacity model helps focus on the maximum number of visitors that can be accommodated before unacceptable ecological change occurs. --- QUESTION --- According to the passage, conservation authorities ----.",
+        "options": [
+            "A) believe that focusing solely on visitor education is enough to solve long-term ecological damage",
+            "B) aim to strike a delicate equilibrium between meeting tourist expectations and safeguarding fragile ecosystems",
+            "C) prefer utilizing the carrying capacity model to eliminate visitor access to the most sensitive areas completely",
+            "D) frequently try to shift the burden of maintaining ecological health onto the local communities",
+            "E) find it exceptionally difficult to organize measures to protect endangered flora and fauna from tourists"
+        ],
+        "answer": "B"
+    },
+    "28": {
+        "question": "--- PASSAGE --- Ecotourism is not inherently beneficial in its effect on conservation areas. The economic, educational, and cultural awareness benefits for local communities involved in ecotourism projects can contribute positively to the protection of endangered species and natural habitats. Conversely, ecotourism can be quite damaging. Delicate flora can be severely impacted, as in some instances of trampling by hikers and the alteration of animal migration routes by new footpaths. Observation decks and trails may require expansion, resulting in the loss of critical nesting grounds and topsoil stability. Local populations might illegally collect rare plants or disrupt animal breeding cycles. Vehicles used for guided tours can destabilize remote access roads, leading to problems of increased runoff and the sedimentation of sensitive streams. Tourists often leave behind waste and non-native materials in wilderness areas. The sheer concentration of tourist activity means that popular sites face immense pressure, and without strict, supervised guidelines, irreversible impacts to biodiversity can occur. The primary objective for conservation authorities is to satisfy visitor demand for wilderness experiences, but through methods that strictly mitigate damage to fragile ecosystems. Various measures, from guided educational tours to the careful zoning of protected areas, prove effective in this balancing act. The carrying capacity model helps focus on the maximum number of visitors that can be accommodated before unacceptable ecological change occurs. --- QUESTION --- What is the main idea of the passage?",
+        "options": [
+            "A) The economic gains from ecotourism always outweigh any potential negative impacts on sensitive ecosystems.",
+            "B) Ecotourism is an essentially harmless activity for natural areas, provided that visitors adhere to all official guidelines.",
+            "C) Despite the clear advantages of ecotourism for local communities, its practice often poses a serious and varied threat to the biodiversity of natural sites.",
+            "D) Conservation authorities should immediately stop all ecotourism ventures due to the irreversible damage caused by the high volume of visitors.",
+            "E) Ecotourism must be primarily encouraged because its educational and cultural benefits compensate for the minor ecological disturbances it causes."
+        ],
+        "answer": "C"
+    },
+    "29": {
+        "question": "--- PASSAGE --- Thomas Robert Malthus was an English scholar whose work in the 18th century laid the foundation for modern demography and political economy. At a young age, Malthus showed remarkable aptitude for logic and debate, often challenging his father's liberal views on societal progress. This influential thinker was the first to propose a mathematical model to estimate what the future balance between human population and food supply might look like. He spent many of his days (and possibly nights) at the turn of the 19th century calculating how the population, growing geometrically, might eventually outpace the food supply, which he believed could only grow arithmetically. In the end, he calculated that mass starvation and poverty could become unavoidable—unless \"moral restraint\" was practiced. The fact that global society largely averted the widespread famines Malthus predicted—despite the world population multiplying several times over—has nothing to do with this great scholar's grasp of mathematics or logic. It has everything to do with the fact that he had to base his estimates on what he knew. Mechanical farming and chemical fertilizers were only speculative concepts, with none in widespread use. No massive global trade networks existed, and Malthus certainly had no idea about modern logistics, biotechnology, or GMOs. Who could have imagined today's level of agricultural productivity 200 years ago? --- QUESTION --- It can be understood from the passage that young Malthus ----.",
+        "options": [
+            "A) did not actually like being forced to study math and logic by his strict father",
+            "B) had to dedicate years to scholarly pursuits before he could debate his father's views",
+            "C) was discouraged from studying demography and political economy by his family",
+            "D) had always wanted to be a prominent figure in the field of political economy",
+            "E) was not initially aligned with his father's philosophical and political opinions"
+        ],
+        "answer": "E"
+    },
+    "30": {
+        "question": "--- PASSAGE --- Thomas Robert Malthus was an English scholar whose work in the 18th century laid the foundation for modern demography and political economy. At a young age, Malthus showed remarkable aptitude for logic and debate, often challenging his father's liberal views on societal progress. This influential thinker was the first to propose a mathematical model to estimate what the future balance between human population and food supply might look like. He spent many of his days (and possibly nights) at the turn of the 19th century calculating how the population, growing geometrically, might eventually outpace the food supply, which he believed could only grow arithmetically. In the end, he calculated that mass starvation and poverty could become unavoidable—unless \"moral restraint\" was practiced. The fact that global society largely averted the widespread famines Malthus predicted—despite the world population multiplying several times over—has nothing to do with this great scholar's grasp of mathematics or logic. It has everything to do with the fact that he had to base his estimates on what he knew. Mechanical farming and chemical fertilizers were only speculative concepts, with none in widespread use. No massive global trade networks existed, and Malthus certainly had no idea about modern logistics, biotechnology, or GMOs. Who could have imagined today's level of agricultural productivity 200 years ago? --- QUESTION --- It is clear from the passage that Malthus was primarily interested in finding out about ----.",
+        "options": [
+            "A) the mathematical relationship between population growth and food production",
+            "B) the most efficient ways to use land for maximizing food output",
+            "C) the historical patterns of poverty and mass starvation across different countries",
+            "D) the future moral and societal developments of the upcoming centuries",
+            "E) the methods of encouraging the public to practice \"moral restraint\""
+        ],
+        "answer": "A"
+    },
+    "31": {
+        "question": "--- PASSAGE --- Thomas Robert Malthus was an English scholar whose work in the 18th century laid the foundation for modern demography and political economy. At a young age, Malthus showed remarkable aptitude for logic and debate, often challenging his father's liberal views on societal progress. This influential thinker was the first to propose a mathematical model to estimate what the future balance between human population and food supply might look like. He spent many of his days (and possibly nights) at the turn of the 19th century calculating how the population, growing geometrically, might eventually outpace the food supply, which he believed could only grow arithmetically. In the end, he calculated that mass starvation and poverty could become unavoidable—unless \"moral restraint\" was practiced. The fact that global society largely averted the widespread famines Malthus predicted—despite the world population multiplying several times over—has nothing to do with this great scholar's grasp of mathematics or logic. It has everything to do with the fact that he had to base his estimates on what he knew. Mechanical farming and chemical fertilizers were only speculative concepts, with none in widespread use. No massive global trade networks existed, and Malthus certainly had no idea about modern logistics, biotechnology, or GMOs. Who could have imagined today's level of agricultural productivity 200 years ago? --- QUESTION --- According to the passage, Malthus's prediction turned out to be wrong because ----.",
+        "options": [
+            "A) the amount and variety of food production methods have increased beyond his imagination",
+            "B) the concept of agricultural revolution was completely unavailable to him at the time",
+            "C) he thought the food supply would always remain dependent on basic manual farming",
+            "D) he was not very good with disciplines like political economy and mathematics",
+            "E) even major technologies like the steam engine had not been invented yet"
+        ],
+        "answer": "A"
+    },
+    "32": {
+        "question": "--- PASSAGE --- Thomas Robert Malthus was an English scholar whose work in the 18th century laid the foundation for modern demography and political economy. At a young age, Malthus showed remarkable aptitude for logic and debate, often challenging his father's liberal views on societal progress. This influential thinker was the first to propose a mathematical model to estimate what the future balance between human population and food supply might look like. He spent many of his days (and possibly nights) at the turn of the 19th century calculating how the population, growing geometrically, might eventually outpace the food supply, which he believed could only grow arithmetically. In the end, he calculated that mass starvation and poverty could become unavoidable—unless \"moral restraint\" was practiced. The fact that global society largely averted the widespread famines Malthus predicted—despite the world population multiplying several times over—has nothing to do with this great scholar's grasp of mathematics or logic. It has everything to do with the fact that he had to base his estimates on what he knew. Mechanical farming and chemical fertilizers were only speculative concepts, with none in widespread use. No massive global trade networks existed, and Malthus certainly had no idea about modern logistics, biotechnology, or GMOs. Who could have imagined today's level of agricultural productivity 200 years ago? --- QUESTION --- What is the author's attitude towards Malthus?",
+        "options": [
+            "A) Critical",
+            "B) Admiring",
+            "C) Neutral",
+            "D) Indifferent",
+            "E) Sceptical"
+        ],
+        "answer": "B"
+    },
+    "33": {
+        "question": "Reporter: -We primarily associate brain tumors with aging or environmental factors, probably because that's what makes up the majority of cases, right? Doctor: -Correct. We call them acquired or sporadic tumors. Tumors that are found in individuals who have no history of environmental exposure are much less common, such as hereditary brain tumors. Reporter: - ----- Doctor: -Yes, due to specific chromosomal mutations or established family syndromes such as Neurofibromatosis or other inheritance linked conditions.",
+        "options": [
+            "A) Do you mean that malignant tumors are always more common than benign ones?",
+            "B) Does this mean the condition can exist from birth?",
+            "C) Do you suggest that hereditary tumors are easier to treat than sporadic ones?",
+            "D) Do hereditary brain tumors occur rarely in young adults?",
+            "E) Does the size of the tumor determine the severity of the symptoms?"
+        ],
+        "answer": "B"
+    },
+    "34": {
+        "question": "Journalist: -Could you please tell us how migrating birds manage to sleep during their long flights? Biologist: -It's hard to say if they are fully conscious the way we are since they cannot land mid-flight and have no immediate need for uninterrupted, deep sleep periods like humans. Journalist: ----------- Biologist: -They do so because they can rest one hemisphere of the brain at a time while the other remains active enough to maintain altitude and monitor the environment.",
+        "options": [
+            "A) But we can say that the flying pattern of birds is just different than we're accustomed to seeing in other animals.",
+            "B) In fact, I've read that some bird species are capable of resting one-half of their brain while the other half remains alert.",
+            "C) Even so, I heard that some species are known to settle down on water surfaces and simply stop flying.",
+            "D) Yet, some claim that there are additional dangers of sleeping in the air that birds share with humans, such as disorientation.",
+            "E) So, I think the problem with birds is that they can't land to close their eyes and rest their whole body."
+        ],
+        "answer": "B"
+    },
+    "35": {
+        "question": "Many climate scientists expected that the implementation of carbon taxing would immediately reduce industrial emissions, but recent analyses show that the effect has been minimal and, in some regions, emissions have actually increased.",
+        "options": [
+            "A) Despite the fact that recent analyses indicate that carbon taxing has not reduced industrial emissions immediately and emissions have risen in some areas, many climate scientists still advocate for its implementation.",
+            "B) Even though many climate scientists anticipated that industrial emissions would fall following the implementation of carbon taxing, recent analyses suggest that the effect has been negligible, and, contrary to expectations, emissions have actually gone up in certain regions.",
+            "C) While many climate scientists believed that introducing carbon taxing would immediately lower industrial emissions, it has become evident that the effect was slight, and in some areas, emissions have paradoxically risen.",
+            "D) Since many climate scientists had hoped that carbon taxing would be effective in decreasing industrial emissions, they were disappointed by recent analyses revealing only a negligible effect and even a rise in emissions in some regions.",
+            "E) Many climate scientists expected that industrial emissions would immediately drop due to carbon taxing, but recent analyses have demonstrated that its minimal effect has caused emissions to increase substantially in some regions."
+        ],
+        "answer": "C"
+    },
+    "36": {
+        "question": "A recent study has shown that consuming highly processed foods increases the risk of developing certain chronic diseases, likely because these foods contain high levels of inflammation-inducing additives and sugars.",
+        "options": [
+            "A) A new study has revealed that when a person develops a chronic disease, it's often due to the high levels of inflammation-inducing additives and sugars found in processed foods.",
+            "B) Consuming processed foods is believed to increase the risk of developing chronic diseases, provided that these foods contain substantial levels of inflammation-inducing additives and sugars, as stated by a current study.",
+            "C) Although a recent study shows that highly processed foods contain many inflammation-inducing additives and sugars, it has also revealed that the risk of developing chronic diseases is not significantly higher.",
+            "D) A current study has revealed that consuming highly processed foods makes someone more likely to develop certain chronic diseases, probably due to the fact that they contain high levels of inflammation-inducing additives and sugars.",
+            "E) A recent study has shown that the high levels of inflammation-inducing additives and sugars found in processed foods are much more likely to cause chronic diseases than the consumption of the foods themselves."
+        ],
+        "answer": "D"
+    },
+    "37": {
+        "question": "The concept of 'critical thinking' is frequently cited as the most crucial skill taught in higher education. In fact, the term 'critical thinking' is difficult to define consistently and has been the subject of heated debate regarding its assessment methods among educators and curriculum developers for years. ----- Its core components include the capacity to analyze information, formulate valid arguments, evaluate evidence objectively, apply logical reasoning to solve problems, discern relationships between ideas, and reflect on one's own assumptions.",
+        "options": [
+            "A) Accordingly, technology-enhanced learning systems provide a key component in many modern classrooms that aim to serve the future world of work.",
+            "B) Nevertheless, it is possible to enumerate many important intellectual characteristics that constitute the skill.",
+            "C) Likewise, learning management systems can monitor student progress and alert instructors when uncharacteristic learning behaviours arise.",
+            "D) In addition, critical thinking allows students to perform the same kind of tasks as professionals do, such as interpreting data and evaluating ethical dilemmas.",
+            "E) Therefore, huge amounts of curriculum planning are required to help students master sophisticated academic tasks."
+        ],
+        "answer": "B"
+    },
+    "38": {
+        "question": "In many tribal communities, direct questioning about personal or family medical history is considered inappropriate and may cause offense. Healthcare workers should avoid asking highly personal or probing questions quickly, which could be interpreted as intrusive. Moreover, in general, patients accustomed to traditional customs are more likely to minimize or obscure the severity of their symptoms than those who are familiar with Western medical settings. ----- For example, a patient may state that they are 'a little tired' instead of admitting severe fatigue, or may agree to a course of treatment but not follow the instructions provided. Openly rejecting medical advice or exaggerating pain would be culturally unacceptable in many such contexts.",
+        "options": [
+            "A) Traditional health beliefs generally do not differentiate between physical ailments and spiritual imbalances.",
+            "B) The integration of shamanistic healing rituals into modern healthcare is a topic of discussion for both local healers and Western doctors.",
+            "C) It is important to structure follow-up appointments that match the perceived urgency of the symptoms as defined by the community.",
+            "D) Patients who are more oriented toward indigenous lifestyles may resort to herbal remedies to address their physical symptoms.",
+            "E) Healthcare workers must be sensitive to the understated or euphemistic ways in which these patients report their ailments."
+        ],
+        "answer": "E"
+    },
+    "39": {
+        "question": "(I) Efficient development of self-discipline is related to students' long-term academic achievement and their persistence in challenging tasks throughout high school and university. (II) There are various methods through which teachers can deliberately influence students' internalization of self-regulation strategies in the classroom. (III) Initially, teachers may notice students struggling because they are unable to allocate sufficient time for complex projects, which leads to feelings of stress and procrastination. (IV) They can also model time-management skills and their systematic application. (V) Teachers, in addition to these, directly instruct students in how to recognize when and why they lose focus and suggest practical techniques to regain concentration.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "A"
+    },
+    "40": {
+        "question": "(I) In contrast to classical physics, which has been studied in exhaustive detail, the role of the observer in quantum mechanics has long been disregarded. (II) The reasons for this omission are not straightforward but may reflect, among other things, the historical preference for deterministic models and, conversely, the practical difficulty of isolating quantum systems for observation. (III) In fact, the observer and the observed quantum system cannot be cleanly separated and are closely intertwined. (IV) Cosmologists generally focus on quantum phenomena in the context of the early universe, particularly the manner in which quantum fluctuations may have served as seeds for the large-scale structure of the cosmos. (V) Historically, the rise of sophisticated measurement techniques has always been accompanied by deeper understanding of the observer's role, and the explosive growth of theoretical interpretations has induced remarkable changes in the field, such as increasingly nuanced definitions of \"reality\" and consciousness.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "D"
+    }
+}

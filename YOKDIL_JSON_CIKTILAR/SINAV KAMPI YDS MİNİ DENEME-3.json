@@ -1,0 +1,447 @@
+{
+    "1": {
+        "question": "In the history of Chinese Empire, several dynasties rose to power over the centuries, while some brought war and famine, others made incredible ------ in philosophy, technology, and art.",
+        "options": [
+            "A) advances",
+            "B) discrimination",
+            "C) conflicts",
+            "D) sanctions",
+            "E) forecasts"
+        ],
+        "answer": "A"
+    },
+    "2": {
+        "question": "Water is ----- because it forms a major constituent of every tissue and every cell and is the medium for nearly all functions and chemical transformations.",
+        "options": [
+            "A) indispensable",
+            "B) ceaseless",
+            "C) deterrent",
+            "D) disposable",
+            "E) bizarre"
+        ],
+        "answer": "A"
+    },
+    "3": {
+        "question": "Not only children but also adults who still have not ---- their childhood fears might be extremely scared by natural phenomena such as thunder and lightning.",
+        "options": [
+            "A) accompany",
+            "B) magnify",
+            "C) diminish",
+            "D) overcome",
+            "E) evoke"
+        ],
+        "answer": "D"
+    },
+    "4": {
+        "question": "According to a study, pigeons can ---- spot cancer on medical images, so they must be trained to be used in medical purposes.",
+        "options": [
+            "A) conventionally",
+            "B) intensely",
+            "C) accurately",
+            "D) severely",
+            "E) subtly"
+        ],
+        "answer": "C"
+    },
+    "5": {
+        "question": "On the seashore, as the tide comes in, many plants and animals are plunged underwater; when it recedes, they are ---- the sun or air.",
+        "options": [
+            "A) aimed at",
+            "B) exposed to",
+            "C) divided by",
+            "D) likened to",
+            "E) relieved of"
+        ],
+        "answer": "B"
+    },
+    "6": {
+        "question": "Sea ice is a general term that comprises several types of ice originating ---- the freezing of marine waters, which occurs ---- a water temperature of about -1.8°C, depending upon salt content.",
+        "options": [
+            "A) out/over",
+            "B) in/through",
+            "C) from/at",
+            "D) about/below",
+            "E) for/on"
+        ],
+        "answer": "C"
+    },
+    "7": {
+        "question": "Researchers ----- the possibility that certain chemicals or other toxins in the environment ----- a role in causing or triggering Alzheimer's disease.",
+        "options": [
+            "A) are studying/must have",
+            "B) have been studying/may have",
+            "C) will have studied/could have",
+            "D) were studying/will have",
+            "E) study/should have"
+        ],
+        "answer": "B"
+    },
+    "8": {
+        "question": "As the internationalisation of business life ------- dramatically throughout the world, new kinds of requirements -------- on employees' task performance and adjustment to other cultures.",
+        "options": [
+            "A) had increased/would be set",
+            "B) increases/were set",
+            "C) has increased/are being set",
+            "D) was increasing/would have been set",
+            "E) will increase/had been set"
+        ],
+        "answer": "C"
+    },
+    "9": {
+        "question": "---- the number of colleges and universities in the USA was impressive in the second half of the 20th century, few of these institutions could meet the definition of a place of higher education.",
+        "options": [
+            "A) Just as",
+            "B) Because",
+            "C) While",
+            "D) Once",
+            "E) Only if"
+        ],
+        "answer": "C"
+    },
+    "10": {
+        "question": "Seasonal affective disorder is a form of depression that typically occurs during the winter months and goes away during the spring and summer, and sufferers are treated with light therapy ----- enough daylight is available.",
+        "options": [
+            "A) so that",
+            "B) while",
+            "C) whether",
+            "D) until",
+            "E) since"
+        ],
+        "answer": "D"
+    },
+    "11": {
+        "question": ".---- the directions of the rising and setting of the sun, which varied with place and season, the most noticeable directions that could help a sailor were those of the winds.",
+        "options": [
+            "A) Apart from",
+            "B) Due to",
+            "C) As a result of",
+            "D) In case of",
+            "E) As opposed to"
+        ],
+        "answer": "A"
+    },
+    "12": {
+        "question": ". Biological therapy is sometimes used to treat cervical cancer, ----- alone ----- in combination with chemotherapy.",
+        "options": [
+            "A) either/or",
+            "B) neither/nor",
+            "C) so/that",
+            "D) the more/the more",
+            "E) such/that"
+        ],
+        "answer": "A"
+    },
+    "13": {
+    "passage": "Individuals with cerebral palsy (CP) may have varying difficulties with movement, muscle tone, and posture. (13) ---- the disease is a result of injury to the brain, mental retardation often occurs. This has significant impacts (14) ---- a child's ability to function in daily life and to learn in the academic environment. For example, pupils with CP may face many challenges in school (15) ---- language and articulation difficulties resulting from limited muscle movement around the mouth and throat. Impairments in muscle movement, posture, and balance (16) ---- the use of assistive devices such as wheelchairs, scooters, or braces. Communication devices such as communication boards and computerised talkers can help children with CP to ‘’talk‘’ with others in the hopes of gaining the social, emotional, and academic benefits that often (17) ---- communication.",
+    "question": "",
+    "options": [
+        "A) Although",
+        "B) Because",
+        "C) In case",
+        "D) As if",
+        "E) Unless"
+    ],
+    "answer": "B"
+},
+"14": {
+    "passage": "Individuals with cerebral palsy (CP) may have varying difficulties with movement, muscle tone, and posture. (13) ---- the disease is a result of injury to the brain, mental retardation often occurs. This has significant impacts (14) ---- a child's ability to function in daily life and to learn in the academic environment. For example, pupils with CP may face many challenges in school (15) ---- language and articulation difficulties resulting from limited muscle movement around the mouth and throat. Impairments in muscle movement, posture, and balance (16) ---- the use of assistive devices such as wheelchairs, scooters, or braces. Communication devices such as communication boards and computerised talkers can help children with CP to ‘’talk‘’ with others in the hopes of gaining the social, emotional, and academic benefits that often (17) ---- communication.",
+    "question": "",
+    "options": [
+        "A) to",
+        "B) over",
+        "C) on",
+        "D) via",
+        "E) at"
+    ],
+    "answer": "C"
+},
+"15": {
+    "passage": "Individuals with cerebral palsy (CP) may have varying difficulties with movement, muscle tone, and posture. (13) ---- the disease is a result of injury to the brain, mental retardation often occurs. This has significant impacts (14) ---- a child's ability to function in daily life and to learn in the academic environment. For example, pupils with CP may face many challenges in school (15) ---- language and articulation difficulties resulting from limited muscle movement around the mouth and throat. Impairments in muscle movement, posture, and balance (16) ---- the use of assistive devices such as wheelchairs, scooters, or braces. Communication devices such as communication boards and computerised talkers can help children with CP to ‘’talk‘’ with others in the hopes of gaining the social, emotional, and academic benefits that often (17) ---- communication.",
+    "question": "",
+    "options": [
+        "A) except for",
+        "B) prior to",
+        "C) irrespective of",
+        "D) despite",
+        "E) due to"
+    ],
+    "answer": "E"
+},
+"16": {
+    "passage": "Individuals with cerebral palsy (CP) may have varying difficulties with movement, muscle tone, and posture. (13) ---- the disease is a result of injury to the brain, mental retardation often occurs. This has significant impacts (14) ---- a child's ability to function in daily life and to learn in the academic environment. For example, pupils with CP may face many challenges in school (15) ---- language and articulation difficulties resulting from limited muscle movement around the mouth and throat. Impairments in muscle movement, posture, and balance (16) ---- the use of assistive devices such as wheelchairs, scooters, or braces. Communication devices such as communication boards and computerised talkers can help children with CP to ‘’talk‘’ with others in the hopes of gaining the social, emotional, and academic benefits that often (17) ---- communication.",
+    "question": "",
+    "options": [
+        "A) would have required",
+        "B) have to require",
+        "C) must have required",
+        "D) was able to require",
+        "E) may require"
+    ],
+    "answer": "E"
+},
+"17": {
+    "passage": "Individuals with cerebral palsy (CP) may have varying difficulties with movement, muscle tone, and posture. (13) ---- the disease is a result of injury to the brain, mental retardation often occurs. This has significant impacts (14) ---- a child's ability to function in daily life and to learn in the academic environment. For example, pupils with CP may face many challenges in school (15) ---- language and articulation difficulties resulting from limited muscle movement around the mouth and throat. Impairments in muscle movement, posture, and balance (16) ---- the use of assistive devices such as wheelchairs, scooters, or braces. Communication devices such as communication boards and computerised talkers can help children with CP to ‘’talk‘’ with others in the hopes of gaining the social, emotional, and academic benefits that often (17) ---- communication.",
+    "question": "",
+    "options": [
+        "A) compromise",
+        "B) disturb",
+        "C) accompany",
+        "D) allocate",
+        "E) convey"
+    ],
+    "answer": "C"
+},
+    "18": {
+        "question": "Although there are global conservation measures taken by authorities, ----.",
+        "options": [
+            "A) zoological parks have helped to save some sea turtle species from extinction",
+            "B) it is forbidden to breed some rare species of sea turtles and tortoises commercially",
+            "C) human activities such as hunting predators have a positive effect on sea turtle populations",
+            "D) sea turtle fossils are found frequently in ancient sedimentary deposits from the Jurassic eras",
+            "E) the dramatic decline in sea turtle populations is yet to cease in many parts of the world"
+        ],
+        "answer": "E"
+    },
+    "19": {
+        "question": "Wherever humans are active in a forested region of the world, ----.",
+        "options": [
+            "A) the density of forested areas remains unchanged in the Amazon region",
+            "B) trees are not vital to the survival of many other organisms growing naturally",
+            "C) often the most useful species of trees are becoming rare through overexploitation and loss of habitat",
+            "D) threatened species of trees are mostly elderly, and infested with worms and other organisms",
+            "E) tree species in forests vary greatly depending on the climate of the region"
+        ],
+        "answer": "C"
+    },
+    "20": {
+        "question": "While much importance has been put on chemicals and environmental pollutants as carcinogens (agents that cause cancer), ---.",
+        "options": [
+            "A) it actually turns out that the predominant factors in determining cancer are associated with lifestyle",
+            "B) the knowledge gained in cancer biology over the past 20 years has allowed for the discovery of new drugs to treat cancer",
+            "C) it is estimated that with dietary improvements there could be a 50% reduction in colon and rectal cancers",
+            "D) pomegranate juice, which is rich in tannins, has recently been studied as a potential cancer prevention agent",
+            "E) one out of every three people in the US falls victim to cancer at some point in their lives"
+        ],
+        "answer": "A"
+    },
+    "21": {
+        "question": "Teachers should recognise the fact that students will not be willing to take part in reading activities ----.",
+        "options": [
+            "A) because different types of texts, such as an article and a short story, can be used to expose students to different styles",
+            "B) although they must follow the requirements stated in the course syllabus",
+            "C) so that they are often captivated by the pictures and graphics accompanying the texts in coursebooks",
+            "D) unless the texts are interesting to them as individuals and relevant to their particular needs and wants",
+            "E) after they attract students' attention by asking questions about the topic of the text they will read"
+        ],
+        "answer": "D"
+    },
+    "22": {
+        "question": "While education is universal and occurs wherever people interact and communicate with each other, ----.",
+        "options": [
+            "A) the manner in which societies exploit their human resources is a measure of the power of education",
+            "B) international exchanges of views about good educational practices are often initiated by professionals working with children",
+            "C) pioneer efforts are usually embraced by education systems once their intrinsic worth is established",
+            "D) education systems are continuously shaped by local beliefs, customs, and history in diverse nations",
+            "E) throughout history, the institutions of education have been formed under similar principles"
+        ],
+        "answer": "D"
+    },
+    "23": {
+        "question": "The mitochondria are called the powerhouses of the cell because without them cells would be unable to extract enough energy from the nutrients and all cellular functions would cease.",
+        "options": [
+            "A) Hücrenin enerji santrali denen mitokondriler olmasaydı, hücreler besinlerden yeterli enerjiyi elde edemeyecekleri için bütün hücresel fonksiyonlar sona ererdi.",
+            "B) Mitokondrilere hücrenin enerji santralleri denir çünkü onlar olmadan hücreler besinlerden yeterli enerji elde edemezlerdi ve bütün hücresel fonksiyonlar sona ererdi.",
+            "C) Mitokondrilere hücrenin enerji santralleri denmesinin sebebi onlar olmadan hücrelerin besinlerden yeterli enerji elde edememeleri ve bütün hücresel fonksiyonların sona ermesidir.",
+            "D) Mitokondriler olmadan besinlerden yeterli enerji elde edilemeyeceği ve bütün hücresel fonksiyonlar sona ereceği için mitokondrilere hücrenin enerji santralleri denir.",
+            "E) Mitokondrilere hücrenin enerji santralleri denir çünkü onlar olmasaydı hücreler besinlerden yeterli enerji elde edemeyecekleri için bütün hücresel fonksiyonlar sona ererdi."
+        ],
+        "answer": "B"
+    },
+    "24": {
+        "question": "Kosova Savaşı'ndan sonra, Sultan I. Bayezid Osmanlı İmparatorluğu'nın Avrupa'daki topraklarını birleştirdi ve Anadolu'da kalan bağımsız Türk beyliklerini himayesi altına aldı.",
+        "options": [
+            "A) Sultan Bayezid I, who consolidated the European holdings of the Ottoman Empire, took the remaining independent Turkic statelets in Anatolia under his protection after the Battle of Kosovo.",
+            "B) Following the Battle of Kosovo, the European holdings of the Ottoman Empire were consolidated and the remaining independent Turkic statelets in Anatolia were taken under the protection of Sultan Bayezid I.",
+            "C) After the Battle of Kosovo, Sultan Bayezid I was able to consolidate the European holdings of the Ottoman Empire because the remaining independent Turkic statelets in Anatolia were under his protection.",
+            "D) Following the Battle of Kosovo, Sultan Bayezid I consolidated the European holdings of the Ottoman Empire and took the remaining independent Turkic statelets in Anatolia under his protection.",
+            "E) After consolidating the European holdings of the Ottoman Empire following the Battle of Kosovo, Sultan Bayezid I took the remaining independent Turkic statelets in Anatolia under his protection."
+        ],
+        "answer": "D"
+    },
+    "25": {
+        "question": "--- PASSAGE --- Your long expectation has finally been realized: you are going to a university abroad. This new challenge and opportunity might soon collide with the reality of being in a new culture, something known as culture shock. Culture shock has been viewed as a psychological reaction or a generalized disorientation and trauma experienced by a person learning to cope with a new culture and circumstances. It is a normal and natural part of living in a foreign cultural environment. Culture shock doesn't mean that one is adjusting poorly - it means that one is undergoing a normal reaction. However, the way that one manages culture shock can have important implications for the success of one's adaptability to the new culture. The psychological reaction in coping with culture shock includes emotional and cognitive components, as well as the effects of social changes. These changes also stir up a psychophysiological reaction to the experience of another culture. The changes caused by culture shock include fatigue, role stress and identity loss, excessive concern with cleanliness, and a fear of danger from food and water. When someone is exposed to a new culture, ----.",
+        "options": [
+            "A) he/ she can find that the challenge is not as great as he believed",
+            "B) it often does not live up to his / her expectations",
+            "C) he/ she becomes very homesick, especially for his/her favourite foods",
+            "D) it isn't at all unusual to experience culture shock",
+            "E) the necessary adjustment takes a long time"
+        ],
+        "answer": "D"
+    },
+    "26": {
+        "question": "--- PASSAGE --- Your long expectation has finally been realized: you are going to a university abroad. This new challenge and opportunity might soon collide with the reality of being in a new culture, something known as culture shock. Culture shock has been viewed as a psychological reaction or a generalized disorientation and trauma experienced by a person learning to cope with a new culture and circumstances. It is a normal and natural part of living in a foreign cultural environment. Culture shock doesn't mean that one is adjusting poorly - it means that one is undergoing a normal reaction. However, the way that one manages culture shock can have important implications for the success of one's adaptability to the new culture. The psychological reaction in coping with culture shock includes emotional and cognitive components, as well as the effects of social changes. These changes also stir up a psychophysiological reaction to the experience of another culture. The changes caused by culture shock include fatigue, role stress and identity loss, excessive concern with cleanliness, and a fear of danger from food and water. It is clearly stated in the passage that",
+        "options": [
+            "A) if one doesn't adjust quickly to the new culture, one probably never will",
+            "B) successful adjustment to the new culture depends on how one handles the culture shock",
+            "C) culture shock is a sign that a person is not capable of adapting to life abroad",
+            "D) culture shock may bring about social changes which are difficult to cope with",
+            "E) people with psychological or emotional disorders are most likely to suffer from culture shock"
+        ],
+        "answer": "B"
+    },
+    "27": {
+        "question": "--- PASSAGE --- Your long expectation has finally been realized: you are going to a university abroad. This new challenge and opportunity might soon collide with the reality of being in a new culture, something known as culture shock. Culture shock has been viewed as a psychological reaction or a generalized disorientation and trauma experienced by a person learning to cope with a new culture and circumstances. It is a normal and natural part of living in a foreign cultural environment. Culture shock doesn't mean that one is adjusting poorly - it means that one is undergoing a normal reaction. However, the way that one manages culture shock can have important implications for the success of one's adaptability to the new culture. The psychological reaction in coping with culture shock includes emotional and cognitive components, as well as the effects of social changes. These changes also stir up a psychophysiological reaction to the experience of another culture. The changes caused by culture shock include fatigue, role stress and identity loss, excessive concern with cleanliness, and a fear of danger from food and water. One of the symptoms of culture shock is that",
+        "options": [
+            "A) one becomes unable to think logically",
+            "B) your emotions start going from one extreme to another without warning",
+            "C) people lose their appetites and so become undernourished",
+            "D) one tends to start believing one is physically ill when one is not",
+            "E) the person may be suspicious of what he eats and drinks"
+        ],
+        "answer": "E"
+    },
+    "28": {
+        "question": "--- PASSAGE --- Your long expectation has finally been realized: you are going to a university abroad. This new challenge and opportunity might soon collide with the reality of being in a new culture, something known as culture shock. Culture shock has been viewed as a psychological reaction or a generalized disorientation and trauma experienced by a person learning to cope with a new culture and circumstances. It is a normal and natural part of living in a foreign cultural environment. Culture shock doesn't mean that one is adjusting poorly - it means that one is undergoing a normal reaction. However, the way that one manages culture shock can have important implications for the success of one's adaptability to the new culture. The psychological reaction in coping with culture shock includes emotional and cognitive components, as well as the effects of social changes. These changes also stir up a psychophysiological reaction to the experience of another culture. The changes caused by culture shock include fatigue, role stress and identity loss, excessive concern with cleanliness, and a fear of danger from food and water. The underlined word in the passage 'result in ' is closest in meaning to ----.",
+        "options": [
+            "A) induce",
+            "B) undertake",
+            "C) compile",
+            "D) plunder",
+            "E) envisage"
+        ],
+        "answer": "A"
+    },
+    "29": {
+        "question": "--- PASSAGE --- Cats will try to get into every space, they will climb your curtains, and end up on the highest shelf. It is important to ensure your home is safe for your cat to play and explore without breaking things or hurting themselves. The most important thing you can do is make sure that all chemicals, cleaning products and other harmful items are away where they can’t get to them; just somewhere that you keep closed is fine. Houseplants can pose a threat to your cat also. It is crucial that you know what plants are in your home and whether they are toxic to cats. Cats use plants to aid in digestion and will chew whatever plants are in your home. Providing cat grass can help with this, but it is best not to risk them ingesting a toxic plant. Lastly, make sure that you do not have random items lying around that may look like a fun toy. Elastics, pennies, nails and more may seem like a play thing to your cat, but can cause major health problems if ingested. If you think your cat ate something it shouldn’t, take them to the vet immediately. We can understand from the passage that plants ----.",
+        "options": [
+            "A) are crucial to have in your home since cats love chewing on their leafs",
+            "B) can help cats to feed since cats see them as a fun toy",
+            "C) doesn’t like cats as they pose them a threat with their toxic saliva",
+            "D) which you don’t know the genre of may be deathly for your cat.",
+            "E) are toxic and dangerous to ingest"
+        ],
+        "answer": "D"
+    },
+    "30": {
+        "question": "--- PASSAGE --- Cats will try to get into every space, they will climb your curtains, and end up on the highest shelf. It is important to ensure your home is safe for your cat to play and explore without breaking things or hurting themselves. The most important thing you can do is make sure that all chemicals, cleaning products and other harmful items are away where they can’t get to them; just somewhere that you keep closed is fine. Houseplants can pose a threat to your cat also. It is crucial that you know what plants are in your home and whether they are toxic to cats. Cats use plants to aid in digestion and will chew whatever plants are in your home. Providing cat grass can help with this, but it is best not to risk them ingesting a toxic plant. Lastly, make sure that you do not have random items lying around that may look like a fun toy. Elastics, pennies, nails and more may seem like a play thing to your cat, but can cause major health problems if ingested. If you think your cat ate something it shouldn’t, take them to the vet immediately. It is stated in the passage that cats ----",
+        "options": [
+            "A) are humble animals that can sleep throughout the day.",
+            "B) pose dangers to your home as they like to chew on furniture.",
+            "C) are likely to hurt themselves as they like exploring.",
+            "D) don’t get poisoned from chemicals such as cleaning products.",
+            "E) can climb up anything but curtains."
+        ],
+        "answer": "C"
+    },
+    "31": {
+        "question": "--- PASSAGE --- Cats will try to get into every space, they will climb your curtains, and end up on the highest shelf. It is important to ensure your home is safe for your cat to play and explore without breaking things or hurting themselves. The most important thing you can do is make sure that all chemicals, cleaning products and other harmful items are away where they can’t get to them; just somewhere that you keep closed is fine. Houseplants can pose a threat to your cat also. It is crucial that you know what plants are in your home and whether they are toxic to cats. Cats use plants to aid in digestion and will chew whatever plants are in your home. Providing cat grass can help with this, but it is best not to risk them ingesting a toxic plant. Lastly, make sure that you do not have random items lying around that may look like a fun toy. Elastics, pennies, nails and more may seem like a play thing to your cat, but can cause major health problems if ingested. If you think your cat ate something it shouldn’t, take them to the vet immediately. What does the writer focus on?",
+        "options": [
+            "A) The cats being curious all the time.",
+            "B) The plants that can be harmful for cats in case they try to chew on them.",
+            "C) How cats communicate with humans.",
+            "D) The dangers your house may be posing to your cat.",
+            "E) What to do when cats eat something wrong like a nail on pennies."
+        ],
+        "answer": "D"
+    },
+    "32": {
+        "question": "--- PASSAGE --- Cats will try to get into every space, they will climb your curtains, and end up on the highest shelf. It is important to ensure your home is safe for your cat to play and explore without breaking things or hurting themselves. The most important thing you can do is make sure that all chemicals, cleaning products and other harmful items are away where they can’t get to them; just somewhere that you keep closed is fine. Houseplants can pose a threat to your cat also. It is crucial that you know what plants are in your home and whether they are toxic to cats. Cats use plants to aid in digestion and will chew whatever plants are in your home. Providing cat grass can help with this, but it is best not to risk them ingesting a toxic plant. Lastly, make sure that you do not have random items lying around that may look like a fun toy. Elastics, pennies, nails and more may seem like a play thing to your cat, but can cause major health problems if ingested. If you think your cat ate something it shouldn’t, take them to the vet immediately. It can be understood from the passage that ...",
+        "options": [
+            "A) You should make sure to keep chemicals on high shelves out of your cat’s reach.",
+            "B) You must have a cat to have random things laying around your house.",
+            "C) You shouldn’t have any plants if you already have a cat.",
+            "D) It is better to get a plant instead of a cat since plants are easier to look after.",
+            "E) A cat can see nails, elastic or other dangerous things as a fun toy and harm themselves."
+        ],
+        "answer": "E"
+    },
+    "33": {
+        "question": "Kemal: Can you have a look at this headline? It says ear genes are linked to musical talent. What does that mean? Onur: Well, it suggests musical talent may partly be due to genes determining the structure of the inner ear. Kemal: ---- Onur: OK. If you have an excellent inner ear structure, you can play the tunes you hear without looking at the notes.",
+        "options": [
+            "A) What do you mean in layman's terms?",
+            "B) Do you think this can change later with new research?",
+            "C) Are you interested in the link between genes and talent?",
+            "D) Do you really believe that genes can have an impact on musical talent?",
+            "E) Doesn't it sound incredible that genes can be that important?"
+        ],
+        "answer": "A"
+    },
+    "34": {
+        "question": "Kim:  Hey! Look at what I've just read. Did you know that the game darts evolved in the 20th century from military training? Hailey: - Well, I don't think that's correct. Darts were in use as early as the Middle Ages. Archers used these heavily weighted hand arrows in close combat. Kim: - How could you possibly know so much about darts? I didn't know you were a fan! Hailey: - ---- Kim: - Oh, now I know where that interest comes from.",
+        "options": [
+            "A) Everyone in England knows how darts became a big pub sport about a hundred years ago.",
+            "B) I was reading a book about Anne Boleyn which has a long part explaining the origins of darts.",
+            "C) The traditional setting of darts are pubs and bars and this has created several misconceptions about it, concealing its origins in military training",
+            "D) You need to read more history so you can know how almost everything we modern people do already existed in this or that form thousands of years ago.",
+            "E) The National Darts Association is planning to start a campaign to educate the public about darts."
+        ],
+        "answer": "B"
+    },
+    "35": {
+        "question": "Although there are no known side effects associated with recommend dosages of saffron preparations in healthy individuals, people with chronic medical conditions should consult with their healthcare professional before taking the herb.",
+        "options": [
+            "A) If saffron preparations are consumed in sufficient amounts by healthy individuals and provide only benefits, then it goes without saying that patients with chronic medical conditions can safely take them after consulting their healthcare specialist.",
+            "B) It is advisable for individuals with chronic medical conditions to see their healthcare specialist prior to taking saffron treatments despite there being no side effects in healthy people when taking the herb in suggested amounts.",
+            "C) While little is known about the dangers for healthy individuals taking saffron preparations, it is certain that people with chronic medical conditions should approach their healthcare professional before consuming the herb.",
+            "D) Since healthy individuals can freely take saffron preparations, patients with chronic medical illnesses can, after seeing their healthcare professional, take the herb in recommended dosages.",
+            "E) Regardless of how much saffron an individual with a chronic medical condition can take after consulting their healthcare specialist, a healthy person has to take only the recommended amounts of the herb to avoid any side effects"
+        ],
+        "answer": "B"
+    },
+    "36": {
+        "question": "Genuine laughter triggers the release of moodboosting endorphins, which leads to a higher tolerance for pain.",
+        "options": [
+            "A) Mood-enhancing endorphins are released only when people laugh heartily and thus they can tolerate pain better.",
+            "B) People can tolerate more pain if their mood is enhanced by endorphins, which cause hearty laughter.",
+            "C) If people want to enhance their mood, they should laugh heartily and tolerate pain better, which helps them release endorphins.",
+            "D) To be able to laugh heartily by releasing endorphins that enhance their mood, people have to tolerate pain better.",
+            "E) When people laugh heartily, their bodies release endorphins that enhance their mood, and they can tolerate pain better."
+        ],
+        "answer": "E"
+    },
+    "37": {
+        "question": "The symptoms and signs of arthritis and related conditions include pain, stiffness, swelling, muscle weakness, and limitation of movement of the joints. These are some of the most common health complaints among older people. Together, these symptoms and signs greatly affect the population in terms of morbidity, disability, and cost.----- With the ageing population, however, the impact of arthritis is becoming increasingly apparent. Arthritis is one of the leading causes of pain, physical disability, and healthcare utilisation in Canada. By the year 2026, over 6 million Canadian adults are expected to suffer from arthritis and related conditions.",
+        "options": [
+            "A) Diagnosis and management of arthritis can be particularly challenging in the elderly.",
+            "B) Fortunately, there are a few diagnostic tests to detect an incidence of arthritis.",
+            "C) Traditionally the burden of arthritis in the population has been underestimated.",
+            "D) Orthopaedists usually suggest physical exercise every day in order to delay the onset of the condition.",
+            "E) The symptoms are considered by many older people to be a normal part of ageing."
+        ],
+        "answer": "C"
+    },
+    "38": {
+        "question": "The fertiliser elements rarely occur in nature in the elemental Chemical form, and most would not be useful for plant nutrition if supplied in that form. Growing plants can assimilate only fertiliser elements in the combined State of inorganic compounds. Many modern fertiliser materials consist of compounds that are immediately usable by the crops to which they are applied. Others are quickly converted within the soil to forms that can be assimilated. ---- Therefore, they prolong the release of easily absorbed compounds to provide sustained feeding over the growth cycle of the plants.",
+        "options": [
+            "A) Large amounts of fertiliser Chemicals are also generated as by-products in the production of other Chemicals.",
+            "B) Fertilisers that can be used for the growth of crops are derived from many different types of raw materials.",
+            "C) Some fertiliser Chemicals are specifically designed to dissolve slowly or to delay reaction within the soil.",
+            "D) Plants may show toxic responses to certain elements including some of the micronutrients present in soil.",
+            "E) All these fertiliser elements, along with other Chemical  elements. occur naturally in agricultural soils in varying concentrations."
+        ],
+        "answer": "C"
+    },
+    "39": {
+        "question": "(I) Archaeologists need to make sense of how the archaeological record fits together in time and space. (II) The locations that ancient people chose for their settlements and ritual activities are very important for understanding how ancient societies developed and declined. (III) A simple tool for organising this information is a chronological chart, which can be thought of as a timeline running vertically, with the oldest developments at the bottom and the most recent at the top. (IV) The vertical lines indicate the duration of cultures and people, whose date of first appearance is indicated by the label at the bottom of the line. (V) The horizontal lines indicate cultures and events that spanned more than one geographic region.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "B"
+    },
+    "40": {
+        "question": "(I) Puppetry is an expression of popular and folk culture. (II) It is intended for audiences of adults as well as children and is a form of communication and entertainment and an aesthetic creation. (III) Puppetry, like other forms of humour, is used in both verbal and physical therapy. (IV) Puppets become animate through the (usually hidden) activities of the puppeteers, who make them perform - walk, talk, sing, dance, burp, and laugh. (V) This disparity and intersection between the animate and the inanimate, the human and the nonhuman, is at the heart of the humour of puppets.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "C"
+    }
+}

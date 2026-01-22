@@ -1,0 +1,447 @@
+{
+    "1": {
+        "question": "After a decade of rapid industrial growth, the economy has entered a period of -----, marked by low investment rates, zero job creation, and a significant decrease in consumer spending across all sectors.",
+        "options": [
+            "A) aversion",
+            "B) assertion",
+            "C) stagnation",
+            "D) inclination",
+            "E) provision"
+        ],
+        "answer": "C"
+    },
+    "2": {
+        "question": "The ancient manuscript, discovered deep inside the cave, was written in an obscure dialect and contained so many faded and damaged sections that much of its original content remained ----- to modern linguistic experts.",
+        "options": [
+            "A) unattainable",
+            "B) irreversible",
+            "C) impermissible",
+            "D) unintelligible",
+            "E) indestructible"
+        ],
+        "answer": "D"
+    },
+    "3": {
+        "question": "The transfer of the ancient artifacts from the deteriorating national museum to the newly constructed, climate-controlled facility was coordinated so ----- that even the most fragile ceramic pieces arrived at their destination without registering any measurable seismic or vibrational stress.",
+        "options": [
+            "A) accidentally",
+            "B) smoothly",
+            "C) artificially",
+            "D) promisingly",
+            "E) deliberately"
+        ],
+        "answer": "B"
+    },
+    "4": {
+        "question": "Physicians often caution their patients against excessive physical activity immediately following a procedure, as unnecessary strain on the stitches or muscles can significantly ----- the healing process and lead to complications.",
+        "options": [
+            "A) inquire",
+            "B) radiate",
+            "C) compromise",
+            "D) rotate",
+            "E) aggravate"
+        ],
+        "answer": "E"
+    },
+    "5": {
+        "question": "For the new sustainability policy to be truly effective across all branches, the strategic objectives must clearly ----- the core values of the organization and the long-term goals of the investors.",
+        "options": [
+            "A) descend from",
+            "B) pin down",
+            "C) pull through",
+            "D) align with",
+            "E) dispense with"
+        ],
+        "answer": "D"
+    },
+    "6": {
+        "question": "In 2021, the Ministry of Education ----- that the new digital learning platform ----- fully mandatory for all high school students by the start of the next academic year.",
+        "options": [
+            "A) had declared / was",
+            "B) announces / will be",
+            "C) declared / would be",
+            "D) declared / is",
+            "E) has declared / would have been"
+        ],
+        "answer": "C"
+    },
+    "7": {
+        "question": "Without significant advancements in vaccine distribution logistics during the 1990s, global health organizations ----- massive resources and personnel ----- the unprecedented challenges of the emerging epidemics.",
+        "options": [
+            "A) could have required / to be met",
+            "B) would have required / to meet",
+            "C) should have required / being met",
+            "D) can require / meeting",
+            "E) must have required / having met"
+        ],
+        "answer": "B"
+    },
+    "8": {
+        "question": "----- as the most durable and reliable material available, marble has historically been one of the primary resources ----- for constructing the monumental public buildings of empires.",
+        "options": [
+            "A) To have utilized / using",
+            "B) Utilizing / having used",
+            "C) Having been utilized / to be using",
+            "D) Utilized / to be used",
+            "E) To utilize / to have used"
+        ],
+        "answer": "D"
+    },
+    "9": {
+        "question": "Historical records indicate that the ancient city's crucial archives were secured deep ----- the surface in specialized vaults, allowing them to survive ----- the centuries of invasions and political upheaval.",
+        "options": [
+            "A) beneath / throughout",
+            "B) into / over",
+            "C) on / below",
+            "D) in / along",
+            "E) from / towards"
+        ],
+        "answer": "A"
+    },
+    "10": {
+        "question": "Modern pedagogical approaches often prioritize student-centered learning ----- purely lecture-based instruction, necessitating a shift in resource allocation ----- traditional textbooks to digital learning platforms.",
+        "options": [
+            "A) on / along",
+            "B) above / through",
+            "C) against / with",
+            "D) about / by",
+            "E) over / from"
+        ],
+        "answer": "E"
+    },
+    "11": {
+        "question": "----- the primary function of chlorophyll is to capture light energy for photosynthesis, it plays a vital role in protecting plants from damage caused by excessive sunlight.",
+        "options": [
+            "A) Although",
+            "B) Because",
+            "C) In the event that",
+            "D) Provided that",
+            "E) Just as"
+        ],
+        "answer": "A"
+    },
+    "12": {
+        "question": "The human body cannot effectively synthesize Vitamin D and maintain optimal bone density ----- sufficient exposure to sunlight is achieved or adequate dietary supplementation is provided.",
+        "options": [
+            "A) provided that",
+            "B) as if",
+            "C) so that",
+            "D) in case",
+            "E) unless"
+        ],
+        "answer": "E"
+    },
+    "13": {
+        "question": "----- a long-term solution to environmental degradation, leading scientists have proposed global policies that advocate for circular economy models and strictly limit the combustion of fossil fuels.",
+        "options": [
+            "A) Instead of",
+            "B) On behalf of",
+            "C) In spite of",
+            "D) With the help of",
+            "E) In pursuit of"
+        ],
+        "answer": "E"
+    },
+    "14": {
+        "question": "Governments should invest their resources in mitigating the long-term effects of climate change ----- providing only short-sighted, reactive solutions that address merely the immediate symptoms.",
+        "options": [
+            "A) in accordance with",
+            "B) in the event of",
+            "C) rather than",
+            "D) at the expense of",
+            "E) on account of"
+        ],
+        "answer": "C"
+    },
+    "15": {
+        "question": "----- rigorous the quality control becomes in pharmaceutical production, ----- confident patients are in the long-term effectiveness of the medicines.",
+        "options": [
+            "A) Both / and",
+            "B) The more / the more",
+            "C) So / that",
+            "D) Whether / or",
+            "E) Such / that"
+        ],
+        "answer": "B"
+    },
+    "16": {
+        "passage":"Because the disease's full progression often involves years of subtle cognitive changes, diagnosing Alzheimer's in its initial phases remains a formidable challenge for geriatric specialists. The clinical presentation of severe memory loss is ultimately (16) ----- the accumulation of amyloid plaques and tau tangles in the brain tissue, leading to widespread neuronal death. (17) ----- the disorder was formally described by Alois Alzheimer in 1906, the earliest pathological observations of similar neurodegenerative processes (18) ----- back to research from the late 19th century. Despite advances in neuroimaging, scientists still struggle to definitively (19) ----- the precise environmental or genetic factors that trigger the condition in every individual case. Consequently, the core focus of current research is dedicated to improving the daily coping mechanisms and quality of life for people (20) ----- the disease, moving toward better supportive care models.",
+        "question":"",
+        "options": [
+            "A) due to",
+            "B) in additon to",
+            "C) unlike",
+            "D) in place of",
+            "E) except for"
+        ],
+        "answer": "A"
+    },
+    "17": {
+        "passage":"Because the disease's full progression often involves years of subtle cognitive changes, diagnosing Alzheimer's in its initial phases remains a formidable challenge for geriatric specialists. The clinical presentation of severe memory loss is ultimately (16) ----- the accumulation of amyloid plaques and tau tangles in the brain tissue, leading to widespread neuronal death. (17) ----- the disorder was formally described by Alois Alzheimer in 1906, the earliest pathological observations of similar neurodegenerative processes (18) ----- back to research from the late 19th century. Despite advances in neuroimaging, scientists still struggle to definitively (19) ----- the precise environmental or genetic factors that trigger the condition in every individual case. Consequently, the core focus of current research is dedicated to improving the daily coping mechanisms and quality of life for people (20) ----- the disease, moving toward better supportive care models.",
+        "question":"",
+        "options": [
+            "A) Because",
+            "B) Unless",
+            "C) Seeing that",
+            "D) Although",
+            "E) When"
+        ],
+        "answer": "D"
+    },
+    "18": {
+        "passage":"Because the disease's full progression often involves years of subtle cognitive changes, diagnosing Alzheimer's in its initial phases remains a formidable challenge for geriatric specialists. The clinical presentation of severe memory loss is ultimately (16) ----- the accumulation of amyloid plaques and tau tangles in the brain tissue, leading to widespread neuronal death. (17) ----- the disorder was formally described by Alois Alzheimer in 1906, the earliest pathological observations of similar neurodegenerative processes (18) ----- back to research from the late 19th century. Despite advances in neuroimaging, scientists still struggle to definitively (19) ----- the precise environmental or genetic factors that trigger the condition in every individual case. Consequently, the core focus of current research is dedicated to improving the daily coping mechanisms and quality of life for people (20) ----- the disease, moving toward better supportive care models.",
+        "question":"",
+        "options": [
+            "A) have been dated",
+            "B) can be dated",
+            "C) must be dated",
+            "D) had been dated",
+            "E) were dated"
+        ],
+        "answer": "B"
+    },
+    "19": {
+        "passage":"Because the disease's full progression often involves years of subtle cognitive changes, diagnosing Alzheimer's in its initial phases remains a formidable challenge for geriatric specialists. The clinical presentation of severe memory loss is ultimately (16) ----- the accumulation of amyloid plaques and tau tangles in the brain tissue, leading to widespread neuronal death. (17) ----- the disorder was formally described by Alois Alzheimer in 1906, the earliest pathological observations of similar neurodegenerative processes (18) ----- back to research from the late 19th century. Despite advances in neuroimaging, scientists still struggle to definitively (19) ----- the precise environmental or genetic factors that trigger the condition in every individual case. Consequently, the core focus of current research is dedicated to improving the daily coping mechanisms and quality of life for people (20) ----- the disease, moving toward better supportive care models.",
+        "question":"",
+        "options": [
+            "A) convey",
+            "B) simulate",
+            "C) conceal",
+            "D) pinpoint",
+            "E) overtake"
+        ],
+        "answer": "D"
+    },
+    "20": {
+        "passage":"Because the disease's full progression often involves years of subtle cognitive changes, diagnosing Alzheimer's in its initial phases remains a formidable challenge for geriatric specialists. The clinical presentation of severe memory loss is ultimately (16) ----- the accumulation of amyloid plaques and tau tangles in the brain tissue, leading to widespread neuronal death. (17) ----- the disorder was formally described by Alois Alzheimer in 1906, the earliest pathological observations of similar neurodegenerative processes (18) ----- back to research from the late 19th century. Despite advances in neuroimaging, scientists still struggle to definitively (19) ----- the precise environmental or genetic factors that trigger the condition in every individual case. Consequently, the core focus of current research is dedicated to improving the daily coping mechanisms and quality of life for people (20) ----- the disease, moving toward better supportive care models.",
+        "question":"",
+        "options": [
+            "A) against",
+            "B) to",
+            "C) in",
+            "D) on",
+            "E) with"
+        ],
+        "answer": "E"
+    },
+    "21": {
+        "question": "While Isaac Newton is universally credited with establishing the laws of classical mechanics and calculus, -----",
+        "options": [
+            "A) the conceptual groundwork for his mathematical and physical theories was laid by several contemporary European scholars",
+            "B) his groundbreaking work on gravity was initially met with skepticism and debate among the scientific community of his era",
+            "C) the profound influence of his Principia Mathematica fundamentally reshaped philosophical thought for centuries to come",
+            "D) he dedicated a significant portion of his later life to intensely personal research into alchemy and theology",
+            "E) his theories provided the foundation for engineering and orbital mechanics until the emergence of quantum physics"
+        ],
+        "answer": "A"
+    },
+    "22": {
+        "question": "While global organizations have consistently increased their funding allocations for renewable energy research in the last decade, -----",
+        "options": [
+            "A) the economic feasibility of implementing solar power infrastructure has remained relatively stable across the industrial sector",
+            "B) it is crucial to recognize that technological breakthroughs alone cannot solve the complex issue of energy poverty",
+            "C) the transition requires widespread political commitment and a fundamental restructuring of international energy treaties",
+            "D) the vast majority of the world's energy supply remains heavily reliant on non-renewable fossil fuels",
+            "E) many developing nations began implementing carbon pricing mechanisms to incentivize cleaner production methods"
+        ],
+        "answer": "D"
+    },
+    "23": {
+        "question": "The early Mesoamerican civilizations were able to sustain vast urban populations and complex societal structures -----",
+        "options": [
+            "A) even though their architectural achievements primarily involved ceremonial sites rather than residential complexes",
+            "B) unless they developed advanced irrigation systems which significantly reduced their reliance on unpredictable seasonal rainfall",
+            "C) although historical records indicate frequent conflicts over control of trade routes and agricultural lands",
+            "D) because they successfully developed specialized agricultural techniques for farming nutrient-poor highland soil",
+            "E) while their writing systems, though sophisticated, were largely reserved for religious and political elites"
+        ],
+        "answer": "D"
+    },
+    "24": {
+        "question": "----- if that modification is predicted to significantly increase their long-term survival rate in harsh climates.",
+        "options": [
+            "A) Certain terrestrial organisms have developed complex symbiotic relationships with local flora for protection",
+            "B) The study of rapid evolution has become a highly controversial topic among specialized geneticists",
+            "C) Many species of migratory birds will undergo substantial changes in their established flight patterns",
+            "D) The introduction of non-native fauna to an isolated ecosystem usually leads to irreversible ecological damage",
+            "E) Scientists are often cautious about labeling any sudden genetic alteration as truly beneficial or adaptive"
+        ],
+        "answer": "C"
+    },
+    "25": {
+        "question": "The global effort to combat climate change requires the immediate reduction of carbon emissions; however, securing the necessary international consensus remains the most formidable obstacle to effective policy implementation.",
+        "options": [
+            "A) İklim değişikliğiyle mücadele etmeye yönelik küresel çaba, karbon emisyonlarının derhal azaltılmasını gerektirir; ancak, gerekli uluslararası uzlaşmayı sağlamak, etkin politika uygulaması önündeki en zorlu engel olmaya devam etmektedir.",
+            "B) Küresel çaba, karbon emisyonlarını derhal azaltmakla başlasa da, iklim değişikliğiyle mücadele etmek için en önemli engel, uluslararası uzlaşmanın sağlanmasıdır.",
+            "C) Karbon emisyonlarının derhal azaltılması, iklim değişikliğiyle mücadelede küresel bir gereklilik olsa da etkili politikaların uygulanması, uluslararası uzlaşma sağlanmadıkça zorlu bir engeldir.",
+            "D) Karbon emisyonlarının derhal azaltılmasına rağmen, iklim değişikliğiyle mücadele çabaları, uluslararası uzlaşma sağlanamadığı için en zorlu engelle karşılaşmaktadır.",
+            "E) Etkili politika uygulaması önündeki en zorlu engel, gerekli uluslararası uzlaşmayı sağlamak olsa da küresel çaba karbon emisyonlarının derhal azaltılmasını gerektirir."
+        ],
+        "answer": "A"
+    },
+    "26": {
+        "question": "Avrupa Komisyonu, tüm büyük teknoloji şirketlerinin gizlilik ve veri koruma yönetmeliklerine uyumu sağlamak için iç denetim departmanları kurması gerektiğini savunarak, dijital pazar için yeni düzenlemeler önermektedir.",
+        "options": [
+            "A) Proposing new regulations for the digital market, the European Commission is asserting that privacy and data protection regulations must be complied with by all major technology companies through internal audit departments.",
+            "B) Arguing for internal audit departments to ensure compliance with privacy and data protection regulations, the European Commission is proposing new regulations for the digital market to all major technology companies.",
+            "C) The need for all major technology companies to establish internal audit departments for ensuring compliance with privacy and data protection regulations led the European Commission to propose new regulations for the digital market.",
+            "D) The European Commission argues that new regulations for the digital market should be proposed, provided that all major technology companies establish internal audit departments to ensure compliance with privacy and data protection regulations.",
+            "E) The European Commission is proposing new regulations for the digital market, arguing that all major technology companies should establish internal audit departments to ensure compliance with privacy and data protection regulations."
+        ],
+        "answer": "E"
+    },
+    "27": {
+        "question": "--- PASSAGE --- So far, only two types of non-medicinal intervention have been proven to enhance or maintain executive brain functions. One is engaging with nature. Experts state that spending time in natural environments is not merely a visual experience; it is a restorative and immersive experience. Interacting with green spaces changes how the brain processes and filters various external stimuli, and prolonged exposure to nature can alter both brain activity and structural connectivity. The other is aerobic exercise. As for the role of physical activity in brain health, a study conducted among middle-aged adults revealed that reaction time improves when intensive cardiovascular training is undertaken even if it is for a limited duration, and it gets even better when the activity is sustained over longer periods. The results of the study confirm the cognitive benefits of aerobic exercise and deliver crucial and optimistic messages: firstly, even a brief, concentrated regimen can show beneficial effects on some cognitive functions. Secondly, this effect can be secured through consistency. So, we can say that it is never too late to enhance or maintain executive brain functions. --- QUESTION --- One can understand from the passage that engaging with nature -----.",
+        "options": [
+            "A) has a positive impact on how our brain responds to and processes various external cues",
+            "B) does not influence our brain structure when done only temporarily",
+            "C) is the most effective way of preserving all cognitive abilities",
+            "D) has little impact on restorative processes as it is primarily a visual experience",
+            "E) does not have an instant impact on brain connectivity unlike aerobic exercise"
+        ],
+        "answer": "A"
+    },
+    "28": {
+        "question": "--- PASSAGE --- So far, only two types of non-medicinal intervention have been proven to enhance or maintain executive brain functions. One is engaging with nature. Experts state that spending time in natural environments is not merely a visual experience; it is a restorative and immersive experience. Interacting with green spaces changes how the brain processes and filters various external stimuli, and prolonged exposure to nature can alter both brain activity and structural connectivity. The other is aerobic exercise. As for the role of physical activity in brain health, a study conducted among middle-aged adults revealed that reaction time improves when intensive cardiovascular training is undertaken even if it is for a limited duration, and it gets even better when the activity is sustained over longer periods. The results of the study confirm the cognitive benefits of aerobic exercise and deliver crucial and optimistic messages: firstly, even a brief, concentrated regimen can show beneficial effects on some cognitive functions. Secondly, this effect can be secured through consistency. So, we can say that it is never too late to enhance or maintain executive brain functions. --- QUESTION --- It is pointed out in the passage that aerobic exercise ------.",
+        "options": [
+            "A) may help improve reaction time",
+            "B) fixes several types of neurological disorders",
+            "C) prevents various age-related brain diseases",
+            "D) could strengthen structural connectivity in the brain",
+            "E) improves emotional regulation"
+        ],
+        "answer": "A"
+    },
+    "29": {
+        "question": "--- PASSAGE --- So far, only two types of non-medicinal intervention have been proven to enhance or maintain executive brain functions. One is engaging with nature. Experts state that spending time in natural environments is not merely a visual experience; it is a restorative and immersive experience. Interacting with green spaces changes how the brain processes and filters various external stimuli, and prolonged exposure to nature can alter both brain activity and structural connectivity. The other is aerobic exercise. As for the role of physical activity in brain health, a study conducted among middle-aged adults revealed that reaction time improves when intensive cardiovascular training is undertaken even if it is for a limited duration, and it gets even better when the activity is sustained over longer periods. The results of the study confirm the cognitive benefits of aerobic exercise and deliver crucial and optimistic messages: firstly, even a brief, concentrated regimen can show beneficial effects on some cognitive functions. Secondly, this effect can be secured through consistency. So, we can say that it is never too late to enhance or maintain executive brain functions. --- QUESTION --- According to the passage the study done on middle-aged adults shows that ------.",
+        "options": [
+            "A) it is possible to enhance the brain even with a short intensive course of cardiovascular training",
+            "B) those who start physical activity at a young age eliminate their risk of cognitive decline",
+            "C) aerobic exercise requires more consistency than engaging with nature",
+            "D) physical activity can improve executive function of the brain when practiced for a long time",
+            "E) there are substantial benefits of cardiovascular training when it is combined with nature immersion"
+        ],
+        "answer": "A"
+    },
+    "30": {
+        "question": "--- PASSAGE --- So far, only two types of non-medicinal intervention have been proven to enhance or maintain executive brain functions. One is engaging with nature. Experts state that spending time in natural environments is not merely a visual experience; it is a restorative and immersive experience. Interacting with green spaces changes how the brain processes and filters various external stimuli, and prolonged exposure to nature can alter both brain activity and structural connectivity. The other is aerobic exercise. As for the role of physical activity in brain health, a study conducted among middle-aged adults revealed that reaction time improves when intensive cardiovascular training is undertaken even if it is for a limited duration, and it gets even better when the activity is sustained over longer periods. The results of the study confirm the cognitive benefits of aerobic exercise and deliver crucial and optimistic messages: firstly, even a brief, concentrated regimen can show beneficial effects on some cognitive functions. Secondly, this effect can be secured through consistency. So, we can say that it is never too late to enhance or maintain executive brain functions. --- QUESTION --- Which of the following best describes the author's attitude towards sustaining executive brain functions?",
+        "options": [
+            "A) Encouraging",
+            "B) Doubtful",
+            "C) Pessimistic",
+            "D) Neutral",
+            "E) Critical"
+        ],
+        "answer": "A"
+    },
+    "31": {
+        "question": "Researcher: – Some pharmacological research indicates that the effectiveness of a new drug can be solely determined by the purity level of its active compound. Biochemistry Expert: – ----- Researcher: – In that case, what other elements in the body's chemistry or metabolism might critically influence a drug’s performance? Biochemistry Expert: – The patient's genetic profile, liver enzyme activity, overall gut microbiome health, or the presence of concurrent medications. These all significantly contribute to how a drug performs.",
+        "options": [
+            "A) I find that argument completely plausible. The degradation of the active compound by the body's internal processes often reduces the drug’s intended therapeutic effect.",
+            "B) I do not believe it’s scientifically sound to predict a drug’s therapeutic outcome merely by analyzing the purity of its primary compound. There are many physiological factors that must be considered.",
+            "C) That might well be true. Drugs with higher purity levels are absorbed more rapidly, and there is no doubt that absorption rate correlates strongly with a compound’s bioavailability.",
+            "D) Studies also show that low purity affects the drug’s stability in the bloodstream, leading to its rapid clearance. Thus, compound purity may negatively impact a drug's efficacy.",
+            "E) There is a common tendency to think that drugs with high purity are always better, and most clinical trials have repeatedly proven this assumption."
+        ],
+        "answer": "B"
+    },
+    "32": {
+        "question": "Professor: – Astronomers are observing the formation of new stars, an event that occurred billions of years ago in distant galaxies. Student: – ----- Professor: – They utilize powerful space telescopes with specialized infrared sensors to detect the light emitted from these very faint and ancient celestial bodies. Student: – Do you mean a tool like the James Webb Telescope? Professor: – Precisely. It allows them to overcome the obstruction caused by dust clouds and to penetrate vast cosmic distances in time and space.",
+        "options": [
+            "A) What exactly do astronomers hope to observe without direct visual evidence?",
+            "B) How are they gathering data about these far-off, historical phenomena?",
+            "C) How different is this new approach from traditional optical astronomy?",
+            "D) Why are they insisting on studying events that happened so long ago?",
+            "E) Do you think they will be able to confirm the lifespan of these new stars?"
+        ],
+        "answer": "B"
+    },
+    "33": {
+        "question": "Professor: – The current academic system heavily relies on standardized testing, which experts claim is creating deeply entrenched learning gaps between students from different socioeconomic backgrounds. Educator: – I agree. Schools often teach to the test, neglecting the development of critical thinking and creative problem-solving skills, which are essential for future success. Professor: – Exactly. This narrow focus is generating a crisis in higher education student engagement and genuine intellectual curiosity are steadily declining in the freshman year. Educator: – ----- Professor: – First, don't solely blame the educators. They are operating under immense institutional pressure, so you need to provide them with the flexibility to experiment with alternative assessment methods.",
+        "options": [
+            "A) Don’t you think as faculty members we exert more pressure on students by constantly emphasizing the importance of creative skills?",
+            "B) Well, we don’t want to criticize the current evaluation methods. We just want all students to feel successful in their academic journey.",
+            "C) We don't know how to deal with this loss of intellectual curiosity. The educators doesn't seem to recognise the long-term damage at all.",
+            "D) Do you think we should ask the curriculum developers to put themselves into the students' shoes to understand how they feel about the tests?",
+            "E) We really care about academic rigor, but this doesn’t mean that we can interfere with the standardized testing procedures."
+        ],
+        "answer": "C"
+    },
+    "34": {
+        "question": "In the late 1960s, the Apollo Space Program successfully completed a groundbreaking mission for retrieving significant geological samples from the lunar surface for rigorous scientific examination.",
+        "options": [
+            "A) The lunar surface was the primary source of the significant geological samples gathered by the Apollo Space Program, which finished its complex mission since 1960s with scientific intent.",
+            "B) What the Apollo Space Program achieved in the late 1960s was much more than just gathering the necessary geological samples from the Moon's surface for scientific examination.",
+            "C) The Apollo Space Program is known to be the first to attempt to retrieve the lunar rock specimens for scientific examination in the 1960s, which was a part of a much larger mission.",
+            "D) It was the Apollo Space Program that properly completed a remarkable undertaking to collect crucial rock specimens from the Moon's ground in the late 1960s for detailed laboratory analysis.",
+            "E) The successful completion of the Apollo Space Program in the end of the 1960s was due to its groundbreaking mission to retrieve geological samples, which proved to be significant."
+        ],
+        "answer": "D"
+    },
+    "35": {
+        "question": "Many academic researchers utilize sophisticated statistical models to scrutinize vast sets of clinical data against experimental bias, or in case of missing variables.",
+        "options": [
+            "A) A considerable amount of academic research relies on sophisticated statistical models so as to examine clinical data, but this analysis is ineffective against missing variables.",
+            "B) When affected by experimental bias, academic researchers may distort clinical data, so they are advised to utilize sophisticated statistical models to protect their data against bias or missing variables.",
+            "C) Researchers who do not utilize sophisticated statistical models will face significant issues when experimental bias affects their clinical data or their variables are missing.",
+            "D) Most experimental bias is known to target clinical data from researchers who do not use sophisticated statistical models, which may also cause trouble if critical variables are missing.",
+            "E) In order to evaluate enormous amounts of clinical data against experimental bias, or in case of potential missing variables, a large number of academic researchers benefit from sophisticated statistical models."
+        ],
+        "answer": "E"
+    },
+    "36": {
+        "question": "The profound psychological effect of color, particularly in marketing and visual design, is often utilized to elicit specific emotional responses. It is generally accepted that certain hues convey immediate and universal psychological messages. Every dominant shade and every subtle variation in tone triggers a feeling in a predefined affective system. ----- These powerful chromatic associations help companies to instantaneously communicate feelings of trust, excitement, or tranquility, thereby shaping consumer expectations and behaviors.",
+        "options": [
+            "A) Therefore, most major corporations spend enormous sums to conduct extensive market research aimed at discovering the newest color trends in emerging economies.",
+            "B) However, the precise interpretation of specific colors frequently varies significantly across different cultural and geographical contexts, necessitating careful localization.",
+            "C) For instance, a vibrant red often signals urgent action or intense passion, a deep blue conveys stability and trust, and a bright yellow represents optimism and clarity.",
+            "D) Nevertheless, the earliest documented use of color in visual communication is believed to date back to the prehistoric cave paintings found throughout Europe and Asia.",
+            "E) Standard design schemes commonly include warm, cool, and neutral palettes, though."
+        ],
+        "answer": "C"
+    },
+    "37": {
+        "question": "When our digital devices are operating flawlessly, most of us do not consider the intricate security mechanisms that protect our data. ---- A frequent recommendation, emphasized in tech magazines, online tutorials, or by IT professionals, is to maintain robust cyber hygiene. Cyber hygiene is defined as the management of security practices and procedural factors that minimize risk and may prevent digital threats. Although this broad definition can include nearly every aspect of digital interaction, factors such as routine software updates, strong password use, multi-factor authentication, and secure network usage are worth mentioning.",
+        "options": [
+            "A) However, as soon as security breaches occur, we naturally start searching for preventative measures.",
+            "B) Furthermore, data loss has been associated with severe financial and reputational damage for many businesses.",
+            "C) Consequently, the security of digital data affects a wide range of professional and personal interactions.",
+            "D) Thus, the utilization of multi-factor authentication is often considered to be the best single thing to implement.",
+            "E) In addition, the necessity of digital security has been long recognized by information experts."
+        ],
+        "answer": "A"
+    },
+    "38": {
+        "question": "(I) Although acute exposure to blue light can impair melatonin secretion, prolonged exposure to green light wavelengths is associated with sustained visual comfort. (II) A comprehensive ophthalmology review from Harvard Medical School found that 95 percent of studies conclude that individuals who regularly use green-filtered screens report less eye strain than those who do not. (III) People with existing vision problems augment their use of corrective lenses to compensate for their diminished visual acuity when reading fine print. (IV) Green light exposure enhances levels of focus-promoting and clarity-improving neurotransmitters such as GABA, acetylcholine, and glutamate in the visual cortex. (V) It also stabilizes the photoreceptors, the part of the retina that regulates sensitivity to brightness, and it also reduces muscle tension around the eyes, which seems to be associated with long-term digital eye strain.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "C"
+    },
+    "39": {
+        "question": "(I) Leonardo da Vinci's Mona Lisa is perhaps the most recognized and celebrated painting in the history of art. (II) It gained its enormous reputation not only due to its elusive smile, but also because of the incredible technical innovation demonstrated in the painting. (III) Thus, the painting is highly valued by global art historians and is considered a prime example of Renaissance portraiture. (IV) The process of painting on wet plaster, known as fresco, was a common technique used by many Renaissance artists, particularly for large-scale wall murals. (V) Da Vinci's subtle use of sfumato, a technique involving soft, blurred lines, allowed him to create a unique atmospheric depth and contributed significantly to the painting's enduring mystery.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "D"
+    },
+    "40": {
+        "question": "(I) Today, modern telescopes are sophisticated digital instruments, capable of capturing images over vast cosmic distances and detecting faint celestial bodies. (II) The type of light filter astronomers use influences the clarity and depth of the observed images. (III) These instruments can gather huge amounts of photonic data and store it across massive arrays of cloud servers. (IV) But long ago, astronomers had a simpler instrument to magnify distant objects and record observations onto photographic plates. (V) It was actually one of the first crucial scientific tools in the history of experimental physics.",
+        "options": [
+            "A) I",
+            "B) II",
+            "C) III",
+            "D) IV",
+            "E) V"
+        ],
+        "answer": "B"
+    }
+}
