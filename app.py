@@ -8,9 +8,11 @@ from firebase_admin import credentials, firestore, auth
 # --- 1. FIREBASE VE AYARLAR ---
 if not firebase_admin._apps:
     if "FIREBASE_JSON" in st.secrets:
-        key_dict = json.loads(st.secrets["FIREBASE_JSON"])
-        cred = credentials.Certificate(key_dict)
+        # Streamlit Secrets TOML formatında olduğu için doğrudan dict olarak alabiliriz
+        firebase_info = dict(st.secrets["FIREBASE_JSON"])
+        cred = credentials.Certificate(firebase_info)
     else:
+        # Lokal çalışma için dosya yolu
         cred = credentials.Certificate("serviceAccountKey.json")
     
     firebase_admin.initialize_app(cred)
