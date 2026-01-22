@@ -4,17 +4,24 @@ import json
 import random
 import firebase_admin
 from firebase_admin import credentials, firestore, auth
-
+import openai
+from openai import OpenAI
+from dotenv import load_dotenv
+load_dotenv()
 # --- 1. FIREBASE VE AYARLAR ---
 if not firebase_admin._apps:
-    if "FIREBASE_JSON" in st.secrets:
-        # Streamlit Secrets TOML formatında olduğu için doğrudan dict olarak alabiliriz
-        firebase_info = dict(st.secrets["FIREBASE_JSON"])
-        cred = credentials.Certificate(firebase_info)
-    else:
-        # Lokal çalışma için dosya yolu
+    try:
+        # Önce Cloud Secrets'ı dene (İnternetteyken burası çalışır)
+        if hasattr(st, "secrets") and "FIREBASE_JSON" in st.secrets:
+            key_dict = dict(st.secrets["FIREBASE_JSON"])
+            cred = credentials.Certificate(key_dict)
+        else:
+            # Lokaldesin demektir, dosyaya bak
+            cred = credentials.Certificate("serviceAccountKey.json")
+    except Exception:
+        # Eğer secrets hiç yoksa veya hata verirse direkt dosyaya düş
         cred = credentials.Certificate("serviceAccountKey.json")
-    
+        
     firebase_admin.initialize_app(cred)
 
 db = firestore.client()
@@ -40,6 +47,75 @@ for key, val in states.items():
     if key not in st.session_state: st.session_state[key] = val
 
 st.set_page_config(page_title="YÖKDİL Hazırlık Portalı", layout="wide", initial_sidebar_state="expanded")
+
+
+import google.generativeai as genai
+
+def get_ai_explanation(passage, question, options, correct_answer):
+    # Anahtar kontrolü (Lokal: .env, Cloud: Secrets)
+    api_key = None
+    try:
+        if "OPENAI_API_KEY" in st.secrets:
+            api_key = st.secrets["OPENAI_API_KEY"]
+    except:
+        pass
+    
+    if not api_key:
+        api_key = os.getenv("OPENAI_API_KEY")
+    
+    if not api_key:
+        return "Hata: OPENAI_API_KEY bulunamadı! (.env veya Cloud Secrets kontrol edin.)"
+
+    # OpenAI Client Tanımlama
+    client = OpenAI(api_key=api_key)
+
+    # Pasaj Kontrolü ve Dinamik Prompt
+    is_passage = passage and len(passage.strip()) > 5
+    context_text = f"--- PASAJ ---\n{passage}\n" if is_passage else ""
+    
+    role_instruction = (
+        "Verilen pasajı ve soruyu analiz ederek doğru cevabın pasajdaki dayanağını göster." 
+        if is_passage else 
+        "Verilen gramer/kelime sorusunu analiz et, kuralı veya kelime anlamını açıkla."
+    )
+
+    prompt = f"""
+    Sen uzman bir YÖKDİL/YDS İngilizce eğitmenisin.
+    Giriş veya sonuç cümleleri (Tabii, Umarım vb.) kullanma. Doğrudan analize baş.
+    {role_instruction}
+    
+    {context_text}
+    --- SORU ---
+    {question}
+    
+    --- SEÇENEKLER ---
+    {options}
+    
+    --- DOĞRU CEVAP ---
+    {correct_answer}
+    
+    Analizinde şunları yap:
+    1. Doğru cevabın neden doğru olduğunu (pasaj kanıtı veya gramer kuralı) açıkla.
+    2. Yanlış şıkların neden elendiğini (çeldirici mantığı) belirt.
+    3. Önemli 'akademik' kelimelerin Türkçe karşılıklarını ve eş anlamlılarını liste şeklinde ver.
+    4. Soru tipine özel bir 'sınav ipucu' (trick) ekle.
+    
+    Lütfen anlatımını samimi ve öğretici tut.
+    """
+
+    try:
+        # OpenAI o-serisi (o1-mini, o4 vb.) modelleri için çağrı
+        # Not: Eğer o1-mini veya o1-preview kullanıyorsan 'o1-mini' yazabilirsin. 
+        # Standart GPT-4o için 'gpt-4o' kullanabilirsin.
+        response = client.chat.completions.create(
+            model="gpt-4o", # Buraya o4 veya o1-mini yazabilirsin
+            messages=[
+                {"role": "user", "content": prompt}
+            ]
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        return f"OpenAI Analiz Hatası: {str(e)}"
 
 # --- 3. YARDIMCI FONKSİYONLAR ---
 def format_text(text):
@@ -148,20 +224,25 @@ def matching_ui(current_set):
     st.subheader("🧩 Kelime - Anlam Eşleştirme")
     st.write("Her aşamada 5 kelime eşleştirin.")
 
+    # --- AYARLAR VE ALT GRUP ---
     sub_size = 5
     start_i = st.session_state.match_sub_page * sub_size
     subset = current_set[start_i:start_i + sub_size]
     
+    # Mevcut aşamadaki kelimeler ve anlamları
     target_meanings = {w['word']: ", ".join(w['means']) for w in subset}
     
-    if st.session_state.match_shuffled_meanings is None or st.session_state.get('last_sub_key') != f"sub_{st.session_state.match_sub_page}":
+    # Anlamları karıştır (Sadece sayfa değiştiğinde)
+    sub_key = f"sub_{st.session_state.match_sub_page}"
+    if st.session_state.match_shuffled_meanings is None or st.session_state.get('last_sub_key') != sub_key:
         m_list = list(target_meanings.values())
         random.shuffle(m_list)
         st.session_state.match_shuffled_meanings = m_list
-        st.session_state.last_sub_key = f"sub_{st.session_state.match_sub_page}"
+        st.session_state.last_sub_key = sub_key
 
     st.info(f"Aşama {st.session_state.match_sub_page + 1} / 4")
 
+    # --- ARAYÜZ: KELİMELER VE ANLAMLAR ---
     c1, c2 = st.columns(2)
     with c1:
         st.write("### Kelimeler")
@@ -177,10 +258,13 @@ def matching_ui(current_set):
     with c2:
         st.write("### Anlamlar")
         for m in st.session_state.match_shuffled_meanings:
+            # Bu anlamın eşleşip eşleşmediğini kontrol et
             matched_w = next((w for w, val in st.session_state.match_pairs.items() if val == m), None)
+            
             if st.button(f"✅ {m}" if matched_w else m, key=f"match_m_{m[:20]}", 
                          disabled=matched_w is not None, use_container_width=True):
                 if st.session_state.match_selected_word:
+                    # Doğru eşleşme kontrolü
                     if m == target_meanings[st.session_state.match_selected_word]:
                         st.session_state.match_pairs[st.session_state.match_selected_word] = m
                         st.session_state.match_selected_word = None
@@ -191,22 +275,29 @@ def matching_ui(current_set):
                 else:
                     st.warning("Önce bir kelime seçin!")
 
+    # --- OYUN SONU VE BALON KONTROLÜ ---
+    # Mevcut 5'li grup bittiyse ve son sayfadaysak balon patlat
+    if len(st.session_state.match_pairs) >= len(subset) and st.session_state.match_sub_page == 3:
+        if not st.session_state.get('balloons_done', False):
+            st.balloons()
+            st.success("Tebrikler! Tüm paketi (20 kelime) başarıyla tamamladın! 🎉")
+            st.session_state.balloons_done = True # Tekrar patlamasını engeller
+
+    # --- NAVİGASYON ---
     st.divider()
     nc1, nc2, nc3 = st.columns([1, 2, 1])
     with nc1:
         if st.button("⬅️ Önceki 5'li", disabled=st.session_state.match_sub_page == 0):
             st.session_state.match_sub_page -= 1
             st.session_state.match_shuffled_meanings = None
+            st.session_state.match_pairs = {} # Yeni sayfa için sıfırla
             st.rerun()
     with nc3:
         if st.button("Sonraki 5'li ➡️", disabled=st.session_state.match_sub_page >= 3):
             st.session_state.match_sub_page += 1
             st.session_state.match_shuffled_meanings = None
+            st.session_state.match_pairs = {} # Yeni sayfa için sıfırla
             st.rerun()
-
-    if len(st.session_state.match_pairs) >= len(subset) and st.session_state.match_sub_page == 3:
-        st.balloons()
-        st.success("Tebrikler! Tüm paketi başarıyla tamamladın! 🎉")
 
 # --- 6. KELİME UYGULAMASI (ANA) ---
 def words_app():
@@ -315,6 +406,7 @@ def auth_ui():
                 except Exception as e: st.error(f"Hata: {e}")
 
 # --- 8. SINAV MODÜLÜ (TAM KORUNAN) ---
+# --- EXAM APP (AI DESTEKLİ VE KALICI SÜRÜM) ---
 def exam_app():
     uid = st.session_state.user['uid']
     files = sorted([f for f in os.listdir(JSON_FOLDER) if f.endswith(".json")])
@@ -323,20 +415,28 @@ def exam_app():
     
     if sel != st.session_state.last_selected_file:
         st.session_state.last_selected_file = sel
-        st.components.v1.html("<script>window.parent.window.scrollTo(0,0);</script>", height=0)
         st.rerun()
 
     if sel:
         deneme_id = clean[sel]
+        # Kullanıcının cevaplarını ve AI açıklamalarını içeren doküman referansı
         user_ref = db.collection("users").document(uid).collection("denemeler").document(deneme_id)
-        saved = (user_ref.get().to_dict() or {}).get("answers", {})
+        user_data = user_ref.get().to_dict() or {}
+        saved_answers = user_data.get("answers", {})
+        saved_ai_explanations = user_data.get("ai_explanations", {}) # Kalıcı açıklamalar
+
         with open(os.path.join(JSON_FOLDER, sel), "r", encoding="utf-8") as f: 
             qs = json.load(f)
         
         st.title(f"✍️ {deneme_id}")
+        
         for q_no, q_info in qs.items():
             st.subheader(f"Soru {q_no}")
-            psg = q_info.get("passage", ""); q_txt = q_info.get("question", "")
+            
+            psg = q_info.get("passage", "")
+            q_txt = q_info.get("question", "")
+            
+            # --- PARSE LOGIC ---
             if "--- PASSAGE ---" in q_txt:
                 parts = q_txt.split("--- QUESTION ---")
                 extracted_psg = parts[0].replace("--- PASSAGE ---", "").strip()
@@ -352,22 +452,65 @@ def exam_app():
                     psg_cleaned = psg_cleaned.replace(target_blank, f"<b style='color:#FF4B4B; text-decoration:underline;'>{target_blank}</b>")
                 st.markdown(f'<div style="background-color:#1E1E1E; padding:20px; border-radius:10px; border-left:5px solid #4F8BF9; font-size:18px; line-height:1.6; margin-bottom:20px;">{psg_cleaned}</div>', unsafe_allow_html=True)
             
-            st.write("") 
             st.markdown(f"**{format_text(q_txt)}**")
-            st.write("")
 
+            # Seçenekler ve Cevaplama
             opts = q_info.get("options", [])
-            prev = saved.get(str(q_no))
+            prev = saved_answers.get(str(q_no))
             idx = next((i for i, o in enumerate(opts) if o.strip().startswith(str(prev))), None) if prev else None
             
-            choice = st.radio("Cevap:", opts, key=f"r_{deneme_id}_{q_no}", index=idx)
+            choice = st.radio("Cevabınız:", opts, key=f"r_{deneme_id}_{q_no}", index=idx)
+            
+            # --- CEVAP KAYDETME ---
             if choice:
                 letter = choice[0]
                 if prev != letter:
-                    saved[str(q_no)] = letter
-                    user_ref.set({"answers": saved}, merge=True)
+                    saved_answers[str(q_no)] = letter
+                    user_ref.set({"answers": saved_answers}, merge=True)
+                
                 if letter == q_info["answer"]: st.success("✅ Doğru")
                 else: st.error(f"❌ Yanlış! Cevap: {q_info['answer']}")
+
+            # --- 🤖 AI BUTONU VE KALICILIK ---
+            current_explanation = saved_ai_explanations.get(str(q_no))
+
+            col_spacer, col_ai = st.columns([3, 1])
+            with col_ai:
+                # Eğer daha önce açıklama alınmışsa silme butonu çıksın
+                if current_explanation:
+                    if st.button("🗑️ Analizi Sil", key=f"del_ai_{deneme_id}_{q_no}"):
+                        # 1. Firebase'den kalıcı olarak sil
+                        user_ref.update({
+                            f"ai_explanations.{q_no}": firestore.DELETE_FIELD
+                        })
+                        
+                        # 2. Mevcut session_state verisini de temizle (Ekran anında güncellensin diye)
+                        if str(q_no) in saved_ai_explanations:
+                            del saved_ai_explanations[str(q_no)]
+                        
+                        st.toast("Analiz silindi! 🗑️")
+                        st.rerun()
+                
+                # Eğer açıklama yoksa AI butonu çıksın
+                else:
+                    if st.button(f"🤖 AI'ya Sor", key=f"ai_btn_{deneme_id}_{q_no}"):
+                        with st.spinner("OpenAI analiz ediyor..."):
+                            explanation = get_ai_explanation(
+                                psg, q_txt, opts, q_info["answer"]
+                            )
+                            # Firebase'e kaydet (merge=True ile diğer açıklamaları bozmaz)
+                            user_ref.set({"ai_explanations": {str(q_no): explanation}}, merge=True)
+                            st.rerun()
+
+            # Eğer açıklama varsa kutu içinde göster
+            if current_explanation:
+                st.markdown(f"""
+                    <div style="background-color:#0E1117; padding:20px; border-radius:10px; border:2px solid #4F8BF9; margin-top:15px; border-left: 10px solid #4F8BF9;">
+                        <h4 style="color:#4F8BF9; margin-top:0;">🤖 AI ANALİZİ:</h4>
+                        <div style="color:#E0E0E0; line-height:1.6;">{current_explanation}</div>
+                    </div>
+                """, unsafe_allow_html=True)
+            
             st.divider()
 
 # --- 9. ANA ÇALIŞTIRICI ---
