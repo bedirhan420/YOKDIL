@@ -194,42 +194,25 @@ def writing_ui(word_data, total_len):
     target_word = word_data['word'].strip()
     st.info(f"Anlamı: **{', '.join(word_data['means'])}** ({word_data['type']})")
     
-    # --- 1. SESSION STATE KONTROLLERİ ---
-    # Kelime değiştiğinde ipucunu sıfırlamak için kelimeye özel anahtar kullanıyoruz
-    hint_key = f"h_cnt_{target_word.replace(' ', '_')}"
-    if hint_key not in st.session_state:
-        st.session_state[hint_key] = 0
+    # --- 1. HARF HAVUZU BUTONU ---
+    if st.button("🔍 Harf Havuzunu Göster (Karışık Harfler)", use_container_width=True):
+        chars = list(target_word.upper())
+        random.shuffle(chars)
+        # Toast yerine daha kalıcı ve net görünen bir kutu (isteğe bağlı toast da kalabilir)
+        st.info(f"💡 Harf Havuzu: `{' '.join(chars)}`")
 
-    # --- 2. İPUCU BUTONLARI ---
-    col1, col2 = st.columns(2)
-    with col1:
-        if st.button("🔍 Harf Havuzu", use_container_width=True):
-            chars = list(target_word.upper())
-            random.shuffle(chars)
-            st.toast(f"Harfler: {' '.join(chars)}", icon="💡")
-            
-    with col2:
-        # İpucu butonuna basıldığında state'i artırıp rerun yapıyoruz
-        if st.button("💡 Sıradaki Harfi Ver", use_container_width=True):
-            if st.session_state[hint_key] < len(target_word):
-                st.session_state[hint_key] += 1
-                st.rerun()
-
-    # --- 3. ANLIK YAZMA ALANI (st_keyup) ---
-    # value kısmına ipucu harflerini önceden dolduruyoruz
-    hint_text = target_word[:st.session_state[hint_key]]
-    
+    # --- 2. ANLIK YAZMA ALANI (st_keyup) ---
+    # debounce=0 sayesinde sen klavyeye dokunduğun an çizgiler güncellenir
     user_input = st_keyup(
         "Kelimeyi Yazın:", 
-        key=f"ku_{target_word}", # Key'i kısa ve öz tutalım
-        value=hint_text,
+        key=f"ku_{target_word}", 
         debounce=0
     ).strip()
 
-    # --- 4. MAVİ ÇİZGİLER ---
+    # --- 3. MAVİ ÇİZGİLER ---
     display_chars = []
     for i in range(len(target_word)):
-        # Kullanıcının yazdığı veya ipucu olarak gelen harfi göster
+        # Kullanıcının yazdığı harf doğruysa göster, değilse alt çizgi bırak
         if i < len(user_input) and user_input[i].lower() == target_word[i].lower():
             display_chars.append(target_word[i].upper())
         else:
@@ -238,16 +221,13 @@ def writing_ui(word_data, total_len):
     display_hint = " ".join(display_chars)
     st.markdown(f"<h2 style='letter-spacing: 5px; text-align:center; font-family: monospace; color: #4F8BF9;'>{display_hint}</h2>", unsafe_allow_html=True)
 
-    # --- 5. OTOMATİK GEÇİŞ VE HATA ÖNLEME ---
+    # --- 4. OTOMATİK GEÇİŞ ---
+    # Tüm doğru harfler girildiğinde ve uzunluk tam olduğunda
     if "".join(display_chars) == target_word.upper():
         st.success(f"🎯 Doğru! **{target_word}**")
-        time.sleep(1)
+        time.sleep(1) # Başarı mesajını görmen için kısa bir es
         
-        # Temizlik: Mevcut kelimenin ipucu sayacını sil
-        if hint_key in st.session_state:
-            del st.session_state[hint_key]
-        
-        # Hata aldığın satırı bu şekilde güvenli hale getirdik:
+        # word_index'i bir artırıp yeni kelimeye geçiyoruz
         st.session_state.word_index = (st.session_state.word_index + 1) % total_len
         st.rerun()
 
