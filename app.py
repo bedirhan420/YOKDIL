@@ -52,37 +52,6 @@ for key, val in states.items():
 
 st.set_page_config(page_title="YÖKDİL Hazırlık Portalı", layout="wide", initial_sidebar_state="expanded")
 
-st.markdown("""
-    <style>
-        /* 1. Butonun içindeki sağ-sol boşluğu (padding) daralt */
-        div[data-testid="stButton"] > button {
-            padding-left: 2px !important;
-            padding-right: 2px !important;
-            min-width: 35px !important; /* Harf kutusunun minimum genişliği */
-            height: 45px !important;    /* Butonun yüksekliği */
-            width: 100% !important;
-        }
-
-        /* 2. Butonların yan yana dizildiği kolonlar arasındaki boşluğu azalt */
-        [data-testid="stHorizontalBlock"] {
-            gap: 4px !important;
-        }
-        
-        /* 3. Harflerin buton içinde büyük ve net görünmesini sağla */
-        div[data-testid="stButton"] button p {
-            font-size: 22px !important;
-            font-weight: bold !important;
-        }
-
-        /* 4. Ana içerik alanını (sağ-sol boşluklar) genişlet */
-        .block-container {
-            padding-left: 2rem;
-            padding-right: 2rem;
-            max-width: 98%;
-        }
-    </style>
-""", unsafe_allow_html=True)
-
 def get_ai_explanation(passage, question, options, correct_answer):
     # Anahtar kontrolü (Lokal: .env, Cloud: Secrets)
     api_key = None
@@ -219,70 +188,19 @@ def flash_card_ui(word_data, is_learned):
                 st.write(f"**Antonyms:** {', '.join(word_data['antonyms'])}")
 
 def writing_ui(word_data):
-    target_word = word_data['word'].upper()  # Harfleri büyük yapalım daha net görünsün
+    target_word = word_data['word']
     st.info(f"Anlamı: **{', '.join(word_data['means'])}** ({word_data['type']})")
-
-    # --- SESSION STATE KONTROLLERİ ---
-    write_key = f"write_state_{target_word}"
-    if write_key not in st.session_state:
-        # Harfleri karıştır
-        shuffled = list(target_word)
-        random.shuffle(shuffled)
-        st.session_state[write_key] = {
-            "current_input": [], # Kullanıcının tıkladığı harfler
-            "shuffled_letters": shuffled, # Alttaki karışık harfler
-            "used_indices": [] # Hangi sıradaki harf kullanıldı (indis takibi)
-        }
-
-    state = st.session_state[write_key]
-
-    # --- 1. ÜST KISIM: DOLAN HARFLER (---) ---
-    st.write("### Kelimeyi Oluşturun")
-    cols = st.columns(len(target_word))
-    for i in range(len(target_word)):
-        with cols[i]:
-            char = state["current_input"][i] if i < len(state["current_input"]) else "_"
-            # Eğer harf dolmuşsa ve tıklanırsa orayı boşalt (ve sonrasını)
-            if st.button(char, key=f"display_{target_word}_{i}", use_container_width=True):
-                if i < len(state["current_input"]):
-                    # Tıklanan yerden sonrasını temizle (Sıralı dolma mantığı için en temizi budur)
-                    state["current_input"] = state["current_input"][:i]
-                    state["used_indices"] = state["used_indices"][:i]
-                    st.rerun()
-
-    st.write("")
-
-    # --- 2. ALT KISIM: KARIŞIK HARF BUTONLARI ---
-    st.write("### Harfler")
-    letter_cols = st.columns(len(target_word))
-    for i, char in enumerate(state["shuffled_letters"]):
-        with letter_cols[i]:
-            is_used = i in state["used_indices"]
-            if st.button(char, key=f"btn_{target_word}_{i}", disabled=is_used, use_container_width=True):
-                state["current_input"].append(char)
-                state["used_indices"].append(i)
-                st.rerun()
-
-    # --- 3. KONTROL MEKANİZMASI ---
-    if len(state["current_input"]) == len(target_word):
-        user_result = "".join(state["current_input"])
-        if user_result == target_word:
-            st.success("🎯 Doğru!")
-            # 1 saniye bekleyip sonraki kelimeye geçmek için ufak bir tetikleyici
-            if st.button("Sonraki Kelimeye Geç"):
-                # Bu kelimenin state'ini temizle ve bir sonrakine geç
-                del st.session_state[write_key]
-                st.session_state.word_index = (st.session_state.word_index + 1) % st.session_state.current_set_len # Dışarıdan set uzunluğunu almalı
-                st.rerun()
+    user_input = st.text_input("Kelimeyi Yazın:", key=f"write_{target_word}").strip()
+    
+    display_hint = " ".join([char if i < len(user_input) and user_input[i].lower() == char.lower() else "_" for i, char in enumerate(target_word)])
+    st.markdown(f"<h2 style='letter-spacing: 5px; text-align:center; font-family: monospace;'>{display_hint}</h2>", unsafe_allow_html=True)
+    
+    if user_input:
+        if user_input.lower() == target_word.lower():
+            st.success("Tebrikler! Doğru yazdınız. 🎯")
+            st.balloons()
         else:
-            st.error("Yanlış! Harfler sıfırlanıyor...")
-            # Yanlışsa her şeyi sıfırla ve harfleri tekrar karıştır
-            shuffled = list(target_word)
-            random.shuffle(shuffled)
-            state["current_input"] = []
-            state["used_indices"] = []
-            state["shuffled_letters"] = shuffled
-            st.rerun()
+            st.error("Henüz doğru değil, devam edin...")
 
 def multiple_choice_ui(word_data, current_set):
     st.subheader(f"**{word_data['word']}**")
@@ -410,8 +328,6 @@ def words_app():
     
     current_set = type_specific_words[(selected_page - 1) * page_size : selected_page * page_size]
 
-    st.session_state.current_set_len = len(current_set)
-    
     key = f"{selected_type}_{selected_page}_{activity}"
     if st.session_state.get("prev_key") != key:
         st.session_state.prev_key = key
