@@ -49,6 +49,18 @@ states = {
     'match_shuffled_meanings': None,
     'match_sub_page': 0 # Eşleştirme için alt sayfa
 }
+
+if st.session_state.get('user') is None:
+    saved_uid = controller.get('user_uid')
+    if saved_uid:
+        # Çerezde UID varsa Firebase'den kullanıcı bilgilerini çekip session'a yazıyoruz
+        try:
+            user_info = auth.get_user(saved_uid)
+            st.session_state.user = {'uid': user_info.uid, 'email': user_info.email}
+        except Exception:
+            # Çerez bozuksa veya kullanıcı silindiyse çerezi temizle
+            controller.remove('user_uid')
+
 for key, val in states.items():
     if key not in st.session_state: st.session_state[key] = val
 
@@ -189,9 +201,6 @@ def flash_card_ui(word_data, is_learned):
             if word_data.get('antonyms'):
                 st.write(f"**Antonyms:** {', '.join(word_data['antonyms'])}")
 
-
-from st_keyup import st_keyup
-import time
 
 def writing_ui(word_data, total_len):
     target_word = word_data['word'].strip()
@@ -437,8 +446,8 @@ def auth_ui():
                     st.session_state.user = {'uid': user.uid, 'email': le}
                     
                     # --- KRİTİK: Çerezi Tarayıcıya Yaz (30 Günlük) ---
-                    controller.set('user_uid', user.uid)
-                    
+                    controller.set('user_uid', user.uid, max_age=2592000)
+                    time.sleep(0.5)
                     msg_placeholder.success("Giriş başarılı!")
                     st.rerun()
                 except Exception:
