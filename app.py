@@ -52,6 +52,37 @@ for key, val in states.items():
 
 st.set_page_config(page_title="YÖKDİL Hazırlık Portalı", layout="wide", initial_sidebar_state="expanded")
 
+st.markdown("""
+    <style>
+        /* 1. Butonun içindeki sağ-sol boşluğu (padding) daralt */
+        div[data-testid="stButton"] > button {
+            padding-left: 2px !important;
+            padding-right: 2px !important;
+            min-width: 35px !important; /* Harf kutusunun minimum genişliği */
+            height: 45px !important;    /* Butonun yüksekliği */
+            width: 100% !important;
+        }
+
+        /* 2. Butonların yan yana dizildiği kolonlar arasındaki boşluğu azalt */
+        [data-testid="stHorizontalBlock"] {
+            gap: 4px !important;
+        }
+        
+        /* 3. Harflerin buton içinde büyük ve net görünmesini sağla */
+        div[data-testid="stButton"] button p {
+            font-size: 22px !important;
+            font-weight: bold !important;
+        }
+
+        /* 4. Ana içerik alanını (sağ-sol boşluklar) genişlet */
+        .block-container {
+            padding-left: 2rem;
+            padding-right: 2rem;
+            max-width: 98%;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 def get_ai_explanation(passage, question, options, correct_answer):
     # Anahtar kontrolü (Lokal: .env, Cloud: Secrets)
     api_key = None
