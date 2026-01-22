@@ -203,14 +203,18 @@ def writing_ui(word_data, total_len):
         random.shuffle(chars)
         st.info(f"💡 Harf Havuzu: `{' '.join(chars)}`")
 
-    # 2. Anlık Yazma Alanı
+    # --- ÖNERİLERİ KESİN KAPATMA TAKTİĞİ ---
+    # Label kısmını boş bırakıyoruz (Tarayıcı ne yazacağını anlamasın diye)
+    # Key kısmını her kelime için tamamen benzersiz yapıyoruz
+    st.write("Kelimeyi Yazın:") 
     user_input = st_keyup(
-        "Kelimeyi Yazın:", 
-        key=f"ku_{target_word}_{st.session_state.word_index}", 
-        debounce=0
+        label="", # Label'ı boş bıraktık
+        key=f"input_box_{target_word}_{st.session_state.word_index}", 
+        debounce=0,
+        label_visibility="collapsed" # Etiketi tamamen HTML'den kaldırır
     ).strip()
 
-    # 3. GÖRSELLEŞTİRME (Yanlış harfi de gösteren mantık)
+    # 3. GÖRSELLEŞTİRME (Mavi/Kırmızı Mantığı)
     display_html = '<div style="text-align:center; font-family: monospace; font-size: 30px; letter-spacing: 5px;">'
     
     correct_count = 0
@@ -220,28 +224,22 @@ def writing_ui(word_data, total_len):
             t_char = target_word[i].upper()
             
             if u_char == t_char:
-                # Doğru harf: Mavi ve Temiz
                 display_html += f'<span style="color: #4F8BF9;">{u_char}</span>'
                 correct_count += 1
             else:
-                # Yanlış harf: Kırmızı ve Altı Çizili (Nerede hata yaptığını gör)
                 display_html += f'<span style="color: #FF4B4B; text-decoration: underline;">{u_char}</span>'
         else:
-            # Henüz yazılmamış harf: Alt çizgi
             display_html += '<span style="color: #555;">_</span>'
             
     display_html += '</div>'
     st.markdown(display_html, unsafe_allow_html=True)
 
     # 4. OTOMATİK GEÇİŞ
-    # Sadece her şey doğruysa ve uzunluk tam ise geç
     if correct_count == len(target_word) and len(user_input) == len(target_word):
         st.success(f"🎯 Harika! Doğru: **{target_word}**")
         time.sleep(1)
         st.session_state.word_index = (st.session_state.word_index + 1) % total_len
         st.rerun()
-    elif len(user_input) >= len(target_word) and correct_count < len(target_word):
-        st.error("Bazı harfler hatalı, lütfen kırmızı harfleri düzeltin.")
 
 def multiple_choice_ui(word_data, current_set):
     st.subheader(f"**{word_data['word']}**")
