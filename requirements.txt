@@ -3,3 +3,4 @@ firebase-admin
 openai
 dotenv
 streamlit-cookies-controller
+streamlit-keyup

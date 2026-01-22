@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 from streamlit_cookies_controller import CookieController # Yeni kütüphane
 import time
+from st_keyup import st_keyup
 
 controller = CookieController();
 # --- 1. FIREBASE VE AYARLAR ---
@@ -193,71 +194,57 @@ def writing_ui(word_data):
     st.info(f"Anlamı: **{', '.join(word_data['means'])}** ({word_data['type']})")
     
     # --- SESSION STATE ---
-    hint_count_key = f"hint_count_{target_word}"
-    show_pool_key = f"show_pool_{target_word}"
-    
-    if hint_count_key not in st.session_state:
-        st.session_state[hint_count_key] = 0
-    if show_pool_key not in st.session_state:
-        st.session_state[show_pool_key] = False
+    hint_key = f"hint_count_{target_word}"
+    if hint_key not in st.session_state:
+        st.session_state[hint_key] = 0
 
     # --- İPUCU BUTONLARI ---
-    b1, b2 = st.columns(2)
-    with b1:
-        if st.button("🔍 Harf Havuzunu Göster", use_container_width=True):
-            st.session_state[show_pool_key] = True
-            st.rerun()
-    with b2:
+    col1, col2 = st.columns(2)
+    with col1:
+        if st.button("🔍 Harf Havuzu", use_container_width=True):
+            chars = list(target_word.upper())
+            random.shuffle(chars)
+            st.toast(f"Harfler: {' '.join(chars)}") # Sağ altta geçici mesaj
+            
+    with col2:
         if st.button("💡 Sıradaki Harfi Ver", use_container_width=True):
-            if st.session_state[hint_count_key] < len(target_word):
-                st.session_state[hint_count_key] += 1
+            if st.session_state[hint_key] < len(target_word):
+                st.session_state[hint_key] += 1
                 st.rerun()
 
-    # Harf Havuzu Gösterimi
-    if st.session_state[show_pool_key]:
-        chars = list(target_word.upper())
-        random.seed(42)
-        random.shuffle(chars)
-        st.markdown(f"<div style='text-align:center; background-color:#262730; padding:10px; border-radius:10px; border:1px solid #4F8BF9;'>Harf Havuzu: <code style='font-size:20px;'>{' '.join(chars)}</code></div>", unsafe_allow_html=True)
+    # --- ANLIK YAZMA ALANI (st_keyup) ---
+    # debounce=0 yaparak her tuşa basıldığında anlık tepki alıyoruz
+    user_input = st_keyup(
+        "Kelimeyi Yazın:", 
+        key=f"keyup_{target_word}", 
+        debounce=0 
+    ).strip()
 
-    # --- YAZMA ALANI ---
-    # İpucu harflerini rehber olarak gösteriyoruz
-    if st.session_state[hint_count_key] > 0:
-        st.caption(f"İpucu: Kelime '{target_word[:st.session_state[hint_count_key]]}' ile başlıyor.")
-
-    # Yazdıkça dolması için text_input'u sade bırakıyoruz
-    # Eğer anlık etkileşim istiyorsan Enter'a basmak Streamlit'in doğasında var,
-    # ancak çizgilerin dolması için text_input'un değerini 'user_input' değişkenine eşitliyoruz.
-    user_input = st.text_input("Kelimeyi Yazın:", key=f"write_{target_word}").strip()
-
-    # --- MAVİ ÇİZGİLER (ASIL EFEKT BURADA) ---
-    # Burada hem ipucu harflerini hem de kullanıcının yazdıklarını birleştiriyoruz
+    # --- MAVİ ÇİZGİLER VE İPUCU MANTIĞI ---
     display_chars = []
     for i in range(len(target_word)):
-        # 1. Eğer o harf için 'İpucu' alınmışsa onu koy
-        if i < st.session_state[hint_count_key]:
+        # 1. Eğer ipucu alınmışsa o harfi göster
+        if i < st.session_state[hint_key]:
             display_chars.append(target_word[i].upper())
-        # 2. Eğer kullanıcı o harfi yazmışsa onu koy
-        elif i < len(user_input):
-            display_chars.append(user_input[i].upper())
-        # 3. Hiçbiri yoksa alt çizgi koy
+        # 2. Eğer kullanıcı o harfi doğru yazmışsa onu göster
+        elif i < len(user_input) and user_input[i].lower() == target_word[i].lower():
+            display_chars.append(target_word[i].upper())
+        # 3. Yoksa alt çizgi
         else:
             display_chars.append("_")
 
     display_hint = " ".join(display_chars)
     st.markdown(f"<h2 style='letter-spacing: 5px; text-align:center; font-family: monospace; color: #4F8BF9;'>{display_hint}</h2>", unsafe_allow_html=True)
 
-    # --- OTOMATİK KONTROL ---
-    # Kullanıcı ipucuyla veya yazarak tamamladığında:
-    current_full_text = "".join([c for c in display_chars if c != "_"])
-    
-    if current_full_text.lower() == target_word.lower() and len(current_full_text) == len(target_word):
+    # --- OTOMATİK GEÇİŞ ---
+    # Eğer tüm harfler dolmuşsa ve kelime doğruysa
+    if "".join(display_chars) == target_word.upper():
         st.success(f"🎯 Doğru! **{target_word}**")
-        time.sleep(1)
+        time.sleep(1) # Başarıyı gör diye 1 sn bekleme
         
-        # Temizlik ve Geçiş
-        for k in [hint_count_key, show_pool_key]:
-            if k in st.session_state: del st.session_state[k]
+        # State temizle ve sonraki kelimeye geç
+        if hint_key in st.session_state:
+            del st.session_state[hint_key]
         
         st.session_state.word_index = (st.session_state.word_index + 1) % st.session_state.current_set_len
         st.rerun()
