@@ -48,9 +48,6 @@ for key, val in states.items():
 
 st.set_page_config(page_title="YÖKDİL Hazırlık Portalı", layout="wide", initial_sidebar_state="expanded")
 
-
-import google.generativeai as genai
-
 def get_ai_explanation(passage, question, options, correct_answer):
     # Anahtar kontrolü (Lokal: .env, Cloud: Secrets)
     api_key = None
