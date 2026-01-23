@@ -57,6 +57,14 @@ if st.session_state.get('user') is None:
         try:
             user_info = auth.get_user(saved_uid)
             st.session_state.user = {'uid': user_info.uid, 'email': user_info.email}
+            
+            user_doc = db.collection("users").document(saved_uid).get().to_dict()
+            if user_doc and "last_location" in user_doc:
+                loc = user_doc["last_location"]
+                st.session_state.current_mode = loc.get("mode", "📚 Deneme Çöz")
+                if "index" in loc: st.session_state.word_index = loc["index"]
+                if "file" in loc: st.session_state.last_selected_file = loc["file"]
+                if "topic" in loc: st.session_state.last_grammar_topic = loc["topic"]
         except Exception:
             # Çerez bozuksa veya kullanıcı silindiyse çerezi temizle
             controller.remove('user_uid')
@@ -137,25 +145,50 @@ def format_text(text):
     if not text: return ""
     return " ".join(text.split())
 
+def save_last_location(uid, mode, **kwargs):
+    progress_data = {
+        "mode": mode,
+        "timestamp": firestore.SERVER_TIMESTAMP
+    }
+    progress_data.update(kwargs) 
+    db.collection("users").document(uid).set({"last_location": progress_data}, merge=True)
+
 # --- 4. GRAMER NOTLARI MODÜLÜ (Eksiksiz Okuma) ---
 def grammar_app():
+    uid = st.session_state.user['uid']
     st.title("📖 YÖKDİL Gramer Notları")
     
     if not os.path.exists(GRAMMAR_FILE):
         st.error("grammar_notes.json bulunamadı! Lütfen dosyayı ana dizine ekleyin.")
         return
 
+    # 1. Firebase'den son konumu çek
+    user_doc = db.collection("users").document(uid).get().to_dict()
+    last_loc = user_doc.get("last_location", {}) if user_doc else {}
+
     with open(GRAMMAR_FILE, "r", encoding="utf-8") as f:
         grammar_data = json.load(f)
 
-    # Sidebar: Konu Seçimi
+    # --- HAFIZA: Konu Seçimi ---
     konu_listesi = list(grammar_data.keys())
-    secilen_konu = st.sidebar.selectbox("Gramer Konusu Seçin", konu_listesi)
+    
+    # Hafıza: Eğer en son Gramer modundaysak, o konuyu bul
+    d_konu_idx = 0
+    if last_loc.get("mode") == "📖 Gramer Notları" and last_loc.get("topic") in konu_listesi:
+        d_konu_idx = konu_listesi.index(last_loc.get("topic"))
+
+    # Sidebar: Konu Seçimi (Hafızadaki index ile açılır)
+    secilen_konu = st.sidebar.selectbox("Gramer Konusu Seçin", konu_listesi, index=d_konu_idx)
+    
+    # --- KAYIT TETİKLEYİCİSİ ---
+    # Eğer seçilen konu Firebase'deki kayıttan farklıysa, konumu güncelle
+    if last_loc.get("topic") != secilen_konu:
+        save_last_location(uid, "📖 Gramer Notları", topic=secilen_konu)
     
     st.header(f"✨ {secilen_konu}")
     st.divider()
 
-    # Alt konuları ve 367 satırlık içeriğin tamamını döngüye al
+    # Alt konuları döngüye al
     for section in grammar_data[secilen_konu]:
         with st.expander(f"📘 {section.get('topic', 'Genel Kurallar')}", expanded=True):
             for item in section.get('content', []):
@@ -171,7 +204,7 @@ def grammar_app():
                 if "formula" in item:
                     st.code(item["formula"], language="text")
                 
-                # Örnekler (PDF'teki → okunu koruyarak)
+                # Örnekler
                 if "examples" in item:
                     for ex in item["examples"]:
                         st.write(f"→ {ex}")
@@ -179,6 +212,8 @@ def grammar_app():
         st.divider()
 
 # --- 5. ETKİNLİK MODÜLLERİ (KELİME ÇALIŞMA) ---
+
+# --- 5. ETKİNLİK MODÜLLERİ (KELİME ÇALIŞMA - FULL ENTEGRE) ---
 
 def flash_card_ui(word_data, is_learned):
     border_color = "#4CAF50" if is_learned else "#4F8BF9"
@@ -201,21 +236,15 @@ def flash_card_ui(word_data, is_learned):
             if word_data.get('antonyms'):
                 st.write(f"**Antonyms:** {', '.join(word_data['antonyms'])}")
 
-
 def writing_ui(word_data, total_len):
     target_word = word_data['word'].strip()
     st.info(f"Anlamı: **{', '.join(word_data['means'])}** ({word_data['type']})")
     
-    # 1. Harf Havuzu Butonu
     if st.button("🔍 Harf Havuzunu Göster", use_container_width=True):
         chars = list(target_word.upper())
         random.shuffle(chars)
         st.info(f"💡 Harf Havuzu: `{' '.join(chars)}`")
 
-    # --- TARAYICIYI KESİN KANDIRMA MANTIĞI ---
-    # Tarayıcılar etikete (label) bakarak geçmişi hatırlar. 
-    # Görünmez boşluklar ekleyerek etiketi her kelime için eşsiz yapıyoruz.
-    # Bu sayede tarayıcı her kelime kutusunu "yeni bir şey" sanacak.
     invisible_spaces = "\u200b" * (st.session_state.word_index % 10) 
     dynamic_label = f"Kelimeyi Yazın{invisible_spaces}"
 
@@ -225,7 +254,6 @@ def writing_ui(word_data, total_len):
         debounce=0
     ).strip()
 
-    # 3. GÖRSELLEŞTİRME (Mavi/Kırmızı)
     display_html = '<div style="text-align:center; font-family: monospace; font-size: 30px; letter-spacing: 5px;">'
     correct_count = 0
     for i in range(len(target_word)):
@@ -242,16 +270,27 @@ def writing_ui(word_data, total_len):
     display_html += '</div>'
     st.markdown(display_html, unsafe_allow_html=True)
 
-    # 4. OTOMATİK GEÇİŞ
+    # --- OTOMATİK GEÇİŞ VE KAYIT ---
     if correct_count == len(target_word) and len(user_input) == len(target_word):
         st.success(f"🎯 Harika! Doğru: **{target_word}**")
         time.sleep(1)
-        st.session_state.word_index = (st.session_state.word_index + 1) % total_len
+        
+        # Otomatik geçerken Firebase'e yeni konumu kaydet
+        new_index = (st.session_state.word_index + 1) % total_len
+        save_last_location(
+            st.session_state.user['uid'], 
+            "🗂️ Kelime Çalış", 
+            index=new_index, 
+            type=word_data['type'], 
+            activity="Yazma Alıştırması",
+            page=st.session_state.get('current_page_val', 1)
+        )
+        
+        st.session_state.word_index = new_index
         st.rerun()
 
 def multiple_choice_ui(word_data, current_set):
     st.subheader(f"**{word_data['word']}**")
-    
     if st.session_state.quiz_shuffled_options is None:
         correct_ans = ", ".join(word_data['means'])
         others = [", ".join(w['means']) for w in current_set if w['word'] != word_data['word']]
@@ -261,7 +300,6 @@ def multiple_choice_ui(word_data, current_set):
         st.session_state.quiz_shuffled_options = options
 
     user_choice = st.radio("Seçenekler:", st.session_state.quiz_shuffled_options)
-    
     if st.button("Kontrol Et"):
         if user_choice == ", ".join(word_data['means']):
             st.success("Doğru! 🎯")
@@ -270,17 +308,11 @@ def multiple_choice_ui(word_data, current_set):
 
 def matching_ui(current_set):
     st.subheader("🧩 Kelime - Anlam Eşleştirme")
-    st.write("Her aşamada 5 kelime eşleştirin.")
-
-    # --- AYARLAR VE ALT GRUP ---
     sub_size = 5
     start_i = st.session_state.match_sub_page * sub_size
     subset = current_set[start_i:start_i + sub_size]
-    
-    # Mevcut aşamadaki kelimeler ve anlamları
     target_meanings = {w['word']: ", ".join(w['means']) for w in subset}
     
-    # Anlamları karıştır (Sadece sayfa değiştiğinde)
     sub_key = f"sub_{st.session_state.match_sub_page}"
     if st.session_state.match_shuffled_meanings is None or st.session_state.get('last_sub_key') != sub_key:
         m_list = list(target_meanings.values())
@@ -289,30 +321,19 @@ def matching_ui(current_set):
         st.session_state.last_sub_key = sub_key
 
     st.info(f"Aşama {st.session_state.match_sub_page + 1} / 4")
-
-    # --- ARAYÜZ: KELİMELER VE ANLAMLAR ---
     c1, c2 = st.columns(2)
     with c1:
-        st.write("### Kelimeler")
         for word in target_meanings.keys():
             matched = word in st.session_state.match_pairs
             selected = st.session_state.match_selected_word == word
-            if st.button(f"{word} ✅" if matched else word, key=f"match_w_{word}", 
-                         disabled=matched, use_container_width=True, 
-                         type="primary" if selected else "secondary"):
+            if st.button(f"{word} ✅" if matched else word, key=f"match_w_{word}", disabled=matched, use_container_width=True, type="primary" if selected else "secondary"):
                 st.session_state.match_selected_word = word
                 st.rerun()
-                
     with c2:
-        st.write("### Anlamlar")
         for m in st.session_state.match_shuffled_meanings:
-            # Bu anlamın eşleşip eşleşmediğini kontrol et
             matched_w = next((w for w, val in st.session_state.match_pairs.items() if val == m), None)
-            
-            if st.button(f"✅ {m}" if matched_w else m, key=f"match_m_{m[:20]}", 
-                         disabled=matched_w is not None, use_container_width=True):
+            if st.button(f"✅ {m}" if matched_w else m, key=f"match_m_{m[:20]}", disabled=matched_w is not None, use_container_width=True):
                 if st.session_state.match_selected_word:
-                    # Doğru eşleşme kontrolü
                     if m == target_meanings[st.session_state.match_selected_word]:
                         st.session_state.match_pairs[st.session_state.match_selected_word] = m
                         st.session_state.match_selected_word = None
@@ -320,39 +341,29 @@ def matching_ui(current_set):
                     else:
                         st.error("Yanlış eşleşme! 🔴")
                     st.rerun()
-                else:
-                    st.warning("Önce bir kelime seçin!")
-
-    # --- OYUN SONU VE BALON KONTROLÜ ---
-    # Mevcut 5'li grup bittiyse ve son sayfadaysak balon patlat
-    if len(st.session_state.match_pairs) >= len(subset) and st.session_state.match_sub_page == 3:
-        if not st.session_state.get('balloons_done', False):
-            st.balloons()
-            st.success("Tebrikler! Tüm paketi (20 kelime) başarıyla tamamladın! 🎉")
-            st.session_state.balloons_done = True # Tekrar patlamasını engeller
-
-    # --- NAVİGASYON ---
+    
     st.divider()
     nc1, nc2, nc3 = st.columns([1, 2, 1])
     with nc1:
         if st.button("⬅️ Önceki 5'li", disabled=st.session_state.match_sub_page == 0):
             st.session_state.match_sub_page -= 1
             st.session_state.match_shuffled_meanings = None
-            st.session_state.match_pairs = {} # Yeni sayfa için sıfırla
+            st.session_state.match_pairs = {}
             st.rerun()
     with nc3:
         if st.button("Sonraki 5'li ➡️", disabled=st.session_state.match_sub_page >= 3):
             st.session_state.match_sub_page += 1
             st.session_state.match_shuffled_meanings = None
-            st.session_state.match_pairs = {} # Yeni sayfa için sıfırla
+            st.session_state.match_pairs = {}
             st.rerun()
 
-# --- 6. KELİME UYGULAMASI (ANA) ---
+# --- 6. KELİME UYGULAMASI (ANA GÖVDE) ---
 def words_app():
     uid = st.session_state.user['uid']
-    if not os.path.exists(WORDS_FILE):
-        st.error("yokdil_words.json bulunamadı!")
-        return
+    
+    # Firebase'den en son nerede kaldığını çek (Sadece ilk açılışta veya uyku sonrası)
+    user_doc = db.collection("users").document(uid).get().to_dict()
+    last_loc = user_doc.get("last_location", {}) if user_doc else {}
 
     if st.session_state.master_words is None:
         with open(WORDS_FILE, "r", encoding="utf-8") as f:
@@ -362,23 +373,43 @@ def words_app():
             random.shuffle(raw_data)
             st.session_state.master_words = raw_data
 
+    # --- SİDEBAR AYARLARI ---
     all_types = sorted(list(set(w['type'] for w in st.session_state.master_words)))
-    selected_type = st.sidebar.selectbox("Kelime Türü Seçin", all_types)
-    type_specific_words = [w for w in st.session_state.master_words if w['type'] == selected_type]
     
+    # Hafıza: Tür
+    d_type_idx = 0
+    if last_loc.get("type") in all_types:
+        d_type_idx = all_types.index(last_loc.get("type"))
+    selected_type = st.sidebar.selectbox("Kelime Türü Seçin", all_types, index=d_type_idx)
+    
+    type_specific_words = [w for w in st.session_state.master_words if w['type'] == selected_type]
     page_size = 20
     total_pages = (len(type_specific_words) // page_size) + (1 if len(type_specific_words) % page_size > 0 else 0)
-    st.sidebar.subheader(f"📦 {selected_type} Paketleri")
-    selected_page = st.sidebar.number_input(f"Paket Seç", min_value=1, max_value=total_pages, value=1)
     
-    activity = st.sidebar.radio("Etkinlik Seçin", ["Flash Card", "Yazma Alıştırması", "Çoktan Seçmeli", "Kelime Eşleştirme"])
+    # Hafıza: Paket (Page)
+    d_page = int(last_loc.get("page", 1)) if last_loc.get("type") == selected_type else 1
+    selected_page = st.sidebar.number_input(f"Paket Seç", min_value=1, max_value=total_pages, value=d_page)
+    st.session_state.current_page_val = selected_page # Writing UI'da kullanmak için
+    
+    # Hafıza: Etkinlik
+    act_list = ["Flash Card", "Yazma Alıştırması", "Çoktan Seçmeli", "Kelime Eşleştirme"]
+    d_act_idx = 0
+    if last_loc.get("activity") in act_list:
+        d_act_idx = act_list.index(last_loc.get("activity"))
+    activity = st.sidebar.radio("Etkinlik Seçin", act_list, index=d_act_idx)
     
     current_set = type_specific_words[(selected_page - 1) * page_size : selected_page * page_size]
 
+    # --- SAYFA / ETKİNLİK DEĞİŞİM KONTROLÜ ---
     key = f"{selected_type}_{selected_page}_{activity}"
     if st.session_state.get("prev_key") != key:
         st.session_state.prev_key = key
-        st.session_state.word_index = 0
+        # Eğer Firebase'deki konumla tam eşleşiyorsa indexi oradan çek
+        if last_loc.get("type") == selected_type and last_loc.get("page") == selected_page:
+            st.session_state.word_index = last_loc.get("index", 0)
+        else:
+            st.session_state.word_index = 0
+        
         st.session_state.quiz_shuffled_options = None
         st.session_state.match_pairs = {}
         st.session_state.match_shuffled_meanings = None
@@ -396,36 +427,47 @@ def words_app():
     word_ref = db.collection("users").document(uid).collection("learned_words").document(word_data['word'].lower().strip())
     is_learned = word_ref.get().exists
 
+    # --- UI GÖSTERİMİ ---
     if activity == "Flash Card":
         flash_card_ui(word_data, is_learned)
     elif activity == "Yazma Alıştırması":
-        writing_ui(word_data,len(current_set))
+        writing_ui(word_data, len(current_set))
     elif activity == "Çoktan Seçmeli":
         multiple_choice_ui(word_data, current_set)
     elif activity == "Kelime Eşleştirme":
         matching_ui(current_set)
 
+    # --- NAVİGASYON BUTONLARI ---
     if activity != "Kelime Eşleştirme":
         st.write("")
         b1, b2, b3, b4 = st.columns([1, 1, 1, 1])
+        
         with b1:
             if st.button("⬅️ Önceki"):
                 st.session_state.word_index = (st.session_state.word_index - 1) % len(current_set)
-                st.session_state.quiz_shuffled_options = None; st.rerun()
+                save_last_location(uid, "🗂️ Kelime Çalış", index=st.session_state.word_index, type=selected_type, page=selected_page, activity=activity)
+                st.session_state.quiz_shuffled_options = None
+                st.rerun()
         with b2:
             if st.button("✅ ÖĞRENDİM", use_container_width=True):
                 word_ref.set({"learned": True, "type": selected_type})
                 st.session_state.word_index = (st.session_state.word_index + 1) % len(current_set)
-                st.session_state.quiz_shuffled_options = None; st.rerun()
+                save_last_location(uid, "🗂️ Kelime Çalış", index=st.session_state.word_index, type=selected_type, page=selected_page, activity=activity)
+                st.session_state.quiz_shuffled_options = None
+                st.rerun()
         with b3:
             if st.button("❌ ÖĞRENMEDİM", use_container_width=True):
                 word_ref.delete()
                 st.session_state.word_index = (st.session_state.word_index + 1) % len(current_set)
-                st.session_state.quiz_shuffled_options = None; st.rerun()
+                save_last_location(uid, "🗂️ Kelime Çalış", index=st.session_state.word_index, type=selected_type, page=selected_page, activity=activity)
+                st.session_state.quiz_shuffled_options = None
+                st.rerun()
         with b4:
             if st.button("Sonraki ➡️"):
                 st.session_state.word_index = (st.session_state.word_index + 1) % len(current_set)
-                st.session_state.quiz_shuffled_options = None; st.rerun()
+                save_last_location(uid, "🗂️ Kelime Çalış", index=st.session_state.word_index, type=selected_type, page=selected_page, activity=activity)
+                st.session_state.quiz_shuffled_options = None
+                st.rerun()
 
 # --- 7. GİRİŞ / KAYIT EKRANI ---
 def auth_ui():
@@ -466,29 +508,60 @@ def auth_ui():
 # --- EXAM APP (AI DESTEKLİ VE KALICI SÜRÜM) ---
 def exam_app():
     uid = st.session_state.user['uid']
+    
+    # 1. Firebase'den son konumu çek
+    user_doc = db.collection("users").document(uid).get().to_dict()
+    last_loc = user_doc.get("last_location", {}) if user_doc else {}
+
     files = sorted([f for f in os.listdir(JSON_FOLDER) if f.endswith(".json")])
     clean = {f: f.replace(".json", "") for f in files}
-    sel = st.sidebar.selectbox("Deneme Seç", files, format_func=lambda x: clean[x])
+    
+    # --- HAFIZA: Deneme Seçimi ---
+    d_idx = 0
+    if last_loc.get("mode") == "📚 Deneme Çöz" and last_loc.get("file") in files:
+        d_idx = files.index(last_loc.get("file"))
+
+    sel = st.sidebar.selectbox("Deneme Seç", files, format_func=lambda x: clean[x], index=d_idx)
     
     if sel != st.session_state.last_selected_file:
         st.session_state.last_selected_file = sel
+        # Deneme değiştiği an Firebase'e kaydet
+        save_last_location(uid, "📚 Deneme Çöz", file=sel)
         st.rerun()
 
     if sel:
         deneme_id = clean[sel]
-        # Kullanıcının cevaplarını ve AI açıklamalarını içeren doküman referansı
         user_ref = db.collection("users").document(uid).collection("denemeler").document(deneme_id)
         user_data = user_ref.get().to_dict() or {}
         saved_answers = user_data.get("answers", {})
-        saved_ai_explanations = user_data.get("ai_explanations", {}) # Kalıcı açıklamalar
+        saved_ai_explanations = user_data.get("ai_explanations", {})
 
         with open(os.path.join(JSON_FOLDER, sel), "r", encoding="utf-8") as f: 
             qs = json.load(f)
         
         st.title(f"✍️ {deneme_id}")
+
+        # --- YENİ: Hızlı Soru Navigasyonu ---
+        st.markdown("### 🎯 Soru Seç")
+        q_keys = list(qs.keys())
+        # 10'arlı gruplar halinde butonlar
+        cols = st.columns(10)
+        for i, q_num in enumerate(q_keys):
+            with cols[i % 10]:
+                # Eğer soru cevaplanmışsa yeşil, cevaplanmamışsa gri buton
+                is_answered = str(q_num) in saved_answers
+                if st.button(f"{q_num}", key=f"nav_{q_num}", type="primary" if is_answered else "secondary"):
+                    # Tıklanan soruya kaydır (HTML Anchor kullanarak)
+                    # Not: Streamlit direkt sayfayı o noktaya kaydıramaz ama biz buraya 
+                    # tıklandığında Firebase'e "en son şu soruda" kaydı atabiliriz.
+                    save_last_location(uid, "📚 Deneme Çöz", file=sel, last_q=q_num)
+                    st.toast(f"Soru {q_num}'e odaklanıldı!")
+
+        st.divider()
         
         for q_no, q_info in qs.items():
-            st.subheader(f"Soru {q_no}")
+            # Soru başlığına bir ID veriyoruz (İleride otomatik kaydırma için)
+            st.subheader(f"Soru {q_no}", anchor=f"q{q_no}")
             
             psg = q_info.get("passage", "")
             q_txt = q_info.get("question", "")
@@ -511,55 +584,41 @@ def exam_app():
             
             st.markdown(f"**{format_text(q_txt)}**")
 
-            # Seçenekler ve Cevaplama
             opts = q_info.get("options", [])
             prev = saved_answers.get(str(q_no))
             idx = next((i for i, o in enumerate(opts) if o.strip().startswith(str(prev))), None) if prev else None
             
+            # Cevap şıkkı seçildiğinde
             choice = st.radio("Cevabınız:", opts, key=f"r_{deneme_id}_{q_no}", index=idx)
             
-            # --- CEVAP KAYDETME ---
             if choice:
                 letter = choice[0]
                 if prev != letter:
                     saved_answers[str(q_no)] = letter
                     user_ref.set({"answers": saved_answers}, merge=True)
+                    # Her cevap verdiğinde Firebase'e "en son bu soruyu çözdü" kaydı atalım
+                    save_last_location(uid, "📚 Deneme Çöz", file=sel, last_q=q_no)
                 
                 if letter == q_info["answer"]: st.success("✅ Doğru")
                 else: st.error(f"❌ Yanlış! Cevap: {q_info['answer']}")
 
-            # --- 🤖 AI BUTONU VE KALICILIK ---
+            # --- 🤖 AI BUTONU VE KALICILIK --- (Buradaki kısımlar aynı kalıyor)
             current_explanation = saved_ai_explanations.get(str(q_no))
-
             col_spacer, col_ai = st.columns([3, 1])
             with col_ai:
-                # Eğer daha önce açıklama alınmışsa silme butonu çıksın
                 if current_explanation:
                     if st.button("🗑️ Analizi Sil", key=f"del_ai_{deneme_id}_{q_no}"):
-                        # 1. Firebase'den kalıcı olarak sil
-                        user_ref.update({
-                            f"ai_explanations.{q_no}": firestore.DELETE_FIELD
-                        })
-                        
-                        # 2. Mevcut session_state verisini de temizle (Ekran anında güncellensin diye)
-                        if str(q_no) in saved_ai_explanations:
-                            del saved_ai_explanations[str(q_no)]
-                        
+                        user_ref.update({f"ai_explanations.{q_no}": firestore.DELETE_FIELD})
+                        if str(q_no) in saved_ai_explanations: del saved_ai_explanations[str(q_no)]
                         st.toast("Analiz silindi! 🗑️")
                         st.rerun()
-                
-                # Eğer açıklama yoksa AI butonu çıksın
                 else:
                     if st.button(f"🤖 AI'ya Sor", key=f"ai_btn_{deneme_id}_{q_no}"):
                         with st.spinner("OpenAI analiz ediyor..."):
-                            explanation = get_ai_explanation(
-                                psg, q_txt, opts, q_info["answer"]
-                            )
-                            # Firebase'e kaydet (merge=True ile diğer açıklamaları bozmaz)
+                            explanation = get_ai_explanation(psg, q_txt, opts, q_info["answer"])
                             user_ref.set({"ai_explanations": {str(q_no): explanation}}, merge=True)
                             st.rerun()
 
-            # Eğer açıklama varsa kutu içinde göster
             if current_explanation:
                 st.markdown(f"""
                     <div style="background-color:#0E1117; padding:20px; border-radius:10px; border:2px solid #4F8BF9; margin-top:15px; border-left: 10px solid #4F8BF9;">
@@ -574,12 +633,36 @@ def exam_app():
 if st.session_state.user is None:
     auth_ui()
 else:
-    mode = st.sidebar.radio("Ana Menü", ["📚 Deneme Çöz", "🗂️ Kelime Çalış", "📖 Gramer Notları"])
+    # 1. Firebase'den en son hangi ana menüde kaldığını çek
+    uid = st.session_state.user['uid']
+    user_doc = db.collection("users").document(uid).get().to_dict()
+    last_loc = user_doc.get("last_location", {}) if user_doc else {}
+    
+    # 2. Modların listesi (Kelimelerle birebir aynı olmalı)
+    modes = ["📚 Deneme Çöz", "🗂️ Kelime Çalış", "📖 Gramer Notları"]
+    
+    # 3. Eğer Firebase'de bir kayıt varsa, onun index'ini bul (Yoksa 0 yani Deneme başlar)
+    default_mode_idx = 0
+    if last_loc.get("mode") in modes:
+        default_mode_idx = modes.index(last_loc.get("mode"))
+    
+    # --- SİDEBAR NAVİGASYON ---
+    # Artık uygulama açıldığında otomatik olarak en son kaldığın modu seçili getirir
+    mode = st.sidebar.radio("Ana Menü", modes, index=default_mode_idx)
+
+    # Çıkış Butonu
     if st.sidebar.button("🚪 Çıkış Yap"): 
         controller.remove('user_uid')
         st.session_state.user = None
         st.rerun()
     
+    # --- MODLARI ÇALIŞTIR ---
+    # Mod değiştiğinde Firebase'e "mod değişti" kaydı atalım (isteğe bağlı ama iyidir)
+    if st.session_state.get("current_active_mode") != mode:
+        st.session_state.current_active_mode = mode
+        # Sadece mod bilgisini kaydet, detaylar modun kendi içinde güncellenecek
+        save_last_location(uid, mode)
+
     if mode == "📚 Deneme Çöz":
         exam_app()
     elif mode == "🗂️ Kelime Çalış":
