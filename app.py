@@ -509,7 +509,7 @@ def auth_ui():
 def exam_app():
     uid = st.session_state.user['uid']
     
-    # 1. Firebase'den son konumu çek
+    # 1. Firebase'den son konumu ve kaldığı soruyu çek
     user_doc = db.collection("users").document(uid).get().to_dict()
     last_loc = user_doc.get("last_location", {}) if user_doc else {}
 
@@ -523,10 +523,11 @@ def exam_app():
 
     sel = st.sidebar.selectbox("Deneme Seç", files, format_func=lambda x: clean[x], index=d_idx)
     
-    if sel != st.session_state.last_selected_file:
+    # Deneme değişirse hafızadaki soruyu 1 yap ve sıfırla
+    if sel != st.session_state.get('last_selected_file'):
         st.session_state.last_selected_file = sel
-        # Deneme değiştiği an Firebase'e kaydet
-        save_last_location(uid, "📚 Deneme Çöz", file=sel)
+        st.session_state.current_q = "1"
+        save_last_location(uid, "📚 Deneme Çöz", file=sel, last_q="1")
         st.rerun()
 
     if sel:
@@ -539,95 +540,119 @@ def exam_app():
         with open(os.path.join(JSON_FOLDER, sel), "r", encoding="utf-8") as f: 
             qs = json.load(f)
         
+        # --- HAFIZA: Soru Numarasını Yükle ---
+        # Eğer session'da yoksa Firebase'den gelen son soruyu al, o da yoksa 1'den başla
+        if 'current_q' not in st.session_state:
+            st.session_state.current_q = str(last_loc.get("last_q", "1"))
+
         st.title(f"✍️ {deneme_id}")
 
-        # --- YENİ: Hızlı Soru Navigasyonu ---
-        st.markdown("### 🎯 Soru Seç")
+        # --- NAVİGASYON PANELİ (ÜST KISIM) ---
+        st.markdown("### 🎯 Soru Navigasyonu")
         q_keys = list(qs.keys())
-        # 10'arlı gruplar halinde butonlar
+        
+        # Soruları 10'arlı sütunlara bölüyoruz
         cols = st.columns(10)
         for i, q_num in enumerate(q_keys):
             with cols[i % 10]:
-                # Eğer soru cevaplanmışsa yeşil, cevaplanmamışsa gri buton
                 is_answered = str(q_num) in saved_answers
-                if st.button(f"{q_num}", key=f"nav_{q_num}", type="primary" if is_answered else "secondary"):
-                    # Tıklanan soruya kaydır (HTML Anchor kullanarak)
-                    # Not: Streamlit direkt sayfayı o noktaya kaydıramaz ama biz buraya 
-                    # tıklandığında Firebase'e "en son şu soruda" kaydı atabiliriz.
-                    save_last_location(uid, "📚 Deneme Çöz", file=sel, last_q=q_num)
-                    st.toast(f"Soru {q_num}'e odaklanıldı!")
+                is_active = str(q_num) == str(st.session_state.current_q)
+                
+                # Stil Belirleme: Aktif soru Mavi (Primary), cevaplanmışsa yanına tık
+                btn_label = f"{q_num} ✅" if is_answered else f"{q_num}"
+                if st.button(btn_label, key=f"nav_{q_num}", use_container_width=True, 
+                             type="primary" if is_active else "secondary"):
+                    st.session_state.current_q = str(q_num)
+                    save_last_location(uid, "📚 Deneme Çöz", file=sel, last_q=str(q_num))
+                    st.rerun()
 
         st.divider()
+
+        # --- SEÇİLİ SORUYU GETİR ---
+        q_no = st.session_state.current_q
+        if q_no not in qs: # Hata payına karşı kontrol
+            q_no = q_keys[0]
+            st.session_state.current_q = q_no
+            
+        q_info = qs[q_no]
+        st.subheader(f"Soru {q_no}")
         
-        for q_no, q_info in qs.items():
-            # Soru başlığına bir ID veriyoruz (İleride otomatik kaydırma için)
-            st.subheader(f"Soru {q_no}", anchor=f"q{q_no}")
-            
-            psg = q_info.get("passage", "")
-            q_txt = q_info.get("question", "")
-            
-            # --- PARSE LOGIC ---
-            if "--- PASSAGE ---" in q_txt:
-                parts = q_txt.split("--- QUESTION ---")
-                extracted_psg = parts[0].replace("--- PASSAGE ---", "").strip()
-                if not psg: psg = extracted_psg
-                q_txt = parts[1].strip() if len(parts) > 1 else ""
-            else:
-                q_txt = q_txt.replace("--- QUESTION ---", "").strip()
+        # --- PASAJ VE SORU PARSE ---
+        psg = q_info.get("passage", "")
+        q_txt = q_info.get("question", "")
+        if "--- PASSAGE ---" in q_txt:
+            parts = q_txt.split("--- QUESTION ---")
+            psg = parts[0].replace("--- PASSAGE ---", "").strip()
+            q_txt = parts[1].strip() if len(parts) > 1 else ""
 
-            if psg:
-                psg_cleaned = format_text(psg)
-                target_blank = f"({q_no}) ----"
-                if target_blank in psg_cleaned:
-                    psg_cleaned = psg_cleaned.replace(target_blank, f"<b style='color:#FF4B4B; text-decoration:underline;'>{target_blank}</b>")
-                st.markdown(f'<div style="background-color:#1E1E1E; padding:20px; border-radius:10px; border-left:5px solid #4F8BF9; font-size:18px; line-height:1.6; margin-bottom:20px;">{psg_cleaned}</div>', unsafe_allow_html=True)
-            
-            st.markdown(f"**{format_text(q_txt)}**")
+        if psg:
+            psg_cleaned = format_text(psg)
+            target_blank = f"({q_no}) ----"
+            if target_blank in psg_cleaned:
+                psg_cleaned = psg_cleaned.replace(target_blank, f"<b style='color:#FF4B4B; text-decoration:underline;'>{target_blank}</b>")
+            st.markdown(f'<div style="background-color:#1E1E1E; padding:20px; border-radius:10px; border-left:5px solid #4F8BF9; font-size:18px; line-height:1.6; margin-bottom:20px;">{psg_cleaned}</div>', unsafe_allow_html=True)
+        
+        st.markdown(f"**{format_text(q_txt)}**")
 
-            opts = q_info.get("options", [])
-            prev = saved_answers.get(str(q_no))
-            idx = next((i for i, o in enumerate(opts) if o.strip().startswith(str(prev))), None) if prev else None
+        # --- SEÇENEKLER VE CEVAPLAMA ---
+        opts = q_info.get("options", [])
+        prev = saved_answers.get(str(q_no))
+        idx = next((i for i, o in enumerate(opts) if o.strip().startswith(str(prev))), None) if prev else None
+        
+        choice = st.radio(f"Soru {q_no} için cevabınız:", opts, key=f"r_{deneme_id}_{q_no}", index=idx)
+        
+        if choice:
+            letter = choice[0]
+            if prev != letter:
+                saved_answers[str(q_no)] = letter
+                user_ref.set({"answers": saved_answers}, merge=True)
+                save_last_location(uid, "📚 Deneme Çöz", file=sel, last_q=str(q_no))
             
-            # Cevap şıkkı seçildiğinde
-            choice = st.radio("Cevabınız:", opts, key=f"r_{deneme_id}_{q_no}", index=idx)
-            
-            if choice:
-                letter = choice[0]
-                if prev != letter:
-                    saved_answers[str(q_no)] = letter
-                    user_ref.set({"answers": saved_answers}, merge=True)
-                    # Her cevap verdiğinde Firebase'e "en son bu soruyu çözdü" kaydı atalım
-                    save_last_location(uid, "📚 Deneme Çöz", file=sel, last_q=q_no)
-                
-                if letter == q_info["answer"]: st.success("✅ Doğru")
-                else: st.error(f"❌ Yanlış! Cevap: {q_info['answer']}")
+            if letter == q_info["answer"]: st.success("✅ Doğru")
+            else: st.error(f"❌ Yanlış! Cevap: {q_info['answer']}")
 
-            # --- 🤖 AI BUTONU VE KALICILIK --- (Buradaki kısımlar aynı kalıyor)
-            current_explanation = saved_ai_explanations.get(str(q_no))
-            col_spacer, col_ai = st.columns([3, 1])
-            with col_ai:
-                if current_explanation:
-                    if st.button("🗑️ Analizi Sil", key=f"del_ai_{deneme_id}_{q_no}"):
-                        user_ref.update({f"ai_explanations.{q_no}": firestore.DELETE_FIELD})
-                        if str(q_no) in saved_ai_explanations: del saved_ai_explanations[str(q_no)]
-                        st.toast("Analiz silindi! 🗑️")
-                        st.rerun()
-                else:
-                    if st.button(f"🤖 AI'ya Sor", key=f"ai_btn_{deneme_id}_{q_no}"):
-                        with st.spinner("OpenAI analiz ediyor..."):
-                            explanation = get_ai_explanation(psg, q_txt, opts, q_info["answer"])
-                            user_ref.set({"ai_explanations": {str(q_no): explanation}}, merge=True)
-                            st.rerun()
+        # --- ALT NAVİGASYON (Önceki - Sonraki) ---
+        st.write("")
+        col_prev, col_mid, col_next = st.columns([1, 2, 1])
+        curr_idx = q_keys.index(q_no)
 
+        with col_prev:
+            if st.button("⬅️ Önceki Soru", disabled=curr_idx == 0, use_container_width=True):
+                new_q = q_keys[curr_idx - 1]
+                st.session_state.current_q = new_q
+                save_last_location(uid, "📚 Deneme Çöz", file=sel, last_q=new_q)
+                st.rerun()
+        with col_next:
+            if st.button("Sonraki Soru ➡️", disabled=curr_idx == len(q_keys)-1, use_container_width=True):
+                new_q = q_keys[curr_idx + 1]
+                st.session_state.current_q = new_q
+                save_last_location(uid, "📚 Deneme Çöz", file=sel, last_q=new_q)
+                st.rerun()
+
+        # --- 🤖 AI ANALİZİ ---
+        current_explanation = saved_ai_explanations.get(str(q_no))
+        col_spacer, col_ai = st.columns([3, 1])
+        with col_ai:
             if current_explanation:
-                st.markdown(f"""
-                    <div style="background-color:#0E1117; padding:20px; border-radius:10px; border:2px solid #4F8BF9; margin-top:15px; border-left: 10px solid #4F8BF9;">
-                        <h4 style="color:#4F8BF9; margin-top:0;">🤖 AI ANALİZİ:</h4>
-                        <div style="color:#E0E0E0; line-height:1.6;">{current_explanation}</div>
-                    </div>
-                """, unsafe_allow_html=True)
-            
-            st.divider()
+                if st.button("🗑️ Analizi Sil", key=f"del_ai_{deneme_id}_{q_no}"):
+                    user_ref.update({f"ai_explanations.{q_no}": firestore.DELETE_FIELD})
+                    if str(q_no) in saved_ai_explanations: del saved_ai_explanations[str(q_no)]
+                    st.toast("Analiz silindi! 🗑️")
+                    st.rerun()
+            else:
+                if st.button(f"🤖 AI'ya Sor", key=f"ai_btn_{deneme_id}_{q_no}"):
+                    with st.spinner("OpenAI analiz ediyor..."):
+                        explanation = get_ai_explanation(psg, q_txt, opts, q_info["answer"])
+                        user_ref.set({"ai_explanations": {str(q_no): explanation}}, merge=True)
+                        st.rerun()
+
+        if current_explanation:
+            st.markdown(f"""
+                <div style="background-color:#0E1117; padding:20px; border-radius:10px; border:2px solid #4F8BF9; margin-top:15px; border-left: 10px solid #4F8BF9;">
+                    <h4 style="color:#4F8BF9; margin-top:0;">🤖 AI ANALİZİ:</h4>
+                    <div style="color:#E0E0E0; line-height:1.6;">{current_explanation}</div>
+                </div>
+            """, unsafe_allow_html=True)
 
 # --- 9. ANA ÇALIŞTIRICI ---
 if st.session_state.user is None:
