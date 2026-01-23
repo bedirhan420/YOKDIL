@@ -4,3 +4,4 @@ openai
 dotenv
 streamlit-cookies-controller
 streamlit-keyup
+gTTS

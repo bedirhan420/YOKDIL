@@ -12,6 +12,15 @@ from streamlit_cookies_controller import CookieController # Yeni kütüphane
 import time
 from st_keyup import st_keyup
 
+from gtts import gTTS
+import io
+
+def play_tts(text, lang='en'):
+    tts = gTTS(text=text, lang=lang)
+    fp = io.BytesIO()
+    tts.write_to_fp(fp)
+    st.audio(fp, format='audio/mp3', autoplay=True)
+
 controller = CookieController();
 # --- 1. FIREBASE VE AYARLAR ---
 if not firebase_admin._apps:
@@ -223,6 +232,12 @@ def flash_card_ui(word_data, is_learned):
             <p style="color: #888; font-size: 20px;">{word_data['type']} {'✅ [ÖĞRENİLDİ]' if is_learned else ''}</p>
         </div>
     """, unsafe_allow_html=True)
+    
+    st.write("")
+    col_v1, col_v2, col_v3 = st.columns([1, 1, 1])
+    with col_v2: # Ortaya hizalayalım
+        if st.button("🔊 Telaffuzu Dinle", use_container_width=True):
+            play_tts(word_data['word'])
 
     st.write("")
     with st.expander("Anlamı, Eş ve Zıt Anlamları Gör"):
