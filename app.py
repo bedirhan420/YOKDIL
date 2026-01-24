@@ -318,6 +318,16 @@ def multiple_choice_ui(word_data, current_set):
     if st.button("Kontrol Et"):
         if user_choice == ", ".join(word_data['means']):
             st.success("Doğru! 🎯")
+            new_index = (st.session_state.word_index + 1) % len(current_set)
+            st.session_state.word_index = new_index
+            st.session_state.quiz_shuffled_options = None 
+            
+            save_last_location(uid, "🗂️ Kelime Çalış", 
+                               index=new_index, 
+                               type=word_data['type'], 
+                               page=st.session_state.get('current_page_val', 1),
+                               activity="Çoktan Seçmeli")
+            st.rerun()
         else:
             st.error(f"Yanlış. Doğru cevap: {', '.join(word_data['means'])}")
 
@@ -336,6 +346,17 @@ def matching_ui(current_set):
         st.session_state.last_sub_key = sub_key
 
     st.info(f"Aşama {st.session_state.match_sub_page + 1} / 4")
+    
+    if len(st.session_state.match_pairs) >= len(subset):
+        # Eğer 5 eşleşme tamamlandıysa ve daha gidilecek sayfa varsa
+        if st.session_state.match_sub_page < 3: # 4 sayfa var (0,1,2,3)
+            st.success("Aşama Tamamlandı! Bir sonrakine geçiliyor...")
+            time.sleep(1.5)
+            st.session_state.match_sub_page += 1
+            st.session_state.match_shuffled_meanings = None
+            st.session_state.match_pairs = {}
+            st.rerun()
+
     c1, c2 = st.columns(2)
     with c1:
         for word in target_meanings.keys():
@@ -344,6 +365,7 @@ def matching_ui(current_set):
             if st.button(f"{word} ✅" if matched else word, key=f"match_w_{word}", disabled=matched, use_container_width=True, type="primary" if selected else "secondary"):
                 st.session_state.match_selected_word = word
                 st.rerun()
+                
     with c2:
         for m in st.session_state.match_shuffled_meanings:
             matched_w = next((w for w, val in st.session_state.match_pairs.items() if val == m), None)
@@ -353,9 +375,12 @@ def matching_ui(current_set):
                         st.session_state.match_pairs[st.session_state.match_selected_word] = m
                         st.session_state.match_selected_word = None
                         st.toast("Doğru! 🟢")
+                        st.rerun() # Eşleşme anında sayfayı tazele ki yukarıdaki 5/5 kontrolü çalışsın
                     else:
                         st.error("Yanlış eşleşme! 🔴")
-                    st.rerun()
+                        st.rerun()
+                else:
+                    st.warning("Önce bir kelime seçin!")
     
     st.divider()
     nc1, nc2, nc3 = st.columns([1, 2, 1])
@@ -570,11 +595,17 @@ def exam_app():
         cols = st.columns(10)
         for i, q_num in enumerate(q_keys):
             with cols[i % 10]:
-                is_answered = str(q_num) in saved_answers
+                user_ans = saved_answers.get(str(q_num))
+                correct_ans = qs[str(q_num)]['answer']
                 is_active = str(q_num) == str(st.session_state.current_q)
                 
                 # Stil Belirleme: Aktif soru Mavi (Primary), cevaplanmışsa yanına tık
-                btn_label = f"{q_num} ✅" if is_answered else f"{q_num}"
+                if user_ans:
+                    status_icon = "✅" if user_ans == correct_ans else "❌"
+                    btn_label = f"{q_num} {status_icon}"
+                else:
+                    btn_label = f"{q_num}"
+                
                 if st.button(btn_label, key=f"nav_{q_num}", use_container_width=True, 
                              type="primary" if is_active else "secondary"):
                     st.session_state.current_q = str(q_num)
