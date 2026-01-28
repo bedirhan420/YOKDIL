@@ -399,7 +399,16 @@ def matching_ui(current_set):
 
 # --- 6. KELİME UYGULAMASI (ANA GÖVDE) ---
 def words_app():
+    if 'user' not in st.session_state or st.session_state.user is None:
+        st.warning("Oturum açılıyor, lütfen bekleyin...")
+        st.rerun()
+        return
+    
     uid = st.session_state.user['uid']
+    
+    if not uid:
+        st.error("Kullanıcı kimliği doğrulanamadı.")
+        return
     
     # Firebase'den en son nerede kaldığını çek (Sadece ilk açılışta veya uyku sonrası)
     user_doc = db.collection("users").document(uid).get().to_dict()
@@ -464,6 +473,11 @@ def words_app():
     st.write(f"**{selected_type}** | Paket {selected_page} | Kelime: {st.session_state.word_index + 1}/{len(current_set)}")
 
     word_data = current_set[st.session_state.word_index]
+    
+    if not word_data or 'word' not in word_data:
+        st.error("Kelime verisi hatalı.")
+        return
+    
     word_ref = db.collection("users").document(uid).collection("learned_words").document(word_data['word'].lower().strip())
     is_learned = word_ref.get().exists
 
