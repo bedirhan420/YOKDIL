@@ -479,14 +479,31 @@ def words_app():
     word_name = word_data.get('word', '').lower().strip()
 
     # EĞER KELİME İSMİ BOŞSA (Hata burada kopuyor)
-    if not word_name:
-        st.warning("Bu pakette hatalı bir kelime verisi saptandı, sonrakine geçiliyor...")
+    # 1. Kelime verisini al
+    word_data = current_set[st.session_state.word_index]
+
+    # 2. Kelime ismini güvenli bir şekilde çek (Yoksa boş string ata)
+    raw_word = word_data.get('word', '')
+    
+    # --- KRİTİK KONTROL: Eğer kelime ismi boşsa veya bozuksa ---
+    if not raw_word or str(raw_word).strip() == "":
+        st.warning(f"⚠️ Bu pakette ({selected_page}) bozuk bir veri saptandı. Otomatik geçiliyor...")
+        # Bir sonraki kelimeye atla
         st.session_state.word_index = (st.session_state.word_index + 1) % len(current_set)
         st.rerun()
         return
+
+    # 3. Firestore yolu için ismi temizle
+    doc_id = str(raw_word).lower().strip()
+
+    # --- 488. SATIRDAKİ HATA BURADA ÇÖZÜLÜYOR ---
+    # Artık uid ve doc_id'nin dolu olduğundan %100 eminiz.
+    word_ref = db.collection("users").document(uid).collection("learned_words").document(doc_id)
     
-    word_ref = db.collection("users").document(uid).collection("learned_words").document(word_name)
-    is_learned = word_ref.get().exists
+    try:
+        is_learned = word_ref.get().exists
+    except Exception:
+        is_learned = False # Bağlantı anlık giderse hata verme
 
     # --- UI GÖSTERİMİ ---
     if activity == "Flash Card":
