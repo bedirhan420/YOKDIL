@@ -586,21 +586,18 @@ def auth_ui():
 def exam_app():
     uid = st.session_state.user['uid']
     
-    # 1. Firebase'den son konumu ve kaldığı soruyu çek
+    # 1. Firebase ve Hafıza (Aynı kalıyor)
     user_doc = db.collection("users").document(uid).get().to_dict()
     last_loc = user_doc.get("last_location", {}) if user_doc else {}
-
     files = sorted([f for f in os.listdir(JSON_FOLDER) if f.endswith(".json")])
     clean = {f: f.replace(".json", "") for f in files}
     
-    # --- HAFIZA: Deneme Seçimi ---
     d_idx = 0
     if last_loc.get("mode") == "📚 Deneme Çöz" and last_loc.get("file") in files:
         d_idx = files.index(last_loc.get("file"))
 
     sel = st.sidebar.selectbox("Deneme Seç", files, format_func=lambda x: clean[x], index=d_idx)
     
-    # Deneme değişirse hafızadaki soruyu 1 yap ve sıfırla
     if sel != st.session_state.get('last_selected_file'):
         st.session_state.last_selected_file = sel
         st.session_state.current_q = "1"
@@ -617,50 +614,44 @@ def exam_app():
         with open(os.path.join(JSON_FOLDER, sel), "r", encoding="utf-8") as f: 
             qs = json.load(f)
         
-        # --- HAFIZA: Soru Numarasını Yükle ---
-        # Eğer session'da yoksa Firebase'den gelen son soruyu al, o da yoksa 1'den başla
+        q_keys = list(qs.keys())
         if 'current_q' not in st.session_state:
             st.session_state.current_q = str(last_loc.get("last_q", "1"))
 
         st.title(f"✍️ {deneme_id}")
 
-        # --- NAVİGASYON PANELİ (ÜST KISIM) ---
-        st.markdown("### 🎯 Soru Navigasyonu")
-        q_keys = list(qs.keys())
-        
-        # Soruları 10'arlı sütunlara bölüyoruz
-        cols = st.columns(10)
-        for i, q_num in enumerate(q_keys):
-            with cols[i % 10]:
-                user_ans = saved_answers.get(str(q_num))
-                correct_ans = qs[str(q_num)]['answer']
-                is_active = str(q_num) == str(st.session_state.current_q)
-                
-                # Stil Belirleme: Aktif soru Mavi (Primary), cevaplanmışsa yanına tık
-                if user_ans:
-                    status_icon = "✅" if user_ans == correct_ans else "❌"
-                    btn_label = f"{q_num} {status_icon}"
-                else:
-                    btn_label = f"{q_num}"
-                
-                if st.button(btn_label, key=f"nav_{q_num}", use_container_width=True, 
-                             type="primary" if is_active else "secondary"):
-                    st.session_state.current_q = str(q_num)
-                    save_last_location(uid, "📚 Deneme Çöz", file=sel, last_q=str(q_num))
-                    st.rerun()
+        # --- MOBİL DOSTU NAVİGASYON (GİZLE/GÖSTER MANTIĞI) ---
+        # "Soru Seç" kısmını bir expander içine alıyoruz. 
+        # Böylece mobilde sadece 1 satır kaplar, tıklayınca butonlar açılır.
+        with st.expander("🎯 Hızlı Soru Navigasyonu (Tıklayın)", expanded=False):
+            st.info("Cevaplarınız: ✅ Doğru | ❌ Yanlış")
+            cols = st.columns(10)
+            for i, q_num in enumerate(q_keys):
+                with cols[i % 10]:
+                    user_ans = saved_answers.get(str(q_num))
+                    correct_ans = qs[str(q_num)]['answer']
+                    is_active = str(q_num) == str(st.session_state.current_q)
+                    
+                    if user_ans:
+                        status_icon = "✅" if user_ans == correct_ans else "❌"
+                        btn_label = f"{q_num}{status_icon}"
+                    else:
+                        btn_label = f"{q_num}"
+                    
+                    if st.button(btn_label, key=f"nav_{q_num}", use_container_width=True, 
+                                 type="primary" if is_active else "secondary"):
+                        st.session_state.current_q = str(q_num)
+                        save_last_location(uid, "📚 Deneme Çöz", file=sel, last_q=str(q_num))
+                        st.rerun()
 
         st.divider()
 
-        # --- SEÇİLİ SORUYU GETİR ---
+        # --- SEÇİLİ SORU GÖSTERİMİ ---
         q_no = st.session_state.current_q
-        if q_no not in qs: # Hata payına karşı kontrol
-            q_no = q_keys[0]
-            st.session_state.current_q = q_no
-            
         q_info = qs[q_no]
         st.subheader(f"Soru {q_no}")
         
-        # --- PASAJ VE SORU PARSE ---
+        # Pasaj ve Soru Metni (Aynı kalıyor)
         psg = q_info.get("passage", "")
         q_txt = q_info.get("question", "")
         if "--- PASSAGE ---" in q_txt:
@@ -670,19 +661,16 @@ def exam_app():
 
         if psg:
             psg_cleaned = format_text(psg)
-            target_blank = f"({q_no}) ----"
-            if target_blank in psg_cleaned:
-                psg_cleaned = psg_cleaned.replace(target_blank, f"<b style='color:#FF4B4B; text-decoration:underline;'>{target_blank}</b>")
             st.markdown(f'<div style="background-color:#1E1E1E; padding:20px; border-radius:10px; border-left:5px solid #4F8BF9; font-size:18px; line-height:1.6; margin-bottom:20px;">{psg_cleaned}</div>', unsafe_allow_html=True)
         
         st.markdown(f"**{format_text(q_txt)}**")
 
-        # --- SEÇENEKLER VE CEVAPLAMA ---
+        # Şıklar
         opts = q_info.get("options", [])
         prev = saved_answers.get(str(q_no))
         idx = next((i for i, o in enumerate(opts) if o.strip().startswith(str(prev))), None) if prev else None
         
-        choice = st.radio(f"Soru {q_no} için cevabınız:", opts, key=f"r_{deneme_id}_{q_no}", index=idx)
+        choice = st.radio(f"Cevabınız:", opts, key=f"r_{deneme_id}_{q_no}", index=idx)
         
         if choice:
             letter = choice[0]
@@ -690,26 +678,25 @@ def exam_app():
                 saved_answers[str(q_no)] = letter
                 user_ref.set({"answers": saved_answers}, merge=True)
                 save_last_location(uid, "📚 Deneme Çöz", file=sel, last_q=str(q_no))
+                st.rerun() # Navigasyon ikonunun anlık güncellenmesi için şart
             
             if letter == q_info["answer"]: st.success("✅ Doğru")
             else: st.error(f"❌ Yanlış! Cevap: {q_info['answer']}")
 
-        # --- ALT NAVİGASYON (Önceki - Sonraki) ---
+        # --- ALT NAVİGASYON (MOBİLDE ASIL BURASI KULLANILACAK) ---
         st.write("")
-        col_prev, col_mid, col_next = st.columns([1, 2, 1])
+        col_prev, col_next = st.columns(2)
         curr_idx = q_keys.index(q_no)
 
         with col_prev:
-            if st.button("⬅️ Önceki Soru", disabled=curr_idx == 0, use_container_width=True):
-                new_q = q_keys[curr_idx - 1]
-                st.session_state.current_q = new_q
-                save_last_location(uid, "📚 Deneme Çöz", file=sel, last_q=new_q)
+            if st.button("⬅️ Önceki", disabled=curr_idx == 0, use_container_width=True):
+                st.session_state.current_q = q_keys[curr_idx - 1]
+                save_last_location(uid, "📚 Deneme Çöz", file=sel, last_q=st.session_state.current_q)
                 st.rerun()
         with col_next:
-            if st.button("Sonraki Soru ➡️", disabled=curr_idx == len(q_keys)-1, use_container_width=True):
-                new_q = q_keys[curr_idx + 1]
-                st.session_state.current_q = new_q
-                save_last_location(uid, "📚 Deneme Çöz", file=sel, last_q=new_q)
+            if st.button("Sonraki ➡️", disabled=curr_idx == len(q_keys)-1, use_container_width=True):
+                st.session_state.current_q = q_keys[curr_idx + 1]
+                save_last_location(uid, "📚 Deneme Çöz", file=sel, last_q=st.session_state.current_q)
                 st.rerun()
 
         # --- 🤖 AI ANALİZİ ---
