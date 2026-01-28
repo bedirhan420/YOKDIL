@@ -448,7 +448,8 @@ def words_app():
     activity = st.sidebar.radio("Etkinlik Seçin", act_list, index=d_act_idx)
     
     current_set = type_specific_words[(selected_page - 1) * page_size : selected_page * page_size]
-
+    current_set = [w for w in current_set if w and isinstance(w, dict) and w.get('word')]
+    
     # --- SAYFA / ETKİNLİK DEĞİŞİM KONTROLÜ ---
     key = f"{selected_type}_{selected_page}_{activity}"
     if st.session_state.get("prev_key") != key:
@@ -474,11 +475,17 @@ def words_app():
 
     word_data = current_set[st.session_state.word_index]
     
-    if not word_data or 'word' not in word_data:
-        st.error("Kelime verisi hatalı.")
+    # Kelime ismini temizle ve kontrol et
+    word_name = word_data.get('word', '').lower().strip()
+
+    # EĞER KELİME İSMİ BOŞSA (Hata burada kopuyor)
+    if not word_name:
+        st.warning("Bu pakette hatalı bir kelime verisi saptandı, sonrakine geçiliyor...")
+        st.session_state.word_index = (st.session_state.word_index + 1) % len(current_set)
+        st.rerun()
         return
     
-    word_ref = db.collection("users").document(uid).collection("learned_words").document(word_data['word'].lower().strip())
+    word_ref = db.collection("users").document(uid).collection("learned_words").document(word_name)
     is_learned = word_ref.get().exists
 
     # --- UI GÖSTERİMİ ---
