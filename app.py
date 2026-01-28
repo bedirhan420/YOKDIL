@@ -483,21 +483,20 @@ def words_app():
     word_data = current_set[st.session_state.word_index]
 
     # 2. Kelime ismini güvenli bir şekilde çek (Yoksa boş string ata)
+   # Kelime ismini al ve temizle
     raw_word = word_data.get('word', '')
     
-    # --- KRİTİK KONTROL: Eğer kelime ismi boşsa veya bozuksa ---
-    if not raw_word or str(raw_word).strip() == "":
-        st.warning(f"⚠️ Bu pakette ({selected_page}) bozuk bir veri saptandı. Otomatik geçiliyor...")
-        # Bir sonraki kelimeye atla
+    # --- KRİTİK DÜZELTME: / işaretini _ ile değiştir ---
+    # Bu sayede "Keep away / Keep off" -> "keep away _ keep off" olur ve hata biter.
+    doc_id = str(raw_word).lower().strip().replace("/", "_").replace(".", "")
+
+    if not doc_id:
+        st.warning("Hatalı kelime verisi atlanıyor...")
         st.session_state.word_index = (st.session_state.word_index + 1) % len(current_set)
         st.rerun()
         return
 
-    # 3. Firestore yolu için ismi temizle
-    doc_id = str(raw_word).lower().strip()
-
-    # --- 488. SATIRDAKİ HATA BURADA ÇÖZÜLÜYOR ---
-    # Artık uid ve doc_id'nin dolu olduğundan %100 eminiz.
+    # Artık yol her zaman temiz ve çift elemanlı
     word_ref = db.collection("users").document(uid).collection("learned_words").document(doc_id)
     
     try:
