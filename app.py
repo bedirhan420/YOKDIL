@@ -632,19 +632,6 @@ def exam_app():
 
         st.title(f"✍️ {deneme_id}")
 
-        # --- MOBİL DOSTU NAVİGASYON ---
-        st.markdown("### 🎯 Soru Seç")
-        c_nav1, c_nav2 = st.columns([2, 1])
-        with c_nav1:
-            search_val = st.number_input("Soru No:", min_value=1, max_value=len(q_keys), 
-                                         value=int(st.session_state.current_q), key="search_q_input")
-        with c_nav2:
-            st.write("##")
-            if st.button("🚀 Git", use_container_width=True):
-                st.session_state.current_q = str(search_val)
-                save_last_location(uid, "📚 Deneme Çöz", file=sel, last_q=str(search_val))
-                st.rerun()
-
         with st.expander("📊 Tüm Soru Listesi", expanded=False):
             cols = st.columns(10)
             for i, q_num in enumerate(q_keys):
