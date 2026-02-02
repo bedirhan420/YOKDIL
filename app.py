@@ -15,6 +15,9 @@ from st_keyup import st_keyup
 from gtts import gTTS
 import io
 
+import re
+
+
 def play_tts(text, lang='en'):
     tts = gTTS(text=text, lang=lang)
     fp = io.BytesIO()
@@ -585,7 +588,6 @@ def auth_ui():
 # --- 8. SINAV MODÜLÜ (TAM KORUNAN) ---
 def format_dialogue(text):
     # Karakter isimlerini (İsim:) bul ve öncesine iki satır boşluğu ekleyip ismi kalın yap
-    import re
     # Büyük harfle başlayan ve iki nokta ile biten kelimeleri yakalar (Alex:, Ben:, Matt: vb.)
     formatted_text = re.sub(r'([A-Z][a-z]+:)', r'<br><br><b>\1</b>', text)
     
@@ -666,13 +668,14 @@ def exam_app():
         if psg:
             psg_formatted = format_text(psg)
             # Mevcut soru numarasını içeren boşluğu bul (Örn: (17) ----)
-            target_blank = f"({q_no}) ----"
-            if target_blank in psg_formatted:
-                # O anki soruyu kırmızı ve kalın yap
-                psg_formatted = psg_formatted.replace(
-                    target_blank, 
-                    f"<b style='color:#FF4B4B; text-decoration:underline; font-size:20px;'>{target_blank}</b>"
-                )
+            pattern = rf"\({q_no}\)\s*-+"
+            
+            # Metin içinde bu kalıbı bul ve HTML ile sarmala
+            psg_formatted = re.sub(
+                pattern, 
+                f"<b style='color:#FF4B4B; text-decoration:underline; font-size:20px;'>({q_no}) ----</b>", 
+                psg_formatted
+            )
             
             st.markdown(f'''
                 <div style="background-color:#1E1E1E; padding:20px; border-radius:10px; border-left:5px solid #4F8BF9; font-size:18px; line-height:1.6;">
