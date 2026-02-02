@@ -581,12 +581,24 @@ def auth_ui():
                     st.success("Hesap Oluşturuldu! Giriş yapabilirsiniz.")
                 except Exception as e: st.error(f"Hata: {e}")
 
+
 # --- 8. SINAV MODÜLÜ (TAM KORUNAN) ---
+def format_dialogue(text):
+    # Karakter isimlerini (İsim:) bul ve öncesine iki satır boşluğu ekleyip ismi kalın yap
+    import re
+    # Büyük harfle başlayan ve iki nokta ile biten kelimeleri yakalar (Alex:, Ben:, Matt: vb.)
+    formatted_text = re.sub(r'([A-Z][a-z]+:)', r'<br><br><b>\1</b>', text)
+    
+    # Başta oluşabilecek fazla boşluğu temizle
+    if formatted_text.startswith('<br><br>'):
+        formatted_text = formatted_text[8:]
+    
+    return formatted_text
 # --- EXAM APP (AI DESTEKLİ VE KALICI SÜRÜM) ---
 def exam_app():
     uid = st.session_state.user['uid']
     
-    # 1. Firebase ve Hafıza (Aynı kalıyor)
+    # 1. Firebase ve Hafıza Yükleme
     user_doc = db.collection("users").document(uid).get().to_dict()
     last_loc = user_doc.get("last_location", {}) if user_doc else {}
     files = sorted([f for f in os.listdir(JSON_FOLDER) if f.endswith(".json")])
@@ -620,25 +632,28 @@ def exam_app():
 
         st.title(f"✍️ {deneme_id}")
 
-        # --- MOBİL DOSTU NAVİGASYON (GİZLE/GÖSTER MANTIĞI) ---
-        # "Soru Seç" kısmını bir expander içine alıyoruz. 
-        # Böylece mobilde sadece 1 satır kaplar, tıklayınca butonlar açılır.
-        with st.expander("🎯 Hızlı Soru Navigasyonu (Tıklayın)", expanded=False):
-            st.info("Cevaplarınız: ✅ Doğru | ❌ Yanlış")
+        # --- MOBİL DOSTU NAVİGASYON ---
+        st.markdown("### 🎯 Soru Seç")
+        c_nav1, c_nav2 = st.columns([2, 1])
+        with c_nav1:
+            search_val = st.number_input("Soru No:", min_value=1, max_value=len(q_keys), 
+                                         value=int(st.session_state.current_q), key="search_q_input")
+        with c_nav2:
+            st.write("##")
+            if st.button("🚀 Git", use_container_width=True):
+                st.session_state.current_q = str(search_val)
+                save_last_location(uid, "📚 Deneme Çöz", file=sel, last_q=str(search_val))
+                st.rerun()
+
+        with st.expander("📊 Tüm Soru Listesi", expanded=False):
             cols = st.columns(10)
             for i, q_num in enumerate(q_keys):
                 with cols[i % 10]:
                     user_ans = saved_answers.get(str(q_num))
                     correct_ans = qs[str(q_num)]['answer']
                     is_active = str(q_num) == str(st.session_state.current_q)
-                    
-                    if user_ans:
-                        status_icon = "✅" if user_ans == correct_ans else "❌"
-                        btn_label = f"{q_num}{status_icon}"
-                    else:
-                        btn_label = f"{q_num}"
-                    
-                    if st.button(btn_label, key=f"nav_{q_num}", use_container_width=True, 
+                    btn_label = f"{q_num}{'✅' if user_ans == correct_ans else '❌' if user_ans else ''}"
+                    if st.button(btn_label, key=f"nav_btn_{q_num}", use_container_width=True, 
                                  type="primary" if is_active else "secondary"):
                         st.session_state.current_q = str(q_num)
                         save_last_location(uid, "📚 Deneme Çöz", file=sel, last_q=str(q_num))
@@ -646,31 +661,48 @@ def exam_app():
 
         st.divider()
 
-        # --- SEÇİLİ SORU GÖSTERİMİ ---
+        # --- SORU GÖSTERİMİ ---
         q_no = st.session_state.current_q
         q_info = qs[q_no]
         st.subheader(f"Soru {q_no}")
         
-        # Pasaj ve Soru Metni (Aynı kalıyor)
         psg = q_info.get("passage", "")
         q_txt = q_info.get("question", "")
+        
+        # Pasaj ve Soru Ayrıştırma
         if "--- PASSAGE ---" in q_txt:
             parts = q_txt.split("--- QUESTION ---")
             psg = parts[0].replace("--- PASSAGE ---", "").strip()
             q_txt = parts[1].strip() if len(parts) > 1 else ""
 
+        # Cloze Test İçin Dinamik Vurgu (Kırmızı Boşluk)
         if psg:
-            psg_cleaned = format_text(psg)
-            st.markdown(f'<div style="background-color:#1E1E1E; padding:20px; border-radius:10px; border-left:5px solid #4F8BF9; font-size:18px; line-height:1.6; margin-bottom:20px;">{psg_cleaned}</div>', unsafe_allow_html=True)
+            psg_formatted = format_text(psg)
+            # Mevcut soru numarasını içeren boşluğu bul (Örn: (17) ----)
+            target_blank = f"({q_no}) ----"
+            if target_blank in psg_formatted:
+                # O anki soruyu kırmızı ve kalın yap
+                psg_formatted = psg_formatted.replace(
+                    target_blank, 
+                    f"<b style='color:#FF4B4B; text-decoration:underline; font-size:20px;'>{target_blank}</b>"
+                )
+            
+            st.markdown(f'''
+                <div style="background-color:#1E1E1E; padding:20px; border-radius:10px; border-left:5px solid #4F8BF9; font-size:18px; line-height:1.6;">
+                    {psg_formatted}
+                </div>
+            ''', unsafe_allow_html=True)
         
-        st.markdown(f"**{format_text(q_txt)}**")
+        # Soru Metni (Diyalog Düzeltmeli)
+        q_txt_final = format_text(format_dialogue(q_txt))
+        st.markdown(f'<div style="font-size:19px; line-height:1.7; margin-top:15px;">{q_txt_final}</div>', unsafe_allow_html=True)
 
-        # Şıklar
+        # Şıklar ve Cevaplama
         opts = q_info.get("options", [])
         prev = saved_answers.get(str(q_no))
         idx = next((i for i, o in enumerate(opts) if o.strip().startswith(str(prev))), None) if prev else None
         
-        choice = st.radio(f"Cevabınız:", opts, key=f"r_{deneme_id}_{q_no}", index=idx)
+        choice = st.radio("Cevabınız:", opts, key=f"r_{deneme_id}_{q_no}", index=idx)
         
         if choice:
             letter = choice[0]
@@ -678,16 +710,15 @@ def exam_app():
                 saved_answers[str(q_no)] = letter
                 user_ref.set({"answers": saved_answers}, merge=True)
                 save_last_location(uid, "📚 Deneme Çöz", file=sel, last_q=str(q_no))
-                st.rerun() # Navigasyon ikonunun anlık güncellenmesi için şart
+                st.rerun()
             
             if letter == q_info["answer"]: st.success("✅ Doğru")
             else: st.error(f"❌ Yanlış! Cevap: {q_info['answer']}")
 
-        # --- ALT NAVİGASYON (MOBİLDE ASIL BURASI KULLANILACAK) ---
+        # Alt Navigasyon
         st.write("")
         col_prev, col_next = st.columns(2)
         curr_idx = q_keys.index(q_no)
-
         with col_prev:
             if st.button("⬅️ Önceki", disabled=curr_idx == 0, use_container_width=True):
                 st.session_state.current_q = q_keys[curr_idx - 1]

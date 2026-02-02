@@ -248,11 +248,17 @@
     },
     "23": {
         "question": "Started in the late 18th century in Britain, a wave of industrialisation swept across Europe and North America and set the foundations for modern capitalism by transforming the Western world from a rural society into an urban one.",
-        "options": [],
-        "answer": ""
+        "options": [
+            "A) Avrupa ve Kuzey Amerika'yı etkisi altına alan sanayileşme dalgası, 18. yüzyılda Britanya'da başladı ve Batı dünyasını kırsal bir toplumdan kentsel bir topluma dönüştürmek amacıyla modern kapitalizmin temellerini oluşturdu.",
+            "B) 18. yüzyılda Britanya'yı etkisi altına alan sanayileşme dalgasının Avrupa ve Kuzey Amerika'da başlayıp Batı dünyasını kırsal bir toplumdan kentsel bir topluma dönüştürmesi modern kapitalizmin temellerini attı.",
+            "C) Batı dünyasını kırsal bir toplumdan kentsel bir topluma dönüştürerek Avrupa ve Kuzey Amerika'yı etkisi altına alan sanayileşme dalgası, 18. yüzyılın sonlarında Britanya'da modern kapitalizmin temellerini attı.",
+            "D) 18. yüzyılın sonlarında Britanya'da başlayan sanayileşme dalgası, Avrupa ve Kuzey Amerika'yı etkisi altına aldı ve Batı dünyasını kırsal bir toplumdan kentsel bir topluma dönüştürerek modern kapitalizmin temellerini oluşturdu.",
+            "E) Batı dünyasını kırsal bir toplumdan kentsel bir topluma dönüştüren ve modern kapitalizmin temellerini 18. yüzyılın sonlarında Britanya'da atan sanayileşme dalgası, Avrupa ve Kuzey Amerika'yı etkisi altına aldı."
+        ],
+        "answer": "D"
     },
     "24": {
-        "question": "----",
+        "question": "İnsanların bilinçli tercih yapma yeteneği, kendine güvene dayanır çünkü insanlar ancak yaptıklarının sonuç verdiğini ve istenen etkiyi yarattığını gördüklerinde daha geniş bir sosyal ortaklığın parçası olmaya devam eder.",
         "options": [
             "A) Humans continue to be part of a larger social collective provided that they see their actions show results rendering the desired effect because the ability of humans to make conscious choices relies on self-confidence.",
             "B) The ability of humans to make conscious choices relies on self-confidence because only if humans see that their actions show results and render the desired effect will they continue to be part of a larger social collective.",
@@ -261,7 +267,7 @@
             "E) The ability of humans to make conscious choices, which relies on self-confidence, renders the desired effect when they see actions show results and they continue to be part of a larger social collective."
         ],
         "answer": "B"
-    },
+    } ,
     "25": {
         "question": "--- PASSAGE --- Egypt's Old Kingdom was defined by a political and religious doctrine centered entirely on the Pharaoh. This immense figure was not just the head of state but was considered a living deity, ensuring the functioning of the entire cosmos. The country's wealth was generated primarily through efficient administration of agriculture along the fertile Nile, a process the Pharaoh symbolically and practically guaranteed by mediating with the gods to ensure the essential annual flood. The construction of the pyramids, massive engineering feats, served as a potent display of the Pharaoh's absolute command over resources, labor, and his eternal divinity. Because the Pharaoh embodied the state's welfare and its connection to the divine, loyalty and order were maintained not merely through force, but through a deeply ingrained reverence for his sacred power, underpinning the era's remarkable stability and prosperity. --- QUESTION --- According to this passage, the prosperity of the Old Kingdom was primarily linked to:",
         "options": [
@@ -371,8 +377,8 @@
         ],
         "answer": "E"
     },
-    "35": {
-        "question": "----",
+   "35": {
+        "question": "Geleneksel tedavilerle birlikte alternatif ve tamamlayıcı yaklaşımlar kullanmak bazı semptomları azaltabilir ancak pek çok sağlık sorununda geleneksel tedavinin yerini tam olarak alamaz.",
         "options": [
             "A) Alternative and complementary approaches can be used in coordination with conventional treatments to alleviate some symptoms; they cannot, however, effectively substitute for conventional medical care for many health conditions.",
             "B) Alternative and complementary approaches used in coordination with conventional treatments alleviate some symptoms, though they cannot substitute for conventional medical care for certain health conditions.",
